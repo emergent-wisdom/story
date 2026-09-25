@@ -1,0 +1,34 @@
+{
+  "name": "life_construction_export",
+  "description": "Export the whole construction of a model-bound graph as a portable history: every model revision it was bound to with their ancestors, the first graph revision in full, and each later revision as its change, with a bundle hash. Importing it on another engine rebuilds the same hashes, so the construction can be replayed there. Needs accessScopes that reveal every node.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "graphHash": {
+        "type": "string",
+        "pattern": "^[a-f0-9]{64}$"
+      },
+      "accessScopes": {
+        "default": [],
+        "maxItems": 64,
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256
+        }
+      }
+    },
+    "required": [
+      "graphHash"
+    ],
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "additionalProperties": false
+  },
+  "annotations": {
+    "readOnlyHint": true,
+    "destructiveHint": false,
+    "idempotentHint": true,
+    "openWorldHint": false
+  }
+}
