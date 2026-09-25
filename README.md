@@ -1,6 +1,13 @@
 # Story Landscape
 
 A live view of a story as an agent builds it with the [Meaning Model](https://github.com/emergent-wisdom/meaning-model).
+Shown at the Stockholm Claude Community event *Push the limits with Fable 5.1 n Opus 5.5* on 25 September 2026, where
+an agent wrote the story in this repo live on the released tool.
+
+[![The processes view: every process the agent modeled for the story, over its years](media/the-rabbit-hole-processes.png)](media/the-rabbit-hole-processes.mp4)
+
+**[Watch the processes view play through the story (51 s video)](media/the-rabbit-hole-processes.mp4).** Run it yourself
+with `npm install && npm run serve` and open http://localhost:8765/processes.html?title=The%20Rabbit%20Hole.
 
 **The story.** *Twelve Words*, a novel in twelve parts (about 8,400 words), written by an AI agent with the Meaning
 Model from an idea by Henrik Westerberg. Read it as [text](runs/rabbit-hole/novel/novel.md) or as a
