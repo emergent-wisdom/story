@@ -1,0 +1,138 @@
+{
+ "graphHash": "abe50dacf886eda3fb10abe528ed40c04a1c442f8ce7b7b09bec76fa2825f146",
+ "requestId": "voice-assessment-before",
+ "nodeId": "assessment.voice.before",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "assessment",
+ "text": "Self-review of the voices in the complete first draft (graph abe50dac, parts in nodes part.01 and part.07) before the voice revision the human asked for ('Enhance the character voices'). The author's dispositions work; the characters' voices are weaker than their modeled lives: Kieran's history barely shapes his present speech, Laura is almost silent even at her turning point, Barbara is strong but too aphoristic, the Sharehouse and Kieran's father barely speak. Findings and smallest repairs per subject are in data.",
+ "data": {
+  "reviewedGraphHash": "abe50dacf886eda3fb10abe528ed40c04a1c442f8ce7b7b09bec76fa2825f146",
+  "modelHash": "94c0ef70447dbee8cc264945e2e752e6f4f2e25f678859b574e26406074378d7",
+  "authorModelNodeId": "author.model.faye",
+  "reviewer": "calling-llm:claude-opus-5-5 (self-review)",
+  "findings": [
+   {
+    "subject": "author (Faye Titcombe)",
+    "intended": "band vision, mechanism after feeling, walking beside, rationed wryness, landscape where the protagonist stands, dignity of routine (author.model.faye).",
+    "observed": "Present and working: the mural's founders, the peg explained after the fear, the Ridgeway. Weak: the narrator summarizes feelings the characters should carry in their own voices, and the three clocks are stated twice as thesis.",
+    "citations": [
+     {
+      "nodeId": "part.01",
+      "quote": "men with moustaches and bowler hats looking faintly surprised to find themselves on a wall in west Swindon"
+     },
+     {
+      "nodeId": "part.01",
+      "quote": "three clocks were running in him at once, though he would not have put it like that"
+     },
+     {
+      "nodeId": "part.07",
+      "quote": "She had learned on five doorsteps, watching her mother hand back keys, that you hold everything together and say nothing"
+     }
+    ],
+    "evidence": [
+     "author.model.faye#d.band_vision",
+     "author.model.faye#d.mechanism",
+     "author.model.faye#d.beside"
+    ],
+    "repair": "Keep the dispositions; move feeling from narrator summary into the characters' speech and perceptions; state the three clocks once, late, and let images carry them elsewhere."
+   },
+   {
+    "subject": "Kieran Hale",
+    "intended": "a man shaped by the Hart's script and by leading a raiding guild at sixteen; loyal to bands, no trouble, conflict-avoidant (ev.kieran.p2.game, ev.kieran.want.no_trouble, ev.kieran.want.band_loyalty).",
+    "observed": "His past is told as backstory but hardly shapes how he perceives the present or how he talks; he has very few lines, mostly the script.",
+    "citations": [
+     {
+      "nodeId": "part.01",
+      "quote": "he had led a raiding guild of forty people across six countries"
+     },
+     {
+      "nodeId": "part.07",
+      "quote": "He told her everything, in the order it had happened"
+     }
+    ],
+    "evidence": [
+     "model:event:ev.kieran.p2.game",
+     "model:event:ev.kieran.want.no_trouble",
+     "model:event:ev.kieran.want.band_loyalty"
+    ],
+    "repair": "Let him perceive through his two systems (raid calls and wipes; exceptions, cut-offs, returned items); give him over-polite, apologetic speech that hedges and deflects, and let it crack in the confession."
+   },
+   {
+    "subject": "Barbara Ashby",
+    "intended": "blunt engineer and railway-works electrician, purist, never anybody's mother (ev.barbara.p2.works, ev.barbara.p3.bureau, ev.barbara.want.verify).",
+    "observed": "The strongest voice already; at times too aphoristic, a narrator's epigrams in her mouth.",
+    "citations": [
+     {
+      "nodeId": "part.01",
+      "quote": "\"Barbara,\" said the voice. \"Never Mrs. Go on, read me the script.\""
+     },
+     {
+      "nodeId": "part.01",
+      "quote": "\"It's the old casino in a new costume,\" she said."
+     }
+    ],
+    "evidence": [
+     "model:event:ev.barbara.p2.works",
+     "model:event:ev.barbara.p3.bureau",
+     "model:event:ev.barbara.want.verify"
+    ],
+    "repair": "Keep her bluntness; give her the idiom of the works and the wiring (tolerances, earth, loads, the bit that waits) and a Swindon turn of phrase; fewer polished epigrams, more practical sentences with a joke she does not smile at."
+   },
+   {
+    "subject": "Laura Russell",
+    "intended": "intensive-care nurse, practical, brief, holds everything and says nothing until Barbara breaks it (ev.laura.p4.pandemic, ev.laura.want.hold_silent, ev.kieran_laura.conversation).",
+    "observed": "Almost no direct speech; her turning point is summarized by the narrator instead of spoken.",
+    "citations": [
+     {
+      "nodeId": "part.07",
+      "quote": "That evening she said it. She said it all."
+     },
+     {
+      "nodeId": "part.07",
+      "quote": "\"You're the one who knows about money,\" she said. \"Do what you think.\""
+     }
+    ],
+    "evidence": [
+     "model:event:ev.laura.want.hold_silent",
+     "model:event:ev.laura.p4.pandemic",
+     "model:event:ev.kieran_laura.conversation"
+    ],
+    "repair": "Give her lines in her clinical register; in part 10 let her say the unbearable thing in a nurse's handover (situation, background, assessment, recommendation), the only form she trusts."
+   },
+   {
+    "subject": "secondary voices",
+    "intended": "the Sharehouse's meme speech; Kieran's father, a man of few words; the Hart's colleagues.",
+    "observed": "The Sharehouse speaks one line; the father none.",
+    "citations": [
+     {
+      "nodeId": "part.01",
+      "quote": "ser you are a legend"
+     }
+    ],
+    "evidence": [
+     "model:event:ev.sharehouse.life",
+     "model:event:event.profile.kieran_father_plant.change_arc"
+    ],
+    "repair": "A few lines each, in their idiom."
+   }
+  ]
+ },
+ "links": [
+  {
+   "relation": "about",
+   "targetNodeId": "part.01"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "part.07"
+  },
+  {
+   "relation": "shaped_by",
+   "targetNodeId": "author.model.faye"
+  }
+ ]
+}

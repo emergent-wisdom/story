@@ -35,6 +35,17 @@ if (existsSync(relay)) {
   writeFileSync(relay, text);
 }
 
+// Error messages in the log can quote the run's own folder: write it as relative, and the home folder as ~.
+(function relativize(dir) {
+  for (const entry of readdirSync(dir)) {
+    const path = join(dir, entry);
+    if (statSync(path).isDirectory()) { relativize(path); continue; }
+    if (/\.sqlite/.test(entry)) continue;
+    const text = readFileSync(path, 'utf8'); const next = text.split(`${run}/`).join('').split(run).join('.').split(homedir()).join('~');
+    if (next !== text) writeFileSync(path, next);
+  }
+})(out);
+
 // Nothing local or secret leaves this machine.
 const secrets = [];
 for (const file of [join(homedir(), '.config', 'typesafe', 'env')]) {

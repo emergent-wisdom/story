@@ -1,0 +1,101 @@
+{
+  "schema": "life-sim-mcp-service/v2",
+  "graphHash": "41d88f74990b1899c762f79a8679d81cbc1ca3f3b689cb2a99bfbcf8e0efd5a8",
+  "previousGraphHash": "9e3d71a8bc52e644da379c5cf359538813ac235a66d686d335e82ef7c46d585c",
+  "snapshotHash": "3c85d9a2afd4618c3ae2876bae5751aa0c09a5cf9baf24802b19eee31c6b555e",
+  "stored": true,
+  "reusedExisting": false,
+  "immutableRevision": true,
+  "revisedByDelta": true,
+  "summary": {
+    "edge_count": 217,
+    "graph_hash": "41d88f74990b1899c762f79a8679d81cbc1ca3f3b689cb2a99bfbcf8e0efd5a8",
+    "id": "rabbit-hole-novel",
+    "node_count": 81,
+    "revision": {
+      "number": 57,
+      "previous_graph_hash": "9e3d71a8bc52e644da379c5cf359538813ac235a66d686d335e82ef7c46d585c",
+      "provenance": [
+        "life_narrative_edit/v1 request:8ceef21a4ed7a88ea78c3ad717e7badc4d455ead3c317875ae0847e087ac48ec"
+      ],
+      "reason": "Voice revision (the human asked to enhance the character voices): each speaker's words and perceptions rewritten from their modeled lives, per assessment.voice.before."
+    },
+    "roles": {
+      "document_root": 1,
+      "externalized_reflection": 35,
+      "metadata": 31,
+      "story_passage": 14
+    },
+    "root_count": 3,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "cf7514e62711a9a38b91bb560c17723055cd3c395b7775e278ee9a671cc6bc40"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "cf7514e62711a9a38b91bb560c17723055cd3c395b7775e278ee9a671cc6bc40",
+      "model_revision": 17,
+      "source_hash": "cf7514e62711a9a38b91bb560c17723055cd3c395b7775e278ee9a671cc6bc40",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "requestPayloadHash": "5766a0dc03b2f87f911f13a543c0676cd99fe8864bf1ad731b9095bbb26d63f2",
+  "operation": "edit-narrative-graph",
+  "requestHash": "8ceef21a4ed7a88ea78c3ad717e7badc4d455ead3c317875ae0847e087ac48ec",
+  "recordsQuotingRemovedText": [],
+  "changedNodeIds": [
+    "p01",
+    "p02",
+    "p03",
+    "p04"
+  ],
+  "changedEdgeIds": [],
+  "affectedNodeIds": [
+    "p01",
+    "p02",
+    "p03",
+    "p04"
+  ],
+  "affectedReviewNodeIds": [
+    "assessment.trajectories.selection",
+    "assessment.voice.before",
+    "author.agreement",
+    "author.agreement.2",
+    "author.agreement.3",
+    "author.decision.faye_life_draw",
+    "author.idea.round1.plan",
+    "author.idea.round2.plan",
+    "author.names.author.selection",
+    "author.names.clerk.selection",
+    "author.names.engineer.selection",
+    "author.names.partner.selection",
+    "author.names.server.selection",
+    "author.names.society.selection"
+  ],
+  "directlyAffectedReviewNodeIds": [],
+  "ancestorReviewNodeIds": [
+    "assessment.trajectories.selection",
+    "assessment.voice.before",
+    "author.agreement",
+    "author.agreement.2",
+    "author.agreement.3",
+    "author.decision.faye_life_draw",
+    "author.idea.round1.plan",
+    "author.idea.round2.plan",
+    "author.names.author.selection",
+    "author.names.clerk.selection",
+    "author.names.engineer.selection",
+    "author.names.partner.selection",
+    "author.names.server.selection",
+    "author.names.society.selection"
+  ],
+  "reviewRefresh": "Reassess affected prose, disclosure timing, and linked reviews against this successor. Existing review nodes are historical evidence; this edit does not renew their approval. Refresh any model-depth assessment whose selected evidence changed.",
+  "preservedPredecessor": true,
+  "worldMutation": false,
+  "semanticVerification": false,
+  "semanticLinkReassignment": false
+}

@@ -1,0 +1,44 @@
+{
+ "graphHash": "d8aca6704e893228658ec5b7ce0891e16bfa365695c1fca8413421baa159ea02",
+ "requestId": "traj-selection",
+ "nodeId": "assessment.trajectories.selection",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "selection",
+ "text": "Trajectory selection (LLM under delegation). Kieran: keep candidate.3; it holds the drawn depeg explanation (belonging 0.91 with honesty 0.09 at the depeg). Discard candidate.1, whose belonging drops to 0.65 at the depeg and would no longer explain why he held. Laura: keep candidate.2; it keeps her almost silent in the second wave and after the telling (spoken 0.08 and 0.13) and her trust in Kieran about money collapsing (0.21). Discard candidate.3, whose home security of 0.41 after the loss contradicts losing the deposit. Barbara: keep candidate.3; guilt stays low on the February walk (0.20) and her care is acted on at the knock (0.79). Discard candidate.1, whose guilt of 0.39 in February comes before anything had gone wrong. The kept numbers are the lives' reference trajectories; the voice revision writes each person from them.",
+ "data": {
+  "kept": {
+   "kieran": "candidate.3",
+   "laura": "candidate.2",
+   "barbara": "candidate.3"
+  },
+  "discarded": {
+   "kieran": [
+    "candidate.1"
+   ],
+   "laura": [
+    "candidate.3"
+   ],
+   "barbara": [
+    "candidate.1"
+   ]
+  }
+ },
+ "links": [
+  {
+   "relation": "about",
+   "targetNodeId": "traj.kieran.life"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "traj.laura.life"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "traj.barbara.life"
+  }
+ ]
+}

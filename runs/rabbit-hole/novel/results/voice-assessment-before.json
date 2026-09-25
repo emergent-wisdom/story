@@ -1,0 +1,61 @@
+{
+  "schema": "life-sim-mcp-service/v2",
+  "graphHash": "8888449d35e9f0a213f08486c030a0a84a8b4c0ed693c59580f52ea09d5a166a",
+  "previousGraphHash": "abe50dacf886eda3fb10abe528ed40c04a1c442f8ce7b7b09bec76fa2825f146",
+  "snapshotHash": "07499bd0e42f246a29830d628be4a00c10e9c531ba0703b6cb5a0ecf32f87300",
+  "stored": true,
+  "reusedExisting": false,
+  "immutableRevision": true,
+  "additiveBatch": true,
+  "batch": {
+    "added_edge_count": 5,
+    "added_node_count": 1,
+    "added_root_count": 0
+  },
+  "summary": {
+    "edge_count": 182,
+    "graph_hash": "8888449d35e9f0a213f08486c030a0a84a8b4c0ed693c59580f52ea09d5a166a",
+    "id": "rabbit-hole-novel",
+    "node_count": 65,
+    "revision": {
+      "number": 50,
+      "previous_graph_hash": "abe50dacf886eda3fb10abe528ed40c04a1c442f8ce7b7b09bec76fa2825f146",
+      "provenance": [
+        "Meaning Model storytelling add-on v1",
+        "author:calling-llm:claude-opus-5-5",
+        "Authoring clock: authoring_step, not world time."
+      ],
+      "reason": "Record assessment assessment.voice.before."
+    },
+    "roles": {
+      "document_root": 1,
+      "externalized_reflection": 34,
+      "metadata": 28,
+      "story_passage": 2
+    },
+    "root_count": 3,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "94c0ef70447dbee8cc264945e2e752e6f4f2e25f678859b574e26406074378d7"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "94c0ef70447dbee8cc264945e2e752e6f4f2e25f678859b574e26406074378d7",
+      "model_revision": 16,
+      "source_hash": "94c0ef70447dbee8cc264945e2e752e6f4f2e25f678859b574e26406074378d7",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "requestPayloadHash": "860ef5ade56a890373808607cf88061bb5e7b42e3263c4493ef95a37f62dc4c9",
+  "recordNodeId": "assessment.voice.before",
+  "understandingRootId": "story.understanding.c478361e6869af25970682a2",
+  "authoringStep": 49,
+  "understandingNode": true,
+  "graphMutation": true,
+  "worldMutation": false,
+  "semanticVerification": false
+}

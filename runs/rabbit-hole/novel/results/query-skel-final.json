@@ -1,0 +1,159 @@
+{
+  "access_scopes": [
+    "story-author"
+  ],
+  "content_included": false,
+  "graph": {
+    "edge_count": 177,
+    "graph_hash": "abe50dacf886eda3fb10abe528ed40c04a1c442f8ce7b7b09bec76fa2825f146",
+    "id": "rabbit-hole-novel",
+    "node_count": 64,
+    "revision": {
+      "number": 49,
+      "previous_graph_hash": "0a03a67a08e49e7117b5c694fe1cde35e5db270a71535ed3acbcf1a3b4afec3c",
+      "provenance": [
+        "rabbit-hole-run; prose written by the calling LLM under delegation, directly into the graph"
+      ],
+      "reason": "Add prose parts 7-7."
+    },
+    "roles": {
+      "document_root": 1,
+      "externalized_reflection": 33,
+      "metadata": 28,
+      "story_passage": 2
+    },
+    "root_count": 3,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "94c0ef70447dbee8cc264945e2e752e6f4f2e25f678859b574e26406074378d7"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "94c0ef70447dbee8cc264945e2e752e6f4f2e25f678859b574e26406074378d7",
+      "model_revision": 16,
+      "source_hash": "94c0ef70447dbee8cc264945e2e752e6f4f2e25f678859b574e26406074378d7",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "graph_hash": "abe50dacf886eda3fb10abe528ed40c04a1c442f8ce7b7b09bec76fa2825f146",
+  "mode": "skeleton",
+  "relations": {
+    "about": 98,
+    "contains": 61,
+    "draws_from": 8,
+    "refines": 8,
+    "supersedes": 2
+  },
+  "roots": [
+    {
+      "access_scopes": [],
+      "authority": {
+        "source": "calling-llm-under-delegation",
+        "weight": 1
+      },
+      "boundary": false,
+      "content_included": false,
+      "epistemic_status": "fictional_artifact",
+      "estimator": null,
+      "evidence_cutoff": null,
+      "evidence_type": "fictional_canon",
+      "holder": null,
+      "id": "story",
+      "interval": null,
+      "node_type": "story",
+      "provenance": [
+        "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+      ],
+      "render": "include",
+      "role": "document_root",
+      "subject": null,
+      "summary": null,
+      "title": null,
+      "training": "exclude",
+      "uncertainty": {
+        "kind": "unknown"
+      },
+      "value_time": null
+    },
+    {
+      "access_scopes": [
+        "story-author"
+      ],
+      "authority": {
+        "source": "calling-llm:claude-opus-5-5",
+        "weight": 1
+      },
+      "boundary": false,
+      "content_included": false,
+      "epistemic_status": "authored_process",
+      "estimator": null,
+      "evidence_cutoff": null,
+      "evidence_type": "creative_hypothesis",
+      "holder": null,
+      "id": "story.understanding.c478361e6869af25970682a2",
+      "interval": null,
+      "node_type": "understanding_process_root",
+      "provenance": [
+        "Meaning Model storytelling add-on v1",
+        "author:calling-llm:claude-opus-5-5",
+        "Authoring clock: authoring_step, not world time."
+      ],
+      "render": "exclude",
+      "role": "metadata",
+      "subject": "story",
+      "summary": null,
+      "title": "Author understanding for story",
+      "training": "exclude",
+      "uncertainty": {
+        "kind": "unknown"
+      },
+      "value_time": null
+    },
+    {
+      "access_scopes": [
+        "story-author"
+      ],
+      "authority": {
+        "source": "calling-llm:claude-opus-5-5",
+        "weight": 1
+      },
+      "boundary": false,
+      "content_included": false,
+      "epistemic_status": "authored_process",
+      "estimator": null,
+      "evidence_cutoff": null,
+      "evidence_type": "belief",
+      "holder": "calling-llm:claude-opus-5-5",
+      "id": "understanding.calling-llm-claude-opus-5-5",
+      "interval": null,
+      "node_type": "understanding_process_root",
+      "provenance": [
+        "Meaning Model understanding record v1",
+        "holder:calling-llm:claude-opus-5-5",
+        "recorded-by:calling-llm:claude-opus-5-5",
+        "clock:authoring_step",
+        "written-against-model:d0424dd9ab5a52105fa426562446ea080aae8805fe99216be04f745fe8b3b09a",
+        "written-at-graph-revision:22"
+      ],
+      "render": "exclude",
+      "role": "metadata",
+      "subject": null,
+      "summary": null,
+      "title": "Understanding held by calling-llm:claude-opus-5-5",
+      "training": "exclude",
+      "uncertainty": {
+        "kind": "unknown"
+      },
+      "value_time": null
+    }
+  ],
+  "schema": "life-sim-rust-narrative-graph-view/v1",
+  "source_snapshot_hash": "07499bd0e42f246a29830d628be4a00c10e9c531ba0703b6cb5a0ecf32f87300",
+  "total_node_count": 64,
+  "visible_edge_count": 177,
+  "visible_node_count": 64
+}

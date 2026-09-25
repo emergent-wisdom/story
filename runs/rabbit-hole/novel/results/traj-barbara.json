@@ -1,0 +1,553 @@
+{
+  "schema": "life-sim-mcp-service/v2",
+  "definition": {
+    "targetKind": "life",
+    "subjectId": "referent.profile.barbara.person.barbara",
+    "brief": "Barbara Ashby's whole life from 1953 to March 2023: a railway family, the works, the clearing bureau, bitcoin purism, the card, her silence and the knock on Laura's door.",
+    "context": "",
+    "constraints": [],
+    "timeUnit": "year",
+    "axes": [
+      {
+        "id": "verify",
+        "meaning": "how far she depends only on what she can verify",
+        "comparisonQuestion": "From trusting institutions (0) to trusting nothing she cannot check herself (1)",
+        "unit": "0-1",
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "id": "care_acted",
+        "meaning": "how far care for others guides what she does",
+        "comparisonQuestion": "From never acting on it (0) to acting on it at a cost to herself (1)",
+        "unit": "0-1",
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "id": "credited",
+        "meaning": "how far she feels credited for what she built",
+        "comparisonQuestion": "From invisible (0) to fully recognized (1)",
+        "unit": "0-1",
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "id": "guilt",
+        "meaning": "guilt about the key she gave",
+        "comparisonQuestion": "From none (0) to overwhelming (1)",
+        "unit": "0-1",
+        "minimum": 0,
+        "maximum": 1
+      }
+    ],
+    "allocations": []
+  },
+  "sampling": {
+    "algorithm": "sha256-keyed-numeric-points/v1",
+    "seed": "rabbit-hole-run/traj/barbara",
+    "source": "caller_supplied",
+    "randomness": 0.35,
+    "candidateCount": 3,
+    "rule": "Scalar proposals are uniform in bounds; allocation proposals are uniform over the free simplex. Mix each with the baseline by randomness. Fixed values stay unchanged. No transition law or interpolation is inferred."
+  },
+  "baseline": {
+    "id": "baseline",
+    "points": [
+      {
+        "id": "birth",
+        "at": 1953.37,
+        "label": "birth",
+        "values": {
+          "verify": 0,
+          "care_acted": 0.5,
+          "credited": 0.5,
+          "guilt": 0
+        },
+        "fixed": [
+          "verify",
+          "credited",
+          "guilt"
+        ]
+      },
+      {
+        "id": "apprentice",
+        "at": 1970,
+        "label": "an apprentice in the works",
+        "values": {
+          "verify": 0.4,
+          "care_acted": 0.3,
+          "credited": 0.15,
+          "guilt": 0
+        },
+        "fixed": []
+      },
+      {
+        "id": "closure",
+        "at": 1986.3,
+        "label": "the works close",
+        "values": {
+          "verify": 0.7,
+          "care_acted": 0.25,
+          "credited": 0.1,
+          "guilt": 0
+        },
+        "fixed": []
+      },
+      {
+        "id": "crisis",
+        "at": 2008.8,
+        "label": "2008",
+        "values": {
+          "verify": 0.85,
+          "care_acted": 0.2,
+          "credited": 0.1,
+          "guilt": 0
+        },
+        "fixed": []
+      },
+      {
+        "id": "card",
+        "at": 2019.83,
+        "label": "the card",
+        "values": {
+          "verify": 0.95,
+          "care_acted": 0.35,
+          "credited": 0.2,
+          "guilt": 0
+        },
+        "fixed": []
+      },
+      {
+        "id": "silence",
+        "at": 2022.12,
+        "label": "the February walk",
+        "values": {
+          "verify": 0.95,
+          "care_acted": 0.4,
+          "credited": 0.25,
+          "guilt": 0.2
+        },
+        "fixed": []
+      },
+      {
+        "id": "knock",
+        "at": 2022.62,
+        "label": "the knock on Laura's door",
+        "values": {
+          "verify": 0.8,
+          "care_acted": 0.9,
+          "credited": 0.3,
+          "guilt": 0.5
+        },
+        "fixed": []
+      }
+    ],
+    "sampling": {
+      "algorithm": "sha256-keyed-numeric-points/v1",
+      "seed": "rabbit-hole-run/traj/barbara",
+      "randomness": 0,
+      "index": 0
+    },
+    "revision": {
+      "number": 0,
+      "parentCandidateHash": null,
+      "reason": null,
+      "changes": []
+    },
+    "candidateHash": "069beef9eed76fded6f0f64c7f7d13c5761ab84ac6592be1de1dcc1cb9369ca6"
+  },
+  "candidates": [
+    {
+      "id": "candidate.1",
+      "points": [
+        {
+          "id": "birth",
+          "at": 1953.37,
+          "label": "birth",
+          "values": {
+            "verify": 0,
+            "care_acted": 0.6104664466591909,
+            "credited": 0.5,
+            "guilt": 0
+          },
+          "fixed": [
+            "verify",
+            "credited",
+            "guilt"
+          ]
+        },
+        {
+          "id": "apprentice",
+          "at": 1970,
+          "label": "an apprentice in the works",
+          "values": {
+            "verify": 0.46518290476686996,
+            "care_acted": 0.3032730667820367,
+            "credited": 0.18362125729637768,
+            "guilt": 0.09648709651270541
+          },
+          "fixed": []
+        },
+        {
+          "id": "closure",
+          "at": 1986.3,
+          "label": "the works close",
+          "values": {
+            "verify": 0.6757153491001604,
+            "care_acted": 0.2775849574028757,
+            "credited": 0.24678154409892775,
+            "guilt": 0.016491519226627192
+          },
+          "fixed": []
+        },
+        {
+          "id": "crisis",
+          "at": 2008.8,
+          "label": "2008",
+          "values": {
+            "verify": 0.8724001369221611,
+            "care_acted": 0.26342666166796325,
+            "credited": 0.2822158758963579,
+            "guilt": 0.33700134817163335
+          },
+          "fixed": []
+        },
+        {
+          "id": "card",
+          "at": 2019.83,
+          "label": "the card",
+          "values": {
+            "verify": 0.7057980008496818,
+            "care_acted": 0.5019573956985075,
+            "credited": 0.22070119913766872,
+            "guilt": 0.06150272931074587
+          },
+          "fixed": []
+        },
+        {
+          "id": "silence",
+          "at": 2022.12,
+          "label": "the February walk",
+          "values": {
+            "verify": 0.7378820780226032,
+            "care_acted": 0.3011839050613705,
+            "credited": 0.32880500815621905,
+            "guilt": 0.3884974926947905
+          },
+          "fixed": []
+        },
+        {
+          "id": "knock",
+          "at": 2022.62,
+          "label": "the knock on Laura's door",
+          "values": {
+            "verify": 0.7650536959651841,
+            "care_acted": 0.8011541958242887,
+            "credited": 0.47664949553385083,
+            "guilt": 0.4402736735797707
+          },
+          "fixed": []
+        }
+      ],
+      "sampling": {
+        "algorithm": "sha256-keyed-numeric-points/v1",
+        "seed": "rabbit-hole-run/traj/barbara",
+        "randomness": 0.35,
+        "index": 1
+      },
+      "revision": {
+        "number": 0,
+        "parentCandidateHash": null,
+        "reason": null,
+        "changes": []
+      },
+      "candidateHash": "1721561baac9f8cad8e2f7601c62b400ffc94521fadfaa7446167b756923fc7e"
+    },
+    {
+      "id": "candidate.2",
+      "points": [
+        {
+          "id": "birth",
+          "at": 1953.37,
+          "label": "birth",
+          "values": {
+            "verify": 0,
+            "care_acted": 0.49047966242213803,
+            "credited": 0.5,
+            "guilt": 0
+          },
+          "fixed": [
+            "verify",
+            "credited",
+            "guilt"
+          ]
+        },
+        {
+          "id": "apprentice",
+          "at": 1970,
+          "label": "an apprentice in the works",
+          "values": {
+            "verify": 0.503330663406304,
+            "care_acted": 0.2800983566093995,
+            "credited": 0.20439782268873663,
+            "guilt": 0.18984008833973087
+          },
+          "fixed": []
+        },
+        {
+          "id": "closure",
+          "at": 1986.3,
+          "label": "the works close",
+          "values": {
+            "verify": 0.6006447504643769,
+            "care_acted": 0.3355996056380903,
+            "credited": 0.2889185745980186,
+            "guilt": 0.1314057334900398
+          },
+          "fixed": []
+        },
+        {
+          "id": "crisis",
+          "at": 2008.8,
+          "label": "2008",
+          "values": {
+            "verify": 0.8787179890579018,
+            "care_acted": 0.23508508024900882,
+            "credited": 0.1637790015431595,
+            "guilt": 0.33022348150163183
+          },
+          "fixed": []
+        },
+        {
+          "id": "card",
+          "at": 2019.83,
+          "label": "the card",
+          "values": {
+            "verify": 0.7630214213017404,
+            "care_acted": 0.46630456134058973,
+            "credited": 0.4333334910740591,
+            "guilt": 0.28759267583447545
+          },
+          "fixed": []
+        },
+        {
+          "id": "silence",
+          "at": 2022.12,
+          "label": "the February walk",
+          "values": {
+            "verify": 0.9462497126160152,
+            "care_acted": 0.3410513934296194,
+            "credited": 0.4634250088086571,
+            "guilt": 0.3772296285231732
+          },
+          "fixed": []
+        },
+        {
+          "id": "knock",
+          "at": 2022.62,
+          "label": "the knock on Laura's door",
+          "values": {
+            "verify": 0.6573299267122431,
+            "care_acted": 0.6269060570674828,
+            "credited": 0.47068844452895814,
+            "guilt": 0.5687729241267891
+          },
+          "fixed": []
+        }
+      ],
+      "sampling": {
+        "algorithm": "sha256-keyed-numeric-points/v1",
+        "seed": "rabbit-hole-run/traj/barbara",
+        "randomness": 0.35,
+        "index": 2
+      },
+      "revision": {
+        "number": 0,
+        "parentCandidateHash": null,
+        "reason": null,
+        "changes": []
+      },
+      "candidateHash": "34ed3174608896e1e617429288570ebdacf592a678549624a2366281f1131c51"
+    },
+    {
+      "id": "candidate.3",
+      "points": [
+        {
+          "id": "birth",
+          "at": 1953.37,
+          "label": "birth",
+          "values": {
+            "verify": 0,
+            "care_acted": 0.6044556529795253,
+            "credited": 0.5,
+            "guilt": 0
+          },
+          "fixed": [
+            "verify",
+            "credited",
+            "guilt"
+          ]
+        },
+        {
+          "id": "apprentice",
+          "at": 1970,
+          "label": "an apprentice in the works",
+          "values": {
+            "verify": 0.32851617789677684,
+            "care_acted": 0.2586390766257599,
+            "credited": 0.14536388832638703,
+            "guilt": 0.05549631122313672
+          },
+          "fixed": []
+        },
+        {
+          "id": "closure",
+          "at": 1986.3,
+          "label": "the works close",
+          "values": {
+            "verify": 0.5882331794424089,
+            "care_acted": 0.5030574573618424,
+            "credited": 0.18220045166988563,
+            "guilt": 0.3223011907492185
+          },
+          "fixed": []
+        },
+        {
+          "id": "crisis",
+          "at": 2008.8,
+          "label": "2008",
+          "values": {
+            "verify": 0.8824786059942646,
+            "care_acted": 0.3549126111339465,
+            "credited": 0.21452562492030905,
+            "guilt": 0.21589292655364334
+          },
+          "fixed": []
+        },
+        {
+          "id": "card",
+          "at": 2019.83,
+          "label": "the card",
+          "values": {
+            "verify": 0.8813595813724389,
+            "care_acted": 0.4058664827501366,
+            "credited": 0.1866648537681492,
+            "guilt": 0.0726078490370031
+          },
+          "fixed": []
+        },
+        {
+          "id": "silence",
+          "at": 2022.12,
+          "label": "the February walk",
+          "values": {
+            "verify": 0.7525006345378376,
+            "care_acted": 0.42443465220060417,
+            "credited": 0.2825023540642021,
+            "guilt": 0.20093960797716567
+          },
+          "fixed": []
+        },
+        {
+          "id": "knock",
+          "at": 2022.62,
+          "label": "the knock on Laura's door",
+          "values": {
+            "verify": 0.6943373697465642,
+            "care_acted": 0.7943505894695957,
+            "credited": 0.32268243671447916,
+            "guilt": 0.386134823238008
+          },
+          "fixed": []
+        }
+      ],
+      "sampling": {
+        "algorithm": "sha256-keyed-numeric-points/v1",
+        "seed": "rabbit-hole-run/traj/barbara",
+        "randomness": 0.35,
+        "index": 3
+      },
+      "revision": {
+        "number": 0,
+        "parentCandidateHash": null,
+        "reason": null,
+        "changes": []
+      },
+      "candidateHash": "7e4316fad6da031684acbd9a5ff18d81c960f759609bc6b932ae49f42b2e4300"
+    }
+  ],
+  "reviewerInstructions": "Respect the human author's starting brief and chosen involvement. For a new story, ask about unresolved initial settings and writing-process involvement separately; reuse explicit preferences and delegation. Offer setting all or some parameters or delegating them, and autonomous work, selected checkpoints, ongoing collaboration, or a custom arrangement. Read life-sim://addon/storytelling for intake guidance. Automatic modeling and reviews operate within that agreement. Wait for the human at agreed approval checkpoints; saving a proposal or passing a review is not their approval. A bounded review or edit request does not require a new-project questionnaire.\n\nYou are the calling LLM. These are numerical candidate points for an event or an overall life, not an accepted character, calibrated prediction, or executed physical simulation. The axes specify the categories, comparison questions, units, and bounds; allocation groups preserve a declared divided total, including a remainder category when needed. If the categories do not express a relevant distinction, explicitly revise the definition rather than replacing numerical modeling with vague labels.\nInterpret each candidate and ask: Does this trajectory make sense for this character and setting? What events, choices, pressures, and continuities could connect these points? Would that development offer a compelling story for the intended tone and audience, and why? Separate coherence from literary promise. Curiosity, atmosphere, discovery, humor and quiet relationships can be compelling; do not impose trauma, constant shocks, redemption, or a predetermined death.\nFor principal characters, review flaws explicitly: what limitation, mistaken belief, costly habit, avoidance or conflicting priority can distort a choice, and what consequence follows? Locate it in the numerical categories and trajectory, then explain how it would appear in behavior. A strength used in the wrong circumstances can supply this tension. Suffering, bad luck, low numerical values or a random discontinuity are not by themselves character flaws. Preserve competence and sympathetic qualities; do not manufacture cruelty or trauma. If the flaw exists only in the biography, locally revise a choice or consequence and reassess. Random sampling suggests material; it does not replace this review.\nReview candidates as keep, revise, or discard with a concise authored assessment. When a character has promise, first consider a local repair: change an unsupported point, transition, explanation, or category while preserving identity and the useful remainder of the life. Use life_story_trajectory_revise for numerical point changes, with the exact proposal and reasons. It preserves every unlisted value and refuses changes to fixed values. A reason-only revision with no changes records a revised causal interpretation without moving the numbers. A changed category, scale, timeline, or accepted fact requires an explicit new proposal or model revision; never silently reinterpret the old numbers. Discard the whole candidate only when retaining it is not useful. Reassess the affected trajectory after a revision; bounded exploration does not guarantee a worthwhile candidate.\nWhole-life points should span the relevant lifetime, not several moments of the immediate crisis. Distinguish the emotional state at a sampled event from a sustained disposition or period average: a moment of fear does not imply decades of fear. Model anticipation, disruption and adaptation where relevant without requiring a three-beat sequence. Unknown and future life remain hypothetical; do not supply a death merely to close the interval. The expected baseline is an authored starting proposal, not an established fact unless marked fixed and justified. Supplied constraints and fixed declarations are not independently checked against an external canon by this sampler.\nPreserve original samples and local revisions. Record concise candidate assessments, selection decisions, and revision reasons as Understanding Nodes using the existing narrative graph: a named author understanding-process root, externalized_reflection children with holder, nonempty access scopes, render/training exclude, and a declared authoring clock distinct from story time. Use typed contains ancestry and about, supports, contradicts, or refines links to the exact candidate records or model anchors; shaped-by can connect subsequent prose. These are authored explanations for the record, not a request for hidden internal reasoning. Ordinary metadata notes alone do not establish that understanding history.\nAfter selection, represent the chosen numerical commitments in the ordinary model under their declared units and Cuts, preserving existing accepted facts. The life-trend dossier can retain a trajectoryProposal and trajectoryRecordNodeId alongside phase and transition explanations; it must not replace the sampled numbers with prose alone. Keep raw proposals separate from accepted history. The MCP exploration and revision tools persist authoring records without accepting them as world facts. Record additional assessments and decisions through life_story_author_record. Use explicit model/narrative operations to adopt the selected commitments. Do not claim to have performed evaluations or accepted a character merely because this tool returned instructions.",
+  "responseGuidance": "Give each candidate a concise keep/revise/discard assessment. Prefer an identified local repair when useful; retain both the original and revised values and authored reasons before accepting a life or event.",
+  "evaluator": "calling_llm",
+  "assessments": null,
+  "evidenceType": "creative_hypothesis",
+  "canonical": false,
+  "authorOnly": true,
+  "contextCompletenessVerified": false,
+  "semanticVerification": false,
+  "graphMutation": true,
+  "worldMutation": false,
+  "taskHash": "4addb079765a7b4dba30a945175c05064cbb616e765e793306d1b765eb5eb424",
+  "graphHash": "d8aca6704e893228658ec5b7ce0891e16bfa365695c1fca8413421baa159ea02",
+  "previousGraphHash": "fadc538edb1efd298c2836e9fee773250d15963671df6c09b3f5c7899aaec994",
+  "snapshotHash": "3c85d9a2afd4618c3ae2876bae5751aa0c09a5cf9baf24802b19eee31c6b555e",
+  "stored": true,
+  "reusedExisting": false,
+  "immutableRevision": true,
+  "additiveBatch": true,
+  "batch": {
+    "added_edge_count": 2,
+    "added_node_count": 1,
+    "added_root_count": 0
+  },
+  "summary": {
+    "edge_count": 212,
+    "graph_hash": "d8aca6704e893228658ec5b7ce0891e16bfa365695c1fca8413421baa159ea02",
+    "id": "rabbit-hole-novel",
+    "node_count": 80,
+    "revision": {
+      "number": 55,
+      "previous_graph_hash": "fadc538edb1efd298c2836e9fee773250d15963671df6c09b3f5c7899aaec994",
+      "provenance": [
+        "Meaning Model storytelling add-on v1",
+        "author:calling-llm:claude-opus-5-5",
+        "Authoring clock: authoring_step, not world time."
+      ],
+      "reason": "Record candidate traj.barbara.life."
+    },
+    "roles": {
+      "document_root": 1,
+      "externalized_reflection": 34,
+      "metadata": 31,
+      "story_passage": 14
+    },
+    "root_count": 3,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "cf7514e62711a9a38b91bb560c17723055cd3c395b7775e278ee9a671cc6bc40"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "cf7514e62711a9a38b91bb560c17723055cd3c395b7775e278ee9a671cc6bc40",
+      "model_revision": 17,
+      "source_hash": "cf7514e62711a9a38b91bb560c17723055cd3c395b7775e278ee9a671cc6bc40",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "requestPayloadHash": "20120e98a6425937e128b61ec163b23fa4b8c67996eb3b8925267f7925f7b8e8",
+  "recordNodeId": "traj.barbara.life",
+  "understandingRootId": "story.understanding.c478361e6869af25970682a2",
+  "authoringStep": 54,
+  "understandingNode": false,
+  "advancedFrom": "135d083045ad1c1f9e524eaafdfd8006747780acde59a6b34557fb6ffd4984c6",
+  "warnings": [
+    "The earliest life point is at 1953.37 (year). A life-trends dossier requires numerical points from its lifeBeginning: that may be this point only if it is the earliest established phase of an unknown origin; if the dossier starts at birth, life_story_life_trends will reject this candidate. In that case add a point at lifeBeginning now, fixing any axis that does not yet apply at a stated conventional value. Points are sampled independently, so re-exploring with the same seed and one added point leaves every other point's values unchanged."
+  ],
+  "seedSource": "caller_supplied",
+  "nextStep": "Assess the stored candidates through life_story_author_record, linked about this record. Keep, locally revise, or discard; no automatic acceptance."
+}

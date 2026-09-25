@@ -1,0 +1,296 @@
+{
+  "name": "life_story_trajectory_explore",
+  "description": "Automatically use when generating a new event or character lifetime trajectory. Sample actual numerical points with declared meanings, units, bounds, optional conserved allocations and fixed values. randomness controls variation; candidateCount controls budget. Persist baseline and every candidate in the narrative graph, then record your assessments with life_story_author_record. Returns unaccepted proposals, not a simulation or a literary verdict.\n\nRespect the human author's starting brief and chosen involvement. For a new story, ask about unresolved initial settings and writing-process involvement separately; reuse explicit preferences and delegation. Offer setting all or some parameters or delegating them, and autonomous work, selected checkpoints, ongoing collaboration, or a custom arrangement. Read life-sim://addon/storytelling for intake guidance. Automatic modeling and reviews operate within that agreement. Wait for the human at agreed approval checkpoints; saving a proposal or passing a review is not their approval. A bounded review or edit request does not require a new-project questionnaire.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "record": {
+        "type": "object",
+        "properties": {
+          "exactRevision": {
+            "default": false,
+            "description": "Write against graphHash exactly, creating a branch if it is not the newest revision. By default an add-only record goes to the newest head.",
+            "type": "boolean"
+          },
+          "graphHash": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "requestId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256
+          },
+          "nodeId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256
+          },
+          "storyRootId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256
+          },
+          "authorId": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256
+          },
+          "accessScopes": {
+            "minItems": 1,
+            "maxItems": 64,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256
+            }
+          }
+        },
+        "required": [
+          "graphHash",
+          "requestId",
+          "nodeId",
+          "storyRootId",
+          "authorId",
+          "accessScopes"
+        ],
+        "additionalProperties": false
+      },
+      "exploration": {
+        "type": "object",
+        "properties": {
+          "definition": {
+            "type": "object",
+            "properties": {
+              "targetKind": {
+                "type": "string",
+                "enum": [
+                  "event",
+                  "life"
+                ]
+              },
+              "subjectId": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 256
+              },
+              "brief": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 10000
+              },
+              "context": {
+                "default": "",
+                "type": "string",
+                "maxLength": 12000
+              },
+              "constraints": {
+                "default": [],
+                "maxItems": 50,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 2000
+                }
+              },
+              "timeUnit": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 256
+              },
+              "axes": {
+                "minItems": 1,
+                "maxItems": 12,
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 256
+                    },
+                    "meaning": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 2000
+                    },
+                    "comparisonQuestion": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 2000
+                    },
+                    "unit": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 256
+                    },
+                    "minimum": {
+                      "type": "number"
+                    },
+                    "maximum": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "meaning",
+                    "comparisonQuestion",
+                    "unit",
+                    "minimum",
+                    "maximum"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "allocations": {
+                "default": [],
+                "maxItems": 6,
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 256
+                    },
+                    "question": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 2000
+                    },
+                    "axisIds": {
+                      "minItems": 2,
+                      "maxItems": 12,
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 256
+                      }
+                    },
+                    "total": {
+                      "type": "number",
+                      "exclusiveMinimum": 0
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "question",
+                    "axisIds",
+                    "total"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "targetKind",
+              "subjectId",
+              "brief",
+              "timeUnit",
+              "axes"
+            ],
+            "additionalProperties": false
+          },
+          "points": {
+            "minItems": 2,
+            "maxItems": 16,
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 256
+                },
+                "at": {
+                  "type": "number"
+                },
+                "label": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 256
+                },
+                "values": {
+                  "type": "object",
+                  "propertyNames": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 256
+                  },
+                  "additionalProperties": {
+                    "type": "number"
+                  }
+                },
+                "fixed": {
+                  "default": [],
+                  "maxItems": 12,
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 256
+                  }
+                }
+              },
+              "required": [
+                "id",
+                "at",
+                "label",
+                "values"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "randomness": {
+            "default": 0.5,
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "candidateCount": {
+            "default": 3,
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 8
+          },
+          "seed": {
+            "default": null,
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 256
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "definition",
+          "points"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "record",
+      "exploration"
+    ],
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "additionalProperties": false
+  },
+  "annotations": {
+    "readOnlyHint": false,
+    "destructiveHint": false,
+    "idempotentHint": true,
+    "openWorldHint": false
+  }
+}

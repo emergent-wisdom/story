@@ -1,0 +1,149 @@
+{
+ "graphHash": "2a5fe56d4214621206fcbd29c425032ca806dae932712356d4da8ceb88ca01fe",
+ "requestId": "voice-assessment-after",
+ "nodeId": "assessment.voice.after",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "assessment",
+ "text": "Self-review after the voice revision (graph 2a5fe56d): each principal's voice now comes from their modeled life, as the before-review asked. Findings per subject with the revised passages quoted from the rendered text are in data. The revision also lengthened the story from about 5,800 to about 8,400 words.",
+ "data": {
+  "reviewedGraphHash": "2a5fe56d4214621206fcbd29c425032ca806dae932712356d4da8ceb88ca01fe",
+  "projectionHash": "923e35e068b3ec6f3bd012c29cc946f78876d63fe488655364f09af04b1f41d1",
+  "modelHash": "cf7514e62711a9a38b91bb560c17723055cd3c395b7775e278ee9a671cc6bc40",
+  "reviewer": "calling-llm:claude-opus-5-5 (self-review)",
+  "findings": [
+   {
+    "subject": "Kieran Hale",
+    "observed": "His two systems now shape perception and speech: the queue ('Returned item, account closed'), the game ('character-select screen', 'New area discovered', 'hold the line'), and the Hart's apologetic script, which he cannot drop even in the confession and loses only at the kitchen table in part 10.",
+    "citations": [
+     "It felt like the character-select screen of a game he had not played for ten years: new, or continue.",
+     "His voice did the thing it did on the scam line, steady and professional, and he hated it",
+     "He did not answer with the scam-line voice. He did not have it any more."
+    ],
+    "evidence": [
+     "model:event:ev.kieran.p2.game",
+     "model:event:ev.kieran.want.no_trouble",
+     "model:process:kieran.honesty_with_laura"
+    ],
+    "remaining": "Could carry more of his humour in the harvest year; acceptable as is."
+   },
+   {
+    "subject": "Barbara Ashby",
+    "observed": "Short sentences from the works and the wiring, a Swindon 'my love' and 'mind', jokes she does not smile at; fewer epigrams, and the distinction she draws ('I didn't say it was my fault. I said what I did.') comes from her life.",
+    "citations": [
+     "She looked him up and down the way you look at a fuse board.",
+     "I didn't say it was my fault. I said what I did.",
+     "I held a whole works together for seventeen years, one fuse at a time"
+    ],
+    "evidence": [
+     "model:event:ev.barbara.p2.works",
+     "model:event:ev.barbara.want.verify",
+     "model:process:barbara.care_for_kieran"
+    ],
+    "remaining": "None necessary."
+   },
+   {
+    "subject": "Laura Russell",
+    "observed": "She now speaks in her own clinical register throughout (sats, proning, admissions, 'Get your bloods done'), asks three history-taking questions after the confession, and says the unbearable thing as a handover, breaking at the one heading she did not write down.",
+    "citations": [
+     "\"Situation,\" Laura said.",
+     "She stopped. It was the only line she had not written down.",
+     "\"How much is left?\""
+    ],
+    "evidence": [
+     "model:event:ev.laura.p4.pandemic",
+     "model:event:ev.laura.want.hold_silent",
+     "model:process:laura.spoken_share"
+    ],
+    "remaining": "None necessary."
+   },
+   {
+    "subject": "secondary voices",
+    "observed": "The Sharehouse speaks in its own meme register across three parts and ends with 'lol ok boomer'; Kieran's father speaks in few words ('It's only a mug.'); Deb and Mr Pritchard give the Hart floor its people.",
+    "citations": [
+     "have fun staying poor",
+     "\"It's only a mug.\" He carved. \"Pass the gravy.\"",
+     "lol ok boomer"
+    ],
+    "evidence": [
+     "model:event:ev.sharehouse.life",
+     "model:event:ev.car_plant.last_car"
+    ],
+    "remaining": "None necessary."
+   },
+   {
+    "subject": "author (Faye Titcombe)",
+    "observed": "The narrator now summarizes less and lets speech carry feeling; the three clocks are stated once at the end; the mechanism still arrives after the feeling.",
+    "citations": [
+     "Three clocks ran in him still, and would all his life"
+    ],
+    "evidence": [
+     "author.model.faye#d.beside",
+     "author.model.faye#d.mechanism"
+    ],
+    "remaining": "Part 6 still ends on the rota and the price together; kept deliberately."
+   }
+  ]
+ },
+ "links": [
+  {
+   "relation": "answers",
+   "targetNodeId": "assessment.voice.before"
+  },
+  {
+   "relation": "shaped_by",
+   "targetNodeId": "author.model.faye"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "p01"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "p02"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "p03"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "p04"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "p05"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "p06"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "p07"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "p08"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "p09"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "p10"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "p11"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "p12"
+  }
+ ]
+}

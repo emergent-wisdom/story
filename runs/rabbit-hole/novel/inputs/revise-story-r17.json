@@ -1,0 +1,900 @@
+{
+ "requestId": "revise-story-r17",
+ "previousModelHash": "94c0ef70447dbee8cc264945e2e752e6f4f2e25f678859b574e26406074378d7",
+ "change": {
+  "reason": "Revision 17 (the human asked for more processes): fifteen processes that change over the story, ten of them authored judgment scales for the principals (Kieran's belonging to the Sharehouse, honesty with Laura, fear of being left behind, screen hours; Laura's exhaustion, spoken share of her hurt, trust in Kieran about money; Barbara's purism, care for Kieran, guilt) and five of the world (the bitcoin price in pounds, house prices in Wroughton, the Hart's crypto block, the Sharehouse's messages per day, intensive-care occupancy), each with its meaning, anchors and authored path, observed by the Events where they matter.",
+  "provenance": [
+   "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+  ],
+  "upsert": {
+   "processes": [
+    {
+     "id": "kieran.sharehouse_belonging",
+     "value_type": {
+      "kind": "scalar",
+      "bounds": {
+       "minimum": 0,
+       "maximum": 1
+      }
+     },
+     "initial_value": {
+      "kind": "scalar",
+      "value": 0
+     },
+     "unit": "0-1 authored scale",
+     "update_mode": "observed",
+     "reference_frame": "person:kieran",
+     "scale": {
+      "semantic_role": "how strongly Kieran feels the Sharehouse is his band (0 a stranger to it, 0.5 a regular, 1 it is the group he would not leave while it is losing)"
+     },
+     "support": [
+      "authored path: 0 before June 2020; 0.5 by autumn 2020; 0.85 through 2021; 0.9 on 9-13 May 2022; 0.3 by August 2022; 0.1 by March 2023"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "axes": [],
+     "access_scopes": [],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "kieran.honesty_with_laura",
+     "value_type": {
+      "kind": "scalar",
+      "bounds": {
+       "minimum": 0,
+       "maximum": 1
+      }
+     },
+     "initial_value": {
+      "kind": "scalar",
+      "value": 0.95
+     },
+     "unit": "share",
+     "update_mode": "observed",
+     "reference_frame": "person:kieran",
+     "scale": {
+      "semantic_role": "share of the money and the fear that Laura knows about (1 she knows all of it)"
+     },
+     "support": [
+      "authored path: 0.95 in October 2019; 0.85 after he keeps the card; 0.6 through 2021; 0.35 after the January 2022 move; 0.05 from 13 May to mid-June 2022; 0.8 after the June telling; 0.95 from September 2022"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "axes": [],
+     "access_scopes": [],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "kieran.fear_left_behind",
+     "value_type": {
+      "kind": "scalar",
+      "bounds": {
+       "minimum": 0,
+       "maximum": 1
+      }
+     },
+     "initial_value": {
+      "kind": "scalar",
+      "value": 0.2
+     },
+     "unit": "0-1 authored scale",
+     "update_mode": "observed",
+     "reference_frame": "person:kieran",
+     "scale": {
+      "semantic_role": "intensity of Kieran's fear of being left behind by the others (0 none, 0.5 a steady pressure, 1 panic)"
+     },
+     "support": [
+      "authored path: 0.2 in 2019; 0.45 in the 2020 summer; 0.6 at the November 2021 peak; 0.75 in January 2022; 0.9 on 9 May 2022; 0.3 by March 2023"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "axes": [],
+     "access_scopes": [],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "kieran.screen_hours",
+     "value_type": {
+      "kind": "scalar",
+      "bounds": {
+       "minimum": 0,
+       "maximum": 24
+      }
+     },
+     "initial_value": {
+      "kind": "scalar",
+      "value": 1
+     },
+     "unit": "hours per day",
+     "update_mode": "observed",
+     "reference_frame": "person:kieran",
+     "scale": {
+      "semantic_role": "hours a day Kieran spends in crypto apps and the Sharehouse"
+     },
+     "support": [
+      "authored path: 1 in 2019 (none on crypto); 5 in summer 2020; 6 in 2021; 9 during 9-13 May 2022; 0.5 from September 2022"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "axes": [],
+     "access_scopes": [],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "laura.exhaustion",
+     "value_type": {
+      "kind": "scalar",
+      "bounds": {
+       "minimum": 0,
+       "maximum": 10
+      }
+     },
+     "initial_value": {
+      "kind": "scalar",
+      "value": 4
+     },
+     "unit": "0-10 authored scale",
+     "update_mode": "observed",
+     "reference_frame": "person:laura",
+     "scale": {
+      "semantic_role": "Laura's exhaustion (0 rested, 5 tired after a run of nights, 10 unable to function)"
+     },
+     "support": [
+      "authored path: 4 in 2019; 8 in April 2020; 9 in January 2021; 6 in January 2022; 7 in June 2022; 4 by March 2023"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "axes": [],
+     "access_scopes": [],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "laura.spoken_share",
+     "value_type": {
+      "kind": "scalar",
+      "bounds": {
+       "minimum": 0,
+       "maximum": 1
+      }
+     },
+     "initial_value": {
+      "kind": "scalar",
+      "value": 0.3
+     },
+     "unit": "share",
+     "update_mode": "observed",
+     "reference_frame": "person:laura",
+     "scale": {
+      "semantic_role": "share of her hurt and fear that Laura says aloud to Kieran"
+     },
+     "support": [
+      "authored path: 0.3 in 2019; 0.1 through the waves; 0.05 from June to August 2022; 0.8 on the evening of Barbara's visit; 0.6 from September 2022"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "axes": [],
+     "access_scopes": [],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "laura.trust_in_kieran_money",
+     "value_type": {
+      "kind": "scalar",
+      "bounds": {
+       "minimum": 0,
+       "maximum": 1
+      }
+     },
+     "initial_value": {
+      "kind": "scalar",
+      "value": 0.8
+     },
+     "unit": "0-1 authored scale",
+     "update_mode": "observed",
+     "reference_frame": "person:laura",
+     "scale": {
+      "semantic_role": "how far Laura trusts Kieran to handle their money without checking (1 complete, the way she trusts a monitor)"
+     },
+     "support": [
+      "authored path: 0.8 in 2019; 0.9 in January 2022; 0.1 in June 2022; 0.45 by March 2023 with shared accounts"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "axes": [],
+     "access_scopes": [],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "barbara.purism",
+     "value_type": {
+      "kind": "scalar",
+      "bounds": {
+       "minimum": 0,
+       "maximum": 1
+      }
+     },
+     "initial_value": {
+      "kind": "scalar",
+      "value": 0.9
+     },
+     "unit": "0-1 authored scale",
+     "update_mode": "observed",
+     "reference_frame": "person:barbara",
+     "scale": {
+      "semantic_role": "Barbara's conviction that everything but bitcoin is a casino (1 absolute)"
+     },
+     "support": [
+      "authored path: 0.9 from 2013 to 2022; 0.8 after the collapse, when she stops caring whether she was right"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "axes": [],
+     "access_scopes": [],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "barbara.care_for_kieran",
+     "value_type": {
+      "kind": "scalar",
+      "bounds": {
+       "minimum": 0,
+       "maximum": 1
+      }
+     },
+     "initial_value": {
+      "kind": "scalar",
+      "value": 0.1
+     },
+     "unit": "0-1 authored scale",
+     "update_mode": "observed",
+     "reference_frame": "person:barbara",
+     "scale": {
+      "semantic_role": "how much Barbara's concern for Kieran guides what she does (0 none, 1 she acts on it at a cost to herself)"
+     },
+     "support": [
+      "authored path: 0.1 on the October 2019 call; 0.35 when she sends the card; 0.55 through the 2020-2021 walks; 0.6 in February 2022, not acted on; 0.9 in August 2022 when she goes to Laura"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "axes": [],
+     "access_scopes": [],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "barbara.guilt",
+     "value_type": {
+      "kind": "scalar",
+      "bounds": {
+       "minimum": 0,
+       "maximum": 1
+      }
+     },
+     "initial_value": {
+      "kind": "scalar",
+      "value": 0
+     },
+     "unit": "0-1 authored scale",
+     "update_mode": "observed",
+     "reference_frame": "person:barbara",
+     "scale": {
+      "semantic_role": "Barbara's guilt at having handed Kieran a key without a map"
+     },
+     "support": [
+      "authored path: 0 until 2021; 0.2 in February 2022; 0.8 in July 2022; 0.5 after the visit to Laura"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "axes": [],
+     "access_scopes": [],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "btc.price_gbp",
+     "value_type": {
+      "kind": "scalar",
+      "bounds": {
+       "minimum": 0,
+       "maximum": 100000
+      }
+     },
+     "initial_value": {
+      "kind": "scalar",
+      "value": 6300
+     },
+     "unit": "GBP",
+     "update_mode": "observed",
+     "reference_frame": "market",
+     "scale": {
+      "semantic_role": "market price of one bitcoin in pounds"
+     },
+     "support": [
+      "authored path: about 6,300 in October 2019; about 3,900 on 12 March 2020; about 49,000 on 10 November 2021; about 24,000 in May 2022; about 14,000 in November 2022; about 20,000 in March 2023 (approximate, from the documented dollar prices)"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "axes": [],
+     "access_scopes": [],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "house_price.wroughton_gbp",
+     "value_type": {
+      "kind": "scalar",
+      "bounds": {
+       "minimum": 0,
+       "maximum": 1000000
+      }
+     },
+     "initial_value": {
+      "kind": "scalar",
+      "value": 265000
+     },
+     "unit": "GBP",
+     "update_mode": "observed",
+     "reference_frame": "market",
+     "scale": {
+      "semantic_role": "asking price of the kind of semi-detached house Laura watches in Wroughton (authored)"
+     },
+     "support": [
+      "authored path: about 265,000 in 2019; 300,000 by late 2021; 310,000 in mid 2022"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "axes": [],
+     "access_scopes": [],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "hart.crypto_block",
+     "value_type": {
+      "kind": "scalar",
+      "bounds": {
+       "minimum": 0,
+       "maximum": 1
+      }
+     },
+     "initial_value": {
+      "kind": "scalar",
+      "value": 0
+     },
+     "unit": "0-1",
+     "update_mode": "observed",
+     "reference_frame": "institution:hart",
+     "scale": {
+      "semantic_role": "whether the Hart blocks payments to the crypto exchanges it lists (0 open, 1 blocked)"
+     },
+     "support": [
+      "authored path: 0 until June 2021; 1 afterwards"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "axes": [],
+     "access_scopes": [],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "sharehouse.messages_per_day",
+     "value_type": {
+      "kind": "scalar",
+      "bounds": {
+       "minimum": 0,
+       "maximum": 500000
+      }
+     },
+     "initial_value": {
+      "kind": "scalar",
+      "value": 0
+     },
+     "unit": "messages per day",
+     "update_mode": "observed",
+     "reference_frame": "sharehouse",
+     "scale": {
+      "semantic_role": "messages posted in the Sharehouse in a day"
+     },
+     "support": [
+      "authored path: 0 before spring 2020; about 20,000 in summer 2020; about 60,000 in 2021; about 140,000 on 11 May 2022; about 3,000 by autumn 2022"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "axes": [],
+     "access_scopes": [],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "icu.occupancy_share",
+     "value_type": {
+      "kind": "scalar",
+      "bounds": {
+       "minimum": 0,
+       "maximum": 2
+      }
+     },
+     "initial_value": {
+      "kind": "scalar",
+      "value": 0.75
+     },
+     "unit": "share of normal capacity",
+     "update_mode": "observed",
+     "reference_frame": "hospital",
+     "scale": {
+      "semantic_role": "occupancy of the Swindon intensive-care unit as a share of its normal beds"
+     },
+     "support": [
+      "authored path: about 0.75 in 2019; about 1.4 in April 2020; about 1.6 in January 2021; about 0.9 in 2022"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "axes": [],
+     "access_scopes": [],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   ],
+   "events": [
+    {
+     "boundary": "June 2020: Kieran finds the Sharehouse.",
+     "description": "A link in a forum thread about a food token leads to a chat server of a few thousand anonymous farmers awake in every time zone. They answer his questions at three in the morning and call him Kez after his wallet name. It is the first band that has needed him since the guild.",
+     "id": "ev.kieran.fall.sharehouse",
+     "interval": {
+      "end": 2020.5,
+      "start": 2020.45
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "kieran.sharehouse_belonging",
+      "sharehouse.members",
+      "sharehouse.messages_per_day"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "Online: the Sharehouse and the chains, every time zone",
+     "substrate": null
+    },
+    {
+     "boundary": "2021: the harvest year.",
+     "description": "Kieran farms through the night, answers newcomers in the Sharehouse at three in the morning, watches six thousand pounds become thirty-eight and then seventy-one thousand on the screen, builds the Hart's crypto-payment block by day and pays his parents' rent after the plant closes.",
+     "id": "ev.kieran.harvest_2021",
+     "interval": {
+      "end": 2021.86,
+      "start": 2021
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "btc.price_gbp",
+      "kieran.fear_left_behind",
+      "kieran.honesty_with_laura",
+      "kieran.screen_hours",
+      "kieran.sharehouse_belonging",
+      "kieran.sleep_hours",
+      "kieran.stake_gbp",
+      "sharehouse.members"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null
+    },
+    {
+     "boundary": "Kieran's state in early January 2022, before the deposit moves.",
+     "description": "The market is a third down from November; his seventy-one thousand is forty-five on the screen. House prices in Wroughton have risen faster than their deposit. His father has been out of work since July and pretends not to mind. The Sharehouse has spent December saying that the smart money is in safe yield now, twenty percent in a dollar that does not move. He believes he understands risk; what he feels is the old fear of being left behind and the new want to provide. He has not told Laura how much he has made or lost.",
+     "id": "ev.kieran.state.2022_01",
+     "interval": {
+      "end": 2022.03,
+      "start": 2022
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "house_price.wroughton_gbp",
+      "household.deposit_gbp",
+      "kieran.fear_left_behind",
+      "kieran.honesty_with_laura",
+      "kieran.stake_gbp"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null
+    },
+    {
+     "boundary": "Laura's state in early January 2022.",
+     "description": "Four months out of the second wave and still sleeping badly. She wants to buy a house by the summer and has saved most of the deposit from overtime. She has not opened their savings app since the spring: Kieran is the one who knows about money, the way the monitors know about the patient. She is tired of being the one who holds everything.",
+     "id": "ev.laura.state.2022_01",
+     "interval": {
+      "end": 2022.03,
+      "start": 2022
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.laura.person.laura"
+     },
+     "process_ids": [
+      "house_price.wroughton_gbp",
+      "household.deposit_gbp",
+      "laura.exhaustion",
+      "laura.trust_in_kieran_money"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null
+    },
+    {
+     "boundary": "9 to 13 May 2022: Kieran holds everything.",
+     "description": "Four nights at the spare-room desk with the Sharehouse open on one screen and the price on the other. He reads the mechanism again and understands exactly why a run feeds itself. He does not sell at ninety cents, or sixty, or twenty. Laura is on nights; the rota says so. By Friday the deposit is worth about three thousand pounds and falling.",
+     "id": "ev.kieran.depeg.holds",
+     "interval": {
+      "end": 2022.364,
+      "start": 2022.353
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "household.deposit_gbp",
+      "kieran.fear_left_behind",
+      "kieran.screen_hours",
+      "kieran.sharehouse_belonging",
+      "kieran.sleep_hours",
+      "sharehouse.messages_per_day",
+      "stablecoin.price_usd"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null
+    },
+    {
+     "boundary": "Mid-June 2022: five weeks of hiding, then the mortgage forces it.",
+     "description": "For five weeks Kieran goes to work and comes home and says nothing; he takes scam calls in the day and checks a dead balance at night. When the mortgage adviser emails for statements, Laura forwards it to him with a thumbs-up. He tells her that evening at the kitchen table, the rota on the fridge behind her.",
+     "id": "ev.kieran.telling.mortgage",
+     "interval": {
+      "end": 2022.46,
+      "start": 2022.37
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "partner": "referent.profile.laura.person.laura",
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "household.deposit_gbp",
+      "kieran.honesty_with_laura",
+      "laura.trust_in_kieran_money"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null
+    },
+    {
+     "boundary": "Summer 2022: Laura stays and holds it together in silence.",
+     "description": "She listens, asks three practical questions, and goes to bed. In the morning she moves their accounts into her name, picks up two extra shifts a week and cancels the mortgage appointment. She does not shout and does not cry in front of him. The conversation that should happen does not happen. The rota stays on the fridge.",
+     "id": "ev.laura.response.silence",
+     "interval": {
+      "end": 2022.6,
+      "start": 2022.46
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "partner": "referent.profile.protagonist.person.protagonist",
+      "subject": "referent.profile.laura.person.laura"
+     },
+     "process_ids": [
+      "household.deposit_gbp",
+      "laura.exhaustion",
+      "laura.spoken_share"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null
+    },
+    {
+     "boundary": "August 2022: Barbara goes to Laura herself.",
+     "description": "Something none of the named options held (the remainder was drawn). Barbara, who has never met Laura, takes the bus into Swindon on a weekday while Kieran is at the Hart and knocks on the Wood Street flat. She says who she is. She tells Laura what she did: she gave him a key without a map, and in February she knew how the peg could fail and said nothing, because she has never been anybody's mother. That part is hers, she says; the rest is his; and Laura is allowed to say something. For the first time since June, Laura does.",
+     "id": "ev.barbara.after.goes_to_laura",
+     "interval": {
+      "end": 2022.63,
+      "start": 2022.6
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.barbara.person.barbara",
+      "visited": "referent.profile.laura.person.laura"
+     },
+     "process_ids": [
+      "barbara.care_for_kieran",
+      "barbara.guilt",
+      "laura.spoken_share"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null
+    },
+    {
+     "boundary": "The February 2022 walk: Barbara says it is his choice and nothing more.",
+     "description": "Barbara stops on the track above the long barrow, looks at the barrow for a while, and says: that's yours and Laura's to decide. She says nothing else about it all afternoon. She talks about the men who dragged the stones and about the dog. On the drive home she thinks of three sentences she could have said and says none of them, because she has never been anybody's mother and does not mean to start.",
+     "id": "ev.barbara.walk.his_choice",
+     "interval": {
+      "end": 2022.123,
+      "start": 2022.121
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "companion": "referent.profile.protagonist.person.protagonist",
+      "subject": "referent.profile.barbara.person.barbara"
+     },
+     "process_ids": [
+      "barbara.care_for_kieran",
+      "barbara.guilt",
+      "barbara.purism"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "Avebury Trusloe and the Ridgeway, Wiltshire",
+     "substrate": null
+    },
+    {
+     "boundary": "Monday 21 October 2019, 3.40 pm: Kieran's scam-check call to Barbara.",
+     "description": "He reads the script: has anyone contacted you and asked you to move your money, have you been promised returns. She laughs, answers every question and then asks hers: how old is the system he works in, and who could switch it off? He finds he does not know. She asks his name. The payment is released at 4.55.",
+     "id": "ev.kieran.call_2019",
+     "interval": {
+      "end": 2019.8045,
+      "start": 2019.804
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "caller": "referent.profile.protagonist.person.protagonist",
+      "customer": "referent.profile.barbara.person.barbara"
+     },
+     "process_ids": [
+      "barbara.care_for_kieran"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "White Hart House, the Hart's head office in west Swindon",
+     "substrate": null
+    },
+    {
+     "boundary": "Evening of 12 March 2020: Kieran types the twelve words in.",
+     "description": "At the kitchen table in the flat, with the news on about the crash, he downloads a wallet app, types the words, and presses his thumb to the glass to confirm. The balance rises: 0.0071 bitcoin, about twenty-eight pounds. Then he finds the public ledger and the transaction that sent it to him, and every transaction before it since 2009.",
+     "id": "ev.kieran.mirror",
+     "interval": {
+      "end": 2020.196,
+      "start": 2020.195
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "btc.price_gbp",
+      "card.wallet_btc"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null
+    },
+    {
+     "boundary": "June 2021: the Hart decides to block payments to several crypto exchanges.",
+     "description": "After regulator warnings and a run of scam losses the board blocks card and bank payments to several exchanges. Kieran, who knows why payments fail, is seconded to the project that builds the block.",
+     "id": "ev.hart.block_decision_2021",
+     "interval": {
+      "end": 2021.46,
+      "start": 2021.44
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "institution": "referent.hart",
+      "staff": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "hart.crypto_block"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "White Hart House, the Hart's head office in west Swindon",
+     "substrate": null
+    },
+    {
+     "boundary": "In January 2021 the unit is beyond capacity; she sits in the car outside the flat for twenty minutes after shifts before coming up.",
+     "description": "In January 2021 the unit is beyond capacity; she sits in the car outside the flat for twenty minutes after shifts before coming up.",
+     "id": "event.profile.laura_second_wave.change_arc.focal_change",
+     "interval": {
+      "end": 2021.15,
+      "start": 2021.01
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "icu.occupancy_share",
+      "laura.exhaustion",
+      "profile.laura_second_wave.change_arc.focal_change.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "The intensive-care unit of the Swindon hospital",
+     "substrate": "event.profile.laura_second_wave.change_arc"
+    },
+    {
+     "boundary": "From late March 2020 the unit fills with ventilated patients; she works nights and sleeps in the day.",
+     "description": "From late March 2020 the unit fills with ventilated patients; she works nights and sleeps in the day.",
+     "id": "event.profile.laura_first_wave.change_arc.focal_change",
+     "interval": {
+      "end": 2020.4,
+      "start": 2020.225
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "icu.occupancy_share",
+      "laura.exhaustion",
+      "profile.laura_first_wave.change_arc.focal_change.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "The intensive-care unit of the Swindon hospital",
+     "substrate": "event.profile.laura_first_wave.change_arc"
+    },
+    {
+     "boundary": "September 2022 onward: they stay and rebuild in the open.",
+     "description": "They open one joint account that both can see, put the rota and a spreadsheet on the fridge side by side, and postpone the house by two years. Kieran deletes the trading apps and tells Laura every number. Laura, who has never asked for anything, asks for Sundays off together and gets them. Rebuilding is slow and dull and they choose it.",
+     "id": "ev.kieran_laura.rebuild",
+     "interval": {
+      "end": 2023.25,
+      "start": 2022.7
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "partner": "referent.profile.laura.person.laura",
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "household.deposit_gbp",
+      "kieran.honesty_with_laura",
+      "laura.spoken_share",
+      "laura.trust_in_kieran_money"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null
+    },
+    {
+     "boundary": "Autumn 2022 to March 2023: Kieran stays at his desk by choice, with open eyes.",
+     "description": "He stays on the payments-exceptions desk at the Hart. The routine is the same and he is not: he knows how old the machine is and what runs under it, he knows what the new machine did to him, and he keeps Barbara's card with its small balance behind his bus pass. When a flagged transfer to a crypto exchange comes up he makes the call, reads the script, and then asks his own questions. He walks with Barbara once a month, and in March 2023 Laura comes too.",
+     "id": "ev.kieran.end.open_eyes",
+     "interval": {
+      "end": 2023.25,
+      "start": 2022.75
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "card.wallet_btc",
+      "kieran.screen_hours",
+      "kieran.sharehouse_belonging"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "White Hart House, the Hart's head office in west Swindon",
+     "substrate": null
+    },
+    {
+     "boundary": "November 2022: a large crypto exchange collapses into bankruptcy.",
+     "description": "Customer funds turn out to have been used by the exchange's trading firm; bitcoin falls to about a quarter of its peak.",
+     "id": "ev.market.exchange_collapse",
+     "interval": {
+      "end": 2022.87,
+      "start": 2022.85
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "btc.price_gbp"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "Online: the Sharehouse and the chains, every time zone",
+     "substrate": null
+    },
+    {
+     "boundary": "The boom from late 2020 to November 2021.",
+     "description": "Prices of bitcoin and of the decentralized-finance tokens multiply; bitcoin peaks near sixty-nine thousand dollars on 10 November 2021.",
+     "id": "ev.market.boom_2021",
+     "interval": {
+      "end": 2021.86,
+      "start": 2020.85
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "btc.price_gbp"
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": "Online: the Sharehouse and the chains, every time zone",
+     "substrate": null
+    }
+   ]
+  }
+ }
+}
