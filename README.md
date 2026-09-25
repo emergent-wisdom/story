@@ -56,6 +56,12 @@ node extract.mjs --run runs/rabbit-hole --out public/data/rabbit-hole.json
 npm run serve
 ```
 
+Typeset the story as a book PDF from the same render. It needs Chrome or Chromium; set `CHROME` if it is elsewhere.
+
+```sh
+node book.mjs rabbit-hole   # writes pdf/rabbit-hole.pdf
+```
+
 `public/data/rabbit-hole.json` is *The Exceptions Queue*, a story written by an agent with Meaning Model 0.3.0 on
 25 September 2026, from a brief about a comfortable "blue pill" world, a white rabbit, and Paleolithic emotions in a
 world of godlike technology.
