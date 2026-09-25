@@ -23,7 +23,8 @@ npm run serve
 ```
 
 Open http://localhost:8765/landscape.html?data=rabbit-hole. Add `&play` to start the replay, `&live` to follow a
-running story, and `&still` to stop the slow orbit.
+running story, `&still` to stop the slow orbit, and `&read` to open the story. **Read the story** shows the text as
+the Meaning Model renders it from the story graph (`life_narrative_render`), up to the replay's moment.
 
 ## Make data from a story run
 
