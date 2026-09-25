@@ -28,9 +28,9 @@ running story, and `&still` to stop the slow orbit. `index.html` is a flat 2D vi
 ## Make data from a story run
 
 The extractor reads a run's relay call log and an online SQLite backup of its engine database. It never calls the
-run's own server, so it is safe while the agent works. It needs the Meaning Model with its engine: either the npm
-package, installed with `npm install @emergent-wisdom/meaning-model-mcp` then `npx meaning-model-mcp --install-engine`,
-or a checkout named by `MEANING_MODEL_DIR`.
+run's own server, so it is safe while the agent works. It needs the Meaning Model with its engine: `npm install` brings
+the published package, then `npx meaning-model-mcp --install-engine` fetches the engine for your platform. A checkout
+named by `MEANING_MODEL_DIR` works too.
 
 ```sh
 node extract.mjs --run <run folder> --out public/data/<name>.json
