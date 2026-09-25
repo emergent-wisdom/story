@@ -1,8 +1,8 @@
-# Story Landscape
+# The Rabbit Hole
 
-A live view of a story as an agent builds it with the [Meaning Model](https://github.com/emergent-wisdom/meaning-model).
-Shown at the Stockholm Claude Community event *Push the limits with Fable 5.1 n Opus 5.5* on 25 September 2026, where
-an agent wrote the story in this repo live on the released tool.
+**Made for the Stockholm Claude Community event *Push the limits with Fable 5.1 n Opus 5.5*, 25 September 2026.**
+During the event an AI agent wrote this novel live on the released [Meaning Model](https://github.com/emergent-wisdom/meaning-model),
+modelling its world, lives and decisions first, and this repo shows it being built.
 
 [![The processes view: every process the agent modeled for the story, over its years](media/the-rabbit-hole-processes.png)](media/the-rabbit-hole-processes.mp4)
 
