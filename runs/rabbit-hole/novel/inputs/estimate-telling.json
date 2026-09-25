@@ -1,0 +1,39 @@
+{
+ "question": "Whether, when and how does Laura learn that the deposit is gone?",
+ "unit": "proposal weight over mutually exclusive continuations",
+ "answers": [
+  {
+   "key": "tells_her_within_days",
+   "meaning": "Kieran tells Laura himself within a few days of the collapse, before anything forces him to."
+  },
+  {
+   "key": "hides_it_until_the_mortgage_forces_it",
+   "meaning": "Kieran hides it for weeks and confesses only when the mortgage adviser's request for statements makes hiding impossible."
+  },
+  {
+   "key": "she_finds_out_herself",
+   "meaning": "Laura finds out before he tells her, for example by opening the savings app or from the adviser."
+  }
+ ],
+ "remainderMeaning": "Something else, such as Kieran replacing the money secretly or a third person telling her.",
+ "subject": "Kieran Hale and Laura Russell",
+ "modelHash": "dcb848c4e5a94de509efaa5db93e859cfd6e725d0e0d9a68be27f87b09d7d1f5",
+ "events": [
+  {
+   "eventId": "ev.kieran.telling",
+   "cutId": "cut.kieran.2022.telling",
+   "situationText": "14 May 2022 onward, Old Swindon. Kieran Hale, 32, held the whole 24,000-pound house deposit (15,000 of it his partner Laura's overtime) in a dollar stablecoin through its collapse; it is worth about 3,000 pounds and still falling towards a few hundred. In January Laura, exhausted from intensive-care nursing, told him to do what he thought best without understanding what a stablecoin was. She does not know it has gone. A mortgage adviser wants their savings statements by the middle of June for the house they hope to buy. All week at work Kieran has taken calls from customers who lost their savings. His life-long habits: no trouble to anyone, avoids telling bad news, loyal to groups, conflict-avoidant; he loves Laura and fears losing her more than the money. Laura's habits: holds everything together and says nothing, trusts him about money, very competent in a crisis, deeply attached to the idea of a home nobody can take away."
+  }
+ ],
+ "apply": true,
+ "replaceExisting": true,
+ "requestId": "estimate-telling",
+ "revisionReason": "Revision 7: the estimator's weights for how Laura learns of the loss, read from the modeled states the morning after and conditioned on the three earlier draws.",
+ "rebind": {
+  "graphHash": "ec0f02a01565f9bdebef79f66f2758fdb38af780b61a9e23b8f480e9f840b251",
+  "accessScopes": [
+   "story-author"
+  ],
+  "requestId": "rebind-r7"
+ }
+}

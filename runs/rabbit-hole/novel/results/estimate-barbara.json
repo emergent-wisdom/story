@@ -1,0 +1,145 @@
+{
+  "schema": "meaning-model-cut-shares/v1",
+  "question": "What does Barbara do when Kieran tells her the house deposit is in the stablecoin?",
+  "unit": "proposal weight over mutually exclusive continuations",
+  "answerKeys": [
+    "warns_plainly_with_the_mechanism",
+    "mocks_it_and_leaves_him_to_learn",
+    "says_it_is_his_choice_and_nothing_more",
+    "remainder"
+  ],
+  "canonical": false,
+  "epistemicStatus": "ai_inference",
+  "evidenceType": "estimate",
+  "worldMutation": false,
+  "requestHash": "5773b9a8793c3cb4e5551aba801b6bfd2864bfb29d2fc6703c9a6b9f7c042032",
+  "estimatorCallsThisRequest": 1,
+  "evaluator": "typesafe:jev-1.13.0",
+  "proposals": [
+    {
+      "id": "cut.barbara.2022.response",
+      "parent_event_id": "ev.barbara.stablecoin_walk",
+      "question": "What does Barbara do when Kieran tells her the house deposit is in the stablecoin?",
+      "unit": "proposal weight over mutually exclusive continuations",
+      "answers": [
+        {
+          "key": "warns_plainly_with_the_mechanism",
+          "weight": 0.29
+        },
+        {
+          "key": "mocks_it_and_leaves_him_to_learn",
+          "weight": 0.18
+        },
+        {
+          "key": "says_it_is_his_choice_and_nothing_more",
+          "weight": 0.48
+        },
+        {
+          "key": "remainder",
+          "weight": 0.050000000000000044
+        }
+      ],
+      "provenance": [
+        "estimator:typesafe:jev-1.13.0; choice probabilities over the answer keys; AI inference, not canon",
+        "confidence 0.310; top says_it_is_his_choice_and_nothing_more"
+      ],
+      "confidence": 0.31,
+      "top": "says_it_is_his_choice_and_nothing_more"
+    }
+  ],
+  "usage": {
+    "input_tokens": 1300,
+    "output_tokens": 87
+  },
+  "graphMutation": true,
+  "applied": {
+    "modelHash": "dbb794b33dd62e512677d0ebeb174ea5120c9b8695727fc99162af64d265a22d",
+    "previousModelHash": "4848f2d68da7b77173cf89cc9b589e087127e0bd92c0a33bb8c9942dce53a24f",
+    "revisionNumber": 4,
+    "cutIds": [
+      "cut.barbara.2022.response"
+    ],
+    "descriptionsAdded": [],
+    "summary": {
+      "model_hash": "dbb794b33dd62e512677d0ebeb174ea5120c9b8695727fc99162af64d265a22d",
+      "revision_number": 4,
+      "process_count": 82,
+      "decomposition_edge_count": 0,
+      "dependency_edge_count": 0,
+      "law_count": 0,
+      "law_roles": {},
+      "meaning_model": {
+        "schema": "life-sim-rust-meaning-model/v1",
+        "concept_count": 10,
+        "abstract_relation_count": 6,
+        "abstract_cut_count": 1,
+        "referent_count": 12,
+        "encapsulation_cut_count": 0,
+        "event_count": 173,
+        "event_relation_count": 214,
+        "event_referent_binding_count": 50,
+        "physical_cut_count": 0,
+        "realization_count": 16,
+        "normalized_cut_count": 41,
+        "context_root_count": 4,
+        "temporal_cut_recomposition_count": 0
+      }
+    }
+  },
+  "rebound": {
+    "schema": "meaning-model-narrative-rebind/v1",
+    "graphHash": "f1f72f4d0633e5d73dd25b1ea11d561151f02996774850897be8436cf8b0f60f",
+    "previousGraphHash": "a14fcc3426b3191f09df79d09dc7244ef4fb94fc4d6e6c84af00e98920e4fc00",
+    "snapshotHash": "eeedfcbb2b51b02db71e10b0a6e537d59436491ec11879dd9c0eee49695b3715",
+    "stored": true,
+    "reusedExisting": false,
+    "immutableRevision": true,
+    "revisedByDelta": true,
+    "summary": {
+      "edge_count": 140,
+      "graph_hash": "f1f72f4d0633e5d73dd25b1ea11d561151f02996774850897be8436cf8b0f60f",
+      "id": "rabbit-hole-novel",
+      "node_count": 51,
+      "revision": {
+        "number": 29,
+        "previous_graph_hash": "a14fcc3426b3191f09df79d09dc7244ef4fb94fc4d6e6c84af00e98920e4fc00",
+        "provenance": [
+          "Meaning Model narrative rebind v1",
+          "rebind:a14fcc3426b3->model:dbb794b33dd6"
+        ],
+        "reason": "Rebind after estimated Cuts were applied in model revision 4."
+      },
+      "roles": {
+        "document_root": 1,
+        "externalized_reflection": 29,
+        "metadata": 21
+      },
+      "root_count": 3,
+      "schema": "life-sim-rust-narrative-graph/v1",
+      "source": {
+        "kind": "model",
+        "model_hash": "dbb794b33dd62e512677d0ebeb174ea5120c9b8695727fc99162af64d265a22d"
+      },
+      "source_snapshot": {
+        "candidate_status": null,
+        "model_hash": "dbb794b33dd62e512677d0ebeb174ea5120c9b8695727fc99162af64d265a22d",
+        "model_revision": 4,
+        "source_hash": "dbb794b33dd62e512677d0ebeb174ea5120c9b8695727fc99162af64d265a22d",
+        "source_kind": "model",
+        "time": null,
+        "world_id": null,
+        "world_version": null
+      }
+    },
+    "requestPayloadHash": "1159afa379a9f375a203ea40d84a079e9a525021dea2b3695639c85c1041ee46",
+    "previousModelHash": "4848f2d68da7b77173cf89cc9b589e087127e0bd92c0a33bb8c9942dce53a24f",
+    "modelHash": "dbb794b33dd62e512677d0ebeb174ea5120c9b8695727fc99162af64d265a22d",
+    "lineageSteps": 1,
+    "droppedModelAnchorEdgeIds": [],
+    "retainedNodeCount": 51,
+    "historicalAssessmentsRetained": true,
+    "worldMutation": false,
+    "nextStep": "Historical depth and review nodes remain but their predecessor-model anchors were removed; record fresh assessments against the successor model before committing further prose."
+  },
+  "nextStep": "The graph is bound to the new model; historical assessments kept their nodes but lost predecessor anchors. Record fresh depth assessments before committing prose."
+}

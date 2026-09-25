@@ -1,0 +1,150 @@
+{
+  "schema": "meaning-model-cut-shares/v1",
+  "question": "What does Laura do once she knows the deposit is gone and that Kieran hid it for five weeks?",
+  "unit": "proposal weight over mutually exclusive continuations",
+  "answerKeys": [
+    "leaves_him",
+    "moves_out_for_a_time_then_decides",
+    "stays_and_takes_charge",
+    "stays_and_holds_it_together_in_silence",
+    "remainder"
+  ],
+  "canonical": false,
+  "epistemicStatus": "ai_inference",
+  "evidenceType": "estimate",
+  "worldMutation": false,
+  "requestHash": "c08086e4b303cd435b461eaba8b5a22e9968df0aff68abc51cc269c6f7570efd",
+  "estimatorCallsThisRequest": 1,
+  "evaluator": "typesafe:jev-1.13.0",
+  "proposals": [
+    {
+      "id": "cut.laura.2022.response",
+      "parent_event_id": "ev.laura.response",
+      "question": "What does Laura do once she knows the deposit is gone and that Kieran hid it for five weeks?",
+      "unit": "proposal weight over mutually exclusive continuations",
+      "answers": [
+        {
+          "key": "leaves_him",
+          "weight": 0
+        },
+        {
+          "key": "moves_out_for_a_time_then_decides",
+          "weight": 0
+        },
+        {
+          "key": "stays_and_takes_charge",
+          "weight": 0.06
+        },
+        {
+          "key": "stays_and_holds_it_together_in_silence",
+          "weight": 0.8
+        },
+        {
+          "key": "remainder",
+          "weight": 0.1399999999999999
+        }
+      ],
+      "provenance": [
+        "estimator:typesafe:jev-1.13.0; choice probabilities over the answer keys; AI inference, not canon",
+        "confidence 0.750; top stays_and_holds_it_together_in_silence"
+      ],
+      "confidence": 0.75,
+      "top": "stays_and_holds_it_together_in_silence"
+    }
+  ],
+  "usage": {
+    "input_tokens": 1289,
+    "output_tokens": 92
+  },
+  "graphMutation": true,
+  "applied": {
+    "modelHash": "309786c8a5e977016dda75de407eed9575a5828da26b2ee27d02fbce1c7e87e7",
+    "previousModelHash": "62aad8cdb921bae0cfb066ec56d87b638baaa242285ba5756de72bfe4fa7f2f3",
+    "revisionNumber": 9,
+    "cutIds": [
+      "cut.laura.2022.response"
+    ],
+    "descriptionsAdded": [],
+    "summary": {
+      "model_hash": "309786c8a5e977016dda75de407eed9575a5828da26b2ee27d02fbce1c7e87e7",
+      "revision_number": 9,
+      "process_count": 82,
+      "decomposition_edge_count": 0,
+      "dependency_edge_count": 0,
+      "law_count": 0,
+      "law_roles": {},
+      "meaning_model": {
+        "schema": "life-sim-rust-meaning-model/v1",
+        "concept_count": 10,
+        "abstract_relation_count": 6,
+        "abstract_cut_count": 1,
+        "referent_count": 12,
+        "encapsulation_cut_count": 0,
+        "event_count": 181,
+        "event_relation_count": 232,
+        "event_referent_binding_count": 50,
+        "physical_cut_count": 0,
+        "realization_count": 16,
+        "normalized_cut_count": 43,
+        "context_root_count": 4,
+        "temporal_cut_recomposition_count": 0
+      }
+    }
+  },
+  "rebound": {
+    "schema": "meaning-model-narrative-rebind/v1",
+    "graphHash": "b332ea3c2241fd7641feede2f0d39f5c83dd77a15e57917968579bd7ff41d35a",
+    "previousGraphHash": "fd8f89f4e8b5daf2f0384d254bf13a2cc89654f85bf77d225877374ee4e4052b",
+    "snapshotHash": "86a092534624e913142d8d3742b464e1eb73acfcb0a4bc1f7c51db849a9fbeeb",
+    "stored": true,
+    "reusedExisting": false,
+    "immutableRevision": true,
+    "revisedByDelta": true,
+    "summary": {
+      "edge_count": 146,
+      "graph_hash": "b332ea3c2241fd7641feede2f0d39f5c83dd77a15e57917968579bd7ff41d35a",
+      "id": "rabbit-hole-novel",
+      "node_count": 54,
+      "revision": {
+        "number": 36,
+        "previous_graph_hash": "fd8f89f4e8b5daf2f0384d254bf13a2cc89654f85bf77d225877374ee4e4052b",
+        "provenance": [
+          "Meaning Model narrative rebind v1",
+          "rebind:fd8f89f4e8b5->model:309786c8a5e9"
+        ],
+        "reason": "Rebind after estimated Cuts were applied in model revision 9."
+      },
+      "roles": {
+        "document_root": 1,
+        "externalized_reflection": 29,
+        "metadata": 24
+      },
+      "root_count": 3,
+      "schema": "life-sim-rust-narrative-graph/v1",
+      "source": {
+        "kind": "model",
+        "model_hash": "309786c8a5e977016dda75de407eed9575a5828da26b2ee27d02fbce1c7e87e7"
+      },
+      "source_snapshot": {
+        "candidate_status": null,
+        "model_hash": "309786c8a5e977016dda75de407eed9575a5828da26b2ee27d02fbce1c7e87e7",
+        "model_revision": 9,
+        "source_hash": "309786c8a5e977016dda75de407eed9575a5828da26b2ee27d02fbce1c7e87e7",
+        "source_kind": "model",
+        "time": null,
+        "world_id": null,
+        "world_version": null
+      }
+    },
+    "requestPayloadHash": "20a6772e9d41cfea3b13370dbfd60fba6d09fb68161d4824a78e8adcc28d1a25",
+    "previousModelHash": "62aad8cdb921bae0cfb066ec56d87b638baaa242285ba5756de72bfe4fa7f2f3",
+    "modelHash": "309786c8a5e977016dda75de407eed9575a5828da26b2ee27d02fbce1c7e87e7",
+    "lineageSteps": 1,
+    "droppedModelAnchorEdgeIds": [],
+    "retainedNodeCount": 54,
+    "historicalAssessmentsRetained": true,
+    "worldMutation": false,
+    "nextStep": "Historical depth and review nodes remain but their predecessor-model anchors were removed; record fresh assessments against the successor model before committing further prose."
+  },
+  "nextStep": "The graph is bound to the new model; historical assessments kept their nodes but lost predecessor anchors. Record fresh depth assessments before committing prose."
+}

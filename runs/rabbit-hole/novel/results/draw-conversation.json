@@ -1,0 +1,123 @@
+{
+  "schema": "meaning-model-direction-draw/v1",
+  "modelHash": "08ad458546875056db59f665b14e2bfc243e3687125dbc2738f94e6f7de8dad5",
+  "cutId": "cut.kieran_laura.2022.conversation",
+  "parentEventId": "ev.kieran_laura.conversation",
+  "question": "What do Laura and Kieran do with the conversation in late August 2022?",
+  "unit": "proposal weight over mutually exclusive continuations",
+  "answers": [
+    {
+      "key": "remainder",
+      "weight": 0.29999999999999993
+    },
+    {
+      "key": "separate_kindly",
+      "weight": 0.01
+    },
+    {
+      "key": "stay_and_rebuild_in_the_open",
+      "weight": 0.53
+    },
+    {
+      "key": "stay_but_something_stays_broken",
+      "weight": 0.16
+    }
+  ],
+  "seed": "rabbit-hole-run/kieran-laura/conversation/2022-08",
+  "algorithm": "sha256-first-32-bits/v1",
+  "u": 0.6909468693193048,
+  "cumulative": [
+    {
+      "key": "remainder",
+      "weight": 0.29999999999999993,
+      "from": 0,
+      "to": 0.29999999999999993
+    },
+    {
+      "key": "separate_kindly",
+      "weight": 0.01,
+      "from": 0.29999999999999993,
+      "to": 0.30999999999999994
+    },
+    {
+      "key": "stay_and_rebuild_in_the_open",
+      "weight": 0.53,
+      "from": 0.30999999999999994,
+      "to": 0.84
+    },
+    {
+      "key": "stay_but_something_stays_broken",
+      "weight": 0.16,
+      "from": 0.84,
+      "to": 1
+    }
+  ],
+  "realized": "stay_and_rebuild_in_the_open",
+  "realizedIsRemainder": false,
+  "drawIndex": 0,
+  "reroll": false,
+  "priorDraws": [],
+  "recorded": {
+    "nodeId": "draw.kieran_laura.conversation",
+    "documentRootId": "story",
+    "graphHash": "7d38050b5e1756686b99b19467bedfb3e864114c23f9bf631dc132553b63ec6f",
+    "stored": {
+      "schema": "life-sim-mcp-service/v2",
+      "graphHash": "7d38050b5e1756686b99b19467bedfb3e864114c23f9bf631dc132553b63ec6f",
+      "previousGraphHash": "9c05f30132f7264b70f238c7fe1cda0494ccabbf613234ab8530c4cb8f46186a",
+      "snapshotHash": "4d78d6de012161fb50a94e0d7e9f3a3bc6a26f104ca860544405d3d4b2a678a8",
+      "stored": true,
+      "reusedExisting": false,
+      "immutableRevision": true,
+      "additiveBatch": true,
+      "batch": {
+        "added_edge_count": 2,
+        "added_node_count": 1,
+        "added_root_count": 0
+      },
+      "summary": {
+        "edge_count": 152,
+        "graph_hash": "7d38050b5e1756686b99b19467bedfb3e864114c23f9bf631dc132553b63ec6f",
+        "id": "rabbit-hole-novel",
+        "node_count": 57,
+        "revision": {
+          "number": 42,
+          "previous_graph_hash": "9c05f30132f7264b70f238c7fe1cda0494ccabbf613234ab8530c4cb8f46186a",
+          "provenance": [
+            "Meaning Model direction draw v1",
+            "algorithm:sha256-first-32-bits/v1",
+            "Computed by the server from the recorded seed and the model's Cut weights; a construction decision, not an observation."
+          ],
+          "reason": "Record direction draw draw.kieran_laura.conversation over cut.kieran_laura.2022.conversation."
+        },
+        "roles": {
+          "document_root": 1,
+          "externalized_reflection": 29,
+          "metadata": 27
+        },
+        "root_count": 3,
+        "schema": "life-sim-rust-narrative-graph/v1",
+        "source": {
+          "kind": "model",
+          "model_hash": "08ad458546875056db59f665b14e2bfc243e3687125dbc2738f94e6f7de8dad5"
+        },
+        "source_snapshot": {
+          "candidate_status": null,
+          "model_hash": "08ad458546875056db59f665b14e2bfc243e3687125dbc2738f94e6f7de8dad5",
+          "model_revision": 13,
+          "source_hash": "08ad458546875056db59f665b14e2bfc243e3687125dbc2738f94e6f7de8dad5",
+          "source_kind": "model",
+          "time": null,
+          "world_id": null,
+          "world_version": null
+        }
+      },
+      "requestPayloadHash": "669be71a149b976ffb80c28b8ec9b77515497dabc09f935c3f4698baf45df0d5"
+    }
+  },
+  "graphHash": "7d38050b5e1756686b99b19467bedfb3e864114c23f9bf631dc132553b63ec6f",
+  "previousGraphHash": "9c05f30132f7264b70f238c7fe1cda0494ccabbf613234ab8530c4cb8f46186a",
+  "graphMutation": true,
+  "worldMutation": false,
+  "nextStep": "Build stay_and_rebuild_in_the_open as the realized continuation and link its Event from ev.kieran_laura.conversation with a realizes_forecast relation naming this Cut and stay_and_rebuild_in_the_open. A further draw over this Cut is recorded as a reroll."
+}

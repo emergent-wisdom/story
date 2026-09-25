@@ -1,0 +1,47 @@
+{
+ "question": "What does Barbara do after Kieran tells her everything on the July 2022 walk?",
+ "unit": "proposal weight over mutually exclusive continuations",
+ "answers": [
+  {
+   "key": "repays_laura_s_share_herself",
+   "meaning": "She insists on giving Kieran fifteen thousand pounds to replace Laura's share of the deposit."
+  },
+  {
+   "key": "tells_him_what_1986_taught_her_and_keeps_walking",
+   "meaning": "She offers no money and no pity; she tells him what losing the works taught her and keeps walking with him every month."
+  },
+  {
+   "key": "withdraws_from_him",
+   "meaning": "She stops the walks and pulls away, ashamed of her part and contemptuous of the gamble."
+  },
+  {
+   "key": "tells_him_he_must_tell_laura_everything",
+   "meaning": "She tells him bluntly that the real debt is the conversation he has not had with Laura, and refuses to discuss anything else until he has."
+  },
+  {
+   "key": "gives_him_the_map_this_time",
+   "meaning": "She decides the fault was handing him a key without a map: she starts teaching him properly, month by month, how the systems he fell through actually work, old and new, and how to verify rather than trust; the walks become lessons."
+  }
+ ],
+ "remainderMeaning": "Something else entirely.",
+ "subject": "Barbara Ashby",
+ "modelHash": "a00671a08428fd577393f9198f54b0f087f298e1b693ec17dabb8be75983c823",
+ "events": [
+  {
+   "eventId": "ev.barbara.after",
+   "cutId": "cut.barbara.2022.after",
+   "situationText": "July 2022, the Ridgeway above Avebury. Barbara Ashby, 69, retired programmer and bitcoin purist, holds about thirty-five bitcoin bought from 2013 onward (about half a million pounds even after the 2022 fall), lives modestly on her pension in a cottage and never sells. She gave Kieran Hale, 32, the card of twelve words in 2019 that led him into crypto; in February, when he told her the house deposit was in the stablecoin, she said only that it was his choice, though she knew how the peg could fail. On this walk he tells her everything: he held through the collapse, the 24,000-pound deposit (15,000 of it his partner Laura's) is gone, he hid it for five weeks, and Laura has stayed but barely speaks about it. Barbara's deepest wants: to be credited, to depend on nothing she cannot verify, to leave something that outlasts her; her rule has always been not to be anyone's mother; she is blunt, dislikes pity and despises the casino, but she is fond of him and for the first time feels guilt: she verified the key, not the person. The railway works closing in 1986, when she was 33, taught her that institutions end and that she must learn things for herself."
+  }
+ ],
+ "apply": true,
+ "replaceExisting": true,
+ "requestId": "estimate-barbara-after-2",
+ "revisionReason": "Revision 11: Barbara's after-the-fall Cut re-estimated with a fifth category. The first estimate (revision 10) left 0.36 on the remainder; her modeled wants (verify, leave something, the guilt of a key without a map) point to teaching him properly this time. No draw had been made.",
+ "rebind": {
+  "graphHash": "f65ba325af94d8aa51e9da74982c73452c56063ca79e27212fe264030c9a64fa",
+  "accessScopes": [
+   "story-author"
+  ],
+  "requestId": "rebind-r11"
+ }
+}

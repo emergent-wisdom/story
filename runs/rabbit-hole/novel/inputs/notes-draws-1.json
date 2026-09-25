@@ -1,0 +1,93 @@
+{
+ "graphHash": "eee23084e805d6114c9b20d445eab4b920907ae5cfcc973d48b21a25b8b2a8b7",
+ "requestId": "notes-draws-1",
+ "accessScopes": [
+  "story-author"
+ ],
+ "holder": "calling-llm:claude-opus-5-5",
+ "notes": [
+  {
+   "nodeId": "note.decision.draw_sequence",
+   "kind": "decision",
+   "title": "The story's eight decisions were drawn, not chosen",
+   "text": "Every consequential choice after the white rabbit was drawn with a seed fixed in advance from weights the configured estimator (typesafe jev-1.13.0) read from the modeled states, in world order, each conditioned on the draws before it: (1) deposit consent, asks_and_she_leaves_it_to_him; (2) Barbara on the February walk, says_it_is_his_choice_and_nothing_more; (3) the depeg, holds_everything; (4) the telling, hides_it_until_the_mortgage_forces_it; (5) Laura, stays_and_holds_it_together_in_silence; (6) Barbara after the fall, the remainder, built as a new continuation: she goes to Laura herself; (7) the conversation, stay_and_rebuild_in_the_open; (8) Kieran's end, stays_at_his_desk_by_choice_with_open_eyes. The one decision not drawn is Kieran keeping the card in November 2019: the human's brief fixes that the protagonist chooses the unknown.",
+   "about": [
+    {
+     "record": "cut:cut.kieran.2022.deposit_consent"
+    },
+    {
+     "record": "cut:cut.barbara.2022.response"
+    },
+    {
+     "record": "cut:cut.kieran.2022.depeg_response"
+    },
+    {
+     "record": "cut:cut.kieran.2022.telling"
+    },
+    {
+     "record": "cut:cut.laura.2022.response"
+    },
+    {
+     "record": "cut:cut.barbara.2022.after"
+    },
+    {
+     "record": "cut:cut.kieran_laura.2022.conversation"
+    },
+    {
+     "record": "cut:cut.kieran.2023.end"
+    }
+   ]
+  },
+  {
+   "nodeId": "note.reason.reestimates",
+   "kind": "reason",
+   "title": "Why three Cuts were re-estimated before their draws",
+   "text": "Three first estimates left a large remainder (Laura's response 0.62, Barbara after the fall 0.36, Kieran's end 0.57). The estimator's guidance treats a large remainder as a missing category, so each Cut was given the category its person's modeled habits predicted (Laura: holding it together in silence; Barbara: giving him the map; Kieran: staying at his desk by choice, or staying in the Sharehouse to help) and estimated again before any draw. Laura's and Kieran's second estimates concentrated on the new category; Barbara's stayed uncertain (remainder 0.39) and the remainder was then drawn. None of these was a reroll: each Cut was drawn once.",
+   "about": [
+    {
+     "record": "cut:cut.laura.2022.response"
+    },
+    {
+     "record": "cut:cut.barbara.2022.after"
+    },
+    {
+     "record": "cut:cut.kieran.2023.end"
+    }
+   ]
+  },
+  {
+   "nodeId": "note.interpretation.remainder_barbara",
+   "kind": "interpretation",
+   "title": "The drawn remainder: Barbara goes to Laura",
+   "text": "The remainder of cut.barbara.2022.after meant something none of the five options held. Of the continuations her life allows, going to Laura herself is the one that (a) answers her guilt with the truth rather than money or lessons, (b) breaks her rule of never being anybody's mother in the one direction that costs her, (c) verifies the person rather than the key, and (d) is the only thing that can break Laura's drawn silence. It surprises and, read back, looks inevitable.",
+   "about": [
+    {
+     "record": "event:ev.barbara.after.goes_to_laura"
+    },
+    {
+     "record": "event:ev.laura.response.silence"
+    },
+    {
+     "record": "concept:concept.key_without_map"
+    }
+   ]
+  },
+  {
+   "nodeId": "note.reason.open_questions_left",
+   "kind": "reason",
+   "title": "Open questions deliberately left for now",
+   "text": "period-uncut: change arcs are contained in the lives and read as periods; their outlook is carried by the enclosing periods' Cuts. shift-uncaused: threat keys differ between periods because what is threatened changes; each change has a modeled cause linked by a causes relation (Ron's death, the apprenticeship, leaving home, the 2008 crisis, the first wave). process-empty: the scaffold's nine slow processes are carried by the Events that open them rather than graph values. moment-unmodeled: the states before the three drawn post-collapse decisions are carried in the situation texts given to the estimator and in the realized Events; they can be opened as inner Events if a scene needs them. remainder-unopened: the drawn remainder is built as ev.barbara.after.goes_to_laura. None of these changes a choice the story renders.",
+   "about": [
+    {
+     "record": "event:ev.kieran.p4.story"
+    },
+    {
+     "record": "event:ev.laura.p4.pandemic"
+    },
+    {
+     "record": "event:ev.barbara.after.goes_to_laura"
+    }
+   ]
+  }
+ ]
+}

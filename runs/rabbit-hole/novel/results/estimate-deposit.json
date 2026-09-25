@@ -1,0 +1,145 @@
+{
+  "schema": "meaning-model-cut-shares/v1",
+  "question": "How does the shared house deposit come to be moved into the stablecoin?",
+  "unit": "proposal weight over mutually exclusive continuations",
+  "answerKeys": [
+    "asks_and_she_agrees",
+    "asks_and_she_leaves_it_to_him",
+    "moves_it_without_asking",
+    "remainder"
+  ],
+  "canonical": false,
+  "epistemicStatus": "ai_inference",
+  "evidenceType": "estimate",
+  "worldMutation": false,
+  "requestHash": "d069020e05f4dcb9738f7ec4a73cedb356c17cb7d242244fe46d7d2322defff4",
+  "estimatorCallsThisRequest": 1,
+  "evaluator": "typesafe:jev-1.13.0",
+  "proposals": [
+    {
+      "id": "cut.kieran.2022.deposit_consent",
+      "parent_event_id": "ev.kieran.deposit_move",
+      "question": "How does the shared house deposit come to be moved into the stablecoin?",
+      "unit": "proposal weight over mutually exclusive continuations",
+      "answers": [
+        {
+          "key": "asks_and_she_agrees",
+          "weight": 0
+        },
+        {
+          "key": "asks_and_she_leaves_it_to_him",
+          "weight": 0.39
+        },
+        {
+          "key": "moves_it_without_asking",
+          "weight": 0.56
+        },
+        {
+          "key": "remainder",
+          "weight": 0.04999999999999993
+        }
+      ],
+      "provenance": [
+        "estimator:typesafe:jev-1.13.0; choice probabilities over the answer keys; AI inference, not canon",
+        "confidence 0.410; top moves_it_without_asking"
+      ],
+      "confidence": 0.41,
+      "top": "moves_it_without_asking"
+    }
+  ],
+  "usage": {
+    "input_tokens": 1307,
+    "output_tokens": 70
+  },
+  "graphMutation": true,
+  "applied": {
+    "modelHash": "4848f2d68da7b77173cf89cc9b589e087127e0bd92c0a33bb8c9942dce53a24f",
+    "previousModelHash": "9530b557979d4894076246a5210cb0e020f136ec81bfc262180a143c89069539",
+    "revisionNumber": 3,
+    "cutIds": [
+      "cut.kieran.2022.deposit_consent"
+    ],
+    "descriptionsAdded": [],
+    "summary": {
+      "model_hash": "4848f2d68da7b77173cf89cc9b589e087127e0bd92c0a33bb8c9942dce53a24f",
+      "revision_number": 3,
+      "process_count": 82,
+      "decomposition_edge_count": 0,
+      "dependency_edge_count": 0,
+      "law_count": 0,
+      "law_roles": {},
+      "meaning_model": {
+        "schema": "life-sim-rust-meaning-model/v1",
+        "concept_count": 10,
+        "abstract_relation_count": 6,
+        "abstract_cut_count": 1,
+        "referent_count": 12,
+        "encapsulation_cut_count": 0,
+        "event_count": 173,
+        "event_relation_count": 214,
+        "event_referent_binding_count": 50,
+        "physical_cut_count": 0,
+        "realization_count": 16,
+        "normalized_cut_count": 41,
+        "context_root_count": 4,
+        "temporal_cut_recomposition_count": 0
+      }
+    }
+  },
+  "rebound": {
+    "schema": "meaning-model-narrative-rebind/v1",
+    "graphHash": "e8ef09e1ceb5dc663f961e3a23005fea3c407983fad249886cf17cbae90807fd",
+    "previousGraphHash": "19e3078cee228dfb5c367c259c260b42e49ad289487ebbd8bdf082bd26c3c007",
+    "snapshotHash": "254dab831b22cc6be162b78bc72b642ecae36011697906e500d3fd3241628249",
+    "stored": true,
+    "reusedExisting": false,
+    "immutableRevision": true,
+    "revisedByDelta": true,
+    "summary": {
+      "edge_count": 138,
+      "graph_hash": "e8ef09e1ceb5dc663f961e3a23005fea3c407983fad249886cf17cbae90807fd",
+      "id": "rabbit-hole-novel",
+      "node_count": 50,
+      "revision": {
+        "number": 27,
+        "previous_graph_hash": "19e3078cee228dfb5c367c259c260b42e49ad289487ebbd8bdf082bd26c3c007",
+        "provenance": [
+          "Meaning Model narrative rebind v1",
+          "rebind:19e3078cee22->model:4848f2d68da7"
+        ],
+        "reason": "Rebind after estimated Cuts were applied in model revision 3."
+      },
+      "roles": {
+        "document_root": 1,
+        "externalized_reflection": 29,
+        "metadata": 20
+      },
+      "root_count": 3,
+      "schema": "life-sim-rust-narrative-graph/v1",
+      "source": {
+        "kind": "model",
+        "model_hash": "4848f2d68da7b77173cf89cc9b589e087127e0bd92c0a33bb8c9942dce53a24f"
+      },
+      "source_snapshot": {
+        "candidate_status": null,
+        "model_hash": "4848f2d68da7b77173cf89cc9b589e087127e0bd92c0a33bb8c9942dce53a24f",
+        "model_revision": 3,
+        "source_hash": "4848f2d68da7b77173cf89cc9b589e087127e0bd92c0a33bb8c9942dce53a24f",
+        "source_kind": "model",
+        "time": null,
+        "world_id": null,
+        "world_version": null
+      }
+    },
+    "requestPayloadHash": "e6048cd1134e2ab8842f7d100c8aa1f2c57c8a3899c8b49fae3281db6c61e808",
+    "previousModelHash": "d0424dd9ab5a52105fa426562446ea080aae8805fe99216be04f745fe8b3b09a",
+    "modelHash": "4848f2d68da7b77173cf89cc9b589e087127e0bd92c0a33bb8c9942dce53a24f",
+    "lineageSteps": 2,
+    "droppedModelAnchorEdgeIds": [],
+    "retainedNodeCount": 50,
+    "historicalAssessmentsRetained": true,
+    "worldMutation": false,
+    "nextStep": "Historical depth and review nodes remain but their predecessor-model anchors were removed; record fresh assessments against the successor model before committing further prose."
+  },
+  "nextStep": "The graph is bound to the new model; historical assessments kept their nodes but lost predecessor anchors. Record fresh depth assessments before committing prose."
+}

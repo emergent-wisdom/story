@@ -1,0 +1,449 @@
+{
+ "requestId": "revise-story-r6",
+ "previousModelHash": "b3482d8c0f62a065326968941cc585e13ca6c9a4e60ba5690747cbec14ceae5e",
+ "change": {
+  "reason": "Revision 6: the three drawn decisions built as realized continuations with realizes_forecast relations (deposit: asks_and_she_leaves_it_to_him; Barbara: says_it_is_his_choice_and_nothing_more; depeg: holds_everything); Kieran's state the morning after; the moments of the four decisions after the collapse (the telling, Laura's response, Barbara's response, Kieran's end), whose Cuts the estimator will place.",
+  "provenance": [
+   "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+  ],
+  "upsert": {
+   "events": [
+    {
+     "id": "ev.kieran.deposit.asks",
+     "boundary": "A Sunday in January 2022: Kieran asks and Laura leaves it to him.",
+     "interval": {
+      "start": 2022.03,
+      "end": 2022.06
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist",
+      "partner": "referent.profile.laura.person.laura"
+     },
+     "process_ids": [
+      "household.deposit_gbp"
+     ],
+     "observation_process_ids": [],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "At the kitchen table, with the rota on the fridge behind her, he says he wants to move the deposit somewhere it will earn twenty percent before they buy in the summer. She is marking dates on the calendar and does not look up for long. You're the one who knows about money, she says. Do what you think. He does not explain what a stablecoin is, and she does not ask. By the end of the week the twenty-four thousand pounds is in the savings protocol."
+    },
+    {
+     "id": "ev.barbara.walk.his_choice",
+     "boundary": "The February 2022 walk: Barbara says it is his choice and nothing more.",
+     "interval": {
+      "start": 2022.121,
+      "end": 2022.123
+     },
+     "participants": {
+      "subject": "referent.profile.barbara.person.barbara",
+      "companion": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Avebury Trusloe and the Ridgeway, Wiltshire",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Barbara stops on the track above the long barrow, looks at the barrow for a while, and says: that's yours and Laura's to decide. She says nothing else about it all afternoon. She talks about the men who dragged the stones and about the dog. On the drive home she thinks of three sentences she could have said and says none of them, because she has never been anybody's mother and does not mean to start."
+    },
+    {
+     "id": "ev.kieran.depeg.holds",
+     "boundary": "9 to 13 May 2022: Kieran holds everything.",
+     "interval": {
+      "start": 2022.353,
+      "end": 2022.364
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "stablecoin.price_usd",
+      "household.deposit_gbp",
+      "kieran.sleep_hours"
+     ],
+     "observation_process_ids": [],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Four nights at the spare-room desk with the Sharehouse open on one screen and the price on the other. He reads the mechanism again and understands exactly why a run feeds itself. He does not sell at ninety cents, or sixty, or twenty. Laura is on nights; the rota says so. By Friday the deposit is worth about three thousand pounds and falling."
+    },
+    {
+     "id": "ev.kieran.state.2022_05_14",
+     "boundary": "Kieran's state on 14 May 2022, the morning after.",
+     "interval": {
+      "start": 2022.364,
+      "end": 2022.37
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "household.deposit_gbp",
+      "kieran.sleep_hours"
+     ],
+     "observation_process_ids": [],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "The deposit is worth about three thousand pounds and still falling; his own stake is down more than ninety percent from November. He has not slept properly for a week. All that week at the Hart he has taken calls from customers who lost their savings, in the voice he used on Barbara. The Sharehouse has gone from certainty to jokes. Laura does not know; the next thing she will look at is a mortgage appointment in June. He feels the old band's shame of having led people wrong, although he led nobody, and the child's wish to be no trouble."
+    },
+    {
+     "id": "ev.kieran.telling",
+     "boundary": "May to July 2022: whether, when and how Laura learns where the deposit went.",
+     "interval": {
+      "start": 2022.37,
+      "end": 2022.55
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist",
+      "partner": "referent.profile.laura.person.laura"
+     },
+     "process_ids": [
+      "household.deposit_gbp"
+     ],
+     "observation_process_ids": [],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "The mortgage adviser wants statements by the middle of June. What Kieran does, and when Laura knows, is drawn from cut.kieran.2022.telling."
+    },
+    {
+     "id": "ev.laura.response",
+     "boundary": "Summer 2022: what Laura does once she knows.",
+     "interval": {
+      "start": 2022.45,
+      "end": 2022.7
+     },
+     "participants": {
+      "subject": "referent.profile.laura.person.laura",
+      "partner": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "What she does, and what it asks of her, is drawn from cut.laura.2022.response."
+    },
+    {
+     "id": "ev.barbara.after",
+     "boundary": "Summer 2022: what Barbara does after Kieran's fall.",
+     "interval": {
+      "start": 2022.4,
+      "end": 2022.75
+     },
+     "participants": {
+      "subject": "referent.profile.barbara.person.barbara",
+      "companion": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Avebury Trusloe and the Ridgeway, Wiltshire",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "What she does with the guilt of having handed him a key without a map, and of having said nothing in February, is drawn from cut.barbara.2022.after."
+    },
+    {
+     "id": "ev.kieran.end",
+     "boundary": "Autumn 2022 to March 2023: where Kieran ends up.",
+     "interval": {
+      "start": 2022.75,
+      "end": 2023.25
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Swindon and the downs",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "What he does with his job, with the game and with the mind that took him in is drawn from cut.kieran.2023.end."
+    }
+   ],
+   "event_relations": [
+    {
+     "id": "contains.ev.kieran.deposit.asks",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_collapse.change_arc.anticipation",
+     "target_event_id": "ev.kieran.deposit.asks",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "ev.kieran.deposit_move.realizes.ev.kieran.deposit.asks",
+     "kind": "realizes_forecast",
+     "source_event_id": "ev.kieran.deposit_move",
+     "target_event_id": "ev.kieran.deposit.asks",
+     "description": "Drawn: seed rabbit-hole-run/kieran/deposit-consent/2022-01, u=0.0441, from estimator weights (leaves_it_to_him 0.39, without_asking 0.56, agrees 0, remainder 0.05).",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "forecast_answer": {
+      "cut_id": "cut.kieran.2022.deposit_consent",
+      "answer_key": "asks_and_she_leaves_it_to_him"
+     }
+    },
+    {
+     "id": "contains.ev.barbara.walk.his_choice",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_collapse.change_arc.anticipation",
+     "target_event_id": "ev.barbara.walk.his_choice",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "ev.barbara.stablecoin_walk.realizes.ev.barbara.walk.his_choice",
+     "kind": "realizes_forecast",
+     "source_event_id": "ev.barbara.stablecoin_walk",
+     "target_event_id": "ev.barbara.walk.his_choice",
+     "description": "Drawn: seed rabbit-hole-run/barbara/stablecoin-walk/2022-02, u=0.2314, from estimator weights (warns 0.29, mocks 0.18, his choice 0.48, remainder 0.05).",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "forecast_answer": {
+      "cut_id": "cut.barbara.2022.response",
+      "answer_key": "says_it_is_his_choice_and_nothing_more"
+     }
+    },
+    {
+     "id": "contains.ev.kieran.depeg.holds",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_collapse.change_arc.focal_change",
+     "target_event_id": "ev.kieran.depeg.holds",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "ev.kieran.depeg_hold.realizes.ev.kieran.depeg.holds",
+     "kind": "realizes_forecast",
+     "source_event_id": "ev.kieran.depeg_hold",
+     "target_event_id": "ev.kieran.depeg.holds",
+     "description": "Drawn: seed rabbit-hole-run/kieran/depeg-response/2022-05, u=0.4892, from estimator weights (holds 0.99, remainder 0.01).",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "forecast_answer": {
+      "cut_id": "cut.kieran.2022.depeg_response",
+      "answer_key": "holds_everything"
+     }
+    },
+    {
+     "id": "contains.ev.kieran.state.2022_05_14",
+     "kind": "contains",
+     "source_event_id": "ev.kieran.inner",
+     "target_event_id": "ev.kieran.state.2022_05_14",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.kieran.telling",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_collapse.change_arc.adaptation",
+     "target_event_id": "ev.kieran.telling",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.laura.response",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_collapse.change_arc.adaptation",
+     "target_event_id": "ev.laura.response",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.barbara.after",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_collapse.change_arc.adaptation",
+     "target_event_id": "ev.barbara.after",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.kieran.end",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_collapse.change_arc.adaptation",
+     "target_event_id": "ev.kieran.end",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "holds.causes.state14",
+     "kind": "causes",
+     "source_event_id": "ev.kieran.depeg.holds",
+     "target_event_id": "ev.kieran.state.2022_05_14",
+     "description": "Holding leaves him with the loss and the secret.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "fraudweek.causes.state14",
+     "kind": "causes",
+     "source_event_id": "ev.hart.fraud_week_2022",
+     "target_event_id": "ev.kieran.state.2022_05_14",
+     "description": "The calls he takes that week.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "state14.enables.telling",
+     "kind": "enables",
+     "source_event_id": "ev.kieran.state.2022_05_14",
+     "target_event_id": "ev.kieran.telling",
+     "description": "His state is what he brings to the telling.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "telling.enables.laura_response",
+     "kind": "enables",
+     "source_event_id": "ev.kieran.telling",
+     "target_event_id": "ev.laura.response",
+     "description": "How she learns shapes what she does.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "walk.enables.barbara_after",
+     "kind": "enables",
+     "source_event_id": "ev.barbara.walk.his_choice",
+     "target_event_id": "ev.barbara.after",
+     "description": "Her February silence is part of what she carries.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "laura_response.enables.end",
+     "kind": "enables",
+     "source_event_id": "ev.laura.response",
+     "target_event_id": "ev.kieran.end",
+     "description": "What Laura does is part of where he ends up.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "barbara_after.enables.end",
+     "kind": "enables",
+     "source_event_id": "ev.barbara.after",
+     "target_event_id": "ev.kieran.end",
+     "description": "What Barbara does is part of where he ends up.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   ]
+  }
+ },
+ "requireDescribedNumbers": true
+}

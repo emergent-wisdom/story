@@ -19,6 +19,8 @@ reaches back to hunter-gatherers.
 ## Run it
 
 ```sh
+git clone https://github.com/emergent-wisdom/story && cd story
+npm install
 npm run serve
 ```
 
@@ -65,6 +67,18 @@ node book.mjs rabbit-hole   # writes pdf/rabbit-hole.pdf
 `public/data/rabbit-hole.json` is *The Exceptions Queue*, a story written by an agent with Meaning Model 0.3.0 on
 25 September 2026, from a brief about a comfortable "blue pill" world, a white rabbit, and Paleolithic emotions in a
 world of godlike technology.
+
+## Open the story's model with your own agent
+
+The story's world model can be opened with the published Meaning Model server. Work on a copy of the state:
+
+```sh
+cp runs/rabbit-hole/novel/engine-state.sqlite story-state.sqlite
+claude mcp add story-model -e LIFE_SIM_STATE_FILE="$PWD/story-state.sqlite" -e MEANING_MODEL_ADDONS=storytelling -e MEANING_MODEL_READING=guides -- npx meaning-model-mcp
+```
+
+The story graph's head hash is `headGraphHash` in `public/data/rabbit-hole.json`; `life_narrative_render` with it
+renders the story.
 
 ## License
 

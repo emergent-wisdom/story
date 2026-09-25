@@ -1,0 +1,158 @@
+{
+  "schema": "meaning-model-cut-shares/v1",
+  "question": "What does Barbara do after Kieran tells her everything on the July 2022 walk?",
+  "unit": "proposal weight over mutually exclusive continuations",
+  "answerKeys": [
+    "repays_laura_s_share_herself",
+    "tells_him_what_1986_taught_her_and_keeps_walking",
+    "withdraws_from_him",
+    "tells_him_he_must_tell_laura_everything",
+    "gives_him_the_map_this_time",
+    "remainder"
+  ],
+  "canonical": false,
+  "epistemicStatus": "ai_inference",
+  "evidenceType": "estimate",
+  "worldMutation": false,
+  "requestHash": "76eaaafa700207dc52aa520bf9e806b5b96c1427acee19565c94cf00444e5a59",
+  "estimatorCallsThisRequest": 1,
+  "warnings": [
+    "cut.barbara.2022.after puts 0.39 on none of your answers. The options miss what this person would most plausibly do: before drawing, ask what else they could do, including what the institutions, rules and roles around them allow or require, and add those answers."
+  ],
+  "evaluator": "typesafe:jev-1.13.0",
+  "proposals": [
+    {
+      "id": "cut.barbara.2022.after",
+      "parent_event_id": "ev.barbara.after",
+      "question": "What does Barbara do after Kieran tells her everything on the July 2022 walk?",
+      "unit": "proposal weight over mutually exclusive continuations",
+      "answers": [
+        {
+          "key": "repays_laura_s_share_herself",
+          "weight": 0
+        },
+        {
+          "key": "tells_him_what_1986_taught_her_and_keeps_walking",
+          "weight": 0.25
+        },
+        {
+          "key": "withdraws_from_him",
+          "weight": 0
+        },
+        {
+          "key": "tells_him_he_must_tell_laura_everything",
+          "weight": 0.02
+        },
+        {
+          "key": "gives_him_the_map_this_time",
+          "weight": 0.34
+        },
+        {
+          "key": "remainder",
+          "weight": 0.3899999999999999
+        }
+      ],
+      "provenance": [
+        "estimator:typesafe:jev-1.13.0; choice probabilities over the answer keys; AI inference, not canon",
+        "confidence 0.260; top remainder"
+      ],
+      "confidence": 0.26,
+      "top": "remainder"
+    }
+  ],
+  "usage": {
+    "input_tokens": 1468,
+    "output_tokens": 115
+  },
+  "graphMutation": true,
+  "applied": {
+    "modelHash": "d027c95beefe41786c74361352d78b26523dbdb2aa94a52d7e2690584676f0f7",
+    "previousModelHash": "a00671a08428fd577393f9198f54b0f087f298e1b693ec17dabb8be75983c823",
+    "revisionNumber": 11,
+    "cutIds": [
+      "cut.barbara.2022.after"
+    ],
+    "descriptionsAdded": [],
+    "summary": {
+      "model_hash": "d027c95beefe41786c74361352d78b26523dbdb2aa94a52d7e2690584676f0f7",
+      "revision_number": 11,
+      "process_count": 82,
+      "decomposition_edge_count": 0,
+      "dependency_edge_count": 0,
+      "law_count": 0,
+      "law_roles": {},
+      "meaning_model": {
+        "schema": "life-sim-rust-meaning-model/v1",
+        "concept_count": 10,
+        "abstract_relation_count": 6,
+        "abstract_cut_count": 1,
+        "referent_count": 12,
+        "encapsulation_cut_count": 0,
+        "event_count": 181,
+        "event_relation_count": 232,
+        "event_referent_binding_count": 50,
+        "physical_cut_count": 0,
+        "realization_count": 16,
+        "normalized_cut_count": 44,
+        "context_root_count": 4,
+        "temporal_cut_recomposition_count": 0
+      }
+    }
+  },
+  "rebound": {
+    "schema": "meaning-model-narrative-rebind/v1",
+    "graphHash": "01223c4e8e4c4bf4a5df4d9089d2b767fecdd23ed41b0c9b2ad50f85298b82e9",
+    "previousGraphHash": "f65ba325af94d8aa51e9da74982c73452c56063ca79e27212fe264030c9a64fa",
+    "snapshotHash": "e656785923c32252f8385fd6a2a815cad745188aad2c8a1f8d5105bdef04e690",
+    "stored": true,
+    "reusedExisting": false,
+    "immutableRevision": true,
+    "revisedByDelta": true,
+    "summary": {
+      "edge_count": 148,
+      "graph_hash": "01223c4e8e4c4bf4a5df4d9089d2b767fecdd23ed41b0c9b2ad50f85298b82e9",
+      "id": "rabbit-hole-novel",
+      "node_count": 55,
+      "revision": {
+        "number": 39,
+        "previous_graph_hash": "f65ba325af94d8aa51e9da74982c73452c56063ca79e27212fe264030c9a64fa",
+        "provenance": [
+          "Meaning Model narrative rebind v1",
+          "rebind:f65ba325af94->model:d027c95beefe"
+        ],
+        "reason": "Rebind after estimated Cuts were applied in model revision 11."
+      },
+      "roles": {
+        "document_root": 1,
+        "externalized_reflection": 29,
+        "metadata": 25
+      },
+      "root_count": 3,
+      "schema": "life-sim-rust-narrative-graph/v1",
+      "source": {
+        "kind": "model",
+        "model_hash": "d027c95beefe41786c74361352d78b26523dbdb2aa94a52d7e2690584676f0f7"
+      },
+      "source_snapshot": {
+        "candidate_status": null,
+        "model_hash": "d027c95beefe41786c74361352d78b26523dbdb2aa94a52d7e2690584676f0f7",
+        "model_revision": 11,
+        "source_hash": "d027c95beefe41786c74361352d78b26523dbdb2aa94a52d7e2690584676f0f7",
+        "source_kind": "model",
+        "time": null,
+        "world_id": null,
+        "world_version": null
+      }
+    },
+    "requestPayloadHash": "127a402588192c24b0fa3de07ea3a4d35fe314f16be737ca1ff7eca55536b59b",
+    "previousModelHash": "a00671a08428fd577393f9198f54b0f087f298e1b693ec17dabb8be75983c823",
+    "modelHash": "d027c95beefe41786c74361352d78b26523dbdb2aa94a52d7e2690584676f0f7",
+    "lineageSteps": 1,
+    "droppedModelAnchorEdgeIds": [],
+    "retainedNodeCount": 55,
+    "historicalAssessmentsRetained": true,
+    "worldMutation": false,
+    "nextStep": "Historical depth and review nodes remain but their predecessor-model anchors were removed; record fresh assessments against the successor model before committing further prose."
+  },
+  "nextStep": "The graph is bound to the new model; historical assessments kept their nodes but lost predecessor anchors. Record fresh depth assessments before committing prose."
+}

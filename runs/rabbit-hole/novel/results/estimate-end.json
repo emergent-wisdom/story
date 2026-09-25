@@ -1,0 +1,153 @@
+{
+  "schema": "meaning-model-cut-shares/v1",
+  "question": "Where does Kieran end up by March 2023: what does he do with his work, the game and his curiosity?",
+  "unit": "proposal weight over mutually exclusive continuations",
+  "answerKeys": [
+    "moves_to_the_scam_team_and_listens_differently",
+    "leaves_the_hart_for_a_crypto_job",
+    "goes_back_to_the_old_routine",
+    "leaves_both_for_something_else",
+    "remainder"
+  ],
+  "canonical": false,
+  "epistemicStatus": "ai_inference",
+  "evidenceType": "estimate",
+  "worldMutation": false,
+  "requestHash": "7c4ee4f90560ab21fe60dbf801ed8cbf457989d6c1a10d0aefdf30b31a37a9f8",
+  "estimatorCallsThisRequest": 1,
+  "warnings": [
+    "cut.kieran.2023.end puts 0.57 on none of your answers. The options miss what this person would most plausibly do: before drawing, ask what else they could do, including what the institutions, rules and roles around them allow or require, and add those answers."
+  ],
+  "evaluator": "typesafe:jev-1.13.0",
+  "proposals": [
+    {
+      "id": "cut.kieran.2023.end",
+      "parent_event_id": "ev.kieran.end",
+      "question": "Where does Kieran end up by March 2023: what does he do with his work, the game and his curiosity?",
+      "unit": "proposal weight over mutually exclusive continuations",
+      "answers": [
+        {
+          "key": "moves_to_the_scam_team_and_listens_differently",
+          "weight": 0.42
+        },
+        {
+          "key": "leaves_the_hart_for_a_crypto_job",
+          "weight": 0
+        },
+        {
+          "key": "goes_back_to_the_old_routine",
+          "weight": 0.01
+        },
+        {
+          "key": "leaves_both_for_something_else",
+          "weight": 0
+        },
+        {
+          "key": "remainder",
+          "weight": 0.5700000000000001
+        }
+      ],
+      "provenance": [
+        "estimator:typesafe:jev-1.13.0; choice probabilities over the answer keys; AI inference, not canon",
+        "confidence 0.450; top remainder"
+      ],
+      "confidence": 0.45,
+      "top": "remainder"
+    }
+  ],
+  "usage": {
+    "input_tokens": 1184,
+    "output_tokens": 92
+  },
+  "graphMutation": true,
+  "applied": {
+    "modelHash": "2fffde8b01777a24580e0119d0a63ed7c0ebba115c7ec4d75503714091d4ab61",
+    "previousModelHash": "08ad458546875056db59f665b14e2bfc243e3687125dbc2738f94e6f7de8dad5",
+    "revisionNumber": 14,
+    "cutIds": [
+      "cut.kieran.2023.end"
+    ],
+    "descriptionsAdded": [],
+    "summary": {
+      "model_hash": "2fffde8b01777a24580e0119d0a63ed7c0ebba115c7ec4d75503714091d4ab61",
+      "revision_number": 14,
+      "process_count": 82,
+      "decomposition_edge_count": 0,
+      "dependency_edge_count": 0,
+      "law_count": 0,
+      "law_roles": {},
+      "meaning_model": {
+        "schema": "life-sim-rust-meaning-model/v1",
+        "concept_count": 10,
+        "abstract_relation_count": 6,
+        "abstract_cut_count": 1,
+        "referent_count": 12,
+        "encapsulation_cut_count": 0,
+        "event_count": 185,
+        "event_relation_count": 242,
+        "event_referent_binding_count": 50,
+        "physical_cut_count": 0,
+        "realization_count": 16,
+        "normalized_cut_count": 46,
+        "context_root_count": 4,
+        "temporal_cut_recomposition_count": 0
+      }
+    }
+  },
+  "rebound": {
+    "schema": "meaning-model-narrative-rebind/v1",
+    "graphHash": "533311ed2e92b2b4c7a1d1d6daceb39304c0b185b899a2ffe09773e8065e0bb5",
+    "previousGraphHash": "7d38050b5e1756686b99b19467bedfb3e864114c23f9bf631dc132553b63ec6f",
+    "snapshotHash": "10851241f7e35d5a72f080ac34b0965d5c447001deb7d7c68de9b2f6c52fdd55",
+    "stored": true,
+    "reusedExisting": false,
+    "immutableRevision": true,
+    "revisedByDelta": true,
+    "summary": {
+      "edge_count": 152,
+      "graph_hash": "533311ed2e92b2b4c7a1d1d6daceb39304c0b185b899a2ffe09773e8065e0bb5",
+      "id": "rabbit-hole-novel",
+      "node_count": 57,
+      "revision": {
+        "number": 43,
+        "previous_graph_hash": "7d38050b5e1756686b99b19467bedfb3e864114c23f9bf631dc132553b63ec6f",
+        "provenance": [
+          "Meaning Model narrative rebind v1",
+          "rebind:7d38050b5e17->model:2fffde8b0177"
+        ],
+        "reason": "Rebind after estimated Cuts were applied in model revision 14."
+      },
+      "roles": {
+        "document_root": 1,
+        "externalized_reflection": 29,
+        "metadata": 27
+      },
+      "root_count": 3,
+      "schema": "life-sim-rust-narrative-graph/v1",
+      "source": {
+        "kind": "model",
+        "model_hash": "2fffde8b01777a24580e0119d0a63ed7c0ebba115c7ec4d75503714091d4ab61"
+      },
+      "source_snapshot": {
+        "candidate_status": null,
+        "model_hash": "2fffde8b01777a24580e0119d0a63ed7c0ebba115c7ec4d75503714091d4ab61",
+        "model_revision": 14,
+        "source_hash": "2fffde8b01777a24580e0119d0a63ed7c0ebba115c7ec4d75503714091d4ab61",
+        "source_kind": "model",
+        "time": null,
+        "world_id": null,
+        "world_version": null
+      }
+    },
+    "requestPayloadHash": "d7090d84c9be467c19802319b34a0ab5d77922f5520033d03883ddae2db682b1",
+    "previousModelHash": "08ad458546875056db59f665b14e2bfc243e3687125dbc2738f94e6f7de8dad5",
+    "modelHash": "2fffde8b01777a24580e0119d0a63ed7c0ebba115c7ec4d75503714091d4ab61",
+    "lineageSteps": 1,
+    "droppedModelAnchorEdgeIds": [],
+    "retainedNodeCount": 57,
+    "historicalAssessmentsRetained": true,
+    "worldMutation": false,
+    "nextStep": "Historical depth and review nodes remain but their predecessor-model anchors were removed; record fresh assessments against the successor model before committing further prose."
+  },
+  "nextStep": "The graph is bound to the new model; historical assessments kept their nodes but lost predecessor anchors. Record fresh depth assessments before committing prose."
+}

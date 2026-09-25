@@ -1,0 +1,143 @@
+{
+  "schema": "meaning-model-direction-draw/v1",
+  "modelHash": "d027c95beefe41786c74361352d78b26523dbdb2aa94a52d7e2690584676f0f7",
+  "cutId": "cut.barbara.2022.after",
+  "parentEventId": "ev.barbara.after",
+  "question": "What does Barbara do after Kieran tells her everything on the July 2022 walk?",
+  "unit": "proposal weight over mutually exclusive continuations",
+  "answers": [
+    {
+      "key": "gives_him_the_map_this_time",
+      "weight": 0.34
+    },
+    {
+      "key": "remainder",
+      "weight": 0.3899999999999999
+    },
+    {
+      "key": "repays_laura_s_share_herself",
+      "weight": 0
+    },
+    {
+      "key": "tells_him_he_must_tell_laura_everything",
+      "weight": 0.02
+    },
+    {
+      "key": "tells_him_what_1986_taught_her_and_keeps_walking",
+      "weight": 0.25
+    },
+    {
+      "key": "withdraws_from_him",
+      "weight": 0
+    }
+  ],
+  "seed": "rabbit-hole-run/barbara/after/2022-07",
+  "algorithm": "sha256-first-32-bits/v1",
+  "u": 0.6897997362539172,
+  "cumulative": [
+    {
+      "key": "gives_him_the_map_this_time",
+      "weight": 0.34,
+      "from": 0,
+      "to": 0.34
+    },
+    {
+      "key": "remainder",
+      "weight": 0.3899999999999999,
+      "from": 0.34,
+      "to": 0.73
+    },
+    {
+      "key": "repays_laura_s_share_herself",
+      "weight": 0,
+      "from": 0.73,
+      "to": 0.73
+    },
+    {
+      "key": "tells_him_he_must_tell_laura_everything",
+      "weight": 0.02,
+      "from": 0.73,
+      "to": 0.75
+    },
+    {
+      "key": "tells_him_what_1986_taught_her_and_keeps_walking",
+      "weight": 0.25,
+      "from": 0.75,
+      "to": 1
+    },
+    {
+      "key": "withdraws_from_him",
+      "weight": 0,
+      "from": 1,
+      "to": 1
+    }
+  ],
+  "realized": "remainder",
+  "realizedIsRemainder": true,
+  "drawIndex": 0,
+  "reroll": false,
+  "priorDraws": [],
+  "recorded": {
+    "nodeId": "draw.barbara.after",
+    "documentRootId": "story",
+    "graphHash": "40b4080bac3435506a398250eb10e076cc2e42c6eacebcbd51b16e7c6b1d153e",
+    "stored": {
+      "schema": "life-sim-mcp-service/v2",
+      "graphHash": "40b4080bac3435506a398250eb10e076cc2e42c6eacebcbd51b16e7c6b1d153e",
+      "previousGraphHash": "01223c4e8e4c4bf4a5df4d9089d2b767fecdd23ed41b0c9b2ad50f85298b82e9",
+      "snapshotHash": "e656785923c32252f8385fd6a2a815cad745188aad2c8a1f8d5105bdef04e690",
+      "stored": true,
+      "reusedExisting": false,
+      "immutableRevision": true,
+      "additiveBatch": true,
+      "batch": {
+        "added_edge_count": 2,
+        "added_node_count": 1,
+        "added_root_count": 0
+      },
+      "summary": {
+        "edge_count": 150,
+        "graph_hash": "40b4080bac3435506a398250eb10e076cc2e42c6eacebcbd51b16e7c6b1d153e",
+        "id": "rabbit-hole-novel",
+        "node_count": 56,
+        "revision": {
+          "number": 40,
+          "previous_graph_hash": "01223c4e8e4c4bf4a5df4d9089d2b767fecdd23ed41b0c9b2ad50f85298b82e9",
+          "provenance": [
+            "Meaning Model direction draw v1",
+            "algorithm:sha256-first-32-bits/v1",
+            "Computed by the server from the recorded seed and the model's Cut weights; a construction decision, not an observation."
+          ],
+          "reason": "Record direction draw draw.barbara.after over cut.barbara.2022.after."
+        },
+        "roles": {
+          "document_root": 1,
+          "externalized_reflection": 29,
+          "metadata": 26
+        },
+        "root_count": 3,
+        "schema": "life-sim-rust-narrative-graph/v1",
+        "source": {
+          "kind": "model",
+          "model_hash": "d027c95beefe41786c74361352d78b26523dbdb2aa94a52d7e2690584676f0f7"
+        },
+        "source_snapshot": {
+          "candidate_status": null,
+          "model_hash": "d027c95beefe41786c74361352d78b26523dbdb2aa94a52d7e2690584676f0f7",
+          "model_revision": 11,
+          "source_hash": "d027c95beefe41786c74361352d78b26523dbdb2aa94a52d7e2690584676f0f7",
+          "source_kind": "model",
+          "time": null,
+          "world_id": null,
+          "world_version": null
+        }
+      },
+      "requestPayloadHash": "6a152543e11da54326f2ba19d570e21294532e56e69ff4483c9b1ff039cb57fa"
+    }
+  },
+  "graphHash": "40b4080bac3435506a398250eb10e076cc2e42c6eacebcbd51b16e7c6b1d153e",
+  "previousGraphHash": "01223c4e8e4c4bf4a5df4d9089d2b767fecdd23ed41b0c9b2ad50f85298b82e9",
+  "graphMutation": true,
+  "worldMutation": false,
+  "nextStep": "The remainder was drawn: the model holds more possibilities here than the named answers. Open the remainder rather than writing the continuation yourself: add a Cut on ev.barbara.after conditioned on this Cut's remainder (conditioning: { cut_id: 'cut.barbara.2022.after', answer_key: 'remainder' }) whose answers name the continuations the remainder holds, estimate it from the modeled state, and draw it; link the realized Event with a realizes_forecast relation. Do not renormalize the named answers or draw this Cut again; a further draw over it is recorded as a reroll."
+}

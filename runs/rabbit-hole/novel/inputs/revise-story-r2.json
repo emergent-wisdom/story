@@ -1,0 +1,1388 @@
+{
+ "requestId": "revise-story-r2",
+ "previousModelHash": "d0424dd9ab5a52105fa426562446ea080aae8805fe99216be04f745fe8b3b09a",
+ "change": {
+  "reason": "Revision 2: states before each decision (Kieran and Laura in January 2022, Barbara in February 2022, Kieran on 9 May 2022); Barbara's own decision on the Ridgeway walk; the adaptations opened where the story runs through them; the causes of the shifts between periods; inner episodes for the Hart, the clearing cycle, the Sharehouse, the card, the stablecoin's mechanism and spiral, the car plant, the works hooter, the stones and the flat.",
+  "provenance": [
+   "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+  ],
+  "upsert": {
+   "events": [
+    {
+     "id": "ev.kieran.state.2022_01",
+     "boundary": "Kieran's state in early January 2022, before the deposit moves.",
+     "interval": {
+      "start": 2022.0,
+      "end": 2022.03
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "kieran.stake_gbp",
+      "household.deposit_gbp"
+     ],
+     "observation_process_ids": [],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "The market is a third down from November; his seventy-one thousand is forty-five on the screen. House prices in Wroughton have risen faster than their deposit. His father has been out of work since July and pretends not to mind. The Sharehouse has spent December saying that the smart money is in safe yield now, twenty percent in a dollar that does not move. He believes he understands risk; what he feels is the old fear of being left behind and the new want to provide. He has not told Laura how much he has made or lost."
+    },
+    {
+     "id": "ev.laura.state.2022_01",
+     "boundary": "Laura's state in early January 2022.",
+     "interval": {
+      "start": 2022.0,
+      "end": 2022.03
+     },
+     "participants": {
+      "subject": "referent.profile.laura.person.laura"
+     },
+     "process_ids": [
+      "household.deposit_gbp"
+     ],
+     "observation_process_ids": [],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Four months out of the second wave and still sleeping badly. She wants to buy a house by the summer and has saved most of the deposit from overtime. She has not opened their savings app since the spring: Kieran is the one who knows about money, the way the monitors know about the patient. She is tired of being the one who holds everything."
+    },
+    {
+     "id": "ev.barbara.state.2022_02",
+     "boundary": "Barbara's state in February 2022, when Kieran tells her where the deposit is.",
+     "interval": {
+      "start": 2022.1,
+      "end": 2022.12
+     },
+     "participants": {
+      "subject": "referent.profile.barbara.person.barbara"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Avebury Trusloe and the Ridgeway, Wiltshire",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "She has walked with him most months for eighteen months and likes him more than she expected. She thinks everything that is not bitcoin is a casino and the stablecoin a confidence trick with a formula. She believes in adults choosing their own risks and has spent her life refusing to be anyone's mother. Under that, for the first time, is the thought that she gave him the key."
+    },
+    {
+     "id": "ev.kieran.state.2022_05_09",
+     "boundary": "Kieran's state on the evening of 9 May 2022, as the peg starts to slip.",
+     "interval": {
+      "start": 2022.35,
+      "end": 2022.353
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "stablecoin.price_usd",
+      "household.deposit_gbp",
+      "kieran.sleep_hours"
+     ],
+     "observation_process_ids": [],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Three hours of sleep a night since the weekend. The deposit is the only money he has that is not already down seventy percent. The Sharehouse is loud and sure: it has always come back, the founder is buying. What he knows about the mechanism depends on what Barbara told him in February. He has not told Laura where the deposit is, or has, depending on January. Leaving now would feel like leaving the band while it is losing."
+    },
+    {
+     "id": "ev.barbara.stablecoin_walk",
+     "boundary": "A Sunday in February 2022 on the Ridgeway: Kieran tells Barbara the deposit is in the stablecoin.",
+     "interval": {
+      "start": 2022.12,
+      "end": 2022.121
+     },
+     "participants": {
+      "subject": "referent.profile.barbara.person.barbara",
+      "companion": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Avebury Trusloe and the Ridgeway, Wiltshire",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "They walk from the car park above Avebury towards the long barrow. He tells her, pleased, about twenty percent in a dollar. She stops walking. What she does is drawn from cut.barbara.2022.response."
+    },
+    {
+     "id": "ev.kieran.game.no_trouble",
+     "boundary": "2010-2012: Kieran becomes no trouble.",
+     "interval": {
+      "start": 2010.35,
+      "end": 2012.0
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "White Hart House, the Hart's head office in west Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "He learns the payments floor fast, volunteers for the early shift, never argues with a manager, and is praised for it. He stops seeing the guild; nobody on the floor knows he once ran forty people across Europe."
+    },
+    {
+     "id": "ev.kieran.rabbit.secret",
+     "boundary": "November 2019 to March 2020: the card behind the bus pass.",
+     "interval": {
+      "start": 2019.835,
+      "end": 2020.195
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "White Hart House, the Hart's head office in west Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "He searches the words once on his phone and learns they are a recovery phrase; he does not type them in. The card makes the routine feel like a costume: every scam-check call now has a second voice in it. He does not tell Laura, the first thing in five years he has not told her."
+    },
+    {
+     "id": "ev.kieran.fall.sharehouse",
+     "boundary": "June 2020: Kieran finds the Sharehouse.",
+     "interval": {
+      "start": 2020.45,
+      "end": 2020.5
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "sharehouse.members"
+     ],
+     "observation_process_ids": [],
+     "region": "Online: the Sharehouse and the chains, every time zone",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "A link in a forum thread about a food token leads to a chat server of a few thousand anonymous farmers awake in every time zone. They answer his questions at three in the morning and call him Kez after his wallet name. It is the first band that has needed him since the guild."
+    },
+    {
+     "id": "ev.kieran.fall.first_stake",
+     "boundary": "July 2020: six thousand pounds of his own savings go in.",
+     "interval": {
+      "start": 2020.52,
+      "end": 2020.55
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "kieran.stake_gbp"
+     ],
+     "observation_process_ids": [],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "His half of a holiday fund that the pandemic cancelled. He tells himself it is his money and not the deposit, which is true."
+    },
+    {
+     "id": "ev.kieran.fall.meets_barbara",
+     "boundary": "September 2020: Kieran and Barbara meet in person and walk the Ridgeway.",
+     "interval": {
+      "start": 2020.7,
+      "end": 2020.71
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist",
+      "companion": "referent.profile.barbara.person.barbara"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Avebury Trusloe and the Ridgeway, Wiltshire",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "She emails him from the address on her letter, which he answered in March with a single line. They meet in the car park above Avebury when people may meet outdoors in sixes. She is smaller than her voice and walks faster than he does."
+    },
+    {
+     "id": "ev.kieran.father.rent",
+     "boundary": "August to October 2021: Kieran pays his parents' rent.",
+     "interval": {
+      "start": 2021.6,
+      "end": 2021.8
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "kieran.stake_gbp"
+     ],
+     "observation_process_ids": [],
+     "region": "Penhill, Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Three months of rent from his gains while his father looks for work at fifty-nine. His father thanks him once, in the car, without looking at him. It is the best thing the money does and it makes the money feel like proof."
+    },
+    {
+     "id": "ev.barbara.retrain",
+     "boundary": "1987-1988: Barbara retrains as a programmer.",
+     "interval": {
+      "start": 1986.9,
+      "end": 1988.5
+     },
+     "participants": {
+      "subject": "referent.profile.barbara.person.barbara"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "A year of evening classes in COBOL at the technical college, paid for with her redundancy money; the only woman over thirty in the class; first in the exam."
+    },
+    {
+     "id": "ev.barbara.reads_paper",
+     "boundary": "2011: Barbara reads the bitcoin paper.",
+     "interval": {
+      "start": 2011.3,
+      "end": 2011.4
+     },
+     "participants": {
+      "subject": "referent.profile.barbara.person.barbara"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Reading, Berkshire",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Nine pages that describe a ledger nobody can switch off. She reads it three times on the train to Reading and thinks: this is the part that waits, done properly."
+    },
+    {
+     "id": "ev.barbara.first_coins",
+     "boundary": "2013: Barbara buys her first coins on retiring.",
+     "interval": {
+      "start": 2013.2,
+      "end": 2013.3
+     },
+     "participants": {
+      "subject": "referent.profile.barbara.person.barbara"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Avebury Trusloe and the Ridgeway, Wiltshire",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "About a hundred dollars a coin; she keeps the keys on paper in a biscuit tin and never sells."
+    },
+    {
+     "id": "ev.laura.move.boxes",
+     "boundary": "2003-2009: Laura keeps her things in boxes.",
+     "interval": {
+      "start": 2003.6,
+      "end": 2009.0
+     },
+     "participants": {
+      "subject": "referent.profile.laura.person.laura"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Highworth, Wiltshire",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "In every room after the last move she keeps half her things packed. She decides at thirteen that she will own a front door nobody can take, and says so to nobody."
+    },
+    {
+     "id": "ev.laura.wave1.silence",
+     "boundary": "Summer 2020: Laura stops telling Kieran about her shifts.",
+     "interval": {
+      "start": 2020.4,
+      "end": 2020.99
+     },
+     "participants": {
+      "subject": "referent.profile.laura.person.laura"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Old Swindon and the hospital",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "There are no words for the unit that do not frighten him, so she tells him about the car park and the canteen. He stops asking. Each of them is alone with a screen: hers the monitors, his the charts."
+    },
+    {
+     "id": "ev.laura.wave2.car",
+     "boundary": "Spring 2021: twenty minutes in the car, and the houses.",
+     "interval": {
+      "start": 2021.15,
+      "end": 2021.8
+     },
+     "participants": {
+      "subject": "referent.profile.laura.person.laura"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Old Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "After the January wave she sits in the car outside the flat before coming up, and starts looking at houses in Wroughton on her phone there. The house becomes the one thing that is not the unit."
+    },
+    {
+     "id": "ev.kieran.grandfather_dies",
+     "boundary": "Spring 2001: Kieran's grandfather Ron dies.",
+     "interval": {
+      "start": 2001.3,
+      "end": 2001.35
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Penhill, Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Ron, a works fitter until 1986, dies at seventy-four of a stroke. Kieran, eleven, keeps his brass works tally token. After the funeral nobody talks about the works any more."
+    },
+    {
+     "id": "ev.car_plant.steady_2000s",
+     "boundary": "2002-2008: the car plant's steady years.",
+     "interval": {
+      "start": 2002.0,
+      "end": 2008.9
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "South Marston, Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Full shifts and overtime; his father stops worrying aloud about the plant until the 2009 recession."
+    },
+    {
+     "id": "ev.barbara.apprenticeship_1969",
+     "boundary": "September 1969: Barbara is let into the trade.",
+     "interval": {
+      "start": 1969.6,
+      "end": 1969.7
+     },
+     "participants": {
+      "subject": "referent.profile.barbara.person.barbara"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "The railway works, Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "A new manager signs her on as an electrical apprentice after she beats every boy in the test; her father says nothing and gives her his screwdrivers."
+    },
+    {
+     "id": "ev.laura.leaves_home_2009",
+     "boundary": "September 2009: Laura leaves home for nurse training.",
+     "interval": {
+      "start": 2009.7,
+      "end": 2009.75
+     },
+     "participants": {
+      "subject": "referent.profile.laura.person.laura"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Oxford",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "A room in Oxford that is hers for three years; the first time she unpacks everything."
+    },
+    {
+     "id": "ev.laura.mother_settles_2012",
+     "boundary": "2012: Laura's mother remarries and has a secure home.",
+     "interval": {
+      "start": 2012.3,
+      "end": 2012.4
+     },
+     "participants": {
+      "subject": "referent.profile.laura.person.laura"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Highworth, Wiltshire",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "A council transfer and a kind second husband; Laura stops worrying about her mother's roof."
+    },
+    {
+     "id": "ev.hart.block_decision_2021",
+     "boundary": "June 2021: the Hart decides to block payments to several crypto exchanges.",
+     "interval": {
+      "start": 2021.44,
+      "end": 2021.46
+     },
+     "participants": {
+      "institution": "referent.hart",
+      "staff": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "White Hart House, the Hart's head office in west Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "After regulator warnings and a run of scam losses the board blocks card and bank payments to several exchanges. Kieran, who knows why payments fail, is seconded to the project that builds the block."
+    },
+    {
+     "id": "ev.hart.fraud_week_2022",
+     "boundary": "The week of 9 May 2022 at the Hart: the fraud lines fill.",
+     "interval": {
+      "start": 2022.353,
+      "end": 2022.37
+     },
+     "participants": {
+      "institution": "referent.hart",
+      "staff": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "White Hart House, the Hart's head office in west Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Customers who moved savings into crypto, some through the very workarounds Kieran used, call about money that is gone. Staff from payments are pulled onto the phones."
+    },
+    {
+     "id": "ev.clearing.batch_night",
+     "boundary": "A typical clearing cycle at the Hart.",
+     "interval": {
+      "start": 2019.8,
+      "end": 2023.25
+     },
+     "participants": {},
+     "process_ids": [
+      "clearing.cycle_days"
+     ],
+     "observation_process_ids": [],
+     "region": "White Hart House, the Hart's head office in west Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "The outgoing file is built at ten at night and submitted; overnight the scheme processes it; at seven the exceptions queue shows what failed and why: a closed account, a mismatched name, a fraud flag. Nothing moves at weekends. The failure mode is a file that does not arrive and a day of payments that wait."
+    },
+    {
+     "id": "ev.sharehouse.founding",
+     "boundary": "Spring 2020: the Sharehouse is founded.",
+     "interval": {
+      "start": 2020.3,
+      "end": 2020.45
+     },
+     "participants": {},
+     "process_ids": [
+      "sharehouse.members"
+     ],
+     "observation_process_ids": [],
+     "region": "Online: the Sharehouse and the chains, every time zone",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "A dozen yield farmers start a chat server as lockdown begins; by summer it has a few thousand members, channels named after food tokens, and a rule that nobody asks anybody's real name."
+    },
+    {
+     "id": "ev.sharehouse.panic_2022",
+     "boundary": "9 to 13 May 2022 in the Sharehouse.",
+     "interval": {
+      "start": 2022.353,
+      "end": 2022.4
+     },
+     "participants": {},
+     "process_ids": [
+      "sharehouse.members"
+     ],
+     "observation_process_ids": [],
+     "region": "Online: the Sharehouse and the chains, every time zone",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "First certainty (it always comes back), then instructions (do not sell, that is what they want), then silence, then jokes, then goodbyes. By the end of May half the channels are empty."
+    },
+    {
+     "id": "ev.card.behind_bus_pass",
+     "boundary": "November 2019 to March 2020: the card behind the bus pass.",
+     "interval": {
+      "start": 2019.835,
+      "end": 2020.195
+     },
+     "participants": {},
+     "process_ids": [
+      "card.wallet_btc"
+     ],
+     "observation_process_ids": [],
+     "region": "White Hart House, the Hart's head office in west Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "The white card rides in Kieran's wallet every day behind his bus pass, soft at the corners by March."
+    },
+    {
+     "id": "ev.stablecoin.mechanism",
+     "boundary": "How the stablecoin worked, 2020-2022.",
+     "interval": {
+      "start": 2020.7,
+      "end": 2022.35
+     },
+     "participants": {},
+     "process_ids": [
+      "stablecoin.price_usd"
+     ],
+     "observation_process_ids": [],
+     "region": "Online: the Sharehouse and the chains, every time zone",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Parts: the dollar token; the sister token; a swap that always let anyone trade one dollar token for a dollar's worth of the sister token and back; a savings protocol paying about twenty percent from reserves and new deposits. Capacity: the peg held while the sister token was worth more than the dollar tokens outstanding. Failure mode: when enough holders swapped at once, new sister tokens were minted, its price fell, each swap needed more of them, and the fall fed itself."
+    },
+    {
+     "id": "ev.stablecoin.spiral",
+     "boundary": "9 to 13 May 2022: the spiral.",
+     "interval": {
+      "start": 2022.353,
+      "end": 2022.364
+     },
+     "participants": {},
+     "process_ids": [
+      "stablecoin.price_usd"
+     ],
+     "observation_process_ids": [],
+     "region": "Online: the Sharehouse and the chains, every time zone",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Withdrawals from the savings protocol and large sales push the token below a dollar; swaps mint the sister token by the billion; within four days the sister token is worth almost nothing and the stablecoin trades for cents."
+    },
+    {
+     "id": "ev.car_plant.last_car",
+     "boundary": "30 July 2021: the last car leaves the line.",
+     "interval": {
+      "start": 2021.57,
+      "end": 2021.58
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "South Marston, Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Kieran's father works the final shift, brings home his hi-vis vest and a commemorative mug, and puts the mug in a cupboard."
+    },
+    {
+     "id": "ev.works.hooter",
+     "boundary": "The works hooter as the town's clock, 1843-1986.",
+     "interval": {
+      "start": 1843,
+      "end": 1986.25
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "For a hundred and forty years the hooter sounded the shifts across the town; people who never worked in the works set their clocks by it."
+    },
+    {
+     "id": "ev.stones.raising",
+     "boundary": "About 2600 BC: the stones are dragged into place.",
+     "interval": {
+      "start": -2650,
+      "end": -2550
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Avebury, Wiltshire",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Farming communities drag sarsen stones of up to forty tons across the downs on sledges and rollers over generations, to make a place to gather at set seasons."
+    },
+    {
+     "id": "ev.flat.fridge_rota",
+     "boundary": "The rota on the fridge.",
+     "interval": {
+      "start": 2016.3,
+      "end": 2023.25
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Laura's shift pattern printed each month and held to the fridge by a magnet from Weymouth; it tells Kieran when she will be asleep, awake or gone."
+    }
+   ],
+   "event_relations": [
+    {
+     "id": "contains.ev.kieran.state.2022_01",
+     "kind": "contains",
+     "source_event_id": "ev.kieran.inner",
+     "target_event_id": "ev.kieran.state.2022_01",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.laura.state.2022_01",
+     "kind": "contains",
+     "source_event_id": "ev.laura.inner",
+     "target_event_id": "ev.laura.state.2022_01",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.barbara.state.2022_02",
+     "kind": "contains",
+     "source_event_id": "ev.barbara.inner",
+     "target_event_id": "ev.barbara.state.2022_02",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.kieran.state.2022_05_09",
+     "kind": "contains",
+     "source_event_id": "ev.kieran.inner",
+     "target_event_id": "ev.kieran.state.2022_05_09",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.barbara.stablecoin_walk",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_collapse.change_arc.anticipation",
+     "target_event_id": "ev.barbara.stablecoin_walk",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "barbara_state.enables.walk",
+     "kind": "enables",
+     "source_event_id": "ev.barbara.state.2022_02",
+     "target_event_id": "ev.barbara.stablecoin_walk",
+     "description": "Her state is what she brings to the walk.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "deposit.enables.walk",
+     "kind": "enables",
+     "source_event_id": "ev.kieran.deposit_move",
+     "target_event_id": "ev.barbara.stablecoin_walk",
+     "description": "The move is what he tells her.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "walk.enables.depeg",
+     "kind": "enables",
+     "source_event_id": "ev.barbara.stablecoin_walk",
+     "target_event_id": "ev.kieran.depeg_hold",
+     "description": "What she told him is what he knows in May.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "kstate01.enables.deposit",
+     "kind": "enables",
+     "source_event_id": "ev.kieran.state.2022_01",
+     "target_event_id": "ev.kieran.deposit_move",
+     "description": "His state before the move.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "lstate01.enables.deposit",
+     "kind": "enables",
+     "source_event_id": "ev.laura.state.2022_01",
+     "target_event_id": "ev.kieran.deposit_move",
+     "description": "Her state before the move.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "kstate05.enables.depeg",
+     "kind": "enables",
+     "source_event_id": "ev.kieran.state.2022_05_09",
+     "target_event_id": "ev.kieran.depeg_hold",
+     "description": "His state as the peg slips.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.kieran.game.no_trouble",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_quits_game.change_arc.adaptation",
+     "target_event_id": "ev.kieran.game.no_trouble",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.kieran.rabbit.secret",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_white_rabbit.change_arc.adaptation",
+     "target_event_id": "ev.kieran.rabbit.secret",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.kieran.fall.sharehouse",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_fall.change_arc.adaptation",
+     "target_event_id": "ev.kieran.fall.sharehouse",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.kieran.fall.first_stake",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_fall.change_arc.adaptation",
+     "target_event_id": "ev.kieran.fall.first_stake",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.kieran.fall.meets_barbara",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_fall.change_arc.adaptation",
+     "target_event_id": "ev.kieran.fall.meets_barbara",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.kieran.father.rent",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_father_plant.change_arc.adaptation",
+     "target_event_id": "ev.kieran.father.rent",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.barbara.retrain",
+     "kind": "contains",
+     "source_event_id": "event.profile.barbara_works_closure.change_arc.adaptation",
+     "target_event_id": "ev.barbara.retrain",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.barbara.reads_paper",
+     "kind": "contains",
+     "source_event_id": "event.profile.barbara_crisis_2008.change_arc.adaptation",
+     "target_event_id": "ev.barbara.reads_paper",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.barbara.first_coins",
+     "kind": "contains",
+     "source_event_id": "event.profile.barbara_crisis_2008.change_arc.adaptation",
+     "target_event_id": "ev.barbara.first_coins",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.laura.move.boxes",
+     "kind": "contains",
+     "source_event_id": "event.profile.laura_last_move.change_arc.adaptation",
+     "target_event_id": "ev.laura.move.boxes",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.laura.wave1.silence",
+     "kind": "contains",
+     "source_event_id": "event.profile.laura_first_wave.change_arc.adaptation",
+     "target_event_id": "ev.laura.wave1.silence",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.laura.wave2.car",
+     "kind": "contains",
+     "source_event_id": "event.profile.laura_second_wave.change_arc.adaptation",
+     "target_event_id": "ev.laura.wave2.car",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.kieran.grandfather_dies",
+     "kind": "contains",
+     "source_event_id": "ev.kieran.p1.childhood",
+     "target_event_id": "ev.kieran.grandfather_dies",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.car_plant.steady_2000s",
+     "kind": "contains",
+     "source_event_id": "ev.car_plant.life",
+     "target_event_id": "ev.car_plant.steady_2000s",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.barbara.apprenticeship_1969",
+     "kind": "contains",
+     "source_event_id": "ev.barbara.p2.works",
+     "target_event_id": "ev.barbara.apprenticeship_1969",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.laura.leaves_home_2009",
+     "kind": "contains",
+     "source_event_id": "ev.laura.p2.training",
+     "target_event_id": "ev.laura.leaves_home_2009",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.laura.mother_settles_2012",
+     "kind": "contains",
+     "source_event_id": "ev.laura.p2.training",
+     "target_event_id": "ev.laura.mother_settles_2012",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "grandfather.causes.p2",
+     "kind": "causes",
+     "source_event_id": "ev.kieran.grandfather_dies",
+     "target_event_id": "ev.kieran.p2.game",
+     "description": "After Ron's death the works are not spoken of; the game fills the house's silence.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "steady.causes.p2",
+     "kind": "causes",
+     "source_event_id": "ev.car_plant.steady_2000s",
+     "target_event_id": "ev.kieran.p2.game",
+     "description": "Steady shifts stop the family worrying about work until 2009.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "apprentice.causes.works",
+     "kind": "causes",
+     "source_event_id": "ev.barbara.apprenticeship_1969",
+     "target_event_id": "ev.barbara.p2.works",
+     "description": "Being let in ends the threat of being kept out.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "closure.causes.bureau",
+     "kind": "causes",
+     "source_event_id": "event.profile.barbara_works_closure.change_arc.focal_change",
+     "target_event_id": "ev.barbara.p3.bureau",
+     "description": "The closure ends her place in the shop and starts the bureau years.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "crisis.causes.retirement_threat",
+     "kind": "causes",
+     "source_event_id": "event.profile.barbara_crisis_2008.change_arc.focal_change",
+     "target_event_id": "ev.barbara.p4.retirement",
+     "description": "After 2008 her savings in the old system feel threatened.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "exit.causes.story_period",
+     "kind": "causes",
+     "source_event_id": "event.profile.barbara_exit_2019.change_arc.focal_change",
+     "target_event_id": "ev.barbara.p5.story",
+     "description": "Once her savings are out, the old system cannot threaten them.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "leaves_home.causes.training",
+     "kind": "causes",
+     "source_event_id": "ev.laura.leaves_home_2009",
+     "target_event_id": "ev.laura.p2.training",
+     "description": "A room of her own ends the fear for the house.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "mother.causes.nursing",
+     "kind": "causes",
+     "source_event_id": "ev.laura.mother_settles_2012",
+     "target_event_id": "ev.laura.p3.nursing",
+     "description": "Her mother is safe, so her mother is no longer what is threatened.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "wave1.causes.pandemic_period",
+     "kind": "causes",
+     "source_event_id": "event.profile.laura_first_wave.change_arc.focal_change",
+     "target_event_id": "ev.laura.p4.pandemic",
+     "description": "The first wave takes her assurance and replaces the deposit worry with her patients.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.hart.block_decision_2021",
+     "kind": "contains",
+     "source_event_id": "ev.hart.life",
+     "target_event_id": "ev.hart.block_decision_2021",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.hart.fraud_week_2022",
+     "kind": "contains",
+     "source_event_id": "ev.hart.life",
+     "target_event_id": "ev.hart.fraud_week_2022",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.clearing.batch_night",
+     "kind": "contains",
+     "source_event_id": "ev.clearing.life",
+     "target_event_id": "ev.clearing.batch_night",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.sharehouse.founding",
+     "kind": "contains",
+     "source_event_id": "ev.sharehouse.life",
+     "target_event_id": "ev.sharehouse.founding",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.sharehouse.panic_2022",
+     "kind": "contains",
+     "source_event_id": "ev.sharehouse.life",
+     "target_event_id": "ev.sharehouse.panic_2022",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.card.behind_bus_pass",
+     "kind": "contains",
+     "source_event_id": "ev.card.life",
+     "target_event_id": "ev.card.behind_bus_pass",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.stablecoin.mechanism",
+     "kind": "contains",
+     "source_event_id": "ev.stablecoin.life",
+     "target_event_id": "ev.stablecoin.mechanism",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.stablecoin.spiral",
+     "kind": "contains",
+     "source_event_id": "ev.stablecoin.life",
+     "target_event_id": "ev.stablecoin.spiral",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.car_plant.last_car",
+     "kind": "contains",
+     "source_event_id": "ev.car_plant.life",
+     "target_event_id": "ev.car_plant.last_car",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.works.hooter",
+     "kind": "contains",
+     "source_event_id": "ev.works.life",
+     "target_event_id": "ev.works.hooter",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.stones.raising",
+     "kind": "contains",
+     "source_event_id": "ev.stones.life",
+     "target_event_id": "ev.stones.raising",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.flat.fridge_rota",
+     "kind": "contains",
+     "source_event_id": "ev.flat.life",
+     "target_event_id": "ev.flat.fridge_rota",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   ],
+   "normalized_cuts": [
+    {
+     "id": "cut.barbara.2022.response",
+     "parent_event_id": "ev.barbara.stablecoin_walk",
+     "question": "What does Barbara do when Kieran tells her the deposit is in the stablecoin?",
+     "unit": "proposal weight over mutually exclusive continuations",
+     "answers": [
+      {
+       "key": "warns_plainly_with_the_mechanism",
+       "weight": 0.35
+      },
+      {
+       "key": "mocks_it_and_leaves_him_to_learn",
+       "weight": 0.3
+      },
+      {
+       "key": "says_it_is_his_choice_and_nothing_more",
+       "weight": 0.25
+      },
+      {
+       "key": "remainder",
+       "weight": 0.1
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation",
+      "authored proposal weights from the modeled states, fixed before the estimate and draw"
+     ]
+    }
+   ]
+  }
+ },
+ "requireDescribedNumbers": true
+}

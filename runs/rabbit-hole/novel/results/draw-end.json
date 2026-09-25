@@ -1,0 +1,153 @@
+{
+  "schema": "meaning-model-direction-draw/v1",
+  "modelHash": "a1e6a4ffb9514825a36c5aec545ba934057f3af9570f6009cd63600f1a957054",
+  "cutId": "cut.kieran.2023.end",
+  "parentEventId": "ev.kieran.end",
+  "question": "Where does Kieran end up by March 2023: what does he do with his work, the game and his curiosity?",
+  "unit": "proposal weight over mutually exclusive continuations",
+  "answers": [
+    {
+      "key": "goes_back_to_the_old_routine",
+      "weight": 0
+    },
+    {
+      "key": "leaves_both_for_something_else",
+      "weight": 0
+    },
+    {
+      "key": "leaves_the_hart_for_a_crypto_job",
+      "weight": 0
+    },
+    {
+      "key": "moves_to_the_scam_team_and_listens_differently",
+      "weight": 0.03
+    },
+    {
+      "key": "remainder",
+      "weight": 0.029999999999999916
+    },
+    {
+      "key": "stays_at_his_desk_by_choice_with_open_eyes",
+      "weight": 0.9400000000000001
+    },
+    {
+      "key": "stays_in_the_sharehouse_to_help_the_ones_left",
+      "weight": 0
+    }
+  ],
+  "seed": "rabbit-hole-run/kieran/end/2023-03",
+  "algorithm": "sha256-first-32-bits/v1",
+  "u": 0.9658659927081317,
+  "cumulative": [
+    {
+      "key": "goes_back_to_the_old_routine",
+      "weight": 0,
+      "from": 0,
+      "to": 0
+    },
+    {
+      "key": "leaves_both_for_something_else",
+      "weight": 0,
+      "from": 0,
+      "to": 0
+    },
+    {
+      "key": "leaves_the_hart_for_a_crypto_job",
+      "weight": 0,
+      "from": 0,
+      "to": 0
+    },
+    {
+      "key": "moves_to_the_scam_team_and_listens_differently",
+      "weight": 0.03,
+      "from": 0,
+      "to": 0.03
+    },
+    {
+      "key": "remainder",
+      "weight": 0.029999999999999916,
+      "from": 0.03,
+      "to": 0.059999999999999915
+    },
+    {
+      "key": "stays_at_his_desk_by_choice_with_open_eyes",
+      "weight": 0.9400000000000001,
+      "from": 0.059999999999999915,
+      "to": 1
+    },
+    {
+      "key": "stays_in_the_sharehouse_to_help_the_ones_left",
+      "weight": 0,
+      "from": 1,
+      "to": 1
+    }
+  ],
+  "realized": "stays_at_his_desk_by_choice_with_open_eyes",
+  "realizedIsRemainder": false,
+  "drawIndex": 0,
+  "reroll": false,
+  "priorDraws": [],
+  "recorded": {
+    "nodeId": "draw.kieran.end",
+    "documentRootId": "story",
+    "graphHash": "1fae29d8f38816a8557e5f37e7555918f037c9af271aefb30c03aa2c33d4b2aa",
+    "stored": {
+      "schema": "life-sim-mcp-service/v2",
+      "graphHash": "1fae29d8f38816a8557e5f37e7555918f037c9af271aefb30c03aa2c33d4b2aa",
+      "previousGraphHash": "79be66f2f1b0c97a70db68430a0f10db1d350b39f5c393bbb0d84c7b2b52f765",
+      "snapshotHash": "eea5fa4267c200d290002c557e21197e909f1763d5278afeb94741d00b6725bd",
+      "stored": true,
+      "reusedExisting": false,
+      "immutableRevision": true,
+      "additiveBatch": true,
+      "batch": {
+        "added_edge_count": 2,
+        "added_node_count": 1,
+        "added_root_count": 0
+      },
+      "summary": {
+        "edge_count": 154,
+        "graph_hash": "1fae29d8f38816a8557e5f37e7555918f037c9af271aefb30c03aa2c33d4b2aa",
+        "id": "rabbit-hole-novel",
+        "node_count": 58,
+        "revision": {
+          "number": 45,
+          "previous_graph_hash": "79be66f2f1b0c97a70db68430a0f10db1d350b39f5c393bbb0d84c7b2b52f765",
+          "provenance": [
+            "Meaning Model direction draw v1",
+            "algorithm:sha256-first-32-bits/v1",
+            "Computed by the server from the recorded seed and the model's Cut weights; a construction decision, not an observation."
+          ],
+          "reason": "Record direction draw draw.kieran.end over cut.kieran.2023.end."
+        },
+        "roles": {
+          "document_root": 1,
+          "externalized_reflection": 29,
+          "metadata": 28
+        },
+        "root_count": 3,
+        "schema": "life-sim-rust-narrative-graph/v1",
+        "source": {
+          "kind": "model",
+          "model_hash": "a1e6a4ffb9514825a36c5aec545ba934057f3af9570f6009cd63600f1a957054"
+        },
+        "source_snapshot": {
+          "candidate_status": null,
+          "model_hash": "a1e6a4ffb9514825a36c5aec545ba934057f3af9570f6009cd63600f1a957054",
+          "model_revision": 15,
+          "source_hash": "a1e6a4ffb9514825a36c5aec545ba934057f3af9570f6009cd63600f1a957054",
+          "source_kind": "model",
+          "time": null,
+          "world_id": null,
+          "world_version": null
+        }
+      },
+      "requestPayloadHash": "f69acd97358b668e45c4bd8c8d6d51a13e707df914530e24091bd8adc6ab49d2"
+    }
+  },
+  "graphHash": "1fae29d8f38816a8557e5f37e7555918f037c9af271aefb30c03aa2c33d4b2aa",
+  "previousGraphHash": "79be66f2f1b0c97a70db68430a0f10db1d350b39f5c393bbb0d84c7b2b52f765",
+  "graphMutation": true,
+  "worldMutation": false,
+  "nextStep": "Build stays_at_his_desk_by_choice_with_open_eyes as the realized continuation and link its Event from ev.kieran.end with a realizes_forecast relation naming this Cut and stays_at_his_desk_by_choice_with_open_eyes. A further draw over this Cut is recorded as a reroll."
+}

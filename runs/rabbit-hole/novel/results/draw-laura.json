@@ -1,0 +1,133 @@
+{
+  "schema": "meaning-model-direction-draw/v1",
+  "modelHash": "309786c8a5e977016dda75de407eed9575a5828da26b2ee27d02fbce1c7e87e7",
+  "cutId": "cut.laura.2022.response",
+  "parentEventId": "ev.laura.response",
+  "question": "What does Laura do once she knows the deposit is gone and that Kieran hid it for five weeks?",
+  "unit": "proposal weight over mutually exclusive continuations",
+  "answers": [
+    {
+      "key": "leaves_him",
+      "weight": 0
+    },
+    {
+      "key": "moves_out_for_a_time_then_decides",
+      "weight": 0
+    },
+    {
+      "key": "remainder",
+      "weight": 0.1399999999999999
+    },
+    {
+      "key": "stays_and_holds_it_together_in_silence",
+      "weight": 0.8
+    },
+    {
+      "key": "stays_and_takes_charge",
+      "weight": 0.06
+    }
+  ],
+  "seed": "rabbit-hole-run/laura/response/2022-06",
+  "algorithm": "sha256-first-32-bits/v1",
+  "u": 0.5785610075108707,
+  "cumulative": [
+    {
+      "key": "leaves_him",
+      "weight": 0,
+      "from": 0,
+      "to": 0
+    },
+    {
+      "key": "moves_out_for_a_time_then_decides",
+      "weight": 0,
+      "from": 0,
+      "to": 0
+    },
+    {
+      "key": "remainder",
+      "weight": 0.1399999999999999,
+      "from": 0,
+      "to": 0.1399999999999999
+    },
+    {
+      "key": "stays_and_holds_it_together_in_silence",
+      "weight": 0.8,
+      "from": 0.1399999999999999,
+      "to": 0.94
+    },
+    {
+      "key": "stays_and_takes_charge",
+      "weight": 0.06,
+      "from": 0.94,
+      "to": 1
+    }
+  ],
+  "realized": "stays_and_holds_it_together_in_silence",
+  "realizedIsRemainder": false,
+  "drawIndex": 0,
+  "reroll": false,
+  "priorDraws": [],
+  "recorded": {
+    "nodeId": "draw.laura.response",
+    "documentRootId": "story",
+    "graphHash": "cb7b413bc51d7247d9783d0ec367395f44664226331a896e6015d01c619ef32c",
+    "stored": {
+      "schema": "life-sim-mcp-service/v2",
+      "graphHash": "cb7b413bc51d7247d9783d0ec367395f44664226331a896e6015d01c619ef32c",
+      "previousGraphHash": "b332ea3c2241fd7641feede2f0d39f5c83dd77a15e57917968579bd7ff41d35a",
+      "snapshotHash": "86a092534624e913142d8d3742b464e1eb73acfcb0a4bc1f7c51db849a9fbeeb",
+      "stored": true,
+      "reusedExisting": false,
+      "immutableRevision": true,
+      "additiveBatch": true,
+      "batch": {
+        "added_edge_count": 2,
+        "added_node_count": 1,
+        "added_root_count": 0
+      },
+      "summary": {
+        "edge_count": 148,
+        "graph_hash": "cb7b413bc51d7247d9783d0ec367395f44664226331a896e6015d01c619ef32c",
+        "id": "rabbit-hole-novel",
+        "node_count": 55,
+        "revision": {
+          "number": 37,
+          "previous_graph_hash": "b332ea3c2241fd7641feede2f0d39f5c83dd77a15e57917968579bd7ff41d35a",
+          "provenance": [
+            "Meaning Model direction draw v1",
+            "algorithm:sha256-first-32-bits/v1",
+            "Computed by the server from the recorded seed and the model's Cut weights; a construction decision, not an observation."
+          ],
+          "reason": "Record direction draw draw.laura.response over cut.laura.2022.response."
+        },
+        "roles": {
+          "document_root": 1,
+          "externalized_reflection": 29,
+          "metadata": 25
+        },
+        "root_count": 3,
+        "schema": "life-sim-rust-narrative-graph/v1",
+        "source": {
+          "kind": "model",
+          "model_hash": "309786c8a5e977016dda75de407eed9575a5828da26b2ee27d02fbce1c7e87e7"
+        },
+        "source_snapshot": {
+          "candidate_status": null,
+          "model_hash": "309786c8a5e977016dda75de407eed9575a5828da26b2ee27d02fbce1c7e87e7",
+          "model_revision": 9,
+          "source_hash": "309786c8a5e977016dda75de407eed9575a5828da26b2ee27d02fbce1c7e87e7",
+          "source_kind": "model",
+          "time": null,
+          "world_id": null,
+          "world_version": null
+        }
+      },
+      "requestPayloadHash": "c40613e9badb428bf01da0926b4060fc8d131b215f4d9ccd074ce2b60f701edf"
+    }
+  },
+  "graphHash": "cb7b413bc51d7247d9783d0ec367395f44664226331a896e6015d01c619ef32c",
+  "previousGraphHash": "b332ea3c2241fd7641feede2f0d39f5c83dd77a15e57917968579bd7ff41d35a",
+  "graphMutation": true,
+  "worldMutation": false,
+  "nextStep": "Build stays_and_holds_it_together_in_silence as the realized continuation and link its Event from ev.laura.response with a realizes_forecast relation naming this Cut and stays_and_holds_it_together_in_silence. A further draw over this Cut is recorded as a reroll."
+}

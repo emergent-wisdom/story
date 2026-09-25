@@ -1,0 +1,40 @@
+{
+ "question": "How does the shared house deposit come to be moved into the stablecoin?",
+ "unit": "proposal weight over mutually exclusive continuations",
+ "answers": [
+  {
+   "key": "asks_and_she_agrees",
+   "meaning": "Kieran explains the plan to Laura and she agrees to it knowingly."
+  },
+  {
+   "key": "asks_and_she_leaves_it_to_him",
+   "meaning": "Kieran raises it with Laura; tired, she says he knows about money and to do what he thinks is best, without understanding what the stablecoin is."
+  },
+  {
+   "key": "moves_it_without_asking",
+   "meaning": "Kieran moves the deposit without telling Laura, meaning to tell her once it has grown."
+  }
+ ],
+ "remainderMeaning": "Something else happens, such as the deposit not being moved at all or being moved in another way.",
+ "subject": "Kieran Hale and Laura Russell",
+ "modelHash": "9530b557979d4894076246a5210cb0e020f136ec81bfc262180a143c89069539",
+ "events": [
+  {
+   "eventId": "ev.kieran.deposit_move",
+   "cutId": "cut.kieran.2022.deposit_consent",
+   "situationText": "January 2022, Old Swindon. Kieran Hale, 31, payments clerk, has spent eighteen months in decentralized finance; his own stake has fallen from about 71,000 to 45,000 pounds on the screen. He and his partner Laura Russell, an intensive-care nurse four months out of the worst pandemic wave, share a 24,000-pound house deposit, 15,000 of it Laura's overtime, which sits in a savings account at his employer. House prices where they want to buy have risen faster than the deposit. His father lost his job when the car plant closed in July and Kieran paid his parents' rent from his gains. His chat server says the smart money is now in 'safe yield': a dollar stablecoin paying about twenty percent. Kieran believes he understands risk; he fears being left behind and wants to provide. He has not told Laura how much he has made or lost. Laura is exhausted, wants to buy a house by summer, has not opened their savings app since spring, treats Kieran as the one who knows about money, and is tired of being the one who holds everything together. Kieran's life-long habits: loyal to whichever group needs him; 'no trouble' to anyone; avoids conflict. Laura's: holds everything together and says nothing."
+  }
+ ],
+ "idPrefix": "cut.estimated",
+ "apply": true,
+ "replaceExisting": true,
+ "requestId": "estimate-deposit-consent",
+ "revisionReason": "Revision 3: the estimator's weights for the deposit-consent decision, read from Kieran's and Laura's modeled states in January 2022, replace the authored proposal before the draw.",
+ "rebind": {
+  "graphHash": "19e3078cee228dfb5c367c259c260b42e49ad289487ebbd8bdf082bd26c3c007",
+  "accessScopes": [
+   "story-author"
+  ],
+  "requestId": "rebind-r3"
+ }
+}

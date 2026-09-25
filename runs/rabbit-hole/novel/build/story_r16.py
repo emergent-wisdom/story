@@ -1,0 +1,20 @@
+import json, sys
+sys.path.insert(0, 'build')
+from mm import *
+K='referent.profile.protagonist.person.protagonist'; B='referent.profile.barbara.person.barbara'; L='referent.profile.laura.person.laura'
+OLD='Old Swindon: the rented flat above a shop on Wood Street'; AVE='Avebury Trusloe and the Ridgeway, Wiltshire'; HART='White Hart House, the Hart\'s head office in west Swindon'
+E=[]; R=[]
+def add(eid, b, d, a, z, parent, part=None, reg=None, pids=None):
+    E.append(event(eid, b, d, iv(a, z), part or {}, pids, reg)); R.append(rel(f'contains.{eid}', 'contains', parent, eid, 'Opened detail.'))
+def realized(src, dst, cutid, key, text):
+    r = rel(f'{src}.realizes.{dst}', 'realizes_forecast', src, dst, text); r['forecast_answer'] = {'cut_id': cutid, 'answer_key': key}; R.append(r)
+add('ev.kieran_laura.rebuild','September 2022 onward: they stay and rebuild in the open.','They open one joint account that both can see, put the rota and a spreadsheet on the fridge side by side, and postpone the house by two years. Kieran deletes the trading apps and tells Laura every number. Laura, who has never asked for anything, asks for Sundays off together and gets them. Rebuilding is slow and dull and they choose it.',2022.7,2023.25,'event.profile.kieran_collapse.change_arc.adaptation',{'subject':K,'partner':L},OLD,['household.deposit_gbp'])
+realized('ev.kieran_laura.conversation','ev.kieran_laura.rebuild','cut.kieran_laura.2022.conversation','stay_and_rebuild_in_the_open','Drawn: seed rabbit-hole-run/kieran-laura/conversation/2022-08, u=0.6909, from estimator weights (rebuild 0.53, broken 0.16, separate 0.01, remainder 0.30).')
+add('ev.kieran.end.open_eyes','Autumn 2022 to March 2023: Kieran stays at his desk by choice, with open eyes.','He stays on the payments-exceptions desk at the Hart. The routine is the same and he is not: he knows how old the machine is and what runs under it, he knows what the new machine did to him, and he keeps Barbara\'s card with its small balance behind his bus pass. When a flagged transfer to a crypto exchange comes up he makes the call, reads the script, and then asks his own questions. He walks with Barbara once a month, and in March 2023 Laura comes too.',2022.75,2023.25,'ev.kieran.end',{'subject':K},HART,['card.wallet_btc'])
+realized('ev.kieran.end','ev.kieran.end.open_eyes','cut.kieran.2023.end','stays_at_his_desk_by_choice_with_open_eyes','Drawn: seed rabbit-hole-run/kieran/end/2023-03, u=0.9659, from re-estimated weights (open eyes 0.94, scam team 0.03, remainder 0.03).')
+add('ev.kieran.last_call','March 2023: a flagged transfer, and Kieran\'s call.','A saver in her twenties moving her savings to a crypto exchange trips the scam rules. Kieran reads the script, then asks what Barbara once asked him, and something of his own: whether she knows how old the thing she is leaving is, and how new the thing she is going into, and who she will tell if it goes wrong.',2023.18,2023.19,'ev.kieran.end.open_eyes',{'caller':K},HART)
+add('ev.walk.march_2023','A Sunday in March 2023: Kieran, Laura and Barbara on the Ridgeway.','The three of them walk from the car park above Avebury to the long barrow. Barbara talks about the stones; Laura, who has never been up there, asks why anyone would drag them so far; Kieran says people will do almost anything to gather. The card is in his wallet; his phone is in the car.',2023.2,2023.21,'ev.kieran.end.open_eyes',{'subject':K,'partner':L,'companion':B},AVE)
+R.append(rel('barbara_visit.enables.walk2023','enables','ev.barbara.after.goes_to_laura','ev.walk.march_2023','Barbara and Laura met in August; now they walk together.'))
+change={"reason":"Revision 16: realized continuations of the last two draws (stay and rebuild in the open; stays at his desk by choice with open eyes), with the last call and the March 2023 walk that end the story.","provenance":PROV,"upsert":{"events":E,"event_relations":R}}
+dump({'requestId':'revise-story-r16','previousModelHash':'a1e6a4ffb9514825a36c5aec545ba934057f3af9570f6009cd63600f1a957054','change':change,'requireDescribedNumbers':True},'inputs/revise-story-r16.json')
+print(len(E), len(R))

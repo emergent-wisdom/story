@@ -1,0 +1,43 @@
+{
+ "question": "What does Laura do once she knows the deposit is gone and that Kieran hid it for five weeks?",
+ "unit": "proposal weight over mutually exclusive continuations",
+ "answers": [
+  {
+   "key": "leaves_him",
+   "meaning": "She ends the relationship and moves out within weeks."
+  },
+  {
+   "key": "moves_out_for_a_time_then_decides",
+   "meaning": "She goes to stay with her mother for a while to decide, leaving the future open."
+  },
+  {
+   "key": "stays_and_takes_charge",
+   "meaning": "She stays, takes over their money openly and sets conditions: no more crypto, full honesty, a plan to rebuild the deposit."
+  },
+  {
+   "key": "stays_and_holds_it_together_in_silence",
+   "meaning": "She stays and says almost nothing about it: she quietly takes over the finances, picks up extra shifts, and carries the hurt without a scene, as she learned from her mother; the conversation that should happen does not."
+  }
+ ],
+ "remainderMeaning": "Something else entirely.",
+ "subject": "Laura Russell",
+ "modelHash": "62aad8cdb921bae0cfb066ec56d87b638baaa242285ba5756de72bfe4fa7f2f3",
+ "events": [
+  {
+   "eventId": "ev.laura.response",
+   "cutId": "cut.laura.2022.response",
+   "situationText": "Mid-June 2022, the kitchen table of a rented flat in Old Swindon. Laura Russell, 30, intensive-care nurse, learns from her partner Kieran Hale only because a mortgage adviser asked for statements: in January he moved their 24,000-pound house deposit, 15,000 of it her overtime from the pandemic years, into a dollar stablecoin; it collapsed in May and is worth a few hundred pounds; he has known for five weeks and said nothing, going to work and coming home as usual. In January she herself told him to do what he thought best, without asking what it was, and part of her knows it. Her childhood was five evictions from rented houses; her deepest want is a home nobody can take away; she learned from her mother to hold everything together and say nothing; she is superb in a crisis and bad at asking for anything. She loves Kieran; they have been together eight years. She is still exhausted from two pandemic waves."
+  }
+ ],
+ "apply": true,
+ "replaceExisting": true,
+ "requestId": "estimate-laura-response-2",
+ "revisionReason": "Revision 9: Laura's response Cut re-estimated with a fourth category. The first estimate (revision 8) put 0.62 on the remainder, whose meaning named staying and saying nothing: the named options missed what her modeled habit (hold everything together and say nothing) predicts. No draw had been made on the Cut.",
+ "rebind": {
+  "graphHash": "fd8f89f4e8b5daf2f0384d254bf13a2cc89654f85bf77d225877374ee4e4052b",
+  "accessScopes": [
+   "story-author"
+  ],
+  "requestId": "rebind-r9"
+ }
+}

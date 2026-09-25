@@ -1,0 +1,39 @@
+{
+ "question": "What does Barbara do when Kieran tells her the house deposit is in the stablecoin?",
+ "unit": "proposal weight over mutually exclusive continuations",
+ "answers": [
+  {
+   "key": "warns_plainly_with_the_mechanism",
+   "meaning": "She stops and explains exactly how the peg can fail and tells him plainly to take the deposit out."
+  },
+  {
+   "key": "mocks_it_and_leaves_him_to_learn",
+   "meaning": "She mocks the stablecoin as a casino chip and changes the subject, leaving him to learn for himself."
+  },
+  {
+   "key": "says_it_is_his_choice_and_nothing_more",
+   "meaning": "She says only that it is his and Laura's choice, keeping her opinion to herself."
+  }
+ ],
+ "remainderMeaning": "She does something else, such as offering to cover the risk herself or ending the friendship.",
+ "subject": "Barbara Ashby",
+ "modelHash": "4848f2d68da7b77173cf89cc9b589e087127e0bd92c0a33bb8c9942dce53a24f",
+ "events": [
+  {
+   "eventId": "ev.barbara.stablecoin_walk",
+   "cutId": "cut.barbara.2022.response",
+   "situationText": "A Sunday in February 2022 on the Ridgeway above Avebury. Barbara Ashby, 68, retired programmer who wrote interbank clearing software for twenty-five years and a bitcoin purist since 2013, walks with Kieran Hale, 31, the young building-society clerk to whom she gave a card with twelve words and fifty pounds of bitcoin in 2019; they have walked together most months for eighteen months and she likes him more than she expected. He tells her, pleased, that in January he moved his and his partner Laura's 24,000-pound house deposit into a dollar stablecoin paying about twenty percent; Laura, exhausted from intensive-care nursing, told him to do what he thought best. Barbara thinks everything that is not bitcoin is a casino and this stablecoin a confidence trick with a formula: its peg depends on a sister token keeping its value. She believes adults choose their own risks, has spent her life refusing to be anyone's mother, and dislikes lecturing. Under that, for the first time, is the thought that she gave him the key. Her habits: blunt, contemptuous of gamblers, proud of verifying everything, slow to show warmth."
+  }
+ ],
+ "apply": true,
+ "replaceExisting": true,
+ "requestId": "estimate-barbara-response",
+ "revisionReason": "Revision 4: the estimator's weights for Barbara's response on the February 2022 walk, read from her modeled state and conditioned on the drawn deposit consent (asks_and_she_leaves_it_to_him), replace the authored proposal before the draw.",
+ "rebind": {
+  "graphHash": "a14fcc3426b3191f09df79d09dc7244ef4fb94fc4d6e6c84af00e98920e4fc00",
+  "accessScopes": [
+   "story-author"
+  ],
+  "requestId": "rebind-r4"
+ }
+}

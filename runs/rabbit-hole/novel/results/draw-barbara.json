@@ -1,0 +1,123 @@
+{
+  "schema": "meaning-model-direction-draw/v1",
+  "modelHash": "dbb794b33dd62e512677d0ebeb174ea5120c9b8695727fc99162af64d265a22d",
+  "cutId": "cut.barbara.2022.response",
+  "parentEventId": "ev.barbara.stablecoin_walk",
+  "question": "What does Barbara do when Kieran tells her the house deposit is in the stablecoin?",
+  "unit": "proposal weight over mutually exclusive continuations",
+  "answers": [
+    {
+      "key": "mocks_it_and_leaves_him_to_learn",
+      "weight": 0.18
+    },
+    {
+      "key": "remainder",
+      "weight": 0.050000000000000044
+    },
+    {
+      "key": "says_it_is_his_choice_and_nothing_more",
+      "weight": 0.48
+    },
+    {
+      "key": "warns_plainly_with_the_mechanism",
+      "weight": 0.29
+    }
+  ],
+  "seed": "rabbit-hole-run/barbara/stablecoin-walk/2022-02",
+  "algorithm": "sha256-first-32-bits/v1",
+  "u": 0.23138614976778626,
+  "cumulative": [
+    {
+      "key": "mocks_it_and_leaves_him_to_learn",
+      "weight": 0.18,
+      "from": 0,
+      "to": 0.18
+    },
+    {
+      "key": "remainder",
+      "weight": 0.050000000000000044,
+      "from": 0.18,
+      "to": 0.23000000000000004
+    },
+    {
+      "key": "says_it_is_his_choice_and_nothing_more",
+      "weight": 0.48,
+      "from": 0.23000000000000004,
+      "to": 0.71
+    },
+    {
+      "key": "warns_plainly_with_the_mechanism",
+      "weight": 0.29,
+      "from": 0.71,
+      "to": 1
+    }
+  ],
+  "realized": "says_it_is_his_choice_and_nothing_more",
+  "realizedIsRemainder": false,
+  "drawIndex": 0,
+  "reroll": false,
+  "priorDraws": [],
+  "recorded": {
+    "nodeId": "draw.barbara.response",
+    "documentRootId": "story",
+    "graphHash": "0dfed9b07738c7fcf1d36d3a0f54aeb8579ca4c76a2d2a334fa26bb423c3c3ed",
+    "stored": {
+      "schema": "life-sim-mcp-service/v2",
+      "graphHash": "0dfed9b07738c7fcf1d36d3a0f54aeb8579ca4c76a2d2a334fa26bb423c3c3ed",
+      "previousGraphHash": "f1f72f4d0633e5d73dd25b1ea11d561151f02996774850897be8436cf8b0f60f",
+      "snapshotHash": "eeedfcbb2b51b02db71e10b0a6e537d59436491ec11879dd9c0eee49695b3715",
+      "stored": true,
+      "reusedExisting": false,
+      "immutableRevision": true,
+      "additiveBatch": true,
+      "batch": {
+        "added_edge_count": 2,
+        "added_node_count": 1,
+        "added_root_count": 0
+      },
+      "summary": {
+        "edge_count": 142,
+        "graph_hash": "0dfed9b07738c7fcf1d36d3a0f54aeb8579ca4c76a2d2a334fa26bb423c3c3ed",
+        "id": "rabbit-hole-novel",
+        "node_count": 52,
+        "revision": {
+          "number": 30,
+          "previous_graph_hash": "f1f72f4d0633e5d73dd25b1ea11d561151f02996774850897be8436cf8b0f60f",
+          "provenance": [
+            "Meaning Model direction draw v1",
+            "algorithm:sha256-first-32-bits/v1",
+            "Computed by the server from the recorded seed and the model's Cut weights; a construction decision, not an observation."
+          ],
+          "reason": "Record direction draw draw.barbara.response over cut.barbara.2022.response."
+        },
+        "roles": {
+          "document_root": 1,
+          "externalized_reflection": 29,
+          "metadata": 22
+        },
+        "root_count": 3,
+        "schema": "life-sim-rust-narrative-graph/v1",
+        "source": {
+          "kind": "model",
+          "model_hash": "dbb794b33dd62e512677d0ebeb174ea5120c9b8695727fc99162af64d265a22d"
+        },
+        "source_snapshot": {
+          "candidate_status": null,
+          "model_hash": "dbb794b33dd62e512677d0ebeb174ea5120c9b8695727fc99162af64d265a22d",
+          "model_revision": 4,
+          "source_hash": "dbb794b33dd62e512677d0ebeb174ea5120c9b8695727fc99162af64d265a22d",
+          "source_kind": "model",
+          "time": null,
+          "world_id": null,
+          "world_version": null
+        }
+      },
+      "requestPayloadHash": "6b4faee70e902d46338b1dbdc1de595c1e7329f6e0a1cb0ba92470a5810eaa59"
+    }
+  },
+  "graphHash": "0dfed9b07738c7fcf1d36d3a0f54aeb8579ca4c76a2d2a334fa26bb423c3c3ed",
+  "previousGraphHash": "f1f72f4d0633e5d73dd25b1ea11d561151f02996774850897be8436cf8b0f60f",
+  "graphMutation": true,
+  "worldMutation": false,
+  "nextStep": "Build says_it_is_his_choice_and_nothing_more as the realized continuation and link its Event from ev.barbara.stablecoin_walk with a realizes_forecast relation naming this Cut and says_it_is_his_choice_and_nothing_more. A further draw over this Cut is recorded as a reroll."
+}

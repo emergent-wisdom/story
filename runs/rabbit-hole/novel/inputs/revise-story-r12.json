@@ -1,0 +1,253 @@
+{
+ "requestId": "revise-story-r12",
+ "previousModelHash": "d027c95beefe41786c74361352d78b26523dbdb2aa94a52d7e2690584676f0f7",
+ "change": {
+  "reason": "Revision 12: realized continuations for the telling (hides until the mortgage forces it), Laura's response (stays and holds it together in silence) and Barbara's response (remainder drawn: she goes to Laura herself, a new admissible continuation), and the moment of the conversation that follows, whose Cut the estimator will place.",
+  "provenance": [
+   "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+  ],
+  "upsert": {
+   "events": [
+    {
+     "id": "ev.kieran.telling.mortgage",
+     "boundary": "Mid-June 2022: five weeks of hiding, then the mortgage forces it.",
+     "interval": {
+      "start": 2022.37,
+      "end": 2022.46
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist",
+      "partner": "referent.profile.laura.person.laura"
+     },
+     "process_ids": [
+      "household.deposit_gbp"
+     ],
+     "observation_process_ids": [],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "For five weeks Kieran goes to work and comes home and says nothing; he takes scam calls in the day and checks a dead balance at night. When the mortgage adviser emails for statements, Laura forwards it to him with a thumbs-up. He tells her that evening at the kitchen table, the rota on the fridge behind her."
+    },
+    {
+     "id": "ev.laura.response.silence",
+     "boundary": "Summer 2022: Laura stays and holds it together in silence.",
+     "interval": {
+      "start": 2022.46,
+      "end": 2022.6
+     },
+     "participants": {
+      "subject": "referent.profile.laura.person.laura",
+      "partner": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "household.deposit_gbp"
+     ],
+     "observation_process_ids": [],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "She listens, asks three practical questions, and goes to bed. In the morning she moves their accounts into her name, picks up two extra shifts a week and cancels the mortgage appointment. She does not shout and does not cry in front of him. The conversation that should happen does not happen. The rota stays on the fridge."
+    },
+    {
+     "id": "ev.barbara.after.goes_to_laura",
+     "boundary": "August 2022: Barbara goes to Laura herself.",
+     "interval": {
+      "start": 2022.6,
+      "end": 2022.63
+     },
+     "participants": {
+      "subject": "referent.profile.barbara.person.barbara",
+      "visited": "referent.profile.laura.person.laura"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Something none of the named options held (the remainder was drawn). Barbara, who has never met Laura, takes the bus into Swindon on a weekday while Kieran is at the Hart and knocks on the Wood Street flat. She says who she is. She tells Laura what she did: she gave him a key without a map, and in February she knew how the peg could fail and said nothing, because she has never been anybody's mother. That part is hers, she says; the rest is his; and Laura is allowed to say something. For the first time since June, Laura does."
+    },
+    {
+     "id": "ev.kieran_laura.conversation",
+     "boundary": "Late August 2022: the conversation that did not happen in June.",
+     "interval": {
+      "start": 2022.63,
+      "end": 2022.75
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist",
+      "partner": "referent.profile.laura.person.laura"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "That evening Laura says what she has not said: about the five evictions, about the deposit as a front door, about the five weeks. What the two of them do with it is drawn from cut.kieran_laura.2022.conversation."
+    }
+   ],
+   "event_relations": [
+    {
+     "id": "contains.ev.kieran.telling.mortgage",
+     "kind": "contains",
+     "source_event_id": "ev.kieran.telling",
+     "target_event_id": "ev.kieran.telling.mortgage",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "ev.kieran.telling.realizes.ev.kieran.telling.mortgage",
+     "kind": "realizes_forecast",
+     "source_event_id": "ev.kieran.telling",
+     "target_event_id": "ev.kieran.telling.mortgage",
+     "description": "Drawn: seed rabbit-hole-run/kieran/telling/2022-06, u=0.4528, from estimator weights (hides until mortgage 0.94, finds out 0.03, remainder 0.03).",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "forecast_answer": {
+      "cut_id": "cut.kieran.2022.telling",
+      "answer_key": "hides_it_until_the_mortgage_forces_it"
+     }
+    },
+    {
+     "id": "contains.ev.laura.response.silence",
+     "kind": "contains",
+     "source_event_id": "ev.laura.response",
+     "target_event_id": "ev.laura.response.silence",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "ev.laura.response.realizes.ev.laura.response.silence",
+     "kind": "realizes_forecast",
+     "source_event_id": "ev.laura.response",
+     "target_event_id": "ev.laura.response.silence",
+     "description": "Drawn: seed rabbit-hole-run/laura/response/2022-06, u=0.5786, from re-estimated weights (silence 0.80, takes charge 0.06, remainder 0.14).",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "forecast_answer": {
+      "cut_id": "cut.laura.2022.response",
+      "answer_key": "stays_and_holds_it_together_in_silence"
+     }
+    },
+    {
+     "id": "contains.ev.barbara.after.goes_to_laura",
+     "kind": "contains",
+     "source_event_id": "ev.barbara.after",
+     "target_event_id": "ev.barbara.after.goes_to_laura",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "ev.barbara.after.realizes.ev.barbara.after.goes_to_laura",
+     "kind": "realizes_forecast",
+     "source_event_id": "ev.barbara.after",
+     "target_event_id": "ev.barbara.after.goes_to_laura",
+     "description": "Drawn remainder: seed rabbit-hole-run/barbara/after/2022-07, u=0.6898, from re-estimated weights (map 0.34, keeps walking 0.25, must tell Laura 0.02, remainder 0.39). New admissible continuation under the remainder: she goes to Laura herself.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "forecast_answer": {
+      "cut_id": "cut.barbara.2022.after",
+      "answer_key": "remainder"
+     }
+    },
+    {
+     "id": "barbara_visit.causes.conversation_moment",
+     "kind": "causes",
+     "source_event_id": "ev.barbara.after.goes_to_laura",
+     "target_event_id": "ev.kieran_laura.conversation",
+     "description": "Barbara breaks Laura's silence; the conversation becomes possible.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.kieran_laura.conversation",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_collapse.change_arc.adaptation",
+     "target_event_id": "ev.kieran_laura.conversation",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "silence.enables.conversation",
+     "kind": "enables",
+     "source_event_id": "ev.laura.response.silence",
+     "target_event_id": "ev.kieran_laura.conversation",
+     "description": "The silence is what the conversation breaks.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "conversation.enables.end",
+     "kind": "enables",
+     "source_event_id": "ev.kieran_laura.conversation",
+     "target_event_id": "ev.kieran.end",
+     "description": "What they decide is part of where he ends up.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   ]
+  }
+ },
+ "requireDescribedNumbers": true
+}

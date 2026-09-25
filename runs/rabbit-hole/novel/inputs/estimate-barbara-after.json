@@ -1,0 +1,43 @@
+{
+ "question": "What does Barbara do after Kieran tells her everything on the July 2022 walk?",
+ "unit": "proposal weight over mutually exclusive continuations",
+ "answers": [
+  {
+   "key": "repays_laura_s_share_herself",
+   "meaning": "She insists on giving Kieran fifteen thousand pounds to replace Laura's share of the deposit."
+  },
+  {
+   "key": "tells_him_what_1986_taught_her_and_keeps_walking",
+   "meaning": "She offers no money and no pity; she tells him what losing the works taught her and keeps walking with him every month."
+  },
+  {
+   "key": "withdraws_from_him",
+   "meaning": "She stops the walks and pulls away, ashamed of her part and contemptuous of the gamble."
+  },
+  {
+   "key": "tells_him_he_must_tell_laura_everything",
+   "meaning": "She tells him bluntly that the real debt is the conversation he has not had with Laura, and refuses to discuss anything else until he has."
+  }
+ ],
+ "remainderMeaning": "Something else entirely.",
+ "subject": "Barbara Ashby",
+ "modelHash": "309786c8a5e977016dda75de407eed9575a5828da26b2ee27d02fbce1c7e87e7",
+ "events": [
+  {
+   "eventId": "ev.barbara.after",
+   "cutId": "cut.barbara.2022.after",
+   "situationText": "July 2022, the Ridgeway above Avebury. Barbara Ashby, 69, retired programmer and bitcoin purist, holds about thirty-five bitcoin bought from 2013 onward (about half a million pounds even after the 2022 fall), lives modestly on her pension in a cottage and never sells. She gave Kieran Hale, 32, the card of twelve words in 2019 that led him into crypto; in February, when he told her the house deposit was in the stablecoin, she said only that it was his choice, though she knew how the peg could fail. On this walk he tells her everything: he held through the collapse, the 24,000-pound deposit (15,000 of it his partner Laura's) is gone, he hid it for five weeks, and Laura has stayed but barely speaks about it. Barbara's deepest wants: to be credited, to depend on nothing she cannot verify, to leave something that outlasts her; her rule has always been not to be anyone's mother; she is blunt, dislikes pity and despises the casino, but she is fond of him and for the first time feels guilt: she verified the key, not the person. The railway works closing in 1986, when she was 33, taught her that institutions end and that she must learn things for herself."
+  }
+ ],
+ "apply": true,
+ "replaceExisting": true,
+ "requestId": "estimate-barbara-after",
+ "revisionReason": "Revision 10: the estimator's weights for Barbara's response after Kieran's fall, read from her modeled life and conditioned on the draws so far (her February silence; Kieran held; he hid it; Laura stays silent).",
+ "rebind": {
+  "graphHash": "cb7b413bc51d7247d9783d0ec367395f44664226331a896e6015d01c619ef32c",
+  "accessScopes": [
+   "story-author"
+  ],
+  "requestId": "rebind-r10"
+ }
+}

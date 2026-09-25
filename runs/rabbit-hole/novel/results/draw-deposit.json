@@ -1,0 +1,123 @@
+{
+  "schema": "meaning-model-direction-draw/v1",
+  "modelHash": "4848f2d68da7b77173cf89cc9b589e087127e0bd92c0a33bb8c9942dce53a24f",
+  "cutId": "cut.kieran.2022.deposit_consent",
+  "parentEventId": "ev.kieran.deposit_move",
+  "question": "How does the shared house deposit come to be moved into the stablecoin?",
+  "unit": "proposal weight over mutually exclusive continuations",
+  "answers": [
+    {
+      "key": "asks_and_she_agrees",
+      "weight": 0
+    },
+    {
+      "key": "asks_and_she_leaves_it_to_him",
+      "weight": 0.39
+    },
+    {
+      "key": "moves_it_without_asking",
+      "weight": 0.56
+    },
+    {
+      "key": "remainder",
+      "weight": 0.04999999999999993
+    }
+  ],
+  "seed": "rabbit-hole-run/kieran/deposit-consent/2022-01",
+  "algorithm": "sha256-first-32-bits/v1",
+  "u": 0.04411584907211363,
+  "cumulative": [
+    {
+      "key": "asks_and_she_agrees",
+      "weight": 0,
+      "from": 0,
+      "to": 0
+    },
+    {
+      "key": "asks_and_she_leaves_it_to_him",
+      "weight": 0.39,
+      "from": 0,
+      "to": 0.39
+    },
+    {
+      "key": "moves_it_without_asking",
+      "weight": 0.56,
+      "from": 0.39,
+      "to": 0.9500000000000001
+    },
+    {
+      "key": "remainder",
+      "weight": 0.04999999999999993,
+      "from": 0.9500000000000001,
+      "to": 1
+    }
+  ],
+  "realized": "asks_and_she_leaves_it_to_him",
+  "realizedIsRemainder": false,
+  "drawIndex": 0,
+  "reroll": false,
+  "priorDraws": [],
+  "recorded": {
+    "nodeId": "draw.kieran.deposit_consent",
+    "documentRootId": "story",
+    "graphHash": "a14fcc3426b3191f09df79d09dc7244ef4fb94fc4d6e6c84af00e98920e4fc00",
+    "stored": {
+      "schema": "life-sim-mcp-service/v2",
+      "graphHash": "a14fcc3426b3191f09df79d09dc7244ef4fb94fc4d6e6c84af00e98920e4fc00",
+      "previousGraphHash": "e8ef09e1ceb5dc663f961e3a23005fea3c407983fad249886cf17cbae90807fd",
+      "snapshotHash": "254dab831b22cc6be162b78bc72b642ecae36011697906e500d3fd3241628249",
+      "stored": true,
+      "reusedExisting": false,
+      "immutableRevision": true,
+      "additiveBatch": true,
+      "batch": {
+        "added_edge_count": 2,
+        "added_node_count": 1,
+        "added_root_count": 0
+      },
+      "summary": {
+        "edge_count": 140,
+        "graph_hash": "a14fcc3426b3191f09df79d09dc7244ef4fb94fc4d6e6c84af00e98920e4fc00",
+        "id": "rabbit-hole-novel",
+        "node_count": 51,
+        "revision": {
+          "number": 28,
+          "previous_graph_hash": "e8ef09e1ceb5dc663f961e3a23005fea3c407983fad249886cf17cbae90807fd",
+          "provenance": [
+            "Meaning Model direction draw v1",
+            "algorithm:sha256-first-32-bits/v1",
+            "Computed by the server from the recorded seed and the model's Cut weights; a construction decision, not an observation."
+          ],
+          "reason": "Record direction draw draw.kieran.deposit_consent over cut.kieran.2022.deposit_consent."
+        },
+        "roles": {
+          "document_root": 1,
+          "externalized_reflection": 29,
+          "metadata": 21
+        },
+        "root_count": 3,
+        "schema": "life-sim-rust-narrative-graph/v1",
+        "source": {
+          "kind": "model",
+          "model_hash": "4848f2d68da7b77173cf89cc9b589e087127e0bd92c0a33bb8c9942dce53a24f"
+        },
+        "source_snapshot": {
+          "candidate_status": null,
+          "model_hash": "4848f2d68da7b77173cf89cc9b589e087127e0bd92c0a33bb8c9942dce53a24f",
+          "model_revision": 3,
+          "source_hash": "4848f2d68da7b77173cf89cc9b589e087127e0bd92c0a33bb8c9942dce53a24f",
+          "source_kind": "model",
+          "time": null,
+          "world_id": null,
+          "world_version": null
+        }
+      },
+      "requestPayloadHash": "01f72735877fa3f468b4159dc8eaf319439bc73fc4a67877fd0b306e200e83ad"
+    }
+  },
+  "graphHash": "a14fcc3426b3191f09df79d09dc7244ef4fb94fc4d6e6c84af00e98920e4fc00",
+  "previousGraphHash": "e8ef09e1ceb5dc663f961e3a23005fea3c407983fad249886cf17cbae90807fd",
+  "graphMutation": true,
+  "worldMutation": false,
+  "nextStep": "Build asks_and_she_leaves_it_to_him as the realized continuation and link its Event from ev.kieran.deposit_move with a realizes_forecast relation naming this Cut and asks_and_she_leaves_it_to_him. A further draw over this Cut is recorded as a reroll."
+}

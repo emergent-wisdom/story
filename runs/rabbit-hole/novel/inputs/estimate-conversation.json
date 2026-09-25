@@ -1,0 +1,39 @@
+{
+ "question": "What do Laura and Kieran do with the conversation in late August 2022?",
+ "unit": "proposal weight over mutually exclusive continuations",
+ "answers": [
+  {
+   "key": "stay_and_rebuild_in_the_open",
+   "meaning": "They stay together and start again honestly: shared accounts, no secrets, the house postponed, both of them changing something."
+  },
+  {
+   "key": "separate_kindly",
+   "meaning": "They decide, without hatred, that it is over; Laura moves out in the autumn to a place of her own."
+  },
+  {
+   "key": "stay_but_something_stays_broken",
+   "meaning": "They stay together, but the trust does not come back; they live alongside each other carefully."
+  }
+ ],
+ "remainderMeaning": "Something else entirely.",
+ "subject": "Laura Russell and Kieran Hale",
+ "modelHash": "0af998f3f0a66216e71ad3acaa13a179828ce543752506d0a21f9fe692fa01d0",
+ "events": [
+  {
+   "eventId": "ev.kieran_laura.conversation",
+   "cutId": "cut.kieran_laura.2022.conversation",
+   "situationText": "Late August 2022, a rented flat in Old Swindon. Laura Russell, 31, intensive-care nurse, and Kieran Hale, 32, payments clerk, together eight years. In January she told him to do what he thought best with their 24,000-pound house deposit (15,000 hers); he put it in a stablecoin that collapsed in May, hid it for five weeks, and confessed in June only when a mortgage adviser asked for statements. Since June she has stayed, taken over the money in silence, worked extra shifts and said nothing. Today Barbara Ashby, the retired programmer who gave Kieran the key to crypto in 2019 and whom Laura had never met, knocked on the door, admitted her own part and told Laura she was allowed to say something. That evening Laura finally speaks: about being evicted five times as a child, the deposit as a front door nobody could take, and the five weeks of lies. Kieran has stopped trading and is ashamed; he loves her and has never been good at bad news; he left his old gaming guild at twenty and has never forgiven himself for leaving a group, but has also begun to see that loyalty to the group is what kept him in. Laura's deepest want is a home nobody can take; she learned from her mother to hold everything and say nothing, and has just stopped."
+  }
+ ],
+ "apply": true,
+ "replaceExisting": true,
+ "requestId": "estimate-conversation",
+ "revisionReason": "Revision 13: the estimator's weights for what Laura and Kieran do with the August conversation, read from their modeled lives and conditioned on every earlier draw.",
+ "rebind": {
+  "graphHash": "40b4080bac3435506a398250eb10e076cc2e42c6eacebcbd51b16e7c6b1d153e",
+  "accessScopes": [
+   "story-author"
+  ],
+  "requestId": "rebind-r13"
+ }
+}

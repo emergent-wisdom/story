@@ -1,0 +1,43 @@
+{
+ "question": "Where does Kieran end up by March 2023: what does he do with his work, the game and his curiosity?",
+ "unit": "proposal weight over mutually exclusive continuations",
+ "answers": [
+  {
+   "key": "moves_to_the_scam_team_and_listens_differently",
+   "meaning": "He asks to move to the Hart's scam-prevention team and becomes the one who can talk to customers on the edge of the rabbit hole, because he has been down it; he keeps learning both worlds, with Barbara."
+  },
+  {
+   "key": "leaves_the_hart_for_a_crypto_job",
+   "meaning": "He leaves the building society for a job at a crypto company, in compliance or operations, staying in the new world."
+  },
+  {
+   "key": "goes_back_to_the_old_routine",
+   "meaning": "He deletes the apps and returns to exactly the routine he had before, as if nothing had happened."
+  },
+  {
+   "key": "leaves_both_for_something_else",
+   "meaning": "He leaves finance entirely and retrains for different work."
+  }
+ ],
+ "remainderMeaning": "Something else entirely.",
+ "subject": "Kieran Hale",
+ "modelHash": "08ad458546875056db59f665b14e2bfc243e3687125dbc2738f94e6f7de8dad5",
+ "events": [
+  {
+   "eventId": "ev.kieran.end",
+   "cutId": "cut.kieran.2023.end",
+   "situationText": "Autumn 2022 to March 2023, Swindon. Kieran Hale, 32, has lost the 24,000-pound house deposit he shared with his partner Laura in the May 2022 stablecoin collapse and most of his own crypto gains; he hid the loss for five weeks. In August, after his friend Barbara Ashby, the retired programmer who gave him the key to crypto, went to Laura herself, Laura finally spoke, and they decided to stay together and rebuild in the open: shared accounts, no secrets, the house postponed. He still works on the payments floor of a Swindon building society, where in May he took calls from customers who had lost their savings and where he had built the block on crypto payments by day while walking around it at night. He understands both worlds unusually well: the old clearing systems and the new chains. The chat server that was his band is half empty. As a teenager he led a gaming guild; he has always been loyal, no trouble, curious, good at maps and systems. In November 2022 a big crypto exchange collapsed; bitcoin is at a quarter of its peak. Barbara, sixty-nine, still walks the Ridgeway."
+  }
+ ],
+ "apply": true,
+ "replaceExisting": true,
+ "requestId": "estimate-kieran-end",
+ "revisionReason": "Revision 14: the estimator's weights for where Kieran ends up by March 2023, read from his modeled life and conditioned on every earlier draw.",
+ "rebind": {
+  "graphHash": "7d38050b5e1756686b99b19467bedfb3e864114c23f9bf631dc132553b63ec6f",
+  "accessScopes": [
+   "story-author"
+  ],
+  "requestId": "rebind-r14"
+ }
+}

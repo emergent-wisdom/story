@@ -1,0 +1,183 @@
+{
+  "schema": "meaning-model-narrative-rebind/v1",
+  "graphHash": "eee23084e805d6114c9b20d445eab4b920907ae5cfcc973d48b21a25b8b2a8b7",
+  "previousGraphHash": "1fae29d8f38816a8557e5f37e7555918f037c9af271aefb30c03aa2c33d4b2aa",
+  "snapshotHash": "07499bd0e42f246a29830d628be4a00c10e9c531ba0703b6cb5a0ecf32f87300",
+  "stored": true,
+  "reusedExisting": false,
+  "immutableRevision": true,
+  "revisedByDelta": true,
+  "summary": {
+    "edge_count": 154,
+    "graph_hash": "eee23084e805d6114c9b20d445eab4b920907ae5cfcc973d48b21a25b8b2a8b7",
+    "id": "rabbit-hole-novel",
+    "node_count": 58,
+    "revision": {
+      "number": 46,
+      "previous_graph_hash": "1fae29d8f38816a8557e5f37e7555918f037c9af271aefb30c03aa2c33d4b2aa",
+      "provenance": [
+        "Meaning Model narrative rebind v1",
+        "rebind:1fae29d8f388->model:94c0ef70447d"
+      ],
+      "reason": "Rebind to revision 16, which builds the last two drawn continuations."
+    },
+    "roles": {
+      "document_root": 1,
+      "externalized_reflection": 29,
+      "metadata": 28
+    },
+    "root_count": 3,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "94c0ef70447dbee8cc264945e2e752e6f4f2e25f678859b574e26406074378d7"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "94c0ef70447dbee8cc264945e2e752e6f4f2e25f678859b574e26406074378d7",
+      "model_revision": 16,
+      "source_hash": "94c0ef70447dbee8cc264945e2e752e6f4f2e25f678859b574e26406074378d7",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "requestPayloadHash": "8aa3b6fd0e43555810a15fad5f4ea70cd29ef2e45516911143e7fbeb0d4bc263",
+  "previousModelHash": "a1e6a4ffb9514825a36c5aec545ba934057f3af9570f6009cd63600f1a957054",
+  "modelHash": "94c0ef70447dbee8cc264945e2e752e6f4f2e25f678859b574e26406074378d7",
+  "lineageSteps": 1,
+  "droppedModelAnchorEdgeIds": [],
+  "retainedNodeCount": 58,
+  "historicalAssessmentsRetained": true,
+  "worldMutation": false,
+  "nextStep": "Historical depth and review nodes remain but their predecessor-model anchors were removed; record fresh assessments against the successor model before committing further prose.",
+  "openQuestions": {
+    "total": 26,
+    "counts": {
+      "moment-unmodeled": 9,
+      "shift-uncaused": 5,
+      "period-uncut": 6,
+      "process-empty": 3,
+      "remainder-unopened": 1,
+      "weights-unestimated": 1,
+      "understanding-outside": 1
+    },
+    "questions": [
+      {
+        "kind": "understanding-outside",
+        "subject": null,
+        "principal": false,
+        "tool": "life_understanding_record, life_story_author_record, life_understanding_read",
+        "question": "The model has changed 16 times and its record holds 29 thoughts. Where is your understanding? Use the model as your mind: put each thought into it as you have it (ideas, questions, decisions and their reasons, predictions, what you expect), linked to what it concerns, and read it back instead of keeping it in your context."
+      },
+      {
+        "kind": "moment-unmodeled",
+        "subject": "referent.profile.protagonist.person.protagonist",
+        "principal": true,
+        "question": "At \"That evening Laura says what she has not said: about the five evictions, about the deposit as a front door, about the five weeks. What the two of them do with i\" (from 2022.63 to 2022.75), before Protagonist decides \"What do Laura and Kieran do with the conversation in late August 2022?\": what do they want, what do they feel, and how do they decide? Give the moment those Cuts, so the decision's weights come from them.",
+        "tool": "life_model_revise or life_estimate_cut_shares",
+        "at": [
+          2022.63,
+          2022.75
+        ],
+        "cuts": [
+          "cut.kieran_laura.2022.conversation"
+        ]
+      },
+      {
+        "kind": "shift-uncaused",
+        "subject": "referent.profile.protagonist.person.protagonist",
+        "principal": true,
+        "question": "Protagonist's \"What does Kieran see as threatened in this stretch?\" moves his_grandfather from 0.25 to 0.00 between 1990.27 and 2002.7, with nothing modeled between them to cause it. What happened? Model the cause and what followed from it, or make the change gradual across more moments.",
+        "tool": "life_model_revise",
+        "at": [
+          1990.27,
+          2002.7
+        ],
+        "cuts": [
+          "cut.kieran.p1.childhood.threatened",
+          "cut.kieran.p2.game.threatened"
+        ]
+      },
+      {
+        "kind": "period-uncut",
+        "subject": "referent.profile.protagonist.person.protagonist",
+        "principal": true,
+        "question": "In Protagonist's period \"At twenty Kieran gives up the online game and the guild he led, to take the job at the Hart.\" (from 2009.8 to 2012), how did they expect what they want to turn out, and what was at risk? Give the period its outlook Cut and, conditional on threat, a Cut over what was threatened.",
+        "tool": "life_model_revise or life_estimate_cut_shares",
+        "at": [
+          2009.8,
+          2012
+        ]
+      },
+      {
+        "kind": "process-empty",
+        "subject": "referent.profile.protagonist.person.protagonist",
+        "principal": true,
+        "question": "Protagonist's body, kin, knowledge, meaning, means, partnership, place, standing, work are empty. What happened in each over their life: which episodes, shocks and changes, and when? Open the ones the causality runs through into Events and Cuts, or into subcategories of your own if they understand Protagonist better.",
+        "tool": "life_model_revise",
+        "processes": [
+          "body",
+          "kin",
+          "knowledge",
+          "meaning",
+          "means",
+          "partnership",
+          "place",
+          "standing",
+          "work"
+        ]
+      },
+      {
+        "kind": "remainder-unopened",
+        "subject": null,
+        "principal": false,
+        "question": "The draw on \"What does Barbara do after Kieran tells her everything on the July 2022 walk?\" landed on the remainder, and nothing in the model opens it. Name the admissible continuations inside it, estimate them from the modeled state and draw among them (a Cut conditioned on this Cut's remainder), rather than writing what happens yourself.",
+        "tool": "life_estimate_cut_shares (conditionedOn remainder), then life_direction_draw (record)",
+        "cuts": [
+          "cut.barbara.2022.after"
+        ]
+      },
+      {
+        "kind": "weights-unestimated",
+        "subject": null,
+        "principal": false,
+        "question": "6 Cuts carry weights nobody estimated (for example cut.barbara.2019.card.attention, cut.kieran.2019.card.attention, cut.kieran.2020.mirror.attention). Estimate them from their described situations, or record whose distribution they are.",
+        "tool": "life_estimate_cut_shares or life_process_estimate",
+        "cuts": [
+          "cut.barbara.2019.card.attention",
+          "cut.kieran.2019.card.attention",
+          "cut.kieran.2020.mirror.attention",
+          "cut.kieran.2021.harvest.attention",
+          "cut.kieran.2022.depeg.attention",
+          "cut.laura.2021.attention"
+        ]
+      },
+      {
+        "kind": "moment-unmodeled",
+        "subject": "referent.profile.protagonist.person.protagonist",
+        "principal": true,
+        "question": "At \"They walk from the car park above Avebury towards the long barrow. He tells her, pleased, about twenty percent in a dollar. She stops walking. What she does is \" (from 2022.12 to 2022.121), before Protagonist decides \"What does Barbara do when Kieran tells her the house deposit is in the stablecoin?\": what do they want, what do they feel, and how do they decide? Give the moment those Cuts, so the decision's weights come from them.",
+        "tool": "life_model_revise or life_estimate_cut_shares",
+        "at": [
+          2022.12,
+          2022.121
+        ],
+        "cuts": [
+          "cut.barbara.2022.response"
+        ]
+      }
+    ],
+    "alwaysAsk": [
+      "How can you understand what you are working on better, using the model? Whatever the object of investigation is (a character, an object, a concept, an era, whatever the work is about), go deeper by modeling more: its history, its parts and processes over time, what it depends on and what depends on it, and what it is an instance of.",
+      "List all the aspects of what you are working on you could understand better (for a story: the characters' choices, the author's writing and style, each voice, the technology, the time period, places, institutions, relationships, money, bodies, beliefs; for a market: its participants, instruments, rules, regimes, technology, history), then investigate each by modeling: create new processes, refine existing ones, open sub-processes, add earlier Events that explain or later Events that follow (a childhood, a war a century back, a consequence years on), add Cuts and estimate them, draw decisions, name the concepts and laws things instantiate, model how Things work and where everything is, try another decomposition, sample trajectories.",
+      "Is there a macro aspect you must model to truly understand what is going on in what you are working on? It could be something from a character's childhood or a war a hundred years ago; you will not know unless you model it. Follow the causes back along the lives and the world's long processes, and model what you find.",
+      "What kinds of reasons lie behind what the people acting in what you are working on do, are they primarily out of fear or out of love, and what does that fear or love ask of them? Fear of losing one's place, of being excluded, of not being accepted, of missing out; love of oneself, expressed and given to others, and of the people, work and things cared for. The same act can come from either, and what it does to the person depends on which. Most acts mix both: model the shares and how they shift with shocks and with being seen, what the person believes the reason is, and what others read.",
+      "What can be richer about what you are working on? A process still coarse, a person without a life, a thing without a history, a feeling without its cause, a consequence nobody followed. Open it in the model before you use it.",
+      "What is what you are working on an instance of? Climb up the ladder: which concept, pattern or law explains it together with other things in the model, and what does that abstraction predict elsewhere?",
+      "What else? These questions are a start, not a boundary: what question about what you are working on has nobody asked yet, and what category would you need to invent to answer it?"
+    ],
+    "more": "life_model_questions returns all of them, the model's jumps, and each person's state at a moment."
+  }
+}

@@ -1,0 +1,39 @@
+{
+ "question": "What does Laura do once she knows the deposit is gone and that Kieran hid it for five weeks?",
+ "unit": "proposal weight over mutually exclusive continuations",
+ "answers": [
+  {
+   "key": "leaves_him",
+   "meaning": "She ends the relationship and moves out within weeks."
+  },
+  {
+   "key": "moves_out_for_a_time_then_decides",
+   "meaning": "She goes to stay with her mother for a while to decide, leaving the future open."
+  },
+  {
+   "key": "stays_and_takes_charge",
+   "meaning": "She stays, takes over their money and sets conditions: no more crypto, full honesty, a plan to rebuild the deposit."
+  }
+ ],
+ "remainderMeaning": "Something else, such as staying and saying nothing, or leaving the country.",
+ "subject": "Laura Russell",
+ "modelHash": "060487d1427c11df25891bb8f055680e7678db2cc75f0db01ca388c3e376e77c",
+ "events": [
+  {
+   "eventId": "ev.laura.response",
+   "cutId": "cut.laura.2022.response",
+   "situationText": "Mid-June 2022, the kitchen table of a rented flat in Old Swindon. Laura Russell, 30, intensive-care nurse, learns from her partner Kieran Hale only because a mortgage adviser asked for statements: in January he moved their 24,000-pound house deposit, 15,000 of it her overtime from the pandemic years, into a dollar stablecoin; it collapsed in May and is worth a few hundred pounds; he has known for five weeks and said nothing, going to work and coming home as usual. In January she herself told him to do what he thought best, without asking what it was, and part of her knows it. Her childhood was five evictions from rented houses; her deepest want is a home nobody can take away; she learned from her mother to hold everything together and say nothing; she is superb in a crisis and bad at asking for anything. She loves Kieran; they have been together eight years. She is still exhausted from two pandemic waves."
+  }
+ ],
+ "apply": true,
+ "replaceExisting": true,
+ "requestId": "estimate-laura-response",
+ "revisionReason": "Revision 8: the estimator's weights for Laura's response, read from her modeled life and state and conditioned on the drawn telling (hides_it_until_the_mortgage_forces_it).",
+ "rebind": {
+  "graphHash": "0d9974f9741ec12de193fd9cc8ded541875341fc5725d3c4971bb290a90ae8b8",
+  "accessScopes": [
+   "story-author"
+  ],
+  "requestId": "rebind-r8"
+ }
+}

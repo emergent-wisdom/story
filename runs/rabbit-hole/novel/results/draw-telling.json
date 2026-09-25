@@ -1,0 +1,123 @@
+{
+  "schema": "meaning-model-direction-draw/v1",
+  "modelHash": "060487d1427c11df25891bb8f055680e7678db2cc75f0db01ca388c3e376e77c",
+  "cutId": "cut.kieran.2022.telling",
+  "parentEventId": "ev.kieran.telling",
+  "question": "Whether, when and how does Laura learn that the deposit is gone?",
+  "unit": "proposal weight over mutually exclusive continuations",
+  "answers": [
+    {
+      "key": "hides_it_until_the_mortgage_forces_it",
+      "weight": 0.94
+    },
+    {
+      "key": "remainder",
+      "weight": 0.030000000000000027
+    },
+    {
+      "key": "she_finds_out_herself",
+      "weight": 0.03
+    },
+    {
+      "key": "tells_her_within_days",
+      "weight": 0
+    }
+  ],
+  "seed": "rabbit-hole-run/kieran/telling/2022-06",
+  "algorithm": "sha256-first-32-bits/v1",
+  "u": 0.4527859177906066,
+  "cumulative": [
+    {
+      "key": "hides_it_until_the_mortgage_forces_it",
+      "weight": 0.94,
+      "from": 0,
+      "to": 0.94
+    },
+    {
+      "key": "remainder",
+      "weight": 0.030000000000000027,
+      "from": 0.94,
+      "to": 0.97
+    },
+    {
+      "key": "she_finds_out_herself",
+      "weight": 0.03,
+      "from": 0.97,
+      "to": 1
+    },
+    {
+      "key": "tells_her_within_days",
+      "weight": 0,
+      "from": 1,
+      "to": 1
+    }
+  ],
+  "realized": "hides_it_until_the_mortgage_forces_it",
+  "realizedIsRemainder": false,
+  "drawIndex": 0,
+  "reroll": false,
+  "priorDraws": [],
+  "recorded": {
+    "nodeId": "draw.kieran.telling",
+    "documentRootId": "story",
+    "graphHash": "0d9974f9741ec12de193fd9cc8ded541875341fc5725d3c4971bb290a90ae8b8",
+    "stored": {
+      "schema": "life-sim-mcp-service/v2",
+      "graphHash": "0d9974f9741ec12de193fd9cc8ded541875341fc5725d3c4971bb290a90ae8b8",
+      "previousGraphHash": "bdc7543b8995e4242051a66db60b0fd298d940be966c7ef2bdbc4cf9f3ff69b0",
+      "snapshotHash": "d2dd3151936c421928a3d33a1186845da7de0542d59dfa43a3b07b44406035e7",
+      "stored": true,
+      "reusedExisting": false,
+      "immutableRevision": true,
+      "additiveBatch": true,
+      "batch": {
+        "added_edge_count": 2,
+        "added_node_count": 1,
+        "added_root_count": 0
+      },
+      "summary": {
+        "edge_count": 146,
+        "graph_hash": "0d9974f9741ec12de193fd9cc8ded541875341fc5725d3c4971bb290a90ae8b8",
+        "id": "rabbit-hole-novel",
+        "node_count": 54,
+        "revision": {
+          "number": 34,
+          "previous_graph_hash": "bdc7543b8995e4242051a66db60b0fd298d940be966c7ef2bdbc4cf9f3ff69b0",
+          "provenance": [
+            "Meaning Model direction draw v1",
+            "algorithm:sha256-first-32-bits/v1",
+            "Computed by the server from the recorded seed and the model's Cut weights; a construction decision, not an observation."
+          ],
+          "reason": "Record direction draw draw.kieran.telling over cut.kieran.2022.telling."
+        },
+        "roles": {
+          "document_root": 1,
+          "externalized_reflection": 29,
+          "metadata": 24
+        },
+        "root_count": 3,
+        "schema": "life-sim-rust-narrative-graph/v1",
+        "source": {
+          "kind": "model",
+          "model_hash": "060487d1427c11df25891bb8f055680e7678db2cc75f0db01ca388c3e376e77c"
+        },
+        "source_snapshot": {
+          "candidate_status": null,
+          "model_hash": "060487d1427c11df25891bb8f055680e7678db2cc75f0db01ca388c3e376e77c",
+          "model_revision": 7,
+          "source_hash": "060487d1427c11df25891bb8f055680e7678db2cc75f0db01ca388c3e376e77c",
+          "source_kind": "model",
+          "time": null,
+          "world_id": null,
+          "world_version": null
+        }
+      },
+      "requestPayloadHash": "6a1fb183265acac5bcbd942f5d31d85747e88d9985ede2d7f5e73ea9de7f5aa5"
+    }
+  },
+  "graphHash": "0d9974f9741ec12de193fd9cc8ded541875341fc5725d3c4971bb290a90ae8b8",
+  "previousGraphHash": "bdc7543b8995e4242051a66db60b0fd298d940be966c7ef2bdbc4cf9f3ff69b0",
+  "graphMutation": true,
+  "worldMutation": false,
+  "nextStep": "Build hides_it_until_the_mortgage_forces_it as the realized continuation and link its Event from ev.kieran.telling with a realizes_forecast relation naming this Cut and hides_it_until_the_mortgage_forces_it. A further draw over this Cut is recorded as a reroll."
+}

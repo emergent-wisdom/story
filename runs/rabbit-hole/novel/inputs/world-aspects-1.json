@@ -1,0 +1,446 @@
+{
+ "graphHash": "0d8678d49f42c4f0c5ecf3eb807245686220703d1c33b209d184fa32a468f4c2",
+ "requestId": "world-aspects-1",
+ "nodeId": "world.aspects",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "summary": "Every element of the catalog investigated in the story model, a flaw for each principal (Kieran's loyalty to whichever band needs him, Barbara's purism and refusal to be anybody's mother, Laura's silence), and two elements of the recorder's own: the three clocks and the second agriculture.",
+ "world": {
+  "stage": "aspects",
+  "openingNodeId": "world.opening",
+  "aspects": [
+   {
+    "id": "asp.flaw.kieran",
+    "kind": "flaws",
+    "aspect": "Kieran's loyalty to whichever band needs him: learned in the guild (leaving a group while it is losing is unforgivable), it makes him the reliable colleague and the kind voice in the Sharehouse, and it keeps him in the stablecoin and silent at home. He sees it only after Barbara breaks Laura's silence.",
+    "how": "Modeled as a learned want over his life with the event that taught it (the guild), the situations where it takes over (the depeg, the telling), its strength (the Hart, newcomers at 3 a.m.), its cost (the deposit, five weeks of lies) and its change (loyalty turned towards Laura, the choice of his desk).",
+    "status": "modeled",
+    "records": [
+     "event:ev.kieran.want.band_loyalty",
+     "event:ev.kieran.p2.game",
+     "event:ev.kieran.depeg.holds",
+     "event:ev.kieran.telling.mortgage",
+     "cut:cut.kieran.2022.depeg.fear_love"
+    ]
+   },
+   {
+    "id": "asp.flaw.barbara",
+    "kind": "flaws",
+    "aspect": "Barbara's purism and her refusal to be anybody's mother: verify, do not trust, and let adults choose. It made her a builder who is never fooled; it makes her hand a key without a map and say nothing on the February walk.",
+    "how": "Modeled through the works closure and 2008 that taught it, her wants (verify, free, leave something), the February draw (his choice, nothing more) and the drawn remainder where the trait breaks: she goes to Laura.",
+    "status": "modeled",
+    "records": [
+     "event:ev.barbara.want.verify",
+     "event:ev.barbara.want.free",
+     "event:ev.barbara.walk.his_choice",
+     "event:ev.barbara.after.goes_to_laura",
+     "concept:concept.key_without_map"
+    ]
+   },
+   {
+    "id": "asp.flaw.laura",
+    "kind": "flaws",
+    "aspect": "Laura's silence: holding everything together and saying nothing, learned from her mother through five evictions. It makes her superb on the unit and absent at home; she hands Kieran the deposit with 'do what you think' and answers the loss with silence.",
+    "how": "Modeled as a learned want with the eviction arc that taught it, the waves that deepen it, the January consent draw, the silence draw and its breaking by Barbara.",
+    "status": "modeled",
+    "records": [
+     "event:ev.laura.want.hold_silent",
+     "event:event.profile.laura_last_move.change_arc",
+     "event:ev.kieran.deposit.asks",
+     "event:ev.laura.response.silence"
+    ]
+   },
+   {
+    "id": "asp.wants",
+    "kind": "wants",
+    "aspect": "Kieran wants to matter and to see the whole map, and wants to be no trouble; Laura wants a home nobody can take and to be looked after once; Barbara wants to be credited and free and to leave something.",
+    "how": "Wants as inner Events with motivational-attention Cuts at the card, the mirror, the harvest and the depeg.",
+    "status": "modeled",
+    "records": [
+     "cut:cut.kieran.2019.card.attention",
+     "cut:cut.kieran.2021.harvest.attention",
+     "cut:cut.laura.2021.attention",
+     "cut:cut.barbara.2019.card.attention"
+    ]
+   },
+   {
+    "id": "asp.fearlove",
+    "kind": "fear-love",
+    "aspect": "Keeping the card (curiosity against fear of the same week), moving the deposit (love of the house against fear of being left behind), holding (fear of exile), Barbara's gift (love as her father gave tools).",
+    "how": "Fear-or-love Cuts on each consequential act.",
+    "status": "modeled",
+    "records": [
+     "cut:cut.kieran.2019.card.fear_love",
+     "cut:cut.kieran.2022.deposit.fear_love",
+     "cut:cut.kieran.2022.depeg.fear_love",
+     "cut:cut.barbara.2019.card.fear_love"
+    ]
+   },
+   {
+    "id": "asp.choices",
+    "kind": "choices",
+    "aspect": "Eight drawn decisions from the deposit to the end, plus the brief's fixed choice to keep the card.",
+    "how": "Direction Cuts estimated from states and drawn with seeds; realized continuations linked with realizes_forecast.",
+    "status": "modeled",
+    "records": [
+     "cut:cut.kieran.2022.deposit_consent",
+     "cut:cut.kieran.2022.telling",
+     "cut:cut.laura.2022.response",
+     "cut:cut.kieran.2023.end"
+    ]
+   },
+   {
+    "id": "asp.change",
+    "kind": "change",
+    "aspect": "Kieran from no trouble to trouble to chosen ordinariness; Laura from silence to speech; Barbara from purist to someone who knocks on a stranger's door.",
+    "how": "Change arcs and adaptations per principal.",
+    "status": "modeled",
+    "records": [
+     "event:event.profile.kieran_collapse.change_arc",
+     "event:ev.kieran.end.open_eyes",
+     "event:ev.kieran_laura.rebuild"
+    ]
+   },
+   {
+    "id": "asp.relationships",
+    "kind": "relationships",
+    "aspect": "Kieran and Laura: two screens in one flat; Kieran and Barbara: walks on the Ridgeway; Barbara and Laura: strangers until August 2022.",
+    "how": "Shared events with participants in both lives; the August visit connects the pair that never met.",
+    "status": "modeled",
+    "records": [
+     "event:ev.kieran.fall.meets_barbara",
+     "event:ev.laura.wave1.silence",
+     "event:ev.barbara.after.goes_to_laura",
+     "event:ev.walk.march_2023"
+    ]
+   },
+   {
+    "id": "asp.selfimage",
+    "kind": "self-image",
+    "aspect": "Kieran sees himself as reliable and no trouble; in the Sharehouse as someone who matters; after May as a fraud; at the end as a man who chose his desk.",
+    "how": "Outlook Cuts per period and the inner states before decisions.",
+    "status": "opening",
+    "records": [
+     "event:ev.kieran.state.2022_05_14",
+     "cut:cut.ev.kieran.p4.story.outlook"
+    ]
+   },
+   {
+    "id": "asp.voice",
+    "kind": "voice",
+    "aspect": "Kieran speaks in the Hart's script and in gamer shorthand; Barbara bluntly, in engineer's sentences; Laura in practical questions, clinical and brief.",
+    "how": "Voices derived from each life's work and habits; recorded as voice notes during drafting.",
+    "status": "opening",
+    "records": [
+     "event:ev.kieran.p3.hart",
+     "event:ev.barbara.p3.bureau",
+     "event:ev.laura.p3.nursing"
+    ]
+   },
+   {
+    "id": "asp.secondary",
+    "kind": "secondary",
+    "aspect": "Kieran's father at the car plant; his grandfather Ron and the brass tally token; Laura's mother; the Sharehouse regulars; the young saver in March 2023.",
+    "how": "Secondary lives as Events inside Things and principals' lives.",
+    "status": "opening",
+    "records": [
+     "event:event.profile.kieran_father_plant.change_arc",
+     "event:ev.kieran.grandfather_dies",
+     "event:ev.laura.mother_settles_2012",
+     "event:ev.kieran.last_call"
+    ]
+   },
+   {
+    "id": "asp.shock",
+    "kind": "shock",
+    "aspect": "The May 2022 collapse of the stablecoin holding the deposit.",
+    "how": "Market event, the mechanism, Kieran's four nights, and the drawn responses.",
+    "status": "modeled",
+    "records": [
+     "event:ev.market.stablecoin_collapse",
+     "event:ev.stablecoin.spiral",
+     "event:ev.kieran.depeg.holds"
+    ]
+   },
+   {
+    "id": "asp.stakes",
+    "kind": "stakes",
+    "aspect": "Laura's fifteen thousand pounds of pandemic overtime; the house as a front door; Kieran's job and honesty; Barbara's idea of herself.",
+    "how": "Quantities (deposit, stake) and outlook Cuts.",
+    "status": "modeled",
+    "records": [
+     "process:household.deposit_gbp",
+     "process:kieran.stake_gbp",
+     "event:ev.laura.want.home"
+    ]
+   },
+   {
+    "id": "asp.causality",
+    "kind": "causality",
+    "aspect": "From the scam rules to the call, the call to the card, the crash to the mirror, the lockdown to the fall, the plant closure to the rent, the move to the depeg, the silence to Barbara's visit.",
+    "how": "Causal and enabling relations between Events.",
+    "status": "modeled",
+    "records": [
+     "event:ev.kieran.call_2019",
+     "event:ev.kieran.mirror",
+     "event:ev.kieran.father.rent",
+     "event:ev.barbara.after.goes_to_laura"
+    ]
+   },
+   {
+    "id": "asp.surprise",
+    "kind": "surprise",
+    "aspect": "Barbara knocking on Laura's door: surprising, and inevitable once her February silence is known.",
+    "how": "Drawn remainder built as a continuation; reader disclosure plan keeps Barbara's guilt implicit until the visit.",
+    "status": "modeled",
+    "records": [
+     "event:ev.barbara.after.goes_to_laura",
+     "event:ev.barbara.walk.his_choice"
+    ]
+   },
+   {
+    "id": "asp.tension",
+    "kind": "tension",
+    "aspect": "Dramatic irony: the reader knows how 2021 and May 2022 end; Kieran does not.",
+    "how": "Author disclosure process in the route: prices and dates exact, outcomes felt coming.",
+    "status": "opening",
+    "records": [
+     "event:ev.market.slide_2022",
+     "event:ev.kieran.deposit.asks"
+    ]
+   },
+   {
+    "id": "asp.secrets",
+    "kind": "secrets",
+    "aspect": "The card (from November 2019); the size of his gains and losses (2021); the deposit's location (January to June 2022); Barbara's February silence (until August).",
+    "how": "Knowledge timings per scene in preparation packets.",
+    "status": "opening",
+    "records": [
+     "event:ev.kieran.rabbit.secret",
+     "event:ev.kieran.telling.mortgage",
+     "event:ev.barbara.walk.his_choice"
+    ]
+   },
+   {
+    "id": "asp.mystery",
+    "kind": "mystery",
+    "aspect": "Who Barbara is and why she sends the card, open from part 1 until the first walk.",
+    "how": "Disclosure timing: her past is told only on the Ridgeway in part 5.",
+    "status": "opening",
+    "records": [
+     "event:ev.barbara.p2.works",
+     "event:ev.barbara.p3.bureau",
+     "event:ev.kieran.fall.meets_barbara"
+    ]
+   },
+   {
+    "id": "asp.reversals",
+    "kind": "reversals",
+    "aspect": "The fifty pounds becomes twenty-eight on the night he opens it; six thousand becomes seventy-one thousand becomes a few hundred; the gatekeeper becomes the victim; the woman who would be nobody's mother knocks on a stranger's door.",
+    "how": "Quantities and drawn continuations.",
+    "status": "modeled",
+    "records": [
+     "process:card.wallet_btc",
+     "process:kieran.stake_gbp",
+     "event:ev.hart.fraud_week_2022"
+    ]
+   },
+   {
+    "id": "asp.era",
+    "kind": "era",
+    "aspect": "England 2019-2023: the pandemic, the crypto boom and collapses, the car plant's closure, the scam rules; with the deep history of foragers, farmers and institutions under it.",
+    "how": "Real era with a documentary cutoff, reports for each documented fact, deep-time Events.",
+    "status": "modeled",
+    "records": [
+     "event:ev.macro.pandemic",
+     "event:ev.market.regime",
+     "event:event.deep.foragers",
+     "event:event.deep.global_order"
+    ]
+   },
+   {
+    "id": "asp.place",
+    "kind": "place",
+    "aspect": "Swindon (Penhill, Old Town's Wood Street, the Hart in west Swindon, the old works, the car plant) and the downs (Avebury, the Ridgeway, the long barrow).",
+    "how": "Regions on every Cut-bearing Event; Things for the stones, the flat, the works and the plant.",
+    "status": "modeled",
+    "records": [
+     "event:ev.stones.life",
+     "event:ev.flat.life",
+     "event:ev.works.life"
+    ]
+   },
+   {
+    "id": "asp.mechanisms",
+    "kind": "mechanisms",
+    "aspect": "The three-day clearing cycle and its exceptions queue; the wallet and its recovery phrase; yield farming; the stablecoin's mint-and-burn peg and its spiral.",
+    "how": "Things with parts, capacities and failure modes; quantities.",
+    "status": "modeled",
+    "records": [
+     "event:ev.clearing.batch_night",
+     "event:ev.stablecoin.mechanism",
+     "event:ev.stablecoin.spiral",
+     "process:clearing.cycle_days"
+    ]
+   },
+   {
+    "id": "asp.institutions",
+    "kind": "institutions",
+    "aspect": "The Hart (a mutual founded in a pub), the clearing scheme, the regulator's rules, the hospital; against the Sharehouse and the protocols.",
+    "how": "Institutions as Things with their own long lives and episodes.",
+    "status": "modeled",
+    "records": [
+     "event:ev.hart.life",
+     "event:ev.hart.block_decision_2021",
+     "event:ev.macro.scam_rules",
+     "event:ev.sharehouse.life"
+    ]
+   },
+   {
+    "id": "asp.residue",
+    "kind": "residue",
+    "aspect": "The card behind the bus pass (a key, then a secret, then a reminder kept by choice); the rota on the fridge (Laura's absence, then beside the budget); grandfather Ron's brass tally token; the commemorative mug from the plant.",
+    "how": "Objects as Things or Events whose use changes across parts.",
+    "status": "opening",
+    "records": [
+     "event:ev.card.behind_bus_pass",
+     "event:ev.flat.fridge_rota",
+     "event:ev.kieran.grandfather_dies",
+     "event:ev.car_plant.last_car"
+    ]
+   },
+   {
+    "id": "asp.senses",
+    "kind": "senses",
+    "aspect": "The hum of the payments floor, the blue light of the phone at 3 a.m., the chalk and wind on the Ridgeway, the smell of the unit on Laura's clothes, the cold sarsens.",
+    "how": "Sensory detail drawn from the Things present in each scene.",
+    "status": "opening",
+    "records": [
+     "event:ev.stones.life",
+     "event:ev.clearing.batch_night",
+     "event:event.profile.laura_first_wave.change_arc"
+    ]
+   },
+   {
+    "id": "asp.author",
+    "kind": "author",
+    "aspect": "Faye Titcombe writes from her own fall and from walking beside her daughter.",
+    "how": "Author life model and author model; author_reader stage.",
+    "status": "modeled",
+    "records": [
+     "event:ev.kieran.p4.story"
+    ]
+   },
+   {
+    "id": "asp.style",
+    "kind": "style",
+    "aspect": "Close third person on Kieran, wry and exact; band vision; mechanism after feeling; no warnings, no absolution.",
+    "how": "Author model dispositions applied per scene.",
+    "status": "modeled",
+    "records": [
+     "event:ev.kieran.mirror"
+    ]
+   },
+   {
+    "id": "asp.theme",
+    "kind": "theme",
+    "aspect": "Paleolithic emotions, medieval institutions and godlike technology running at once in one person.",
+    "how": "Concepts opening the Wilson triad with realizations in the story's Events.",
+    "status": "modeled",
+    "records": [
+     "concept:concept.deep_time_gap",
+     "abstract_cut:acut.deep_time_gap.wilson",
+     "concept:concept.second_agriculture"
+    ]
+   },
+   {
+    "id": "asp.buttons",
+    "kind": "buttons",
+    "aspect": "Left behind; someone else's routine; more world; knew better; watching someone go.",
+    "how": "author_reader buttons mapped to route parts.",
+    "status": "modeled",
+    "records": [
+     "event:ev.kieran.harvest_2021",
+     "event:ev.kieran.depeg.holds"
+    ]
+   },
+   {
+    "id": "asp.moral",
+    "kind": "moral",
+    "aspect": "Who is to blame for the deposit: Kieran who moved it, Laura who said do what you think, Barbara who said nothing, the protocol, the band, the old bank that could not keep him interested. The story weighs it without a verdict.",
+    "how": "Drawn decisions distribute responsibility; no narrator judgement (author disposition d.beside).",
+    "status": "opening",
+    "records": [
+     "event:ev.kieran.deposit.asks",
+     "event:ev.barbara.walk.his_choice",
+     "event:ev.stablecoin.mechanism"
+    ]
+   },
+   {
+    "id": "asp.joy",
+    "kind": "joy",
+    "aspect": "The real wonder of the mirror, the ledger and the summer of farming; Kieran's competence at the game; Barbara's pleasure in the stones; Laura's competence on the unit.",
+    "how": "Scenes in parts 3-4 and 6 render the joy before the cost.",
+    "status": "opening",
+    "records": [
+     "event:ev.kieran.mirror",
+     "event:ev.market.defi_summer",
+     "event:ev.kieran.fall.sharehouse"
+    ]
+   },
+   {
+    "id": "asp.humor",
+    "kind": "humor",
+    "aspect": "The OMG, WTF of the jargon avalanche; food tokens; Barbara's contempt; the Hart's lanyards.",
+    "how": "Author disposition d.wry, rationed.",
+    "status": "opening",
+    "records": [
+     "event:ev.market.defi_summer"
+    ]
+   },
+   {
+    "id": "asp.ending",
+    "kind": "ending",
+    "aspect": "March 2023: a last scam-check call in which Kieran asks Barbara's question, and a Sunday walk of all three on the Ridgeway; every principal has paid.",
+    "how": "Drawn end state and its two Events.",
+    "status": "modeled",
+    "records": [
+     "event:ev.kieran.end.open_eyes",
+     "event:ev.kieran.last_call",
+     "event:ev.walk.march_2023"
+    ]
+   },
+   {
+    "id": "asp.own.three_clocks",
+    "kind": "other",
+    "aspect": "The three clocks: every scene is timed by the body (sleep, breath, the band), the institution (cut-offs, rotas, the three-day cycle) and the machine (the block time, the price that never closes), and a scene is interesting where two clocks disagree.",
+    "how": "Timing each scene on the three clocks in preparation; the concept deep_time_gap and its abstract cut; the quantities of sleep and cycle days.",
+    "status": "opening",
+    "records": [
+     "concept:concept.deep_time_gap",
+     "process:kieran.sleep_hours",
+     "process:clearing.cycle_days"
+    ],
+    "category": "Three clocks",
+    "why": "It turns the Wilson triad from a thesis into something the reader can feel in time: a phone lighting up at 3 a.m. against a rota and a cut-off."
+   },
+   {
+    "id": "asp.own.farming",
+    "kind": "other",
+    "aspect": "The second agriculture: DeFi's words are farming words (seed, farm, harvest, pool, stake) and the farmer is domesticated by the crop, as in Harari's account of wheat.",
+    "how": "Concept second_agriculture realized in the yield-farming summer and the harvest year; Kieran's sleep as the cost.",
+    "status": "modeled",
+    "records": [
+     "concept:concept.second_agriculture",
+     "event:ev.market.defi_summer",
+     "event:ev.kieran.harvest_2021"
+    ],
+    "category": "The second agriculture",
+    "why": "It ties the rabbit hole to the brief's history without a lecture: the reader recognizes the old revolution in the new vocabulary."
+   }
+  ]
+ }
+}

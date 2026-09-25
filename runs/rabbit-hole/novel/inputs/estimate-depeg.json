@@ -1,0 +1,39 @@
+{
+ "question": "What does Kieran do as the stablecoin's peg breaks between 9 and 13 May 2022?",
+ "unit": "proposal weight over mutually exclusive continuations",
+ "answers": [
+  {
+   "key": "holds_everything",
+   "meaning": "He holds the whole deposit in the stablecoin through the collapse, waiting for the peg to come back."
+  },
+  {
+   "key": "sells_part_early",
+   "meaning": "He sells part of the deposit early in the slide, around 60-90 cents, and holds the rest."
+  },
+  {
+   "key": "sells_all_early",
+   "meaning": "He sells the whole deposit early in the slide, around 60-90 cents."
+  }
+ ],
+ "remainderMeaning": "Something else, such as moving it to another token or waiting and selling only at the very bottom.",
+ "subject": "Kieran Hale",
+ "modelHash": "dbb794b33dd62e512677d0ebeb174ea5120c9b8695727fc99162af64d265a22d",
+ "events": [
+  {
+   "eventId": "ev.kieran.depeg_hold",
+   "cutId": "cut.kieran.2022.depeg_response",
+   "situationText": "Monday 9 May to Friday 13 May 2022, the spare room of a rented flat in Old Swindon. Kieran Hale, 32, has had about three hours of sleep a night since the weekend. The 24,000-pound house deposit he shares with his partner Laura is in a dollar stablecoin's savings protocol; in January Laura told him to do what he thought best without understanding what it was; in February his friend Barbara, a bitcoin purist, told him only that it was his choice. The deposit is the only money he has that is not already down about seventy percent from November. From the evening of 9 May the stablecoin slips below a dollar: 98 cents, then 90, then 60 cents on 10 May, rallying briefly, then falling towards 20 cents by 12 May. He has read how the peg works and understands exactly why a run can feed itself. His chat server of a few thousand anonymous yield farmers, the first group since his teenage gaming guild that has made him feel needed, is loud and sure: it has always come back, do not sell, that is what they want; the founder's account says he is deploying more capital. Kieran's life-long habits: loyal to whichever group needs him, leaving a group while it is losing is the one unforgivable thing; no trouble to anyone; avoids telling bad news. Selling now would make the loss real and mean telling Laura."
+  }
+ ],
+ "apply": true,
+ "replaceExisting": true,
+ "requestId": "estimate-depeg-response",
+ "revisionReason": "Revision 5: the estimator's weights for Kieran's response to the depeg, read from his modeled state on 9 May 2022 and conditioned on the drawn deposit consent (asks_and_she_leaves_it_to_him) and Barbara's drawn response (says_it_is_his_choice_and_nothing_more), replace the authored proposal before the draw.",
+ "rebind": {
+  "graphHash": "0dfed9b07738c7fcf1d36d3a0f54aeb8579ca4c76a2d2a334fa26bb423c3c3ed",
+  "accessScopes": [
+   "story-author"
+  ],
+  "requestId": "rebind-r5"
+ }
+}

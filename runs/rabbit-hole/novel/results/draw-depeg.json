@@ -1,0 +1,123 @@
+{
+  "schema": "meaning-model-direction-draw/v1",
+  "modelHash": "b3482d8c0f62a065326968941cc585e13ca6c9a4e60ba5690747cbec14ceae5e",
+  "cutId": "cut.kieran.2022.depeg_response",
+  "parentEventId": "ev.kieran.depeg_hold",
+  "question": "What does Kieran do as the stablecoin's peg breaks between 9 and 13 May 2022?",
+  "unit": "proposal weight over mutually exclusive continuations",
+  "answers": [
+    {
+      "key": "holds_everything",
+      "weight": 0.99
+    },
+    {
+      "key": "remainder",
+      "weight": 0.010000000000000009
+    },
+    {
+      "key": "sells_all_early",
+      "weight": 0
+    },
+    {
+      "key": "sells_part_early",
+      "weight": 0
+    }
+  ],
+  "seed": "rabbit-hole-run/kieran/depeg-response/2022-05",
+  "algorithm": "sha256-first-32-bits/v1",
+  "u": 0.4892013147473335,
+  "cumulative": [
+    {
+      "key": "holds_everything",
+      "weight": 0.99,
+      "from": 0,
+      "to": 0.99
+    },
+    {
+      "key": "remainder",
+      "weight": 0.010000000000000009,
+      "from": 0.99,
+      "to": 1
+    },
+    {
+      "key": "sells_all_early",
+      "weight": 0,
+      "from": 1,
+      "to": 1
+    },
+    {
+      "key": "sells_part_early",
+      "weight": 0,
+      "from": 1,
+      "to": 1
+    }
+  ],
+  "realized": "holds_everything",
+  "realizedIsRemainder": false,
+  "drawIndex": 0,
+  "reroll": false,
+  "priorDraws": [],
+  "recorded": {
+    "nodeId": "draw.kieran.depeg_response",
+    "documentRootId": "story",
+    "graphHash": "ec0f02a01565f9bdebef79f66f2758fdb38af780b61a9e23b8f480e9f840b251",
+    "stored": {
+      "schema": "life-sim-mcp-service/v2",
+      "graphHash": "ec0f02a01565f9bdebef79f66f2758fdb38af780b61a9e23b8f480e9f840b251",
+      "previousGraphHash": "9d76993992b18917cf550d0494575b1c2f73b5443fe5fc5d158f0162e28cd97d",
+      "snapshotHash": "8f40e06de66ad26a5cfebdaabd4d317fa268cee1c660ca7f539c20af1e8ba61b",
+      "stored": true,
+      "reusedExisting": false,
+      "immutableRevision": true,
+      "additiveBatch": true,
+      "batch": {
+        "added_edge_count": 2,
+        "added_node_count": 1,
+        "added_root_count": 0
+      },
+      "summary": {
+        "edge_count": 144,
+        "graph_hash": "ec0f02a01565f9bdebef79f66f2758fdb38af780b61a9e23b8f480e9f840b251",
+        "id": "rabbit-hole-novel",
+        "node_count": 53,
+        "revision": {
+          "number": 32,
+          "previous_graph_hash": "9d76993992b18917cf550d0494575b1c2f73b5443fe5fc5d158f0162e28cd97d",
+          "provenance": [
+            "Meaning Model direction draw v1",
+            "algorithm:sha256-first-32-bits/v1",
+            "Computed by the server from the recorded seed and the model's Cut weights; a construction decision, not an observation."
+          ],
+          "reason": "Record direction draw draw.kieran.depeg_response over cut.kieran.2022.depeg_response."
+        },
+        "roles": {
+          "document_root": 1,
+          "externalized_reflection": 29,
+          "metadata": 23
+        },
+        "root_count": 3,
+        "schema": "life-sim-rust-narrative-graph/v1",
+        "source": {
+          "kind": "model",
+          "model_hash": "b3482d8c0f62a065326968941cc585e13ca6c9a4e60ba5690747cbec14ceae5e"
+        },
+        "source_snapshot": {
+          "candidate_status": null,
+          "model_hash": "b3482d8c0f62a065326968941cc585e13ca6c9a4e60ba5690747cbec14ceae5e",
+          "model_revision": 5,
+          "source_hash": "b3482d8c0f62a065326968941cc585e13ca6c9a4e60ba5690747cbec14ceae5e",
+          "source_kind": "model",
+          "time": null,
+          "world_id": null,
+          "world_version": null
+        }
+      },
+      "requestPayloadHash": "08a4141e5e1917c07d7ef941a01ff16b613a91fb3022d5d3ef82108a38bdb8ef"
+    }
+  },
+  "graphHash": "ec0f02a01565f9bdebef79f66f2758fdb38af780b61a9e23b8f480e9f840b251",
+  "previousGraphHash": "9d76993992b18917cf550d0494575b1c2f73b5443fe5fc5d158f0162e28cd97d",
+  "graphMutation": true,
+  "worldMutation": false,
+  "nextStep": "Build holds_everything as the realized continuation and link its Event from ev.kieran.depeg_hold with a realizes_forecast relation naming this Cut and holds_everything. A further draw over this Cut is recorded as a reroll."
+}

@@ -1,0 +1,148 @@
+{
+  "schema": "meaning-model-cut-shares/v1",
+  "question": "Whether, when and how does Laura learn that the deposit is gone?",
+  "unit": "proposal weight over mutually exclusive continuations",
+  "answerKeys": [
+    "tells_her_within_days",
+    "hides_it_until_the_mortgage_forces_it",
+    "she_finds_out_herself",
+    "remainder"
+  ],
+  "canonical": false,
+  "epistemicStatus": "ai_inference",
+  "evidenceType": "estimate",
+  "worldMutation": false,
+  "requestHash": "6c733d80c5ade2419f0dd0ebdb5f90d2a7e0e5987ba875b289f7613626e89bed",
+  "estimatorCallsThisRequest": 1,
+  "warnings": [
+    "cut.kieran.2022.telling puts over 0.9 on hides_it_until_the_mortgage_forces_it. A share this lopsided often means the situation text already states the answer: describe the modeled state (what each person wants, fears, knows and can do), not the outcome, and put the regularities you rely on into the model as laws, where they can be tested."
+  ],
+  "evaluator": "typesafe:jev-1.13.0",
+  "proposals": [
+    {
+      "id": "cut.kieran.2022.telling",
+      "parent_event_id": "ev.kieran.telling",
+      "question": "Whether, when and how does Laura learn that the deposit is gone?",
+      "unit": "proposal weight over mutually exclusive continuations",
+      "answers": [
+        {
+          "key": "tells_her_within_days",
+          "weight": 0
+        },
+        {
+          "key": "hides_it_until_the_mortgage_forces_it",
+          "weight": 0.94
+        },
+        {
+          "key": "she_finds_out_herself",
+          "weight": 0.03
+        },
+        {
+          "key": "remainder",
+          "weight": 0.030000000000000027
+        }
+      ],
+      "provenance": [
+        "estimator:typesafe:jev-1.13.0; choice probabilities over the answer keys; AI inference, not canon",
+        "confidence 0.920; top hides_it_until_the_mortgage_forces_it"
+      ],
+      "confidence": 0.92,
+      "top": "hides_it_until_the_mortgage_forces_it"
+    }
+  ],
+  "usage": {
+    "input_tokens": 1257,
+    "output_tokens": 83
+  },
+  "graphMutation": true,
+  "applied": {
+    "modelHash": "060487d1427c11df25891bb8f055680e7678db2cc75f0db01ca388c3e376e77c",
+    "previousModelHash": "dcb848c4e5a94de509efaa5db93e859cfd6e725d0e0d9a68be27f87b09d7d1f5",
+    "revisionNumber": 7,
+    "cutIds": [
+      "cut.kieran.2022.telling"
+    ],
+    "descriptionsAdded": [],
+    "summary": {
+      "model_hash": "060487d1427c11df25891bb8f055680e7678db2cc75f0db01ca388c3e376e77c",
+      "revision_number": 7,
+      "process_count": 82,
+      "decomposition_edge_count": 0,
+      "dependency_edge_count": 0,
+      "law_count": 0,
+      "law_roles": {},
+      "meaning_model": {
+        "schema": "life-sim-rust-meaning-model/v1",
+        "concept_count": 10,
+        "abstract_relation_count": 6,
+        "abstract_cut_count": 1,
+        "referent_count": 12,
+        "encapsulation_cut_count": 0,
+        "event_count": 181,
+        "event_relation_count": 232,
+        "event_referent_binding_count": 50,
+        "physical_cut_count": 0,
+        "realization_count": 16,
+        "normalized_cut_count": 42,
+        "context_root_count": 4,
+        "temporal_cut_recomposition_count": 0
+      }
+    }
+  },
+  "rebound": {
+    "schema": "meaning-model-narrative-rebind/v1",
+    "graphHash": "bdc7543b8995e4242051a66db60b0fd298d940be966c7ef2bdbc4cf9f3ff69b0",
+    "previousGraphHash": "ec0f02a01565f9bdebef79f66f2758fdb38af780b61a9e23b8f480e9f840b251",
+    "snapshotHash": "d2dd3151936c421928a3d33a1186845da7de0542d59dfa43a3b07b44406035e7",
+    "stored": true,
+    "reusedExisting": false,
+    "immutableRevision": true,
+    "revisedByDelta": true,
+    "summary": {
+      "edge_count": 144,
+      "graph_hash": "bdc7543b8995e4242051a66db60b0fd298d940be966c7ef2bdbc4cf9f3ff69b0",
+      "id": "rabbit-hole-novel",
+      "node_count": 53,
+      "revision": {
+        "number": 33,
+        "previous_graph_hash": "ec0f02a01565f9bdebef79f66f2758fdb38af780b61a9e23b8f480e9f840b251",
+        "provenance": [
+          "Meaning Model narrative rebind v1",
+          "rebind:ec0f02a01565->model:060487d1427c"
+        ],
+        "reason": "Rebind after estimated Cuts were applied in model revision 7."
+      },
+      "roles": {
+        "document_root": 1,
+        "externalized_reflection": 29,
+        "metadata": 23
+      },
+      "root_count": 3,
+      "schema": "life-sim-rust-narrative-graph/v1",
+      "source": {
+        "kind": "model",
+        "model_hash": "060487d1427c11df25891bb8f055680e7678db2cc75f0db01ca388c3e376e77c"
+      },
+      "source_snapshot": {
+        "candidate_status": null,
+        "model_hash": "060487d1427c11df25891bb8f055680e7678db2cc75f0db01ca388c3e376e77c",
+        "model_revision": 7,
+        "source_hash": "060487d1427c11df25891bb8f055680e7678db2cc75f0db01ca388c3e376e77c",
+        "source_kind": "model",
+        "time": null,
+        "world_id": null,
+        "world_version": null
+      }
+    },
+    "requestPayloadHash": "517e4e7eabe67942962cad520b4218eb9a1b9be5224e8103e7ba68ae40a9e619",
+    "previousModelHash": "b3482d8c0f62a065326968941cc585e13ca6c9a4e60ba5690747cbec14ceae5e",
+    "modelHash": "060487d1427c11df25891bb8f055680e7678db2cc75f0db01ca388c3e376e77c",
+    "lineageSteps": 2,
+    "droppedModelAnchorEdgeIds": [],
+    "retainedNodeCount": 53,
+    "historicalAssessmentsRetained": true,
+    "worldMutation": false,
+    "nextStep": "Historical depth and review nodes remain but their predecessor-model anchors were removed; record fresh assessments against the successor model before committing further prose."
+  },
+  "nextStep": "The graph is bound to the new model; historical assessments kept their nodes but lost predecessor anchors. Record fresh depth assessments before committing prose."
+}

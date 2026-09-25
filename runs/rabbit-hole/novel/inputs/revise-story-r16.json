@@ -1,0 +1,206 @@
+{
+ "requestId": "revise-story-r16",
+ "previousModelHash": "a1e6a4ffb9514825a36c5aec545ba934057f3af9570f6009cd63600f1a957054",
+ "change": {
+  "reason": "Revision 16: realized continuations of the last two draws (stay and rebuild in the open; stays at his desk by choice with open eyes), with the last call and the March 2023 walk that end the story.",
+  "provenance": [
+   "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+  ],
+  "upsert": {
+   "events": [
+    {
+     "id": "ev.kieran_laura.rebuild",
+     "boundary": "September 2022 onward: they stay and rebuild in the open.",
+     "interval": {
+      "start": 2022.7,
+      "end": 2023.25
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist",
+      "partner": "referent.profile.laura.person.laura"
+     },
+     "process_ids": [
+      "household.deposit_gbp"
+     ],
+     "observation_process_ids": [],
+     "region": "Old Swindon: the rented flat above a shop on Wood Street",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "They open one joint account that both can see, put the rota and a spreadsheet on the fridge side by side, and postpone the house by two years. Kieran deletes the trading apps and tells Laura every number. Laura, who has never asked for anything, asks for Sundays off together and gets them. Rebuilding is slow and dull and they choose it."
+    },
+    {
+     "id": "ev.kieran.end.open_eyes",
+     "boundary": "Autumn 2022 to March 2023: Kieran stays at his desk by choice, with open eyes.",
+     "interval": {
+      "start": 2022.75,
+      "end": 2023.25
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "card.wallet_btc"
+     ],
+     "observation_process_ids": [],
+     "region": "White Hart House, the Hart's head office in west Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "He stays on the payments-exceptions desk at the Hart. The routine is the same and he is not: he knows how old the machine is and what runs under it, he knows what the new machine did to him, and he keeps Barbara's card with its small balance behind his bus pass. When a flagged transfer to a crypto exchange comes up he makes the call, reads the script, and then asks his own questions. He walks with Barbara once a month, and in March 2023 Laura comes too."
+    },
+    {
+     "id": "ev.kieran.last_call",
+     "boundary": "March 2023: a flagged transfer, and Kieran's call.",
+     "interval": {
+      "start": 2023.18,
+      "end": 2023.19
+     },
+     "participants": {
+      "caller": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "White Hart House, the Hart's head office in west Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "A saver in her twenties moving her savings to a crypto exchange trips the scam rules. Kieran reads the script, then asks what Barbara once asked him, and something of his own: whether she knows how old the thing she is leaving is, and how new the thing she is going into, and who she will tell if it goes wrong."
+    },
+    {
+     "id": "ev.walk.march_2023",
+     "boundary": "A Sunday in March 2023: Kieran, Laura and Barbara on the Ridgeway.",
+     "interval": {
+      "start": 2023.2,
+      "end": 2023.21
+     },
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist",
+      "partner": "referent.profile.laura.person.laura",
+      "companion": "referent.profile.barbara.person.barbara"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Avebury Trusloe and the Ridgeway, Wiltshire",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "The three of them walk from the car park above Avebury to the long barrow. Barbara talks about the stones; Laura, who has never been up there, asks why anyone would drag them so far; Kieran says people will do almost anything to gather. The card is in his wallet; his phone is in the car."
+    }
+   ],
+   "event_relations": [
+    {
+     "id": "contains.ev.kieran_laura.rebuild",
+     "kind": "contains",
+     "source_event_id": "event.profile.kieran_collapse.change_arc.adaptation",
+     "target_event_id": "ev.kieran_laura.rebuild",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "ev.kieran_laura.conversation.realizes.ev.kieran_laura.rebuild",
+     "kind": "realizes_forecast",
+     "source_event_id": "ev.kieran_laura.conversation",
+     "target_event_id": "ev.kieran_laura.rebuild",
+     "description": "Drawn: seed rabbit-hole-run/kieran-laura/conversation/2022-08, u=0.6909, from estimator weights (rebuild 0.53, broken 0.16, separate 0.01, remainder 0.30).",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "forecast_answer": {
+      "cut_id": "cut.kieran_laura.2022.conversation",
+      "answer_key": "stay_and_rebuild_in_the_open"
+     }
+    },
+    {
+     "id": "contains.ev.kieran.end.open_eyes",
+     "kind": "contains",
+     "source_event_id": "ev.kieran.end",
+     "target_event_id": "ev.kieran.end.open_eyes",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "ev.kieran.end.realizes.ev.kieran.end.open_eyes",
+     "kind": "realizes_forecast",
+     "source_event_id": "ev.kieran.end",
+     "target_event_id": "ev.kieran.end.open_eyes",
+     "description": "Drawn: seed rabbit-hole-run/kieran/end/2023-03, u=0.9659, from re-estimated weights (open eyes 0.94, scam team 0.03, remainder 0.03).",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "forecast_answer": {
+      "cut_id": "cut.kieran.2023.end",
+      "answer_key": "stays_at_his_desk_by_choice_with_open_eyes"
+     }
+    },
+    {
+     "id": "contains.ev.kieran.last_call",
+     "kind": "contains",
+     "source_event_id": "ev.kieran.end.open_eyes",
+     "target_event_id": "ev.kieran.last_call",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "contains.ev.walk.march_2023",
+     "kind": "contains",
+     "source_event_id": "ev.kieran.end.open_eyes",
+     "target_event_id": "ev.walk.march_2023",
+     "description": "Opened detail.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "barbara_visit.enables.walk2023",
+     "kind": "enables",
+     "source_event_id": "ev.barbara.after.goes_to_laura",
+     "target_event_id": "ev.walk.march_2023",
+     "description": "Barbara and Laura met in August; now they walk together.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   ]
+  }
+ },
+ "requireDescribedNumbers": true
+}
