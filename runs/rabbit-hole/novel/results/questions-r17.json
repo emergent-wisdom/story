@@ -1,0 +1,602 @@
+{
+  "schema": "meaning-model-open-questions/v1",
+  "total": 33,
+  "counts": {
+    "moment-unmodeled": 9,
+    "shift-uncaused": 5,
+    "period-uncut": 6,
+    "process-empty": 3,
+    "decision-undrawn": 8,
+    "weights-unestimated": 1,
+    "understanding-outside": 1
+  },
+  "depth": {
+    "events": 189,
+    "processes": 97,
+    "cuts": 46,
+    "concepts": 10,
+    "abstractRelations": 6,
+    "abstractCuts": 1,
+    "laws": 0,
+    "claims": 0,
+    "realizations": 16,
+    "people": [
+      {
+        "id": "referent.profile.protagonist.person.protagonist",
+        "name": "Kieran Hale",
+        "life": true,
+        "processes": 9,
+        "processesOpened": 0,
+        "periods": 9,
+        "shocks": 5,
+        "cuts": 23
+      },
+      {
+        "id": "referent.profile.barbara.person.barbara",
+        "name": "Barbara Ashby",
+        "life": true,
+        "processes": 9,
+        "processesOpened": 0,
+        "periods": 8,
+        "shocks": 3,
+        "cuts": 14
+      },
+      {
+        "id": "referent.profile.laura.person.laura",
+        "name": "Laura Russell",
+        "life": true,
+        "processes": 9,
+        "processesOpened": 0,
+        "periods": 8,
+        "shocks": 3,
+        "cuts": 16
+      }
+    ]
+  },
+  "questions": [
+    {
+      "kind": "understanding-outside",
+      "subject": null,
+      "principal": false,
+      "tool": "life_understanding_record, life_story_author_record, life_understanding_read",
+      "question": "The model has changed 17 times and its record holds 0 thoughts. Where is your understanding? Use the model as your mind: put each thought into it as you have it (ideas, questions, decisions and their reasons, predictions, what you expect), linked to what it concerns, and read it back instead of keeping it in your context."
+    },
+    {
+      "kind": "moment-unmodeled",
+      "subject": "referent.profile.protagonist.person.protagonist",
+      "principal": true,
+      "question": "At \"That evening Laura says what she has not said: about the five evictions, about the deposit as a front door, about the five weeks. What the two of them do with i\" (from 2022.63 to 2022.75), before Kieran Hale decides \"What do Laura and Kieran do with the conversation in late August 2022?\": what do they want, what do they feel, and how do they decide? Give the moment those Cuts, so the decision's weights come from them.",
+      "tool": "life_model_revise or life_estimate_cut_shares",
+      "at": [
+        2022.63,
+        2022.75
+      ],
+      "cuts": [
+        "cut.kieran_laura.2022.conversation"
+      ]
+    },
+    {
+      "kind": "shift-uncaused",
+      "subject": "referent.profile.protagonist.person.protagonist",
+      "principal": true,
+      "question": "Kieran Hale's \"What does Kieran see as threatened in this stretch?\" moves his_grandfather from 0.25 to 0.00 between 1990.27 and 2002.7, with nothing modeled between them to cause it. What happened? Model the cause and what followed from it, or make the change gradual across more moments.",
+      "tool": "life_model_revise",
+      "at": [
+        1990.27,
+        2002.7
+      ],
+      "cuts": [
+        "cut.kieran.p1.childhood.threatened",
+        "cut.kieran.p2.game.threatened"
+      ]
+    },
+    {
+      "kind": "period-uncut",
+      "subject": "referent.profile.protagonist.person.protagonist",
+      "principal": true,
+      "question": "In Kieran Hale's period \"At twenty Kieran gives up the online game and the guild he led, to take the job at the Hart.\" (from 2009.8 to 2012), how did they expect what they want to turn out, and what was at risk? Give the period its outlook Cut and, conditional on threat, a Cut over what was threatened.",
+      "tool": "life_model_revise or life_estimate_cut_shares",
+      "at": [
+        2009.8,
+        2012
+      ]
+    },
+    {
+      "kind": "process-empty",
+      "subject": "referent.profile.protagonist.person.protagonist",
+      "principal": true,
+      "question": "Kieran Hale's body, kin, knowledge, meaning, means, partnership, place, standing, work are empty. What happened in each over their life: which episodes, shocks and changes, and when? Open the ones the causality runs through into Events and Cuts, or into subcategories of your own if they understand Kieran Hale better.",
+      "tool": "life_model_revise",
+      "processes": [
+        "body",
+        "kin",
+        "knowledge",
+        "meaning",
+        "means",
+        "partnership",
+        "place",
+        "standing",
+        "work"
+      ]
+    },
+    {
+      "kind": "decision-undrawn",
+      "subject": null,
+      "principal": false,
+      "question": "\"What does Barbara do after Kieran tells her everything on the July 2022 walk?\" has not been drawn. Draw it with a recorded seed: the model decides what happens, and the work follows the draw.",
+      "tool": "life_direction_draw (record)",
+      "cuts": [
+        "cut.barbara.2022.after"
+      ]
+    },
+    {
+      "kind": "weights-unestimated",
+      "subject": null,
+      "principal": false,
+      "question": "6 Cuts carry weights nobody estimated (for example cut.barbara.2019.card.attention, cut.kieran.2019.card.attention, cut.kieran.2020.mirror.attention). Estimate them from their described situations, or record whose distribution they are.",
+      "tool": "life_estimate_cut_shares or life_process_estimate",
+      "cuts": [
+        "cut.barbara.2019.card.attention",
+        "cut.kieran.2019.card.attention",
+        "cut.kieran.2020.mirror.attention",
+        "cut.kieran.2021.harvest.attention",
+        "cut.kieran.2022.depeg.attention",
+        "cut.laura.2021.attention"
+      ]
+    },
+    {
+      "kind": "moment-unmodeled",
+      "subject": "referent.profile.protagonist.person.protagonist",
+      "principal": true,
+      "question": "At \"They walk from the car park above Avebury towards the long barrow. He tells her, pleased, about twenty percent in a dollar. She stops walking. What she does is \" (from 2022.12 to 2022.121), before Kieran Hale decides \"What does Barbara do when Kieran tells her the house deposit is in the stablecoin?\": what do they want, what do they feel, and how do they decide? Give the moment those Cuts, so the decision's weights come from them.",
+      "tool": "life_model_revise or life_estimate_cut_shares",
+      "at": [
+        2022.12,
+        2022.121
+      ],
+      "cuts": [
+        "cut.barbara.2022.response"
+      ]
+    },
+    {
+      "kind": "moment-unmodeled",
+      "subject": "referent.profile.protagonist.person.protagonist",
+      "principal": true,
+      "question": "At \"Twenty-four thousand pounds, fifteen of it Laura's, leaves the Hart through a payments app and becomes stablecoin earning about twenty percent. How Laura is inv\" (from 2022.03 to 2022.06), before Kieran Hale decides \"How does the shared house deposit come to be moved into the stablecoin?\": what do they want, what do they feel, and how do they decide? Give the moment those Cuts, so the decision's weights come from them.",
+      "tool": "life_model_revise or life_estimate_cut_shares",
+      "at": [
+        2022.03,
+        2022.06
+      ],
+      "cuts": [
+        "cut.kieran.2022.deposit_consent"
+      ]
+    },
+    {
+      "kind": "moment-unmodeled",
+      "subject": "referent.profile.barbara.person.barbara",
+      "principal": true,
+      "question": "At \"What she does with the guilt of having handed him a key without a map, and of having said nothing in February, is drawn from cut.barbara.2022.after.\" (from 2022.4 to 2022.75), before Barbara Ashby decides \"What does Barbara do after Kieran tells her everything on the July 2022 walk?\": what do they want, what do they feel, and how do they decide? Give the moment those Cuts, so the decision's weights come from them.",
+      "tool": "life_model_revise or life_estimate_cut_shares",
+      "at": [
+        2022.4,
+        2022.75
+      ],
+      "cuts": [
+        "cut.barbara.2022.after"
+      ]
+    },
+    {
+      "kind": "moment-unmodeled",
+      "subject": "referent.profile.barbara.person.barbara",
+      "principal": true,
+      "question": "At \"They walk from the car park above Avebury towards the long barrow. He tells her, pleased, about twenty percent in a dollar. She stops walking. What she does is \" (from 2022.12 to 2022.121), before Barbara Ashby decides \"What does Barbara do when Kieran tells her the house deposit is in the stablecoin?\": what do they want, what do they feel, and how do they decide? Give the moment those Cuts, so the decision's weights come from them.",
+      "tool": "life_model_revise or life_estimate_cut_shares",
+      "at": [
+        2022.12,
+        2022.121
+      ],
+      "cuts": [
+        "cut.barbara.2022.response"
+      ]
+    },
+    {
+      "kind": "moment-unmodeled",
+      "subject": "referent.profile.laura.person.laura",
+      "principal": true,
+      "question": "At \"Twenty-four thousand pounds, fifteen of it Laura's, leaves the Hart through a payments app and becomes stablecoin earning about twenty percent. How Laura is inv\" (from 2022.03 to 2022.06), before Laura Russell decides \"How does the shared house deposit come to be moved into the stablecoin?\": what do they want, what do they feel, and how do they decide? Give the moment those Cuts, so the decision's weights come from them.",
+      "tool": "life_model_revise or life_estimate_cut_shares",
+      "at": [
+        2022.03,
+        2022.06
+      ],
+      "cuts": [
+        "cut.kieran.2022.deposit_consent"
+      ]
+    },
+    {
+      "kind": "moment-unmodeled",
+      "subject": "referent.profile.laura.person.laura",
+      "principal": true,
+      "question": "At \"The mortgage adviser wants statements by the middle of June. What Kieran does, and when Laura knows, is drawn from cut.kieran.2022.telling.\" (from 2022.37 to 2022.55), before Laura Russell decides \"Whether, when and how does Laura learn that the deposit is gone?\": what do they want, what do they feel, and how do they decide? Give the moment those Cuts, so the decision's weights come from them.",
+      "tool": "life_model_revise or life_estimate_cut_shares",
+      "at": [
+        2022.37,
+        2022.55
+      ],
+      "cuts": [
+        "cut.kieran.2022.telling"
+      ]
+    },
+    {
+      "kind": "moment-unmodeled",
+      "subject": "referent.profile.laura.person.laura",
+      "principal": true,
+      "question": "At \"That evening Laura says what she has not said: about the five evictions, about the deposit as a front door, about the five weeks. What the two of them do with i\" (from 2022.63 to 2022.75), before Laura Russell decides \"What do Laura and Kieran do with the conversation in late August 2022?\": what do they want, what do they feel, and how do they decide? Give the moment those Cuts, so the decision's weights come from them.",
+      "tool": "life_model_revise or life_estimate_cut_shares",
+      "at": [
+        2022.63,
+        2022.75
+      ],
+      "cuts": [
+        "cut.kieran_laura.2022.conversation"
+      ]
+    },
+    {
+      "kind": "moment-unmodeled",
+      "subject": "referent.profile.laura.person.laura",
+      "principal": true,
+      "question": "At \"What she does, and what it asks of her, is drawn from cut.laura.2022.response.\" (from 2022.45 to 2022.7), before Laura Russell decides \"What does Laura do once she knows the deposit is gone and that Kieran hid it for five weeks?\": what do they want, what do they feel, and how do they decide? Give the moment those Cuts, so the decision's weights come from them.",
+      "tool": "life_model_revise or life_estimate_cut_shares",
+      "at": [
+        2022.45,
+        2022.7
+      ],
+      "cuts": [
+        "cut.laura.2022.response"
+      ]
+    },
+    {
+      "kind": "shift-uncaused",
+      "subject": "referent.profile.barbara.person.barbara",
+      "principal": true,
+      "question": "Barbara Ashby's \"What does Barbara see as threatened in this stretch?\" moves being_let_into_a_trade from 0.55 to 0.00 between 1953.37 and 1969.6, with nothing modeled between them to cause it. What happened? Model the cause and what followed from it, or make the change gradual across more moments.",
+      "tool": "life_model_revise",
+      "at": [
+        1953.37,
+        1969.6
+      ],
+      "cuts": [
+        "cut.barbara.p1.childhood.threatened",
+        "cut.barbara.p2.works.threatened"
+      ]
+    },
+    {
+      "kind": "shift-uncaused",
+      "subject": "referent.profile.laura.person.laura",
+      "principal": true,
+      "question": "Laura Russell's \"Across this stretch, how does Laura expect what they want to turn out?\" moves assurance from 0.64 to 0.35 between 2013.6 and 2020.19, with nothing modeled between them to cause it. What happened? Model the cause and what followed from it, or make the change gradual across more moments.",
+      "tool": "life_model_revise",
+      "at": [
+        2013.6,
+        2020.19
+      ],
+      "cuts": [
+        "cut.laura.p3.nursing.outlook",
+        "cut.laura.p4.pandemic.outlook"
+      ]
+    },
+    {
+      "kind": "shift-uncaused",
+      "subject": "referent.profile.laura.person.laura",
+      "principal": true,
+      "question": "Laura Russell's \"What does Laura see as threatened in this stretch?\" moves her_mother from 0.25 to 0.00 between 2009.7 and 2013.6, with nothing modeled between them to cause it. What happened? Model the cause and what followed from it, or make the change gradual across more moments.",
+      "tool": "life_model_revise",
+      "at": [
+        2009.7,
+        2013.6
+      ],
+      "cuts": [
+        "cut.laura.p2.training.threatened",
+        "cut.laura.p3.nursing.threatened"
+      ]
+    },
+    {
+      "kind": "shift-uncaused",
+      "subject": "referent.profile.laura.person.laura",
+      "principal": true,
+      "question": "Laura Russell's \"What does Laura see as threatened in this stretch?\" moves the_deposit_growing_too_slowly from 0.40 to 0.00 between 2013.6 and 2020.19, with nothing modeled between them to cause it. What happened? Model the cause and what followed from it, or make the change gradual across more moments.",
+      "tool": "life_model_revise",
+      "at": [
+        2013.6,
+        2020.19
+      ],
+      "cuts": [
+        "cut.laura.p3.nursing.threatened",
+        "cut.laura.p4.pandemic.threatened"
+      ]
+    },
+    {
+      "kind": "period-uncut",
+      "subject": "referent.profile.protagonist.person.protagonist",
+      "principal": true,
+      "question": "In Kieran Hale's period \"The car plant where his father has worked since 1992 closes.\" (from 2019.13 to 2022.3), how did they expect what they want to turn out, and what was at risk? Give the period its outlook Cut and, conditional on threat, a Cut over what was threatened.",
+      "tool": "life_model_revise or life_estimate_cut_shares",
+      "at": [
+        2019.13,
+        2022.3
+      ]
+    },
+    {
+      "kind": "period-uncut",
+      "subject": "referent.profile.barbara.person.barbara",
+      "principal": true,
+      "question": "In Barbara Ashby's period \"The railway works close in 1986 and Barbara, thirty-three, loses her trade.\" (from 1985 to 1988.5), how did they expect what they want to turn out, and what was at risk? Give the period its outlook Cut and, conditional on threat, a Cut over what was threatened.",
+      "tool": "life_model_revise or life_estimate_cut_shares",
+      "at": [
+        1985,
+        1988.5
+      ]
+    },
+    {
+      "kind": "period-uncut",
+      "subject": "referent.profile.barbara.person.barbara",
+      "principal": true,
+      "question": "In Barbara Ashby's period \"Barbara watches the banking system come close to stopping in 2008.\" (from 2007.6 to 2013.3), how did they expect what they want to turn out, and what was at risk? Give the period its outlook Cut and, conditional on threat, a Cut over what was threatened.",
+      "tool": "life_model_revise or life_estimate_cut_shares",
+      "at": [
+        2007.6,
+        2013.3
+      ]
+    },
+    {
+      "kind": "period-uncut",
+      "subject": "referent.profile.laura.person.laura",
+      "principal": true,
+      "question": "In Laura Russell's period \"At twelve Laura's family is moved on from a rented house for the fifth time.\" (from 2001 to 2009), how did they expect what they want to turn out, and what was at risk? Give the period its outlook Cut and, conditional on threat, a Cut over what was threatened.",
+      "tool": "life_model_revise or life_estimate_cut_shares",
+      "at": [
+        2001,
+        2009
+      ]
+    },
+    {
+      "kind": "period-uncut",
+      "subject": "referent.profile.laura.person.laura",
+      "principal": true,
+      "question": "In Laura Russell's period \"The first pandemic wave on the intensive-care unit.\" (from 2020.19 to 2020.99), how did they expect what they want to turn out, and what was at risk? Give the period its outlook Cut and, conditional on threat, a Cut over what was threatened.",
+      "tool": "life_model_revise or life_estimate_cut_shares",
+      "at": [
+        2020.19,
+        2020.99
+      ]
+    },
+    {
+      "kind": "process-empty",
+      "subject": "referent.profile.barbara.person.barbara",
+      "principal": true,
+      "question": "Barbara Ashby's body, kin, knowledge, meaning, means, partnership, place, standing, work are empty. What happened in each over their life: which episodes, shocks and changes, and when? Open the ones the causality runs through into Events and Cuts, or into subcategories of your own if they understand Barbara Ashby better.",
+      "tool": "life_model_revise",
+      "processes": [
+        "body",
+        "kin",
+        "knowledge",
+        "meaning",
+        "means",
+        "partnership",
+        "place",
+        "standing",
+        "work"
+      ]
+    },
+    {
+      "kind": "process-empty",
+      "subject": "referent.profile.laura.person.laura",
+      "principal": true,
+      "question": "Laura Russell's body, kin, knowledge, meaning, means, partnership, place, standing, work are empty. What happened in each over their life: which episodes, shocks and changes, and when? Open the ones the causality runs through into Events and Cuts, or into subcategories of your own if they understand Laura Russell better.",
+      "tool": "life_model_revise",
+      "processes": [
+        "body",
+        "kin",
+        "knowledge",
+        "meaning",
+        "means",
+        "partnership",
+        "place",
+        "standing",
+        "work"
+      ]
+    },
+    {
+      "kind": "decision-undrawn",
+      "subject": null,
+      "principal": false,
+      "question": "\"What does Barbara do when Kieran tells her the house deposit is in the stablecoin?\" has not been drawn. Draw it with a recorded seed: the model decides what happens, and the work follows the draw.",
+      "tool": "life_direction_draw (record)",
+      "cuts": [
+        "cut.barbara.2022.response"
+      ]
+    },
+    {
+      "kind": "decision-undrawn",
+      "subject": null,
+      "principal": false,
+      "question": "\"What does Kieran do as the stablecoin's peg breaks between 9 and 13 May 2022?\" has not been drawn. Draw it with a recorded seed: the model decides what happens, and the work follows the draw.",
+      "tool": "life_direction_draw (record)",
+      "cuts": [
+        "cut.kieran.2022.depeg_response"
+      ]
+    },
+    {
+      "kind": "decision-undrawn",
+      "subject": null,
+      "principal": false,
+      "question": "\"How does the shared house deposit come to be moved into the stablecoin?\" has not been drawn. Draw it with a recorded seed: the model decides what happens, and the work follows the draw.",
+      "tool": "life_direction_draw (record)",
+      "cuts": [
+        "cut.kieran.2022.deposit_consent"
+      ]
+    },
+    {
+      "kind": "decision-undrawn",
+      "subject": null,
+      "principal": false,
+      "question": "\"Whether, when and how does Laura learn that the deposit is gone?\" has not been drawn. Draw it with a recorded seed: the model decides what happens, and the work follows the draw.",
+      "tool": "life_direction_draw (record)",
+      "cuts": [
+        "cut.kieran.2022.telling"
+      ]
+    },
+    {
+      "kind": "decision-undrawn",
+      "subject": null,
+      "principal": false,
+      "question": "\"Where does Kieran end up by March 2023: what does he do with his work, the game and his curiosity?\" has not been drawn. Draw it with a recorded seed: the model decides what happens, and the work follows the draw.",
+      "tool": "life_direction_draw (record)",
+      "cuts": [
+        "cut.kieran.2023.end"
+      ]
+    },
+    {
+      "kind": "decision-undrawn",
+      "subject": null,
+      "principal": false,
+      "question": "\"What do Laura and Kieran do with the conversation in late August 2022?\" has not been drawn. Draw it with a recorded seed: the model decides what happens, and the work follows the draw.",
+      "tool": "life_direction_draw (record)",
+      "cuts": [
+        "cut.kieran_laura.2022.conversation"
+      ]
+    },
+    {
+      "kind": "decision-undrawn",
+      "subject": null,
+      "principal": false,
+      "question": "\"What does Laura do once she knows the deposit is gone and that Kieran hid it for five weeks?\" has not been drawn. Draw it with a recorded seed: the model decides what happens, and the work follows the draw.",
+      "tool": "life_direction_draw (record)",
+      "cuts": [
+        "cut.laura.2022.response"
+      ]
+    }
+  ],
+  "alwaysAsk": [
+    "How can you understand what you are working on better, using the model? Whatever the object of investigation is (a character, an object, a concept, an era, whatever the work is about), go deeper by modeling more: its history, its parts and processes over time, what it depends on and what depends on it, and what it is an instance of.",
+    "List all the aspects of what you are working on you could understand better (for a story: the characters' choices, the author's writing and style, each voice, the technology, the time period, places, institutions, relationships, money, bodies, beliefs; for a market: its participants, instruments, rules, regimes, technology, history), then investigate each by modeling: create new processes, refine existing ones, open sub-processes, add earlier Events that explain or later Events that follow (a childhood, a war a century back, a consequence years on), add Cuts and estimate them, draw decisions, name the concepts and laws things instantiate, model how Things work and where everything is, try another decomposition, sample trajectories.",
+    "Is there a macro aspect you must model to truly understand what is going on in what you are working on? It could be something from a character's childhood or a war a hundred years ago; you will not know unless you model it. Follow the causes back along the lives and the world's long processes, and model what you find.",
+    "What kinds of reasons lie behind what the people acting in what you are working on do, are they primarily out of fear or out of love, and what does that fear or love ask of them? Fear of losing one's place, of being excluded, of not being accepted, of missing out; love of oneself, expressed and given to others, and of the people, work and things cared for. The same act can come from either, and what it does to the person depends on which. Most acts mix both: model the shares and how they shift with shocks and with being seen, what the person believes the reason is, and what others read.",
+    "What can be richer about what you are working on? A process still coarse, a person without a life, a thing without a history, a feeling without its cause, a consequence nobody followed. Open it in the model before you use it.",
+    "What is what you are working on an instance of? Climb up the ladder: which concept, pattern or law explains it together with other things in the model, and what does that abstraction predict elsewhere?",
+    "What else? These questions are a start, not a boundary: what question about what you are working on has nobody asked yet, and what category would you need to invent to answer it?"
+  ],
+  "guidance": "The loop: find the areas worth investigating, go deeper inside the model, put your understanding inside the model, then loop again and let what the model holds lead you down different paths. These are the model's own open questions, read from its structure. The model is a language and none of its constructs is mandatory: the questions read common ones (a lifecycle Event, periods, change arcs, Cut units), so where you expressed the same understanding your own way a question may not see it; say so in the record and move on. Answer the rest by adding structure, in whatever form understands best, then ask again: every answer raises new questions, and there is no depth at which the model is finished. Take at least one between every step of the work.",
+  "modelHash": "cf7514e62711a9a38b91bb560c17723055cd3c395b7775e278ee9a671cc6bc40",
+  "jumps": [
+    {
+      "kind": "shock",
+      "size": 0.8999999999999999,
+      "subject": "referent.profile.protagonist.person.protagonist",
+      "at": [
+        2022.353,
+        2023.25
+      ],
+      "eventIds": [
+        "event.profile.kieran_collapse.change_arc"
+      ],
+      "what": "Kieran Hale's shock: From 9 May the stablecoin slips from its dollar and does not come back; by 13 May the deposit is worth about three thousand pounds and falling. (its adaptation reaches 12 records)."
+    },
+    {
+      "kind": "decision",
+      "size": 0.728,
+      "subject": "cut.barbara.2022.after",
+      "at": [
+        2022.4,
+        2022.75
+      ],
+      "eventIds": [
+        "ev.barbara.after"
+      ],
+      "what": "\"What does Barbara do after Kieran tells her everything on the July 2022 walk?\": gives_him_the_map_this_time 0.34 against tells_him_what_1986_taught_her_and_keeps_walking 0.25."
+    },
+    {
+      "kind": "decision",
+      "size": 0.664,
+      "subject": "cut.kieran.2022.deposit_consent",
+      "at": [
+        2022.03,
+        2022.06
+      ],
+      "eventIds": [
+        "ev.kieran.deposit_move"
+      ],
+      "what": "\"How does the shared house deposit come to be moved into the stablecoin?\": moves_it_without_asking 0.56 against asks_and_she_leaves_it_to_him 0.39."
+    },
+    {
+      "kind": "decision",
+      "size": 0.6480000000000001,
+      "subject": "cut.barbara.2022.response",
+      "at": [
+        2022.12,
+        2022.121
+      ],
+      "eventIds": [
+        "ev.barbara.stablecoin_walk"
+      ],
+      "what": "\"What does Barbara do when Kieran tells her the house deposit is in the stablecoin?\": says_it_is_his_choice_and_nothing_more 0.48 against warns_plainly_with_the_mechanism 0.29."
+    },
+    {
+      "kind": "shift",
+      "size": 0.6,
+      "subject": "referent.profile.laura.person.laura",
+      "at": [
+        1991.6,
+        2009.7
+      ],
+      "eventIds": [
+        "ev.laura.p1.childhood",
+        "ev.laura.p2.training"
+      ],
+      "what": "Laura Russell's \"What does Laura see as threatened in this stretch?\" moves the_house_they_live_in from 0.60 to 0.00."
+    },
+    {
+      "kind": "shift",
+      "size": 0.55,
+      "subject": "referent.profile.barbara.person.barbara",
+      "at": [
+        1953.37,
+        1969.6
+      ],
+      "eventIds": [
+        "ev.barbara.p1.childhood",
+        "ev.barbara.p2.works"
+      ],
+      "what": "Barbara Ashby's \"What does Barbara see as threatened in this stretch?\" moves being_let_into_a_trade from 0.55 to 0.00."
+    },
+    {
+      "kind": "decision",
+      "size": 0.504,
+      "subject": "cut.kieran_laura.2022.conversation",
+      "at": [
+        2022.63,
+        2022.75
+      ],
+      "eventIds": [
+        "ev.kieran_laura.conversation"
+      ],
+      "what": "\"What do Laura and Kieran do with the conversation in late August 2022?\": stay_and_rebuild_in_the_open 0.53 against stay_but_something_stays_broken 0.16."
+    },
+    {
+      "kind": "shift",
+      "size": 0.5,
+      "subject": "referent.profile.barbara.person.barbara",
+      "at": [
+        1988.5,
+        2013.3
+      ],
+      "eventIds": [
+        "ev.barbara.p3.bureau",
+        "ev.barbara.p4.retirement"
+      ],
+      "what": "Barbara Ashby's \"What does Barbara see as threatened in this stretch?\" moves her_savings_in_the_old_system from 0.00 to 0.50."
+    }
+  ],
+  "states": []
+}
