@@ -1,0 +1,52 @@
+{
+  "schema": "life-sim-mcp-service/v2",
+  "graphHash": "0a03a67a08e49e7117b5c694fe1cde35e5db270a71535ed3acbcf1a3b4afec3c",
+  "previousGraphHash": "0d8678d49f42c4f0c5ecf3eb807245686220703d1c33b209d184fa32a468f4c2",
+  "snapshotHash": "07499bd0e42f246a29830d628be4a00c10e9c531ba0703b6cb5a0ecf32f87300",
+  "stored": true,
+  "reusedExisting": false,
+  "immutableRevision": true,
+  "additiveBatch": true,
+  "batch": {
+    "added_edge_count": 1,
+    "added_node_count": 1,
+    "added_root_count": 0
+  },
+  "summary": {
+    "edge_count": 176,
+    "graph_hash": "0a03a67a08e49e7117b5c694fe1cde35e5db270a71535ed3acbcf1a3b4afec3c",
+    "id": "rabbit-hole-novel",
+    "node_count": 63,
+    "revision": {
+      "number": 48,
+      "previous_graph_hash": "0d8678d49f42c4f0c5ecf3eb807245686220703d1c33b209d184fa32a468f4c2",
+      "provenance": [
+        "rabbit-hole-run; prose written by the calling LLM under delegation, directly into the graph"
+      ],
+      "reason": "Add prose parts 1-1."
+    },
+    "roles": {
+      "document_root": 1,
+      "externalized_reflection": 33,
+      "metadata": 28,
+      "story_passage": 1
+    },
+    "root_count": 3,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "94c0ef70447dbee8cc264945e2e752e6f4f2e25f678859b574e26406074378d7"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "94c0ef70447dbee8cc264945e2e752e6f4f2e25f678859b574e26406074378d7",
+      "model_revision": 16,
+      "source_hash": "94c0ef70447dbee8cc264945e2e752e6f4f2e25f678859b574e26406074378d7",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "requestPayloadHash": "d8ef836fae5ee86511d9441f6da2fc52b5a9a81b375000a0027a899d5dc438f7"
+}
