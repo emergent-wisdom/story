@@ -24,6 +24,10 @@ as a user would. The story is visualized in this repo while it is written.
 - About 18:15: Henrik asked the agent to finish the whole story, about 16,000 words in twelve parts, in one pass
   rather than 15-minute rounds, with the story inside the graph and nothing written outside it. The PDF is made by
   the operator from the graph.
+- About 18:35: the agent wrote the twelve parts into the graph, about 5,800 words (short of 16,000 because of the stage
+  deadline), and saved the tool's render as `novel/novel.md`. The final graph is `abe50dac…`. The relay then dropped
+  ("Not connected"), so the agent could not run the export; the operator made `novel/construction-export.json` from
+  the saved engine state with `export-run.mjs` and the published package.
 
 ## This copy
 
