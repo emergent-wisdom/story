@@ -19,8 +19,9 @@ const SKIP = new Set(['daemon.json', 'relay-serve.log', 'server-stderr.log', 're
 function copy(from, to) {
   mkdirSync(to, { recursive: true });
   for (const entry of readdirSync(from)) {
-    if (SKIP.has(entry) || entry.startsWith('.')) continue;
+    if (SKIP.has(entry) || entry.startsWith('.') || entry === 'node_modules') continue;
     const a = join(from, entry); const b = join(to, entry);
+    if (statSync(a).isDirectory() && existsSync(join(a, '.git'))) continue; // a clone inside the run is not the run
     if (statSync(a).isDirectory()) copy(a, b); else cpSync(a, b);
   }
 }

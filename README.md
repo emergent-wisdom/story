@@ -43,6 +43,13 @@ to start the replay, `&live` to follow a
 running story, `&still` to stop the slow orbit, and `&read` to open the story. **Read the story** shows the text as
 the Meaning Model renders it from the story graph (`life_narrative_render`), up to the replay's moment.
 
+**The processes view** is http://localhost:8765/processes.html. It shows every named process the agent modeled
+(Kieran's belonging to the Sharehouse, Laura's exhaustion, Barbara's guilt, the bitcoin price, intensive-care
+occupancy and the rest) as a curtain of light on its own scale over the story's years. The events that move them run
+as threads through every process they touch, with the decisions the model drew, the love-or-fear split behind the
+acts, and the causal links between events. The heights follow each process's authored path in the model, read by
+`measures.mjs`. Press play to sweep through the years. Both views take `&title=` to show another title.
+
 ## Make data from a story run
 
 The extractor reads a run's relay call log and an online SQLite backup of its engine database. It never calls the
