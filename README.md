@@ -38,7 +38,8 @@ npm install
 npm run serve
 ```
 
-Open http://localhost:8765/landscape.html?data=rabbit-hole. Add `&play` to start the replay, `&live` to follow a
+It needs Node.js 22.18 or later. Open http://localhost:8765, which is `landscape.html?data=rabbit-hole`. Add `&play`
+to start the replay, `&live` to follow a
 running story, `&still` to stop the slow orbit, and `&read` to open the story. **Read the story** shows the text as
 the Meaning Model renders it from the story graph (`life_narrative_render`), up to the replay's moment.
 
@@ -53,15 +54,19 @@ named by `MEANING_MODEL_DIR` works too.
 node extract.mjs --run <run folder> --out public/data/<name>.json
 ./live.sh <run folder> <name>   # refresh every minute while the agent works
 node sync-run.mjs <run folder> <name>   # copy the run into runs/<name>/ for this repo
+node export-run.mjs <run folder> <graph hash> <access scope>   # the construction export, made in process
 ```
 
 ## The story in this repo
 
-`runs/rabbit-hole/` is the story's run, copied while the agent works: the brief (`PROMPT.md`), the operator's
-`PROTOCOL.md`, every tool call the agent made with its arguments and full result (`novel/inputs/`, `novel/results/`
-and the call log `novel/mcp-transcript.jsonl`), the scripts it wrote (`novel/build/`), and a backup of the Meaning
-Model's engine state (`novel/engine-state.sqlite`). The story lives in that state: the world, the lives, the
-decisions, and the prose as it is written.
+`runs/rabbit-hole/` is the story's whole run, from 25 September 2026. Henrik Westerberg's brief (`PROMPT.md`), about a
+comfortable "blue pill" world, the white rabbit, and Paleolithic emotions, medieval institutions and godlike
+technology, was given to a fresh agent on the released tool. The folder holds the operator's `PROTOCOL.md`; every tool
+call the agent made with its arguments and full result (`novel/inputs/`, `novel/results/` and the call log
+`novel/mcp-transcript.jsonl`); the scripts it wrote (`novel/build/`); a backup of the Meaning Model's engine state
+(`novel/engine-state.sqlite`); the whole construction history (`novel/construction-export.json`); and the tool's render
+of the story (`novel/novel.md`). The story lives in the engine state: the world, the lives, the decisions and the
+prose, in story graph `6e840daa…` on story model revision 17.
 
 Rebuild the page's data from it with the published tool:
 
@@ -78,22 +83,23 @@ Typeset the story as a book PDF from the same render. It needs Chrome or Chromiu
 node book.mjs rabbit-hole   # writes pdf/rabbit-hole.pdf
 ```
 
-`public/data/rabbit-hole.json` is *The Exceptions Queue*, a story written by an agent with Meaning Model 0.3.0 on
-25 September 2026, from a brief about a comfortable "blue pill" world, a white rabbit, and Paleolithic emotions in a
-world of godlike technology.
-
 ## Open the story's model with your own agent
 
-The story's world model can be opened with the published Meaning Model server. Work on a copy of the state:
+The story's world model opens in the published Meaning Model server. From the repo folder, install the engine once,
+work on a copy of the state, and add the server to Claude Code:
 
 ```sh
+npx meaning-model-mcp --install-engine
 cp runs/rabbit-hole/novel/engine-state.sqlite story-state.sqlite
 claude mcp add story-model -e LIFE_SIM_STATE_FILE="$PWD/story-state.sqlite" -e MEANING_MODEL_ADDONS=storytelling -e MEANING_MODEL_READING=guides -- npx meaning-model-mcp
 ```
 
-The story graph's head hash is `headGraphHash` in `public/data/rabbit-hole.json`; `life_narrative_render` with it
-renders the story.
+The story graph is `6e840daa393fbdd16608dff4c81c045dca622386be4e9f8d5d7c95816d45eb29`, read with the access scope
+`story-author`. `life_narrative_render` on it gives the novel; `life_narrative_query` and `life_model_inspect` show how
+it is built. Two known limits of this history: `life_construction_export` stops the server on it (the export is
+already in `novel/construction-export.json`), and `life_model_questions` does not see the notes and draws, whose links
+broke when the graph was rebound.
 
 ## License
 
-MIT for the code. three.js is vendored under its own license.
+The code is MIT, in [LICENSE](LICENSE). three.js is vendored under its own MIT license.
