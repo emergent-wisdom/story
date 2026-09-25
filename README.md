@@ -1,6 +1,20 @@
 # Story Landscape
 
 A live view of a story as an agent builds it with the [Meaning Model](https://github.com/emergent-wisdom/meaning-model).
+
+**The story.** *Twelve Words*, a novel in twelve parts (about 8,400 words), written by an AI agent with the Meaning
+Model from an idea by Henrik Westerberg. Read it as [text](runs/rabbit-hole/novel/novel.md) or as a
+[book PDF](pdf/rabbit-hole.pdf); both are renders of the story graph, and everything that built it is in
+[`runs/rabbit-hole/`](runs/rabbit-hole/).
+
+**The Meaning Model.**
+- Source, releases and documentation: [github.com/emergent-wisdom/meaning-model](https://github.com/emergent-wisdom/meaning-model).
+  This story was made with [release v0.3.0](https://github.com/emergent-wisdom/meaning-model/releases/tag/v0.3.0).
+- The MCP server on npm: [@emergent-wisdom/meaning-model-mcp](https://www.npmjs.com/package/@emergent-wisdom/meaning-model-mcp).
+- The paper: *The Meaning Model: Constructing Worlds and Stories at Progressive Resolution*,
+  [doi:10.5281/zenodo.22313515](https://doi.org/10.5281/zenodo.22313515).
+- [Emergent Wisdom](https://emergentwisdom.org).
+
 The agent does not just write the story: it models the world first, as processes over time. This page shows that
 model as a landscape.
 

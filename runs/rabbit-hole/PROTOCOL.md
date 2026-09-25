@@ -26,8 +26,20 @@ as a user would. The story is visualized in this repo while it is written.
   the operator from the graph.
 - About 18:35: the agent wrote the twelve parts into the graph, about 5,800 words (short of 16,000 because of the stage
   deadline), and saved the tool's render as `novel/novel.md`. The final graph is `abe50dac…`. The relay then dropped
-  ("Not connected"), so the agent could not run the export; the operator made `novel/construction-export.json` from
-  the saved engine state with `export-run.mjs` and the published package.
+  ("Not connected"), so the agent could not run the export.
+- About 18:40 to 18:47: Henrik asked the agent for stronger character voices and more processes. The server behind the
+  relay had stopped; the agent asked Henrik, and with his yes restarted the relay. The estimator was not configured
+  after the restarts. The agent split the prose into twelve part nodes, recorded a voice assessment before and after
+  the revision with quotes per character, replaced each part in place, and added 15 processes and sampled whole-life
+  trajectories for the three principals. The story was retitled *Twelve Words*. The final graph is `6e840daa…`, the
+  story model is at revision 17 (`cf7514e6…`), and the text is about 8,400 words.
+- `life_construction_export` stopped the server each time it was called on this history (three of three, in the
+  agent's report). The operator made `novel/construction-export.json` for the final graph from the saved engine state
+  with `export-run.mjs` and the published package.
+- Open at the end, in the agent's report: `life_model_questions` shows no thoughts and eight undrawn decisions because
+  repeated rebinds broke the links to the notes and draws, which are themselves in the graph; the prose went in as
+  direct graph additions and edits, not through the scene reviews and the release step; and the story is short of
+  the 16,000 words agreed.
 
 ## This copy
 
