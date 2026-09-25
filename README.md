@@ -23,7 +23,7 @@ npm run serve
 ```
 
 Open http://localhost:8765/landscape.html?data=rabbit-hole. Add `&play` to start the replay, `&live` to follow a
-running story, and `&still` to stop the slow orbit. `index.html` is a flat 2D view of the same data.
+running story, and `&still` to stop the slow orbit.
 
 ## Make data from a story run
 
@@ -61,4 +61,4 @@ world of godlike technology.
 
 ## License
 
-MIT for the code. D3 and three.js are vendored under their own licenses.
+MIT for the code. three.js is vendored under its own license.
