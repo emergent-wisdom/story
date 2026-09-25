@@ -1,0 +1,61 @@
+{
+  "schema": "life-sim-mcp-service/v2",
+  "graphHash": "50e837c1eea54dc8ed685e07814bc93cb3907a18f5e2d6319d51daf666815d7f",
+  "previousGraphHash": "674f7710bb4a23c390be51293a3d6fe8f4e0f42419c6269e13578ed4c202f1aa",
+  "snapshotHash": "3a3cea980c7d4118a1c84be9137592de9883eb379c54084756e1d77fe23ee1fc",
+  "stored": true,
+  "reusedExisting": false,
+  "immutableRevision": true,
+  "additiveBatch": true,
+  "batch": {
+    "added_edge_count": 6,
+    "added_node_count": 2,
+    "added_root_count": 0
+  },
+  "summary": {
+    "edge_count": 16,
+    "graph_hash": "50e837c1eea54dc8ed685e07814bc93cb3907a18f5e2d6319d51daf666815d7f",
+    "id": "rabbit-hole-novel",
+    "node_count": 8,
+    "revision": {
+      "number": 5,
+      "previous_graph_hash": "674f7710bb4a23c390be51293a3d6fe8f4e0f42419c6269e13578ed4c202f1aa",
+      "provenance": [
+        "Meaning Model storytelling add-on v1",
+        "author:calling-llm:claude-opus-5-5",
+        "Authoring clock: authoring_step, not world time.",
+        "written-against-model:282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070"
+      ],
+      "reason": "Record idea author.idea.round1.plan."
+    },
+    "roles": {
+      "document_root": 1,
+      "externalized_reflection": 3,
+      "metadata": 4
+    },
+    "root_count": 2,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "model_revision": 0,
+      "source_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "requestPayloadHash": "cbbabaa37b4d94b81d783e5e3cc7e8ec1e076feb428b81ef0034dfddbdb86e1a",
+  "recordNodeId": "author.idea.round1.plan",
+  "understandingRootId": "story.understanding.c478361e6869af25970682a2",
+  "authoringStep": 4,
+  "understandingNode": true,
+  "graphMutation": true,
+  "worldMutation": false,
+  "semanticVerification": false
+}

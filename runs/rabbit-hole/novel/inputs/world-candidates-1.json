@@ -1,0 +1,227 @@
+{
+ "graphHash": "2e83f14915725df510cc05fe0b263f6854b72004528a6e0c8285937a28020ca8",
+ "requestId": "world-candidates-1",
+ "nodeId": "world.candidates",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "summary": "Three candidate worlds from Faye's life: The Exceptions Queue (a Swindon payments clerk handed twelve words by an engineer who built the old machine), Twelve Words (a warehouse picker finds a stranger's wallet) and The Pension (a claims handler of fifty-eight). Chosen under delegation: The Exceptions Queue, keeping the twelve words and an older person's late wonder from the others.",
+ "world": {
+  "stage": "candidates",
+  "authorReaderNodeId": "world.author_reader",
+  "form": {
+   "targetWords": 11000,
+   "parts": 12
+  },
+  "candidates": [
+   {
+    "id": "cand.exceptions",
+    "title": "The Exceptions Queue",
+    "world": "Swindon and the Wiltshire downs, autumn 2019 to spring 2023, in our real world: a building society's payments operations floor, a pandemic, the 2020-2021 crypto boom and the 2022 collapses.",
+    "account": "A payments clerk of about thirty works the exceptions queue at a Swindon building society, the kind of job where every week is the same and the systems date from the 1960s. Part of the job is phoning customers whose large transfers look like scams. One customer, a retired engineer in her late sixties who once wrote code for the clearing system itself, is not being scammed: she is moving her savings out of the old machine on purpose, and she leaves the clerk a card with twelve words and fifty pounds of bitcoin behind them. In the 2020 lockdown the clerk follows the words down the rabbit hole into decentralized finance, finds a band in a chat server, farms yields through the night, and moves the house deposit they share with their partner, an intensive-care nurse working the pandemic wards. By day the clerk enforces the building society's new blocks on crypto payments; by night they route around them. In May 2022 the stablecoin their deposit sits in loses its peg. The costs fall on the partnership, on the engineer's trust, and on the clerk's idea of who they are; the ending is open to the model's draws.",
+    "premise": "The person whose job is to stop other people going down rabbit holes is handed the key to one by a stranger who knows the old machine better than anyone.",
+    "emotionalCore": "The ache of a small, safe, repetitive life and the joy of discovering the map is enormous; then the old fear of the band's exile keeping you in the game after you know it is rigged.",
+    "question": "Can a mind built for a band of a hundred and fifty faces live in a world of three-day batches and twelve-second blocks without either hiding in the routine or drowning in the game?",
+    "presses": [
+     {
+      "buttonId": "btn.left_behind",
+      "how": "The chat server and the price charts make everyone else seem further in."
+     },
+     {
+      "buttonId": "btn.someone_elses_routine",
+      "how": "The engineer shows the clerk how old and man-made the clearing system is."
+     },
+     {
+      "buttonId": "btn.more_world",
+      "how": "The first transaction, the block explorer and the chat server are genuinely wondrous."
+     },
+     {
+      "buttonId": "btn.knew_better",
+      "how": "The clerk understands the peg's weakness and stays because the band stays."
+     },
+     {
+      "buttonId": "btn.watching_them_go",
+      "how": "The partner must choose between forbidding and following."
+     }
+    ],
+    "authorStake": "Faye's eighteen years on the payments floor, her own fall in 2022 and her father's works: she gives her fall to someone younger, in the town she knows, and puts beside them the choice she faced with her daughter.",
+    "longTermProcesses": [
+     "the forager mind and its band size, over three hundred thousand years",
+     "the clearing system and the three-day cycle since the late 1960s",
+     "the Swindon railway works and the town's routines, 1840s to 1986",
+     "the building society as an institution and its response to crypto",
+     "the crypto market regime from the 2020 crash through the 2021 boom to the 2022 collapses",
+     "the pandemic's pressure on hospital staff 2020-2021",
+     "the partnership and its shared house deposit",
+     "the engineer's career from the railway works to the clearing code to bitcoin"
+    ],
+    "centralShock": "The May 2022 stablecoin collapse that takes most of the shared house deposit, arriving while the clerk's own employer is blocking the payments they used to get in.",
+    "principals": [
+     {
+      "name": "the clerk (to be named)",
+      "wants": "To matter and to see the whole map; and to be no trouble to anyone, which their life taught them as a way to be safe. The two wants split when the rabbit hole offers mattering at the price of trouble.",
+      "interest": "Their loyalty to whichever band they are in is what makes them a good colleague and what keeps them in the game after they know better.",
+      "readingOfShock": "As a betrayal by the band and a verdict on themselves, then slowly as something done to them by a machine built for faster minds."
+     },
+     {
+      "name": "the engineer (to be named)",
+      "wants": "To be believed at last about systems she built and was never credited for; to leave something that outlasts her; and not to be anyone's mother.",
+      "interest": "She opens the door and then despises what the clerk finds behind it: a bitcoin purist who thinks decentralized finance is the old casino in a new costume.",
+      "readingOfShock": "As proof she was right about the casino, and as her own fault for handing a key to someone without a map."
+     },
+     {
+      "name": "the partner (to be named)",
+      "wants": "A house of their own after years of renting and shifts; rest; to be the one who is looked after for once.",
+      "interest": "A nurse whose pandemic is bodies and breath while the clerk's is screens; strong under pressure, silent about her own needs.",
+      "readingOfShock": "Not as money but as a lie: the deposit was a shared future, and the clerk moved it without asking."
+     }
+    ],
+    "costs": "Following the rabbit costs the clerk sleep, the truth with their partner and finally the deposit; the partner pays with the house and her trust; the engineer pays with her belief that she can hand the future to someone else; staying in the routine would have cost the clerk the only year they felt alive.",
+    "outcome": "Open: decided by drawn decisions at the model's jumps (the confession, the partnership, what the clerk does with what is left)."
+   },
+   {
+    "id": "cand.twelve_words",
+    "title": "Twelve Words",
+    "world": "The M4 distribution belt outside Swindon, 2021-2022: a gamified warehouse where handheld scanners direct every step.",
+    "account": "A night-shift picker whose every movement is set by a scanner finds, in a returned parcel, a hardware wallet and a card of twelve words. Behind them is a stranger's small fortune. She opens it. The grand battle becomes personal: the owner, a young crypto rich man who lost the wallet, hunts for it through forums, the law treats the words as property, and the chat servers treat her as a hero. The collapse of 2022 halves the fortune while she decides whether to give it back.",
+    "premise": "A worker whose life is already a video game run by an algorithm finds the key to a different game.",
+    "emotionalCore": "The humiliation of being managed by a machine and the vertigo of suddenly holding power over a stranger.",
+    "question": "Is a key you found yours to use?",
+    "presses": [
+     {
+      "buttonId": "btn.more_world",
+      "how": "The wallet opens a world of wealth she never saw."
+     },
+     {
+      "buttonId": "btn.someone_elses_routine",
+      "how": "The scanner's routine belongs to the company."
+     },
+     {
+      "buttonId": "btn.knew_better",
+      "how": "She knows the money is not hers."
+     }
+    ],
+    "authorStake": "Faye's knowledge of how keys and ledgers work; less of her own life.",
+    "longTermProcesses": [
+     "algorithmic management of warehouse labour",
+     "the crypto market 2021-2022",
+     "property law for digital assets"
+    ],
+    "centralShock": "Opening the stranger's wallet.",
+    "principals": [
+     {
+      "name": "the picker",
+      "wants": "Dignity and money, which conflict when the money is stolen.",
+      "interest": "Scrupulous and angry at once.",
+      "readingOfShock": "As luck owed to her."
+     },
+     {
+      "name": "the owner",
+      "wants": "His key back and to not look stupid online.",
+      "interest": "Rich and helpless.",
+      "readingOfShock": "As theft."
+     }
+    ],
+    "costs": "Her honesty or her fortune; his pride.",
+    "outcome": "A trade between them."
+   },
+   {
+    "id": "cand.pension",
+    "title": "The Pension",
+    "world": "A Swindon insurance office and a bungalow in a village under the downs, 2020-2022.",
+    "account": "A claims handler of fifty-eight, forty years at the same insurer, counts the weeks to his pension. His grandson shows him crypto on a phone at Sunday lunch. He moves his tax-free lump sum in 2021, becomes briefly the family's genius, and loses most of it in 2022. His wife learns from the bank statement.",
+    "premise": "Anyone can be pulled down the rabbit hole, even the man who has never missed a day.",
+    "emotionalCore": "Late-life wonder and late-life humiliation; a man's last chance to matter.",
+    "question": "Is it ever too late to wake up?",
+    "presses": [
+     {
+      "buttonId": "btn.left_behind",
+      "how": "His grandson's generation seems to own the future."
+     },
+     {
+      "buttonId": "btn.more_world",
+      "how": "At fifty-eight the world opens."
+     },
+     {
+      "buttonId": "btn.knew_better",
+      "how": "He has processed a thousand fraud claims."
+     }
+    ],
+    "authorStake": "Faye's father after the works closed: a man whose routine ended; less of Faye herself.",
+    "longTermProcesses": [
+     "the insurer and its pension scheme",
+     "the market 2021-2022",
+     "the marriage over forty years"
+    ],
+    "centralShock": "The 2022 losses of the pension lump sum.",
+    "principals": [
+     {
+      "name": "the claims handler",
+      "wants": "To matter once before he retires; to keep his wife safe.",
+      "interest": "A careful man becoming reckless.",
+      "readingOfShock": "As the end of his dignity."
+     },
+     {
+      "name": "his wife",
+      "wants": "A quiet retirement.",
+      "interest": "Has always managed the money in secret herself.",
+      "readingOfShock": "As a betrayal she half expected."
+     }
+    ],
+    "costs": "His retirement and marriage.",
+    "outcome": "A diminished, reconciled old age."
+   }
+  ],
+  "pressure": [
+   {
+    "candidateId": "cand.exceptions",
+    "choicesCost": "Every consequential choice costs someone: following the rabbit costs sleep and truth; moving the deposit costs the partner's future; holding in May costs the deposit; confessing costs the relationship's peace; not confessing costs everything later.",
+    "divergentReadings": "Three principals read the collapse as a verdict on the self, as proof about the casino, and as a lie about a shared future.",
+    "shockChanges": "The shock changes what the clerk wants (from mattering in the band to being honest with one person) and what the engineer believes (that a key alone is a gift).",
+    "removableEpisode": "The engineer's backstory could be cut to one scene if she does not also shape the ending; she must stay necessary.",
+    "principalsPartlyRight": "The engineer is right about the casino and wrong about the clerk; the partner is right about the lie and wrong that the clerk never loved the routine; the clerk is right that the world is bigger.",
+    "premiseInterest": "High: the gatekeeper of the old machine handed a key to the new one by its own ghost; the brief's echoes (mirror, hidden world, man behind the curtain) fall naturally into it.",
+    "readerPull": "A reader who has ever refreshed a price at 3 a.m. or lived a routine week would pick it up; they might put it down in the jargon unless the overwhelm is funny and followed by clarity.",
+    "verdict": "strong"
+   },
+   {
+    "candidateId": "cand.twelve_words",
+    "choicesCost": "The central choice (to open the wallet) costs her honesty; later choices are mostly legal manoeuvres.",
+    "divergentReadings": "Two readings: luck and theft; thin.",
+    "shockChanges": "Confirms her anger rather than changing her wants.",
+    "removableEpisode": "The collapse is removable: the story is about the theft, not the market.",
+    "principalsPartlyRight": "Both partly right about ownership.",
+    "premiseInterest": "Good hook but a crime story; it leaves the brief's 'born into a world they know nothing about' and the grand battle mostly outside.",
+    "readerPull": "Thriller pull, less recognition of their own life.",
+    "verdict": "workable"
+   },
+   {
+    "candidateId": "cand.pension",
+    "choicesCost": "Costs are real but fall mostly after the fact.",
+    "divergentReadings": "Husband and wife read it as dignity and betrayal.",
+    "shockChanges": "Largely confirms fears already held.",
+    "removableEpisode": "The grandson's role is removable.",
+    "principalsPartlyRight": "Yes.",
+    "premiseInterest": "Poignant but narrower; the video-game realization and the OMG, WTF overwhelm fit a younger mind better.",
+    "readerPull": "Moving for older readers; less pull for the brief's broad 'anyone can be pulled down'.",
+    "verdict": "workable"
+   }
+  ],
+  "selection": {
+   "chosenId": "cand.exceptions",
+   "reasons": "It is the only candidate in which every element of the brief is load-bearing: the blue pill world is literally the old machine (the clearing batch), the white rabbit is a stranger who does not fit (an engineer who built that machine), the choice is a real conflict with the protagonist's job, the grand battle runs through the protagonist's own day (blocking crypto payments by day, routing around them by night), and the Wilson triad maps onto three places the protagonist lives in: the band in the chat server, the medieval institution on the payments floor, the godlike technology in the phone. It comes most directly out of Faye's life and presses all five buttons. Two elements of the other candidates are worth keeping inside it: the twelve words (from Twelve Words) as the white rabbit's gift and a possible structure for the twelve parts, and an older person's late wonder (from The Pension) in the engineer.",
+   "rejected": [
+    {
+     "candidateId": "cand.twelve_words",
+     "reason": "A crime story whose central choice confirms rather than changes the protagonist, and which leaves the market and the grand battle in the background; its twelve words are absorbed into the chosen world."
+    },
+    {
+     "candidateId": "cand.pension",
+     "reason": "Narrower and more elegiac; the overwhelm and the video-game realization belong to a younger mind; its late wonder is absorbed into the engineer."
+    }
+   ]
+  }
+ }
+}

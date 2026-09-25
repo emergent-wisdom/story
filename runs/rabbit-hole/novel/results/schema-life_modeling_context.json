@@ -1,0 +1,43 @@
+{
+  "name": "life_modeling_context",
+  "description": "Return the reading order and minimum operational contract for story, person, observation, forecast, reconstruction, or counterfactual modeling: the protocol, the guide or profile, and an example, with the papers as the theory to open where a rule needs its reason.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "purpose": {
+        "type": "string",
+        "enum": [
+          "creative_story",
+          "source_reconstruction",
+          "person_reflection",
+          "observation",
+          "forecasting",
+          "counterfactual"
+        ],
+        "description": "One of creative_story, source_reconstruction, person_reflection, observation, forecasting, counterfactual."
+      },
+      "sessionMode": {
+        "default": "first_use",
+        "description": "One of first_use, repeat_same_domain, new_domain, consequential or continuation. Use continuation when you continue recorded work in this server; new_domain or consequential start a new reading record.",
+        "type": "string",
+        "enum": [
+          "first_use",
+          "repeat_same_domain",
+          "new_domain",
+          "consequential",
+          "continuation"
+        ]
+      }
+    },
+    "required": [
+      "purpose"
+    ],
+    "$schema": "https://json-schema.org/draft/2020-12/schema"
+  },
+  "annotations": {
+    "readOnlyHint": false,
+    "destructiveHint": false,
+    "idempotentHint": true,
+    "openWorldHint": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+ "graphHash": "651e8a04d0adc4075c353db425ffa17377e42982fcad808b71abc578c8b98922",
+ "requestId": "author-agreement-2",
+ "nodeId": "author.agreement.2",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "selection",
+ "text": "Revised collaboration agreement (2026-09-25, about 20:12 CEST), from the human's own messages. The human asked: 'Can you ensure that the story is fully finished? so you iterate on a finished story? And make it longer? I want it to produce a nice pdf too.' Asked two questions, the human chose: about 16,000 words (still twelve parts, about 1,350 words each), and to work straight through to a complete draft of all twelve parts before checking in, instead of stopping every fifteen minutes. The human then added: 'The story needs to be inside the graph, nothing written outside of it.' So: every draft, review, revision and plan lives in the story graph; prose is drafted directly into draft records, reviewed and committed there, and revised only through graph edits; novel.md and the PDF are renders of the graph, never separately edited; the JSON files in inputs/ exist only because the relay takes its arguments from files and are not a manuscript. After the full draft: iterate on the finished story, then produce a nice PDF from the rendered text, then report. These are human decisions; they supersede the length and the round rhythm of author.agreement, which otherwise stands.",
+ "data": {
+  "decidedBy": "human",
+  "length": {
+   "targetWords": 16000,
+   "parts": 12,
+   "wordsPerPart": 1350
+  },
+  "involvement": {
+   "mode": "autonomous_to_full_draft",
+   "checkIn": "after the complete draft, then after iteration and the PDF"
+  },
+  "storyLocation": "inside the story graph only; renders are exports",
+  "deliverables": [
+   "complete twelve-part draft committed in the graph",
+   "iteration on the finished story",
+   "novel.md rendered by the tool",
+   "a nice PDF made from the rendered text",
+   "life_construction_export"
+  ]
+ },
+ "links": [
+  {
+   "relation": "supersedes",
+   "targetNodeId": "author.agreement"
+  },
+  {
+   "relation": "about",
+   "targetNodeId": "author.brief"
+  }
+ ]
+}

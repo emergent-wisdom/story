@@ -1,0 +1,64 @@
+{
+  "name": "life_story_structure_explore",
+  "description": "Prepare a creative task for you, the calling LLM: translate an everyday seed word into event, character, relationship, or storyline structures, or use targetKind name to derive names fitting the story’s language, culture, tone, and existing names. Automatically use name mode before assigning new principal character, place, or organization names; preserve established names. Omit seedWord for an independent random word, or supply one to reuse it. Record the returned seed task and your proposed alternatives with life_story_author_record. Follow the returned instructions to propose candidates; this tool generates no candidates or quality verdict and changes no model, world, or graph.\n\nRespect the human author's starting brief and chosen involvement. For a new story, ask about unresolved initial settings and writing-process involvement separately; reuse explicit preferences and delegation. Offer setting all or some parameters or delegating them, and autonomous work, selected checkpoints, ongoing collaboration, or a custom arrangement. Read life-sim://addon/storytelling for intake guidance. Automatic modeling and reviews operate within that agreement. Wait for the human at agreed approval checkpoints; saving a proposal or passing a review is not their approval. A bounded review or edit request does not require a new-project questionnaire.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "targetKind": {
+        "default": "event",
+        "type": "string",
+        "enum": [
+          "event",
+          "character",
+          "relationship",
+          "storyline",
+          "name"
+        ]
+      },
+      "brief": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 10000
+      },
+      "context": {
+        "default": "",
+        "type": "string",
+        "maxLength": 12000
+      },
+      "constraints": {
+        "default": [],
+        "maxItems": 50,
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        }
+      },
+      "seedWord": {
+        "default": null,
+        "anyOf": [
+          {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256
+          },
+          {
+            "type": "null"
+          }
+        ]
+      }
+    },
+    "required": [
+      "brief"
+    ],
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "additionalProperties": false
+  },
+  "annotations": {
+    "readOnlyHint": true,
+    "destructiveHint": false,
+    "idempotentHint": false,
+    "openWorldHint": false
+  }
+}

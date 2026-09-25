@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Life Simulation Rust operation validate_model failed (invalid_json): invalid type: map, expected a string"
+    }
+  ],
+  "isError": true
+}

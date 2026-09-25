@@ -1,0 +1,104 @@
+{
+ "graphHash": "73852bee8879b6b7cd712679c8615f482786bb34cf47d7f77c3e30ee6830af1e",
+ "requestId": "decision-faye-draw-and-boundaries",
+ "nodeId": "author.decision.faye_life_draw",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "decision",
+ "text": "Faye's open decision was drawn, not chosen: cut.faye.2025.daughter_app.response (faye-titcombe-life r1, 65cbe4fe) with seed 'rabbit-hole-run/faye/daughter-app/2025-09', u=0.2055, realized learn_it_beside_her (first draw, no reroll). The draw could not be recorded in a graph bound to her model because her life model has no graph of its own, so the full draw result is kept here and the continuation (ev.faye.learn_beside) carries a realizes_forecast relation in r2 (4d462a80). Remaining author-life questions and why they stay: the nine slow processes are described on their Events and opened where the causality runs through them (body and partnership in the 2022 adaptation, work in the redundancy arc); further opening would not change the voice. The weights of cut.faye.2021.pull and cut.faye.2026.why_write are the recorder's authored distributions for an invented persona, not estimates; the direction Cut's weights were fixed before its draw and are not re-estimated afterwards.",
+ "data": {
+  "draw": {
+   "schema": "meaning-model-direction-draw/v1",
+   "modelHash": "65cbe4fe46ca1fbc9be0eaf231a92238ecf9129635a5122c68e87e8551bba2d1",
+   "cutId": "cut.faye.2025.daughter_app.response",
+   "parentEventId": "ev.faye.daughter_app",
+   "question": "What does Faye do when her daughter shows her the trading app?",
+   "unit": "proposal weight over mutually exclusive continuations",
+   "answers": [
+    {
+     "key": "forbid_it",
+     "weight": 0.2
+    },
+    {
+     "key": "learn_it_beside_her",
+     "weight": 0.35
+    },
+    {
+     "key": "remainder",
+     "weight": 0.15
+    },
+    {
+     "key": "say_little_and_write",
+     "weight": 0.3
+    }
+   ],
+   "seed": "rabbit-hole-run/faye/daughter-app/2025-09",
+   "algorithm": "sha256-first-32-bits/v1",
+   "u": 0.2054575360380113,
+   "cumulative": [
+    {
+     "key": "forbid_it",
+     "weight": 0.2,
+     "from": 0,
+     "to": 0.2
+    },
+    {
+     "key": "learn_it_beside_her",
+     "weight": 0.35,
+     "from": 0.2,
+     "to": 0.55
+    },
+    {
+     "key": "remainder",
+     "weight": 0.15,
+     "from": 0.55,
+     "to": 0.7000000000000001
+    },
+    {
+     "key": "say_little_and_write",
+     "weight": 0.3,
+     "from": 0.7000000000000001,
+     "to": 1
+    }
+   ],
+   "realized": "learn_it_beside_her",
+   "realizedIsRemainder": false,
+   "drawIndex": 0,
+   "reroll": false,
+   "priorDraws": [],
+   "recorded": null,
+   "graphHash": null,
+   "previousGraphHash": null,
+   "graphMutation": false,
+   "worldMutation": false,
+   "nextStep": "Build learn_it_beside_her as the realized continuation and link its Event from ev.faye.daughter_app with a realizes_forecast relation naming this Cut and learn_it_beside_her. A further draw over this Cut is recorded as a reroll."
+  }
+ },
+ "about": [
+  {
+   "record": "cut:cut.faye.2025.daughter_app.response",
+   "modelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e"
+  },
+  {
+   "record": "event:ev.faye.learn_beside",
+   "modelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e"
+  },
+  {
+   "record": "cut:cut.faye.2021.pull",
+   "modelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e"
+  },
+  {
+   "record": "cut:cut.faye.2026.why_write",
+   "modelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e"
+  }
+ ],
+ "links": [
+  {
+   "relation": "about",
+   "targetNodeId": "author.model.faye"
+  }
+ ]
+}

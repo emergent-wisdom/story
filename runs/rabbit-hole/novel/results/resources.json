@@ -1,0 +1,88 @@
+{
+  "resources": [
+    {
+      "name": "meaning-model-paper",
+      "title": "The Meaning Model: Constructing Worlds and Stories at Progressive Resolution",
+      "uri": "life-sim://theory/meaning-model",
+      "description": "Canonical theory and construction manuscript for progressively resolved worlds, concepts, perspective-separated understanding, and stories. Its included files are expanded inline.",
+      "mimeType": "text/x-tex"
+    },
+    {
+      "name": "life-simulation-paper",
+      "title": "Life Simulation - frozen companion paper source",
+      "uri": "life-sim://theory/life-simulation",
+      "description": "Frozen companion theory of temporal trajectories, candidate worlds, learning, accepted chronology, and projections; source file digests are recorded in docs/companions/life-simulation/SOURCE.json.",
+      "mimeType": "text/x-tex"
+    },
+    {
+      "name": "modeling-protocol",
+      "title": "Meaning Model Modeling Protocol",
+      "uri": "life-sim://protocol/modeling",
+      "description": "Operational checklist for modeling; the papers carry the reasons behind it.",
+      "mimeType": "text/markdown"
+    },
+    {
+      "name": "general-modeling-guide",
+      "title": "General-purpose World Modeling with Jev",
+      "uri": "life-sim://guide/general-modeling",
+      "description": "Macro-to-micro modeling, long-term context, domain-defined processes, compact world construction, optional Jev estimation and graph-backed review without storytelling requirements.",
+      "mimeType": "text/markdown"
+    },
+    {
+      "name": "narrative-understanding-graph-protocol",
+      "title": "Narrative Understanding Graph Protocol",
+      "uri": "life-sim://protocol/narrative-understanding-graph",
+      "description": "Exact optional Rust graph schema, atomic batch workflow, projections, anchors, and limitations.",
+      "mimeType": "text/markdown"
+    },
+    {
+      "name": "story-profile",
+      "title": "Story Modeling Profile",
+      "uri": "life-sim://profile/story",
+      "description": "Purpose-specific instructions and output contract for fiction and source reconstruction.",
+      "mimeType": "text/markdown"
+    },
+    {
+      "name": "person-profile",
+      "title": "Person Modeling Profile",
+      "uri": "life-sim://profile/person",
+      "description": "Consent-bounded three-view instructions for reflective modeling of a life interval.",
+      "mimeType": "text/markdown"
+    },
+    {
+      "name": "everest-meaning-example",
+      "title": "Everest Meaning Model Example",
+      "uri": "life-sim://example/everest-meaning-model",
+      "description": "Checked authored example connecting semantic records to an executed Everest world.",
+      "mimeType": "text/markdown"
+    },
+    {
+      "name": "fearless-care-example",
+      "title": "Fearless Care Matched Experiment",
+      "uri": "life-sim://example/fearless-care",
+      "description": "Rust-backed fictional comparison separating threat knowledge, fear, concern, attachment, and action consequences.",
+      "mimeType": "text/markdown"
+    },
+    {
+      "name": "minimal-model-and-graph-example",
+      "title": "Minimal Model and Graph: complete valid payloads",
+      "uri": "life-sim://example/minimal-model-and-graph",
+      "description": "Copyable, test-verified payloads for life_profile_compile, life_model_register (one referent, events, a scalar process and a normalized Cut) and life_narrative_register (one document root and one dated canon record with anchors).",
+      "mimeType": "text/markdown"
+    },
+    {
+      "name": "application-categories-example",
+      "title": "Application-Specific Categories and Revision",
+      "uri": "life-sim://example/application-categories",
+      "description": "Choose optional starters, use a model for inquiry, and revise application categories with an executable Rust example.",
+      "mimeType": "text/markdown"
+    },
+    {
+      "name": "storytelling-addon",
+      "title": "Optional storytelling workflows",
+      "uri": "life-sim://addon/storytelling",
+      "description": "Opt-in storytelling: initial settings and involvement, author outlook, process-grounded character voices and lifetime models, numerical exploration, scene workflow, automatic editorial Understanding Nodes, and a separate deepen-existing-work mode.",
+      "mimeType": "text/markdown"
+    }
+  ]
+}

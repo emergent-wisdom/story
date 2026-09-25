@@ -1,0 +1,70 @@
+{
+ "graphHash": "77613181f075684c2fba867ec23d29d3183a79cd1eea05169ca0d0a3f369cc56",
+ "requestId": "world-author-reader-1",
+ "nodeId": "world.author_reader",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "summary": "The book comes out of Faye Titcombe's invented life: a railway-works child who learned that routine is someone else's to end, an archaeologist of the first gatherings, eighteen years inside the payments batch, a fall into decentralized finance in 2020-2022 that she understood and could not stop. She writes it in 2025-2026 beside a fifteen-year-old daughter who has just found a trading app. The story presses the fear of being left behind, the fear that a safe life is someone else's to end, the longing for more world, and the shame of knowing better.",
+ "world": {
+  "stage": "author_reader",
+  "author": {
+   "personId": "referent.profile.faye.person.faye",
+   "name": "Faye Titcombe",
+   "mode": "invented",
+   "lifeModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
+   "authorModelNodeId": "author.model.faye",
+   "livesIn": "this_world",
+   "writing": "She writes in autumn 2025 to autumn 2026 about 2019-2023, three to six years after the events. She knows how the 2021 boom and the 2022 collapses ended, so the novel can let the reader feel the protagonist's hope while knowing more than they do. She lived a version of these years but the protagonist is not her: she gives the fall to someone younger and more ordinary than herself, in the town she knows, and keeps the real markets, prices and laws in the background.",
+   "whyThisStory": "Her daughter's trading app sent her back to her own fall. She chose to learn it beside her (the drawn decision), and she needs to understand what she is walking beside: why a careful person who understood the mechanism still went in and stayed. Her motivational attention while writing goes mostly to understanding and to her daughter (cut.faye.2026.why_write).",
+   "teach": "Nothing she would call a lesson. She wants to show that the pull down the rabbit hole is ancient and human, not a private stupidity, and that the institutions and the machines it runs through are younger than they look.",
+   "figuringOut": "Whether an old mind can live in a fast world without hiding in the routine or drowning in the new game; whether understanding can ever govern feeling, which her own 1986 lesson promised and 2022 broke; and whether walking beside her daughter is love or abdication.",
+   "lifeRecords": [
+    "event:event.profile.works_closure.change_arc",
+    "event:ev.faye.p2.study",
+    "event:ev.faye.p3.ledger",
+    "event:ev.faye.p4.rabbit_hole",
+    "event:event.profile.collapse_2022.change_arc",
+    "cut:cut.faye.2022.holding",
+    "cut:cut.faye.2026.why_write",
+    "event:ev.faye.learn_beside",
+    "event:ev.macro.downs"
+   ]
+  },
+  "reader": null,
+  "buttons": [
+   {
+    "id": "btn.left_behind",
+    "button": "Everyone else found the real game and I am still in the tutorial.",
+    "presses": "Show the protagonist's ordinary life as one small corner of a map, then open the map; let the others seem to be further in.",
+    "learns": "That the fear of being left behind is the band's fear of exile, far older than money, and can be felt without being obeyed."
+   },
+   {
+    "id": "btn.someone_elses_routine",
+    "button": "My safe life belongs to someone who could end it.",
+    "presses": "Make the routine loving and specific, then show the machinery under it: whose rules, how old, who can switch it off.",
+    "learns": "That the institutions they trust are young and man-made, which is frightening and also freeing."
+   },
+   {
+    "id": "btn.more_world",
+    "button": "There has to be more than this.",
+    "presses": "Give the white rabbit real wonder: the hidden world is genuinely astonishing before it is dangerous.",
+    "learns": "That curiosity is not a defect to be trained out, and that it needs company, not a cage."
+   },
+   {
+    "id": "btn.knew_better",
+    "button": "I knew better and did it anyway.",
+    "presses": "Let the protagonist understand the danger clearly and still be carried by the group and the feeling.",
+    "learns": "That knowing and feeling run on different clocks, and that a fall is not a verdict on one's intelligence."
+   },
+   {
+    "id": "btn.watching_them_go",
+    "button": "Someone I love is about to go down the same hole.",
+    "presses": "Give the protagonist someone who watches them go, and who must choose between forbidding and following.",
+    "learns": "That the choice between holding someone back and walking beside them is real and costly either way."
+   }
+  ]
+ }
+}

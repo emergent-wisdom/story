@@ -1,0 +1,10 @@
+{
+ "targetKind": "name",
+ "brief": "Name the protagonist: an English man born in 1990 in Swindon, Wiltshire, to a family that has lived in the town for generations (a grandfather in the railway works); a payments clerk of about thirty working the exceptions queue at a Swindon building society; a teenage gamer who gave up games for the job; kind, reliable, no trouble to anyone. Propose a first name and surname his parents would plausibly have chosen in 1990, and what his colleagues call him.",
+ "context": "Language: British English. Setting: Swindon and the Wiltshire downs, 2019-2023. Tone: wry, humane, curious. Existing names: Faye Titcombe (the invented author persona, not a character). Other principals to be named: a retired woman engineer born 1953 and an intensive-care nurse born 1991.",
+ "constraints": [
+  "Plausible for an English boy born in Swindon in 1990",
+  "Must not sound like Faye Titcombe or share her initials",
+  "Ordinary rather than symbolic; no names from The Matrix, Harry Potter or Alice in Wonderland"
+ ]
+}

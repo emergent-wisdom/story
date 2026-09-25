@@ -1,0 +1,121 @@
+{
+  "access_scopes": [
+    "story-author"
+  ],
+  "content_included": false,
+  "graph": {
+    "edge_count": 73,
+    "graph_hash": "e6900acf5221128c567b5b37f4bff759e6e8d452bf745b2cee7c5f66b06a15c9",
+    "id": "rabbit-hole-novel",
+    "node_count": 29,
+    "revision": {
+      "number": 20,
+      "previous_graph_hash": "312bf6ee8663b65b74234827ad3773575007f69d3f52f0f78d3ea11dadddac99",
+      "provenance": [
+        "Meaning Model storytelling add-on v1",
+        "author:calling-llm:claude-opus-5-5",
+        "Authoring clock: authoring_step, not world time."
+      ],
+      "reason": "Record selection author.names.server.selection."
+    },
+    "roles": {
+      "document_root": 1,
+      "externalized_reflection": 10,
+      "metadata": 18
+    },
+    "root_count": 2,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "model_revision": 0,
+      "source_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "graph_hash": "e6900acf5221128c567b5b37f4bff759e6e8d452bf745b2cee7c5f66b06a15c9",
+  "mode": "skeleton",
+  "relations": {
+    "about": 39,
+    "contains": 27,
+    "refines": 7
+  },
+  "roots": [
+    {
+      "access_scopes": [],
+      "authority": {
+        "source": "calling-llm-under-delegation",
+        "weight": 1
+      },
+      "boundary": false,
+      "content_included": false,
+      "epistemic_status": "fictional_artifact",
+      "estimator": null,
+      "evidence_cutoff": null,
+      "evidence_type": "fictional_canon",
+      "holder": null,
+      "id": "story",
+      "interval": null,
+      "node_type": "story",
+      "provenance": [
+        "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+      ],
+      "render": "include",
+      "role": "document_root",
+      "subject": null,
+      "summary": null,
+      "title": null,
+      "training": "exclude",
+      "uncertainty": {
+        "kind": "unknown"
+      },
+      "value_time": null
+    },
+    {
+      "access_scopes": [
+        "story-author"
+      ],
+      "authority": {
+        "source": "calling-llm:claude-opus-5-5",
+        "weight": 1
+      },
+      "boundary": false,
+      "content_included": false,
+      "epistemic_status": "authored_process",
+      "estimator": null,
+      "evidence_cutoff": null,
+      "evidence_type": "creative_hypothesis",
+      "holder": null,
+      "id": "story.understanding.c478361e6869af25970682a2",
+      "interval": null,
+      "node_type": "understanding_process_root",
+      "provenance": [
+        "Meaning Model storytelling add-on v1",
+        "author:calling-llm:claude-opus-5-5",
+        "Authoring clock: authoring_step, not world time."
+      ],
+      "render": "exclude",
+      "role": "metadata",
+      "subject": "story",
+      "summary": null,
+      "title": "Author understanding for story",
+      "training": "exclude",
+      "uncertainty": {
+        "kind": "unknown"
+      },
+      "value_time": null
+    }
+  ],
+  "schema": "life-sim-rust-narrative-graph-view/v1",
+  "source_snapshot_hash": "3a3cea980c7d4118a1c84be9137592de9883eb379c54084756e1d77fe23ee1fc",
+  "total_node_count": 29,
+  "visible_edge_count": 73,
+  "visible_node_count": 29
+}

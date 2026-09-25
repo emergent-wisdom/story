@@ -1,0 +1,461 @@
+{
+ "profileRequest": {
+  "schema": "life-sim-rust-profile-compilation/v1",
+  "model": {
+   "id": "rabbit-hole-world",
+   "time_unit": "year",
+   "reason": "Revision 1 source compile: the three principals and the change arcs the opening commits.",
+   "provenance": [
+    "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+   ]
+  },
+  "profiles": [
+   {
+    "kind": "person_scaffold",
+    "profile": {
+     "id": "protagonist",
+     "subject_id": "protagonist",
+     "person_boundary": "Kieran Hale, born April 1990 in Swindon: one English man, payments exceptions analyst at the White Hart Building Society",
+     "continuity_criterion": "Same living embodied person",
+     "life_description": "Authored: a Penhill childhood in a family of railway-works and car-plant men; a teenage gamer who led a raiding guild; the Hart from 2010; with Laura Russell from 2014; the rabbit hole 2020-2022; the reckoning 2022-2023",
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   },
+   {
+    "kind": "person_scaffold",
+    "profile": {
+     "id": "barbara",
+     "subject_id": "barbara",
+     "person_boundary": "Barbara Ashby, born May 1953 in Swindon: one English woman, retired programmer and former railway-works electrician",
+     "continuity_criterion": "Same living embodied person",
+     "life_description": "Authored: a railway family in Rodbourne; an electrical apprenticeship at the works from 1969, one of very few women; programmer on interbank clearing software 1988-2013; bitcoin from 2013; alone in a cottage at Avebury Trusloe",
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   },
+   {
+    "kind": "person_scaffold",
+    "profile": {
+     "id": "laura",
+     "subject_id": "laura",
+     "person_boundary": "Laura Russell, born August 1991 in Highworth, near Swindon: one English woman, intensive-care nurse",
+     "continuity_criterion": "Same living embodied person",
+     "life_description": "Authored: a childhood of rented houses and five moves with a mother working two jobs; nurse training in Oxford 2010-2013; intensive care at the Swindon hospital from 2017; with Kieran from 2014; the pandemic waves",
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   },
+   {
+    "kind": "change_arc_scaffold",
+    "profile": {
+     "id": "kieran_quits_game",
+     "change_kind": "loss_of_band",
+     "affected_referent_id": "referent.profile.protagonist.person.protagonist",
+     "description": "At twenty Kieran gives up the online game and the guild he led, to take the job at the Hart.",
+     "interval": {
+      "start": 2009.8,
+      "end": 2012.0
+     },
+     "anticipation": {
+      "description": "His father's hours at the plant are cut in the 2009 recession; the call-centre contract ends; his mother says the Hart is a job for life.",
+      "interval": {
+       "start": 2009.8,
+       "end": 2010.3
+      }
+     },
+     "focal_change": {
+      "description": "He logs off for the last time, gives the guild to someone else and starts on the Hart's payments floor in May 2010.",
+      "interval": {
+       "start": 2010.3,
+       "end": 2010.35
+      }
+     },
+     "adaptation": {
+      "description": "He becomes the reliable one, no trouble to anyone, and does not play again. The want to belong to a band that needed him goes quiet rather than away.",
+      "interval": {
+       "start": 2010.35,
+       "end": 2012.0
+      }
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   },
+   {
+    "kind": "change_arc_scaffold",
+    "profile": {
+     "id": "kieran_white_rabbit",
+     "change_kind": "invitation",
+     "affected_referent_id": "referent.profile.protagonist.person.protagonist",
+     "description": "Barbara's call and her card of twelve words break into Kieran's routine.",
+     "interval": {
+      "start": 2019.0,
+      "end": 2020.195
+     },
+     "anticipation": {
+      "description": "A year of weeks with the same shape; Laura on nights; a promotion that means the same desk; he has started to feel the week as a weight in his chest on Sunday evenings.",
+      "interval": {
+       "start": 2019.0,
+       "end": 2019.8
+      }
+     },
+     "focal_change": {
+      "description": "On 21 October 2019 his scam-check call reaches Barbara, who laughs at the script and asks who could switch off the machine he works in; on 1 November her letter arrives with the card and fifty pounds of bitcoin behind it.",
+      "interval": {
+       "start": 2019.8,
+       "end": 2019.83
+      }
+     },
+     "adaptation": {
+      "description": "He does not declare the gift. The card lives behind his bus pass for four months, a secret that makes the routine feel like a costume.",
+      "interval": {
+       "start": 2019.83,
+       "end": 2020.195
+      }
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   },
+   {
+    "kind": "change_arc_scaffold",
+    "profile": {
+     "id": "kieran_fall",
+     "change_kind": "discovery",
+     "affected_referent_id": "referent.profile.protagonist.person.protagonist",
+     "description": "Kieran opens the wallet and falls into decentralized finance.",
+     "interval": {
+      "start": 2019.83,
+      "end": 2020.99
+     },
+     "anticipation": {
+      "description": "The card in his wallet; the news on 12 March that bitcoin has halved in a day.",
+      "interval": {
+       "start": 2019.83,
+       "end": 2020.195
+      }
+     },
+     "focal_change": {
+      "description": "That evening he types the twelve words into a wallet app, confirms with his thumb on the glass, and the balance and the public ledger behind it appear.",
+      "interval": {
+       "start": 2020.195,
+       "end": 2020.2
+      }
+     },
+     "adaptation": {
+      "description": "Lockdown shrinks his world to a spare room; the yield-farming summer, the Sharehouse and six thousand pounds of his own savings pull him in. The map of the world he thought he knew grows edges, and past them is a game.",
+      "interval": {
+       "start": 2020.2,
+       "end": 2020.99
+      }
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   },
+   {
+    "kind": "change_arc_scaffold",
+    "profile": {
+     "id": "kieran_father_plant",
+     "change_kind": "loss_of_institution",
+     "affected_referent_id": "referent.profile.protagonist.person.protagonist",
+     "description": "The car plant where his father has worked since 1992 closes.",
+     "interval": {
+      "start": 2019.13,
+      "end": 2022.3
+     },
+     "anticipation": {
+      "description": "The closure is announced in February 2019; his father talks about it at Sunday lunch as if it were weather.",
+      "interval": {
+       "start": 2019.13,
+       "end": 2021.5
+      }
+     },
+     "focal_change": {
+      "description": "Production ends at the end of July 2021; his father, fifty-nine, is out of the only job he has had for thirty years.",
+      "interval": {
+       "start": 2021.5,
+       "end": 2021.58
+      }
+     },
+     "adaptation": {
+      "description": "Kieran pays his parents' rent for three months from his gains; for once the rabbit hole feeds his family; it also makes the money feel like proof.",
+      "interval": {
+       "start": 2021.5,
+       "end": 2022.3
+      }
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   },
+   {
+    "kind": "change_arc_scaffold",
+    "profile": {
+     "id": "kieran_collapse",
+     "change_kind": "financial_loss_and_shame",
+     "affected_referent_id": "referent.profile.protagonist.person.protagonist",
+     "description": "In May 2022 the stablecoin holding the house deposit breaks.",
+     "interval": {
+      "start": 2022.04,
+      "end": 2023.25
+     },
+     "anticipation": {
+      "description": "The deposit is in the savings protocol at about twenty percent; the market has been falling since November; the Sharehouse calls the stablecoin safe yield.",
+      "interval": {
+       "start": 2022.04,
+       "end": 2022.353
+      }
+     },
+     "focal_change": {
+      "description": "From 9 May the stablecoin slips from its dollar and does not come back; by 13 May the deposit is worth about three thousand pounds and falling.",
+      "interval": {
+       "start": 2022.353,
+       "end": 2022.364
+      }
+     },
+     "adaptation": {
+      "description": "Open until drawn: whether and when he tells Laura, what she does, what Barbara does, what Kieran does with the mind that took him in.",
+      "interval": {
+       "start": 2022.364,
+       "end": 2023.25
+      }
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   },
+   {
+    "kind": "change_arc_scaffold",
+    "profile": {
+     "id": "barbara_works_closure",
+     "change_kind": "loss_of_institution",
+     "affected_referent_id": "referent.profile.barbara.person.barbara",
+     "description": "The railway works close in 1986 and Barbara, thirty-three, loses her trade.",
+     "interval": {
+      "start": 1985.0,
+      "end": 1988.5
+     },
+     "anticipation": {
+      "description": "Rundown and rumours; the men in her shop say a woman will be first to go.",
+      "interval": {
+       "start": 1985.0,
+       "end": 1986.2
+      }
+     },
+     "focal_change": {
+      "description": "The works close in March 1986.",
+      "interval": {
+       "start": 1986.2,
+       "end": 1986.3
+      }
+     },
+     "adaptation": {
+      "description": "She retrains as a programmer at a college in 1987 and joins a Reading software bureau in 1988; she learns that institutions end and that she must be able to verify everything she depends on.",
+      "interval": {
+       "start": 1986.3,
+       "end": 1988.5
+      }
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   },
+   {
+    "kind": "change_arc_scaffold",
+    "profile": {
+     "id": "barbara_crisis_2008",
+     "change_kind": "near_failure_of_system",
+     "affected_referent_id": "referent.profile.barbara.person.barbara",
+     "description": "Barbara watches the banking system come close to stopping in 2008.",
+     "interval": {
+      "start": 2007.6,
+      "end": 2013.3
+     },
+     "anticipation": {
+      "description": "A bank run on the television in September 2007; stress in the clearing tests.",
+      "interval": {
+       "start": 2007.6,
+       "end": 2008.7
+      }
+     },
+     "focal_change": {
+      "description": "In October 2008 banks are rescued by the state; the software she wrote keeps waiting for money that may not arrive.",
+      "interval": {
+       "start": 2008.7,
+       "end": 2008.8
+      }
+     },
+     "adaptation": {
+      "description": "She reads the bitcoin paper in 2011, buys her first coins in 2013 when she retires, and becomes a purist: a ledger nobody can switch off.",
+      "interval": {
+       "start": 2008.8,
+       "end": 2013.3
+      }
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   },
+   {
+    "kind": "change_arc_scaffold",
+    "profile": {
+     "id": "barbara_exit_2019",
+     "change_kind": "deliberate_exit",
+     "affected_referent_id": "referent.profile.barbara.person.barbara",
+     "description": "Barbara moves her remaining savings out of the Hart.",
+     "interval": {
+      "start": 2019.5,
+      "end": 2020.7
+     },
+     "anticipation": {
+      "description": "She is sixty-six; she decides not to keep anything in a system she helped build and no longer trusts.",
+      "interval": {
+       "start": 2019.5,
+       "end": 2019.8
+      }
+     },
+     "focal_change": {
+      "description": "On 21 October 2019 she sends forty thousand pounds to a crypto exchange; the scam rules stop it and a young man calls to check on her.",
+      "interval": {
+       "start": 2019.8,
+       "end": 2019.81
+      }
+     },
+     "adaptation": {
+      "description": "The young man's voice stays with her. She sends him a card with twelve words, the way her father gave her his tools, and then waits to see whether he will look.",
+      "interval": {
+       "start": 2019.81,
+       "end": 2020.7
+      }
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   },
+   {
+    "kind": "change_arc_scaffold",
+    "profile": {
+     "id": "laura_last_move",
+     "change_kind": "loss_of_home",
+     "affected_referent_id": "referent.profile.laura.person.laura",
+     "description": "At twelve Laura's family is moved on from a rented house for the fifth time.",
+     "interval": {
+      "start": 2001.0,
+      "end": 2009.0
+     },
+     "anticipation": {
+      "description": "The landlord's letters; her mother's silence at the kitchen table.",
+      "interval": {
+       "start": 2001.0,
+       "end": 2003.5
+      }
+     },
+     "focal_change": {
+      "description": "In summer 2003 they leave the house in Highworth she thought was theirs.",
+      "interval": {
+       "start": 2003.5,
+       "end": 2003.6
+      }
+     },
+     "adaptation": {
+      "description": "She stops unpacking her room fully and resolves to own a front door nobody can take; she learns from her mother to hold everything together and say nothing.",
+      "interval": {
+       "start": 2003.6,
+       "end": 2009.0
+      }
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   },
+   {
+    "kind": "change_arc_scaffold",
+    "profile": {
+     "id": "laura_first_wave",
+     "change_kind": "occupational_crisis",
+     "affected_referent_id": "referent.profile.laura.person.laura",
+     "description": "The first pandemic wave on the intensive-care unit.",
+     "interval": {
+      "start": 2020.19,
+      "end": 2020.99
+     },
+     "anticipation": {
+      "description": "News from Italy; the unit rehearses; she buys a second set of scrubs.",
+      "interval": {
+       "start": 2020.19,
+       "end": 2020.225
+      }
+     },
+     "focal_change": {
+      "description": "From late March 2020 the unit fills with ventilated patients; she works nights and sleeps in the day.",
+      "interval": {
+       "start": 2020.225,
+       "end": 2020.4
+      }
+     },
+     "adaptation": {
+      "description": "She becomes steady and absent; she stops telling Kieran about her shifts because there are no words that do not frighten him.",
+      "interval": {
+       "start": 2020.4,
+       "end": 2020.99
+      }
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   },
+   {
+    "kind": "change_arc_scaffold",
+    "profile": {
+     "id": "laura_second_wave",
+     "change_kind": "occupational_crisis",
+     "affected_referent_id": "referent.profile.laura.person.laura",
+     "description": "The January 2021 wave, the worst weeks of the pandemic.",
+     "interval": {
+      "start": 2020.85,
+      "end": 2021.8
+     },
+     "anticipation": {
+      "description": "Numbers rising through December; Christmas cancelled.",
+      "interval": {
+       "start": 2020.85,
+       "end": 2021.01
+      }
+     },
+     "focal_change": {
+      "description": "In January 2021 the unit is beyond capacity; she sits in the car outside the flat for twenty minutes after shifts before coming up.",
+      "interval": {
+       "start": 2021.01,
+       "end": 2021.15
+      }
+     },
+     "adaptation": {
+      "description": "She wants a house more than ever, as the one thing that is not the unit; she has no attention left for what Kieran does at night.",
+      "interval": {
+       "start": 2021.15,
+       "end": 2021.8
+      }
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   }
+  ]
+ }
+}

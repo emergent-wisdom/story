@@ -1,0 +1,10 @@
+{
+ "targetKind": "name",
+ "brief": "Name the retired engineer who is the white rabbit: an English woman born in 1953 in Swindon, one of the few women apprentices in the railway works in the early 1970s; after the works closed in 1986 she retrained as a programmer and wrote code for the interbank clearing system; now in her late sixties, a bitcoin purist moving her savings out of the old machine. Propose a first name and surname plausible for 1953 and what she insists on being called.",
+ "context": "Language: British English. Setting: Swindon and the Wiltshire downs, 2019-2023. Tone: wry, humane, curious. Existing names: Kieran Hale (protagonist, called Kez), Faye Titcombe (author persona, not a character).",
+ "constraints": [
+  "Plausible for an English girl born in Swindon in 1953",
+  "Distinct in sound and initials from Kieran Hale and Faye Titcombe",
+  "Ordinary, not symbolic; no names from The Matrix, Harry Potter or Alice in Wonderland"
+ ]
+}

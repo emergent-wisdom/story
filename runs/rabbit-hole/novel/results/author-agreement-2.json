@@ -1,0 +1,60 @@
+{
+  "schema": "life-sim-mcp-service/v2",
+  "graphHash": "ffaff0dea4800a49dec8a8ddffc66d96a7f9f6c19e9eb135a00c5378730b8937",
+  "previousGraphHash": "651e8a04d0adc4075c353db425ffa17377e42982fcad808b71abc578c8b98922",
+  "snapshotHash": "99fee2521deba1a48e7869c7e294de2add9d0de33879b7ac4fde321363c9f6f9",
+  "stored": true,
+  "reusedExisting": false,
+  "immutableRevision": true,
+  "additiveBatch": true,
+  "batch": {
+    "added_edge_count": 4,
+    "added_node_count": 1,
+    "added_root_count": 0
+  },
+  "summary": {
+    "edge_count": 135,
+    "graph_hash": "ffaff0dea4800a49dec8a8ddffc66d96a7f9f6c19e9eb135a00c5378730b8937",
+    "id": "rabbit-hole-novel",
+    "node_count": 49,
+    "revision": {
+      "number": 25,
+      "previous_graph_hash": "651e8a04d0adc4075c353db425ffa17377e42982fcad808b71abc578c8b98922",
+      "provenance": [
+        "Meaning Model storytelling add-on v1",
+        "author:calling-llm:claude-opus-5-5",
+        "Authoring clock: authoring_step, not world time."
+      ],
+      "reason": "Record selection author.agreement.2."
+    },
+    "roles": {
+      "document_root": 1,
+      "externalized_reflection": 28,
+      "metadata": 20
+    },
+    "root_count": 3,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "d0424dd9ab5a52105fa426562446ea080aae8805fe99216be04f745fe8b3b09a"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "d0424dd9ab5a52105fa426562446ea080aae8805fe99216be04f745fe8b3b09a",
+      "model_revision": 1,
+      "source_hash": "d0424dd9ab5a52105fa426562446ea080aae8805fe99216be04f745fe8b3b09a",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "requestPayloadHash": "d0bd3e00be343f7b5f82ee4b699da9005bacc55bc91d93a9d8f51164c0d0ba6b",
+  "recordNodeId": "author.agreement.2",
+  "understandingRootId": "story.understanding.c478361e6869af25970682a2",
+  "authoringStep": 24,
+  "understandingNode": true,
+  "graphMutation": true,
+  "worldMutation": false,
+  "semanticVerification": false
+}

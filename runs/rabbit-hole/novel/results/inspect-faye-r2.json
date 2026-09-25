@@ -1,0 +1,364 @@
+{
+  "schema": "life-sim-mcp-service/v2",
+  "modelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
+  "summary": {
+    "decomposition_edge_count": 0,
+    "dependency_edge_count": 0,
+    "id": "faye-titcombe-life",
+    "law_count": 0,
+    "law_roles": {},
+    "meaning_model": {
+      "abstract_cut_count": 0,
+      "abstract_cut_ids": [],
+      "abstract_relation_count": 3,
+      "abstract_relation_ids": [
+        "arel.band.analogy.gathering",
+        "arel.gap.constrains.understanding",
+        "arel.understanding.specializes.safety"
+      ],
+      "concept_count": 5,
+      "concept_ids": [
+        "concept.deep_time_gap",
+        "concept.gathering_institution",
+        "concept.routine_as_safety",
+        "concept.the_band",
+        "concept.understanding_as_protection"
+      ],
+      "context_root_count": 2,
+      "context_root_event_ids": [
+        "ev.faye.inner",
+        "ev.faye.world"
+      ],
+      "encapsulation_cut_count": 0,
+      "encapsulation_cut_ids": [],
+      "event_count": 52,
+      "event_ids": [
+        "ev.faye.collapse.adapt.confession",
+        "ev.faye.collapse.adapt.hiding",
+        "ev.faye.composition",
+        "ev.faye.daughter_app",
+        "ev.faye.doctorate.adapt.field_notes",
+        "ev.faye.inner",
+        "ev.faye.learn_beside",
+        "ev.faye.p1.childhood",
+        "ev.faye.p1b.school",
+        "ev.faye.p2.study",
+        "ev.faye.p3.ledger",
+        "ev.faye.p4.rabbit_hole",
+        "ev.faye.p5.after",
+        "ev.faye.redundancy.adapt.guide",
+        "ev.faye.want.band",
+        "ev.faye.want.daughter",
+        "ev.faye.want.known",
+        "ev.faye.want.mechanism",
+        "ev.faye.want.safe",
+        "ev.faye.want.understand",
+        "ev.faye.want.useful",
+        "ev.faye.world",
+        "ev.macro.clearing",
+        "ev.macro.defi",
+        "ev.macro.downs",
+        "ev.macro.works",
+        "event.profile.collapse_2022.change_arc",
+        "event.profile.collapse_2022.change_arc.adaptation",
+        "event.profile.collapse_2022.change_arc.anticipation",
+        "event.profile.collapse_2022.change_arc.focal_change",
+        "event.profile.faye.person.faye.is.body",
+        "event.profile.faye.person.faye.is.kin",
+        "event.profile.faye.person.faye.is.knowledge",
+        "event.profile.faye.person.faye.is.meaning",
+        "event.profile.faye.person.faye.is.means",
+        "event.profile.faye.person.faye.is.partnership",
+        "event.profile.faye.person.faye.is.place",
+        "event.profile.faye.person.faye.is.standing",
+        "event.profile.faye.person.faye.is.work",
+        "event.profile.faye.person.faye.life",
+        "event.profile.leaving_doctorate.change_arc",
+        "event.profile.leaving_doctorate.change_arc.adaptation",
+        "event.profile.leaving_doctorate.change_arc.anticipation",
+        "event.profile.leaving_doctorate.change_arc.focal_change",
+        "event.profile.redundancy_and_stones.change_arc",
+        "event.profile.redundancy_and_stones.change_arc.adaptation",
+        "event.profile.redundancy_and_stones.change_arc.anticipation",
+        "event.profile.redundancy_and_stones.change_arc.focal_change",
+        "event.profile.works_closure.change_arc",
+        "event.profile.works_closure.change_arc.adaptation",
+        "event.profile.works_closure.change_arc.anticipation",
+        "event.profile.works_closure.change_arc.focal_change"
+      ],
+      "event_referent_binding_count": 14,
+      "event_referent_binding_ids": [
+        "binding.profile.collapse_2022.change_arc.affected",
+        "binding.profile.faye.person.faye.is.body.subject",
+        "binding.profile.faye.person.faye.is.kin.subject",
+        "binding.profile.faye.person.faye.is.knowledge.subject",
+        "binding.profile.faye.person.faye.is.meaning.subject",
+        "binding.profile.faye.person.faye.is.means.subject",
+        "binding.profile.faye.person.faye.is.partnership.subject",
+        "binding.profile.faye.person.faye.is.place.subject",
+        "binding.profile.faye.person.faye.is.standing.subject",
+        "binding.profile.faye.person.faye.is.work.subject",
+        "binding.profile.faye.person.faye.life.subject",
+        "binding.profile.leaving_doctorate.change_arc.affected",
+        "binding.profile.redundancy_and_stones.change_arc.affected",
+        "binding.profile.works_closure.change_arc.affected"
+      ],
+      "event_relation_count": 63,
+      "event_relation_ids": [
+        "clearing.enables.ledger",
+        "closure.enables.ledger_skill",
+        "collapse.causes.composition",
+        "collapse.causes.redundancy_turn",
+        "collapse_adapt.contains.confession",
+        "collapse_adapt.contains.hiding",
+        "daughter_app.causes.composition",
+        "daughter_app.realizes.learn_beside",
+        "defi.enables.rabbit_hole",
+        "doc_adapt.contains.field_notes",
+        "downs.enables.study",
+        "hiding.causes.confession",
+        "inner.contains.ev.faye.want.band",
+        "inner.contains.ev.faye.want.daughter",
+        "inner.contains.ev.faye.want.known",
+        "inner.contains.ev.faye.want.mechanism",
+        "inner.contains.ev.faye.want.safe",
+        "inner.contains.ev.faye.want.understand",
+        "inner.contains.ev.faye.want.useful",
+        "learn_beside.enables.composition",
+        "life.contains.ev.faye.p1.childhood",
+        "life.contains.ev.faye.p1b.school",
+        "life.contains.ev.faye.p2.study",
+        "life.contains.ev.faye.p3.ledger",
+        "life.contains.ev.faye.p4.rabbit_hole",
+        "life.contains.ev.faye.p5.after",
+        "life.contains.event.profile.collapse_2022.change_arc",
+        "life.contains.event.profile.leaving_doctorate.change_arc",
+        "life.contains.event.profile.redundancy_and_stones.change_arc",
+        "life.contains.event.profile.works_closure.change_arc",
+        "p5.contains.composition",
+        "p5.contains.daughter_app",
+        "p5.contains.learn_beside",
+        "red_adapt.contains.guide",
+        "relation.profile.collapse_2022.change_arc.contains.adaptation",
+        "relation.profile.collapse_2022.change_arc.contains.anticipation",
+        "relation.profile.collapse_2022.change_arc.contains.focal_change",
+        "relation.profile.faye.person.faye.life.contains.body",
+        "relation.profile.faye.person.faye.life.contains.kin",
+        "relation.profile.faye.person.faye.life.contains.knowledge",
+        "relation.profile.faye.person.faye.life.contains.meaning",
+        "relation.profile.faye.person.faye.life.contains.means",
+        "relation.profile.faye.person.faye.life.contains.partnership",
+        "relation.profile.faye.person.faye.life.contains.place",
+        "relation.profile.faye.person.faye.life.contains.standing",
+        "relation.profile.faye.person.faye.life.contains.work",
+        "relation.profile.leaving_doctorate.change_arc.contains.adaptation",
+        "relation.profile.leaving_doctorate.change_arc.contains.anticipation",
+        "relation.profile.leaving_doctorate.change_arc.contains.focal_change",
+        "relation.profile.redundancy_and_stones.change_arc.contains.adaptation",
+        "relation.profile.redundancy_and_stones.change_arc.contains.anticipation",
+        "relation.profile.redundancy_and_stones.change_arc.contains.focal_change",
+        "relation.profile.works_closure.change_arc.contains.adaptation",
+        "relation.profile.works_closure.change_arc.contains.anticipation",
+        "relation.profile.works_closure.change_arc.contains.focal_change",
+        "works.causes.closure_arc",
+        "works.enables.childhood",
+        "world.contains.ev.macro.clearing",
+        "world.contains.ev.macro.defi",
+        "world.contains.ev.macro.downs",
+        "world.contains.ev.macro.works",
+        "world.contains.inner",
+        "world.contains.life"
+      ],
+      "normalized_cut_count": 21,
+      "normalized_cut_ids": [
+        "cut.faye.1986.safety",
+        "cut.faye.2004.reasons",
+        "cut.faye.2021.pull",
+        "cut.faye.2022.after.beliefs",
+        "cut.faye.2022.holding",
+        "cut.faye.2025.daughter_app.response",
+        "cut.faye.2026.why_write",
+        "cut.faye.p1.childhood.outlook",
+        "cut.faye.p1.childhood.threatened",
+        "cut.faye.p1b.school.outlook",
+        "cut.faye.p1b.school.threatened",
+        "cut.faye.p2.study.outlook",
+        "cut.faye.p2.study.threatened",
+        "cut.faye.p3.ledger.outlook",
+        "cut.faye.p3.ledger.threatened",
+        "cut.faye.p4.rabbit_hole.outlook",
+        "cut.faye.p4.rabbit_hole.threatened",
+        "cut.faye.p5.after.outlook",
+        "cut.faye.p5.after.threatened",
+        "cut.faye.redundancy.outlook",
+        "cut.faye.redundancy.threatened"
+      ],
+      "physical_cut_count": 0,
+      "physical_cut_ids": [],
+      "realization_count": 8,
+      "realization_ids": [
+        "real.clearing.gathering",
+        "real.closure.understanding",
+        "real.collapse.gap",
+        "real.collapse.understanding_fails",
+        "real.downs.gathering",
+        "real.ledger.band",
+        "real.rabbit_hole.band",
+        "real.works.routine"
+      ],
+      "referent_count": 1,
+      "referent_ids": [
+        "referent.profile.faye.person.faye"
+      ],
+      "schema": "life-sim-rust-meaning-model/v1",
+      "temporal_cut_recomposition_count": 0,
+      "temporal_cut_recomposition_parent_cut_ids": []
+    },
+    "model_hash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
+    "process_count": 26,
+    "process_ids": [
+      "profile.collapse_2022.change_arc.adaptation.index",
+      "profile.collapse_2022.change_arc.anticipation.index",
+      "profile.collapse_2022.change_arc.focal_change.index",
+      "profile.collapse_2022.change_arc.index",
+      "profile.faye.person.faye.is.body",
+      "profile.faye.person.faye.is.kin",
+      "profile.faye.person.faye.is.knowledge",
+      "profile.faye.person.faye.is.meaning",
+      "profile.faye.person.faye.is.means",
+      "profile.faye.person.faye.is.partnership",
+      "profile.faye.person.faye.is.place",
+      "profile.faye.person.faye.is.standing",
+      "profile.faye.person.faye.is.work",
+      "profile.faye.person.faye.life.index",
+      "profile.leaving_doctorate.change_arc.adaptation.index",
+      "profile.leaving_doctorate.change_arc.anticipation.index",
+      "profile.leaving_doctorate.change_arc.focal_change.index",
+      "profile.leaving_doctorate.change_arc.index",
+      "profile.redundancy_and_stones.change_arc.adaptation.index",
+      "profile.redundancy_and_stones.change_arc.anticipation.index",
+      "profile.redundancy_and_stones.change_arc.focal_change.index",
+      "profile.redundancy_and_stones.change_arc.index",
+      "profile.works_closure.change_arc.adaptation.index",
+      "profile.works_closure.change_arc.anticipation.index",
+      "profile.works_closure.change_arc.focal_change.index",
+      "profile.works_closure.change_arc.index"
+    ],
+    "processes": [
+      {
+        "id": "profile.collapse_2022.change_arc.adaptation.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.collapse_2022.change_arc.anticipation.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.collapse_2022.change_arc.focal_change.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.collapse_2022.change_arc.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.faye.person.faye.is.body",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.faye.person.faye.is.kin",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.faye.person.faye.is.knowledge",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.faye.person.faye.is.meaning",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.faye.person.faye.is.means",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.faye.person.faye.is.partnership",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.faye.person.faye.is.place",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.faye.person.faye.is.standing",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.faye.person.faye.is.work",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.faye.person.faye.life.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.leaving_doctorate.change_arc.adaptation.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.leaving_doctorate.change_arc.anticipation.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.leaving_doctorate.change_arc.focal_change.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.leaving_doctorate.change_arc.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.redundancy_and_stones.change_arc.adaptation.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.redundancy_and_stones.change_arc.anticipation.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.redundancy_and_stones.change_arc.focal_change.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.redundancy_and_stones.change_arc.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.works_closure.change_arc.adaptation.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.works_closure.change_arc.anticipation.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.works_closure.change_arc.focal_change.index",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.works_closure.change_arc.index",
+        "value_type": "graph"
+      }
+    ],
+    "revision": {
+      "number": 2,
+      "previous_model_hash": "65cbe4fe46ca1fbc9be0eaf231a92238ecf9129635a5122c68e87e8551bba2d1",
+      "provenance": [
+        "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+      ],
+      "reason": "Revision 2: build the drawn continuation (learn_it_beside_her, seed rabbit-hole-run/faye/daughter-app/2025-09, u=0.2055) with its realizes_forecast relation; open the three adaptations the model asked about; give the redundancy arc its outlook and threat Cuts; describe the nine slow processes of her life."
+    },
+    "schema": "life-sim-rust-model/v1",
+    "time_unit": "year"
+  }
+}

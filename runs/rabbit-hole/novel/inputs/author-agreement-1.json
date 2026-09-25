@@ -1,0 +1,49 @@
+{
+ "graphHash": "feb1e048a159ff4bed90d077ac270fdce9894cdf6604e7ce653ebd8cadde092e",
+ "requestId": "author-agreement-1",
+ "nodeId": "author.agreement",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "selection",
+ "text": "Collaboration agreement, read from the human's own message (no intake questions were needed because the message settles both choices). Initial settings: the human supplied the idea, about 11,000 words and twelve parts, and delegated everything else ('Choose everything else yourself'). Involvement: autonomous writing and modeling within that brief, carried out in rounds of about fifteen minutes; at the end of each round the LLM stops, reports what it has made and what it would do next, and waits until the human says to continue. These stops are progress updates, not approval checkpoints: the human reserved no creative decision. One operational decision came from the human: when the session opened in the parent folder, the human chose this run folder (meaning-model-rabbit-hole-run-2026-09-25/novel) as the working folder at 19:17 CEST. All creative choices recorded after this are the LLM's, made under delegation, and are labelled as such.",
+ "data": {
+  "initialSettings": {
+   "supplied": [
+    "idea (see author.brief)",
+    "about 11,000 words",
+    "twelve parts"
+   ],
+   "delegated": "all other settings",
+   "decidedBy": "human"
+  },
+  "involvement": {
+   "mode": "autonomous_with_round_updates",
+   "roundLength": "about 15 minutes",
+   "atEachStop": "report progress and next steps; wait for the human to say continue",
+   "checkpointKind": "progress update, not approval",
+   "reservedDecisions": [],
+   "decidedBy": "human"
+  },
+  "humanOperationalDecisions": [
+   {
+    "at": "2026-09-25T19:17+02:00",
+    "decision": "use the rabbit-hole-run folder as the run folder",
+    "decidedBy": "human"
+   }
+  ],
+  "deliverables": [
+   "novel.md as rendered by the tool",
+   "life_construction_export of the whole construction in the run folder",
+   "report of story root, final graph hash and model hash, and a brief account of how it was made"
+  ]
+ },
+ "links": [
+  {
+   "relation": "about",
+   "targetNodeId": "author.brief"
+  }
+ ]
+}

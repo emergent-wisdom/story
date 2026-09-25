@@ -1,0 +1,41 @@
+{
+ "requestId": "register-graph-r0",
+ "narrativeGraph": {
+  "schema": "life-sim-rust-narrative-graph/v1",
+  "id": "rabbit-hole-novel",
+  "revision": {
+   "number": 0,
+   "reason": "Story graph bound to the story world before any story material is developed.",
+   "provenance": [
+    "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+   ]
+  },
+  "source": {
+   "kind": "model",
+   "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070"
+  },
+  "roots": [
+   "story"
+  ],
+  "nodes": [
+   {
+    "id": "story",
+    "node_type": "story",
+    "role": "document_root",
+    "text": "# The Rabbit Hole (working title)",
+    "render": "include",
+    "training": "exclude",
+    "epistemic_status": "fictional_artifact",
+    "evidence_type": "fictional_canon",
+    "authority": {
+     "source": "calling-llm-under-delegation",
+     "weight": 1
+    },
+    "provenance": [
+     "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+    ]
+   }
+  ],
+  "edges": []
+ }
+}

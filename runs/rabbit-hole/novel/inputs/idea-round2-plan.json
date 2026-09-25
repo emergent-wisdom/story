@@ -1,0 +1,29 @@
+{
+ "graphHash": "35f6c9af3f0148a3cb74179dda9320d524f644fc9275aa02f72d59b7c6c78df8",
+ "requestId": "idea-round2-plan",
+ "nodeId": "author.idea.round2.plan",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "idea",
+ "text": "End of round 2 (19:42 CEST). Made: Faye's life r1-r2 (change arcs, wants under an inner root, places, long developments, concepts and realizations, outlook and threat Cuts, a drawn decision: learn_it_beside_her), her author model (author.model.faye), the author_reader stage with five buttons, the candidates stage (The Exceptions Queue chosen), and names for the three principals: Kieran Hale (Kez), Barbara Ashby, Laura Russell (Lor). Next: name the building society and the chat server; the opening stage with the era marked real (documentary cutoff about 2023) and each real fact used recorded as a report with its source (the March 2020 lockdown and crash, the 2020 yield-farming summer, the November 2021 peak, the May 2022 stablecoin collapse, the June 2022 lending freezes, the November 2022 exchange collapse; the 2019 scam-reimbursement code and 2020 payee checks; banks' limits on crypto payments 2021-2023), real organizations replaced by invented ones; then story model r1 with the three principals' whole lives, the building society, the clearing cycle and the market regime as processes; then aspects, implications with drawn decisions, a twelve-part route through the model's jumps, and the director on the world. Idea to weigh in the opening: DeFi's farming vocabulary (yield farming, harvest, seed phrase, staking) as a second agricultural revolution in which the app domesticates Kieran the way, in Harari's account, wheat domesticated its farmers; and the twelve words of Barbara's card as the twelve part titles.",
+ "about": [
+  {
+   "record": "referent:referent.profile.protagonist.person.protagonist"
+  },
+  {
+   "record": "event:event.deep.agriculture"
+  },
+  {
+   "record": "event:event.deep.crypto"
+  }
+ ],
+ "links": [
+  {
+   "relation": "about",
+   "targetNodeId": "world.candidates"
+  }
+ ]
+}

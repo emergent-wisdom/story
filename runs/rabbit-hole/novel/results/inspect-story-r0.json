@@ -1,0 +1,161 @@
+{
+  "schema": "life-sim-mcp-service/v2",
+  "modelHash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+  "summary": {
+    "decomposition_edge_count": 0,
+    "dependency_edge_count": 0,
+    "id": "rabbit-hole-world",
+    "law_count": 0,
+    "law_roles": {},
+    "meaning_model": {
+      "abstract_cut_count": 0,
+      "abstract_cut_ids": [],
+      "abstract_relation_count": 0,
+      "abstract_relation_ids": [],
+      "concept_count": 0,
+      "concept_ids": [],
+      "context_root_count": 1,
+      "context_root_event_ids": [
+        "event.world"
+      ],
+      "encapsulation_cut_count": 0,
+      "encapsulation_cut_ids": [],
+      "event_count": 17,
+      "event_ids": [
+        "event.deep.agriculture",
+        "event.deep.crypto",
+        "event.deep.digital",
+        "event.deep.foragers",
+        "event.deep.global_order",
+        "event.deep.old_institutions",
+        "event.profile.protagonist.person.protagonist.is.body",
+        "event.profile.protagonist.person.protagonist.is.kin",
+        "event.profile.protagonist.person.protagonist.is.knowledge",
+        "event.profile.protagonist.person.protagonist.is.meaning",
+        "event.profile.protagonist.person.protagonist.is.means",
+        "event.profile.protagonist.person.protagonist.is.partnership",
+        "event.profile.protagonist.person.protagonist.is.place",
+        "event.profile.protagonist.person.protagonist.is.standing",
+        "event.profile.protagonist.person.protagonist.is.work",
+        "event.profile.protagonist.person.protagonist.life",
+        "event.world"
+      ],
+      "event_referent_binding_count": 10,
+      "event_referent_binding_ids": [
+        "binding.profile.protagonist.person.protagonist.is.body.subject",
+        "binding.profile.protagonist.person.protagonist.is.kin.subject",
+        "binding.profile.protagonist.person.protagonist.is.knowledge.subject",
+        "binding.profile.protagonist.person.protagonist.is.meaning.subject",
+        "binding.profile.protagonist.person.protagonist.is.means.subject",
+        "binding.profile.protagonist.person.protagonist.is.partnership.subject",
+        "binding.profile.protagonist.person.protagonist.is.place.subject",
+        "binding.profile.protagonist.person.protagonist.is.standing.subject",
+        "binding.profile.protagonist.person.protagonist.is.work.subject",
+        "binding.profile.protagonist.person.protagonist.life.subject"
+      ],
+      "event_relation_count": 21,
+      "event_relation_ids": [
+        "agriculture.enables.old_institutions",
+        "digital.enables.crypto",
+        "foragers.precedes.agriculture",
+        "global_order.enables.crypto",
+        "old_institutions.enables.global_order",
+        "relation.profile.protagonist.person.protagonist.life.contains.body",
+        "relation.profile.protagonist.person.protagonist.life.contains.kin",
+        "relation.profile.protagonist.person.protagonist.life.contains.knowledge",
+        "relation.profile.protagonist.person.protagonist.life.contains.meaning",
+        "relation.profile.protagonist.person.protagonist.life.contains.means",
+        "relation.profile.protagonist.person.protagonist.life.contains.partnership",
+        "relation.profile.protagonist.person.protagonist.life.contains.place",
+        "relation.profile.protagonist.person.protagonist.life.contains.standing",
+        "relation.profile.protagonist.person.protagonist.life.contains.work",
+        "world.contains.deep.agriculture",
+        "world.contains.deep.crypto",
+        "world.contains.deep.digital",
+        "world.contains.deep.foragers",
+        "world.contains.deep.global_order",
+        "world.contains.deep.old_institutions",
+        "world.contains.profile.protagonist.person.protagonist.life"
+      ],
+      "normalized_cut_count": 0,
+      "normalized_cut_ids": [],
+      "physical_cut_count": 0,
+      "physical_cut_ids": [],
+      "realization_count": 0,
+      "realization_ids": [],
+      "referent_count": 1,
+      "referent_ids": [
+        "referent.profile.protagonist.person.protagonist"
+      ],
+      "schema": "life-sim-rust-meaning-model/v1",
+      "temporal_cut_recomposition_count": 0,
+      "temporal_cut_recomposition_parent_cut_ids": []
+    },
+    "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+    "process_count": 10,
+    "process_ids": [
+      "profile.protagonist.person.protagonist.is.body",
+      "profile.protagonist.person.protagonist.is.kin",
+      "profile.protagonist.person.protagonist.is.knowledge",
+      "profile.protagonist.person.protagonist.is.meaning",
+      "profile.protagonist.person.protagonist.is.means",
+      "profile.protagonist.person.protagonist.is.partnership",
+      "profile.protagonist.person.protagonist.is.place",
+      "profile.protagonist.person.protagonist.is.standing",
+      "profile.protagonist.person.protagonist.is.work",
+      "profile.protagonist.person.protagonist.life.index"
+    ],
+    "processes": [
+      {
+        "id": "profile.protagonist.person.protagonist.is.body",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.protagonist.person.protagonist.is.kin",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.protagonist.person.protagonist.is.knowledge",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.protagonist.person.protagonist.is.meaning",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.protagonist.person.protagonist.is.means",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.protagonist.person.protagonist.is.partnership",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.protagonist.person.protagonist.is.place",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.protagonist.person.protagonist.is.standing",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.protagonist.person.protagonist.is.work",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.protagonist.person.protagonist.life.index",
+        "value_type": "graph"
+      }
+    ],
+    "revision": {
+      "number": 0,
+      "previous_model_hash": null,
+      "provenance": [
+        "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+      ],
+      "reason": "Revision 0 of the story world: the deep-time frame the brief fixes (forager minds, agrarian and global institutions, fast technology) and the protagonist's whole-life scaffold, before candidate worlds are chosen."
+    },
+    "schema": "life-sim-rust-model/v1",
+    "time_unit": "year"
+  }
+}

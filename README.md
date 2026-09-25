@@ -35,6 +35,24 @@ named by `MEANING_MODEL_DIR` works too.
 ```sh
 node extract.mjs --run <run folder> --out public/data/<name>.json
 ./live.sh <run folder> <name>   # refresh every minute while the agent works
+node sync-run.mjs <run folder> <name>   # copy the run into runs/<name>/ for this repo
+```
+
+## The story in this repo
+
+`runs/rabbit-hole/` is the story's run, copied while the agent works: the brief (`PROMPT.md`), the operator's
+`PROTOCOL.md`, every tool call the agent made with its arguments and full result (`novel/inputs/`, `novel/results/`
+and the call log `novel/mcp-transcript.jsonl`), the scripts it wrote (`novel/build/`), and a backup of the Meaning
+Model's engine state (`novel/engine-state.sqlite`). The story lives in that state: the world, the lives, the
+decisions, and the prose as it is written.
+
+Rebuild the page's data from it with the published tool:
+
+```sh
+npm install
+npx meaning-model-mcp --install-engine
+node extract.mjs --run runs/rabbit-hole --out public/data/rabbit-hole.json
+npm run serve
 ```
 
 `public/data/rabbit-hole.json` is *The Exceptions Queue*, a story written by an agent with Meaning Model 0.3.0 on

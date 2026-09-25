@@ -1,0 +1,23 @@
+{
+ "graphHash": "5bd9b9cd10f2676d37a770969b5f5e1f0aa9ca44e82e36e486d84a28d091a971",
+ "requestId": "name-engineer-selection",
+ "nodeId": "author.names.engineer.selection",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "selection",
+ "text": "Selected under delegation (LLM choice): the engineer is Barbara Ashby, born 1953 in Swindon, who insists on 'Barbara, never Babs'. The name fits her year, is distinct from Kieran Hale and Faye Titcombe, and the seed's senses (bank branch, branch line, code branch, fork) are private resonances with her life, not surface symbolism.",
+ "data": {
+  "chosen": "Barbara Ashby",
+  "decidedBy": "calling LLM under delegation",
+  "seedWord": "branch"
+ },
+ "links": [
+  {
+   "relation": "refines",
+   "targetNodeId": "author.names.engineer.candidates"
+  }
+ ]
+}

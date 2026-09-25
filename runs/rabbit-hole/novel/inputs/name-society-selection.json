@@ -1,0 +1,25 @@
+{
+ "graphHash": "0a0e57fdca9044901c0fe4fa7f639c7d806e364c0e053ce5dc77f82dbaadffed",
+ "requestId": "name-society-selection",
+ "nodeId": "author.names.society.selection",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "selection",
+ "text": "Selected under delegation (LLM choice): Kieran works for the White Hart Building Society (staff say 'the Hart'), an invented mutual founded in 1868 by Swindon railwaymen meeting at a White Hart inn, head office and payments operations in west Swindon. It stands in for the town's real mutuals, which stay unnamed. A white animal sits in the old institution's name without anyone in the story remarking on it.",
+ "data": {
+  "chosen": "White Hart Building Society",
+  "shortName": "the Hart",
+  "founded": 1868,
+  "decidedBy": "calling LLM under delegation",
+  "seedWord": "heart"
+ },
+ "links": [
+  {
+   "relation": "refines",
+   "targetNodeId": "author.names.society.candidates"
+  }
+ ]
+}

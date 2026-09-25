@@ -1,0 +1,3622 @@
+{
+ "requestId": "revise-faye-r1",
+ "previousModelHash": "cb24467c43d301aa8d9ab8f83b8c208ef23439f31151785067f591a51c960a6e",
+ "model": {
+  "decomposition": [],
+  "dependencies": [],
+  "id": "faye-titcombe-life",
+  "initial_claims": [],
+  "laws": [],
+  "meaning_model": {
+   "abstract_cuts": [],
+   "abstract_relations": [
+    {
+     "id": "arel.understanding.specializes.safety",
+     "source_concept_id": "concept.understanding_as_protection",
+     "target_concept_id": "concept.routine_as_safety",
+     "kind": "other",
+     "label": "replaces: the child who lost routine as safety put understanding in its place",
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "arel.band.analogy.gathering",
+     "source_concept_id": "concept.the_band",
+     "target_concept_id": "concept.gathering_institution",
+     "kind": "analogy",
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "arel.gap.constrains.understanding",
+     "source_concept_id": "concept.deep_time_gap",
+     "target_concept_id": "concept.understanding_as_protection",
+     "kind": "constrains",
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    }
+   ],
+   "concepts": [
+    {
+     "id": "concept.routine_as_safety",
+     "label": "Routine as safety",
+     "boundary": "A life made safe by a repeating schedule owned by an institution.",
+     "differentia": [
+      "The safety is real but belongs to whoever can end the routine."
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "concept.understanding_as_protection",
+     "label": "Understanding as protection",
+     "boundary": "The belief that knowing how a system works protects you from what it does to you.",
+     "differentia": [
+      "A proxy strategy: it protects against surprise, not against one's own feelings."
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "concept.the_band",
+     "label": "The band",
+     "boundary": "A small group of known faces that shares food, attention and danger and punishes defection.",
+     "differentia": [
+      "The forager unit of belonging, reproduced by offices, chat servers and crowds."
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "concept.gathering_institution",
+     "label": "Institution as gathering",
+     "boundary": "An institution that begins as people meeting at a place at set times and hardens into rules.",
+     "differentia": [
+      "Causewayed enclosures, the works hooter, the clearing cycle and the chat server are all gatherings with a clock."
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "concept.deep_time_gap",
+     "label": "The deep-time gap",
+     "boundary": "Paleolithic emotions, medieval institutions and godlike technology running at once in one person.",
+     "differentia": [
+      "Three clocks: the body's, the institution's and the machine's."
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    }
+   ],
+   "encapsulation_cuts": [],
+   "event_referent_bindings": [
+    {
+     "authority": null,
+     "binding_type": "change_arc_subject",
+     "id": "binding.profile.collapse_2022.change_arc.affected",
+     "interval": {
+      "end": 2023.8,
+      "start": 2022.2
+     },
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "referent_id": "referent.profile.faye.person.faye",
+     "role": "affected",
+     "target": {
+      "event_id": "event.profile.collapse_2022.change_arc",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.faye.person.faye.is.body.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "referent_id": "referent.profile.faye.person.faye",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.faye.person.faye.is.body",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.faye.person.faye.is.kin.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "referent_id": "referent.profile.faye.person.faye",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.faye.person.faye.is.kin",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.faye.person.faye.is.knowledge.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "referent_id": "referent.profile.faye.person.faye",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.faye.person.faye.is.knowledge",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.faye.person.faye.is.meaning.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "referent_id": "referent.profile.faye.person.faye",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.faye.person.faye.is.meaning",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.faye.person.faye.is.means.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "referent_id": "referent.profile.faye.person.faye",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.faye.person.faye.is.means",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.faye.person.faye.is.partnership.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "referent_id": "referent.profile.faye.person.faye",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.faye.person.faye.is.partnership",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.faye.person.faye.is.place.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "referent_id": "referent.profile.faye.person.faye",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.faye.person.faye.is.place",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.faye.person.faye.is.standing.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "referent_id": "referent.profile.faye.person.faye",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.faye.person.faye.is.standing",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.faye.person.faye.is.work.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "referent_id": "referent.profile.faye.person.faye",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.faye.person.faye.is.work",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "lifecycle_subject",
+     "id": "binding.profile.faye.person.faye.life.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "referent_id": "referent.profile.faye.person.faye",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.faye.person.faye.life",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "change_arc_subject",
+     "id": "binding.profile.leaving_doctorate.change_arc.affected",
+     "interval": {
+      "end": 2008,
+      "start": 2003.5
+     },
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "referent_id": "referent.profile.faye.person.faye",
+     "role": "affected",
+     "target": {
+      "event_id": "event.profile.leaving_doctorate.change_arc",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "change_arc_subject",
+     "id": "binding.profile.redundancy_and_stones.change_arc.affected",
+     "interval": {
+      "end": 2025,
+      "start": 2022.9
+     },
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "referent_id": "referent.profile.faye.person.faye",
+     "role": "affected",
+     "target": {
+      "event_id": "event.profile.redundancy_and_stones.change_arc",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "change_arc_subject",
+     "id": "binding.profile.works_closure.change_arc.affected",
+     "interval": {
+      "end": 1990.7,
+      "start": 1985
+     },
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "referent_id": "referent.profile.faye.person.faye",
+     "role": "affected",
+     "target": {
+      "event_id": "event.profile.works_closure.change_arc",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    }
+   ],
+   "event_relations": [
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.collapse_2022.change_arc.contains.adaptation",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.collapse_2022.change_arc",
+     "target_event_id": "event.profile.collapse_2022.change_arc.adaptation",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.collapse_2022.change_arc.contains.anticipation",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.collapse_2022.change_arc",
+     "target_event_id": "event.profile.collapse_2022.change_arc.anticipation",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.collapse_2022.change_arc.contains.focal_change",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.collapse_2022.change_arc",
+     "target_event_id": "event.profile.collapse_2022.change_arc.focal_change",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.faye.person.faye.life.contains.body",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "event.profile.faye.person.faye.is.body",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.faye.person.faye.life.contains.kin",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "event.profile.faye.person.faye.is.kin",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.faye.person.faye.life.contains.knowledge",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "event.profile.faye.person.faye.is.knowledge",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.faye.person.faye.life.contains.meaning",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "event.profile.faye.person.faye.is.meaning",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.faye.person.faye.life.contains.means",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "event.profile.faye.person.faye.is.means",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.faye.person.faye.life.contains.partnership",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "event.profile.faye.person.faye.is.partnership",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.faye.person.faye.life.contains.place",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "event.profile.faye.person.faye.is.place",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.faye.person.faye.life.contains.standing",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "event.profile.faye.person.faye.is.standing",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.faye.person.faye.life.contains.work",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "event.profile.faye.person.faye.is.work",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.leaving_doctorate.change_arc.contains.adaptation",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.leaving_doctorate.change_arc",
+     "target_event_id": "event.profile.leaving_doctorate.change_arc.adaptation",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.leaving_doctorate.change_arc.contains.anticipation",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.leaving_doctorate.change_arc",
+     "target_event_id": "event.profile.leaving_doctorate.change_arc.anticipation",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.leaving_doctorate.change_arc.contains.focal_change",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.leaving_doctorate.change_arc",
+     "target_event_id": "event.profile.leaving_doctorate.change_arc.focal_change",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.redundancy_and_stones.change_arc.contains.adaptation",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.redundancy_and_stones.change_arc",
+     "target_event_id": "event.profile.redundancy_and_stones.change_arc.adaptation",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.redundancy_and_stones.change_arc.contains.anticipation",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.redundancy_and_stones.change_arc",
+     "target_event_id": "event.profile.redundancy_and_stones.change_arc.anticipation",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.redundancy_and_stones.change_arc.contains.focal_change",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.redundancy_and_stones.change_arc",
+     "target_event_id": "event.profile.redundancy_and_stones.change_arc.focal_change",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.works_closure.change_arc.contains.adaptation",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.works_closure.change_arc",
+     "target_event_id": "event.profile.works_closure.change_arc.adaptation",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.works_closure.change_arc.contains.anticipation",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.works_closure.change_arc",
+     "target_event_id": "event.profile.works_closure.change_arc.anticipation",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.works_closure.change_arc.contains.focal_change",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "source_event_id": "event.profile.works_closure.change_arc",
+     "target_event_id": "event.profile.works_closure.change_arc.focal_change",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "id": "life.contains.event.profile.collapse_2022.change_arc",
+     "kind": "contains",
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "event.profile.collapse_2022.change_arc",
+     "description": "Change arc inside the life.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "life.contains.event.profile.leaving_doctorate.change_arc",
+     "kind": "contains",
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "event.profile.leaving_doctorate.change_arc",
+     "description": "Change arc inside the life.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "life.contains.event.profile.redundancy_and_stones.change_arc",
+     "kind": "contains",
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "event.profile.redundancy_and_stones.change_arc",
+     "description": "Change arc inside the life.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "life.contains.event.profile.works_closure.change_arc",
+     "kind": "contains",
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "event.profile.works_closure.change_arc",
+     "description": "Change arc inside the life.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "world.contains.life",
+     "kind": "contains",
+     "source_event_id": "ev.faye.world",
+     "target_event_id": "event.profile.faye.person.faye.life",
+     "description": "The life inside the author's reality.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "world.contains.inner",
+     "kind": "contains",
+     "source_event_id": "ev.faye.world",
+     "target_event_id": "ev.faye.inner",
+     "description": "Inner root nested in the accepted world.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "world.contains.ev.macro.works",
+     "kind": "contains",
+     "source_event_id": "ev.faye.world",
+     "target_event_id": "ev.macro.works",
+     "description": "A long development enclosing the life.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "world.contains.ev.macro.clearing",
+     "kind": "contains",
+     "source_event_id": "ev.faye.world",
+     "target_event_id": "ev.macro.clearing",
+     "description": "A long development enclosing the life.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "world.contains.ev.macro.downs",
+     "kind": "contains",
+     "source_event_id": "ev.faye.world",
+     "target_event_id": "ev.macro.downs",
+     "description": "A long development enclosing the life.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "world.contains.ev.macro.defi",
+     "kind": "contains",
+     "source_event_id": "ev.faye.world",
+     "target_event_id": "ev.macro.defi",
+     "description": "A long development enclosing the life.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "life.contains.ev.faye.p1.childhood",
+     "kind": "contains",
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "ev.faye.p1.childhood",
+     "description": "Period of the life.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "life.contains.ev.faye.p1b.school",
+     "kind": "contains",
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "ev.faye.p1b.school",
+     "description": "Period of the life.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "life.contains.ev.faye.p2.study",
+     "kind": "contains",
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "ev.faye.p2.study",
+     "description": "Period of the life.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "life.contains.ev.faye.p3.ledger",
+     "kind": "contains",
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "ev.faye.p3.ledger",
+     "description": "Period of the life.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "life.contains.ev.faye.p4.rabbit_hole",
+     "kind": "contains",
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "ev.faye.p4.rabbit_hole",
+     "description": "Period of the life.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "life.contains.ev.faye.p5.after",
+     "kind": "contains",
+     "source_event_id": "event.profile.faye.person.faye.life",
+     "target_event_id": "ev.faye.p5.after",
+     "description": "Period of the life.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "works.enables.childhood",
+     "kind": "enables",
+     "source_event_id": "ev.macro.works",
+     "target_event_id": "ev.faye.p1.childhood",
+     "description": "The works set the routine of the house.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "works.causes.closure_arc",
+     "kind": "causes",
+     "source_event_id": "ev.macro.works",
+     "target_event_id": "event.profile.works_closure.change_arc",
+     "description": "The end of the works is the end of the development.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "downs.enables.study",
+     "kind": "enables",
+     "source_event_id": "ev.macro.downs",
+     "target_event_id": "ev.faye.p2.study",
+     "description": "The landscape of her childhood walks becomes her subject.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "clearing.enables.ledger",
+     "kind": "enables",
+     "source_event_id": "ev.macro.clearing",
+     "target_event_id": "ev.faye.p3.ledger",
+     "description": "The clearing cycle is the routine of her working life.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "defi.enables.rabbit_hole",
+     "kind": "enables",
+     "source_event_id": "ev.macro.defi",
+     "target_event_id": "ev.faye.p4.rabbit_hole",
+     "description": "The new markets are there to fall into.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "closure.enables.ledger_skill",
+     "kind": "enables",
+     "source_event_id": "event.profile.works_closure.change_arc.adaptation",
+     "target_event_id": "ev.faye.p3.ledger",
+     "description": "The want to know how systems work, learned in 1986, makes her good at the ledger and over-trusting of understanding.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "collapse.causes.redundancy_turn",
+     "kind": "other",
+     "source_event_id": "event.profile.collapse_2022.change_arc",
+     "target_event_id": "event.profile.redundancy_and_stones.change_arc",
+     "description": "Coincides with and colours: she meets redundancy already ashamed, which makes the stones a refuge rather than a defeat.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "inner.contains.ev.faye.want.safe",
+     "kind": "contains",
+     "source_event_id": "ev.faye.inner",
+     "target_event_id": "ev.faye.want.safe",
+     "description": "Want attributed to Faye.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "inner.contains.ev.faye.want.known",
+     "kind": "contains",
+     "source_event_id": "ev.faye.inner",
+     "target_event_id": "ev.faye.want.known",
+     "description": "Want attributed to Faye.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "inner.contains.ev.faye.want.understand",
+     "kind": "contains",
+     "source_event_id": "ev.faye.inner",
+     "target_event_id": "ev.faye.want.understand",
+     "description": "Want attributed to Faye.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "inner.contains.ev.faye.want.daughter",
+     "kind": "contains",
+     "source_event_id": "ev.faye.inner",
+     "target_event_id": "ev.faye.want.daughter",
+     "description": "Want attributed to Faye.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "inner.contains.ev.faye.want.mechanism",
+     "kind": "contains",
+     "source_event_id": "ev.faye.inner",
+     "target_event_id": "ev.faye.want.mechanism",
+     "description": "Want attributed to Faye.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "inner.contains.ev.faye.want.useful",
+     "kind": "contains",
+     "source_event_id": "ev.faye.inner",
+     "target_event_id": "ev.faye.want.useful",
+     "description": "Want attributed to Faye.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "inner.contains.ev.faye.want.band",
+     "kind": "contains",
+     "source_event_id": "ev.faye.inner",
+     "target_event_id": "ev.faye.want.band",
+     "description": "Want attributed to Faye.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "p5.contains.composition",
+     "kind": "contains",
+     "source_event_id": "ev.faye.p5.after",
+     "target_event_id": "ev.faye.composition",
+     "description": "The composition moment inside the last period.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "collapse.causes.composition",
+     "kind": "causes",
+     "source_event_id": "event.profile.collapse_2022.change_arc.adaptation",
+     "target_event_id": "ev.faye.composition",
+     "description": "The unfinished adaptation to 2022 is one cause of the book.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "p5.contains.daughter_app",
+     "kind": "contains",
+     "source_event_id": "ev.faye.p5.after",
+     "target_event_id": "ev.faye.daughter_app",
+     "description": "A moment of the last period.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "daughter_app.causes.composition",
+     "kind": "causes",
+     "source_event_id": "ev.faye.daughter_app",
+     "target_event_id": "ev.faye.composition",
+     "description": "Whatever she chooses, this evening is when the novel starts.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    }
+   ],
+   "events": [
+    {
+     "boundary": "In May 2022 an algorithmic stablecoin loses its peg; Faye loses about two thirds of the family savings she moved into decentralized finance.",
+     "id": "event.profile.collapse_2022.change_arc",
+     "interval": {
+      "end": 2023.8,
+      "start": 2022.2
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "affected": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.collapse_2022.change_arc.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "Faye's kitchen table and phone, north Swindon",
+     "substrate": null,
+     "description": "In May 2022 an algorithmic stablecoin loses its peg; Faye loses about two thirds of the family savings she moved into decentralized finance."
+    },
+    {
+     "boundary": "She hides the loss for two months, then tells her partner. The shame is less about the money than about having known the mechanism and held anyway. The partnership ends in 2023; she keeps her daughter's trust by telling her the truth.",
+     "id": "event.profile.collapse_2022.change_arc.adaptation",
+     "interval": {
+      "end": 2023.8,
+      "start": 2022.4
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "profile.collapse_2022.change_arc.adaptation.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "Faye's kitchen table and phone, north Swindon",
+     "substrate": "event.profile.collapse_2022.change_arc",
+     "description": "She hides the loss for two months, then tells her partner. The shame is less about the money than about having known the mechanism and held anyway. The partnership ends in 2023; she keeps her daughter's trust by telling her the truth."
+    },
+    {
+     "boundary": "She has read the stablecoin's design and knows its weak point in theory; the chat server says the peg has always come back.",
+     "id": "event.profile.collapse_2022.change_arc.anticipation",
+     "interval": {
+      "end": 2022.35,
+      "start": 2022.2
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "profile.collapse_2022.change_arc.anticipation.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "Faye's kitchen table and phone, north Swindon",
+     "substrate": "event.profile.collapse_2022.change_arc",
+     "description": "She has read the stablecoin's design and knows its weak point in theory; the chat server says the peg has always come back."
+    },
+    {
+     "boundary": "The peg breaks and the sister token collapses within days. She holds, then it is too late to sell for anything.",
+     "id": "event.profile.collapse_2022.change_arc.focal_change",
+     "interval": {
+      "end": 2022.4,
+      "start": 2022.35
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "profile.collapse_2022.change_arc.focal_change.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "Faye's kitchen table and phone, north Swindon",
+     "substrate": "event.profile.collapse_2022.change_arc",
+     "description": "The peg breaks and the sister token collapses within days. She holds, then it is too late to sell for anything."
+    },
+    {
+     "boundary": "body process for faye: growth, embodiment, physical capacity, disability, aging, and mortality",
+     "id": "event.profile.faye.person.faye.is.body",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.body"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life"
+    },
+    {
+     "boundary": "kin process for faye: family, household, dependency, support, and rupture",
+     "id": "event.profile.faye.person.faye.is.kin",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.kin"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life"
+    },
+    {
+     "boundary": "knowledge process for faye: perception, belief, learning, correction, and capability",
+     "id": "event.profile.faye.person.faye.is.knowledge",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.knowledge"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life"
+    },
+    {
+     "boundary": "meaning process for faye: constitutive aims, commitments, and self-understanding",
+     "id": "event.profile.faye.person.faye.is.meaning",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.meaning"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life"
+    },
+    {
+     "boundary": "means process for faye: money, time, tools, capacity, debt, and runway",
+     "id": "event.profile.faye.person.faye.is.means",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.means"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life"
+    },
+    {
+     "boundary": "partnership process for faye: participation in joint relationships and the person's readings of them",
+     "id": "event.profile.faye.person.faye.is.partnership",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.partnership"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life"
+    },
+    {
+     "boundary": "place process for faye: residence, presence, access, travel, and spatial constraint",
+     "id": "event.profile.faye.person.faye.is.place",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.place"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life"
+    },
+    {
+     "boundary": "standing process for faye: office, audience, attributed recognition, and reputation",
+     "id": "event.profile.faye.person.faye.is.standing",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.standing"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life"
+    },
+    {
+     "boundary": "work process for faye: roles, projects, labor, duties, and institutional work",
+     "id": "event.profile.faye.person.faye.is.work",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.work"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life"
+    },
+    {
+     "boundary": "Invented: railway-works childhood in Swindon; archaeology and an unfinished doctorate on Neolithic gathering sites; eighteen years in a building society's payments operations; a decentralized-finance rabbit hole 2020-2022 and its losses; from 2023 a guide at the Avebury stones who writes this novel in 2025-2026",
+     "id": "event.profile.faye.person.faye.life",
+     "interval": {
+      "start": 1979.2,
+      "end": 2026.75
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.life.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "Swindon, Wiltshire, England",
+     "substrate": null,
+     "description": "Invented life of Faye Titcombe from her birth in Swindon in March 1979 to September 2026, when she is finishing this novel. Her life runs between two kinds of time: the deep time of the Wiltshire downs she studied and the batch cycles of the payments office where she worked."
+    },
+    {
+     "boundary": "She leaves an unfinished doctorate to care for her mother and pay her debts.",
+     "id": "event.profile.leaving_doctorate.change_arc",
+     "interval": {
+      "end": 2008,
+      "start": 2003.5
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "affected": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.leaving_doctorate.change_arc.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "A university town on the English south coast",
+     "substrate": null,
+     "description": "She leaves an unfinished doctorate to care for her mother and pay her debts."
+    },
+    {
+     "boundary": "She tells herself it is temporary. The payments office becomes her field site: she watches colleagues as a band, the tea round as food sharing, the appraisal as a status ritual, and keeps notes she never writes up.",
+     "id": "event.profile.leaving_doctorate.change_arc.adaptation",
+     "interval": {
+      "end": 2008,
+      "start": 2004.4
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "profile.leaving_doctorate.change_arc.adaptation.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "A university town on the English south coast",
+     "substrate": "event.profile.leaving_doctorate.change_arc",
+     "description": "She tells herself it is temporary. The payments office becomes her field site: she watches colleagues as a band, the tea round as food sharing, the appraisal as a status ritual, and keeps notes she never writes up."
+    },
+    {
+     "boundary": "Her mother's illness worsens, the debt grows and the final year's funding is not renewed.",
+     "id": "event.profile.leaving_doctorate.change_arc.anticipation",
+     "interval": {
+      "end": 2004.2,
+      "start": 2003.5
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "profile.leaving_doctorate.change_arc.anticipation.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "A university town on the English south coast",
+     "substrate": "event.profile.leaving_doctorate.change_arc",
+     "description": "Her mother's illness worsens, the debt grows and the final year's funding is not renewed."
+    },
+    {
+     "boundary": "She leaves the doctorate, moves home to Swindon and takes a job clearing payment exceptions at a building society.",
+     "id": "event.profile.leaving_doctorate.change_arc.focal_change",
+     "interval": {
+      "end": 2004.4,
+      "start": 2004.2
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "profile.leaving_doctorate.change_arc.focal_change.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "A university town on the English south coast",
+     "substrate": "event.profile.leaving_doctorate.change_arc",
+     "description": "She leaves the doctorate, moves home to Swindon and takes a job clearing payment exceptions at a building society."
+    },
+    {
+     "boundary": "Her payments team is automated away in 2023 and she becomes a seasonal guide at the Avebury stones.",
+     "id": "event.profile.redundancy_and_stones.change_arc",
+     "interval": {
+      "end": 2025,
+      "start": 2022.9
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "affected": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.redundancy_and_stones.change_arc.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "Avebury and the Marlborough Downs, Wiltshire",
+     "substrate": null,
+     "description": "Her payments team is automated away in 2023 and she becomes a seasonal guide at the Avebury stones."
+    },
+    {
+     "boundary": "She takes a guide's job at the stones she once studied. Talking to visitors about the first farmers every day, she starts writing fiction in the evenings.",
+     "id": "event.profile.redundancy_and_stones.change_arc.adaptation",
+     "interval": {
+      "end": 2025,
+      "start": 2023.4
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "profile.redundancy_and_stones.change_arc.adaptation.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "Avebury and the Marlborough Downs, Wiltshire",
+     "substrate": "event.profile.redundancy_and_stones.change_arc",
+     "description": "She takes a guide's job at the stones she once studied. Talking to visitors about the first farmers every day, she starts writing fiction in the evenings."
+    },
+    {
+     "boundary": "Rumours that the overnight exception queue will be handled by software; she trains the system that replaces her.",
+     "id": "event.profile.redundancy_and_stones.change_arc.anticipation",
+     "interval": {
+      "end": 2023.3,
+      "start": 2022.9
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "profile.redundancy_and_stones.change_arc.anticipation.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "Avebury and the Marlborough Downs, Wiltshire",
+     "substrate": "event.profile.redundancy_and_stones.change_arc",
+     "description": "Rumours that the overnight exception queue will be handled by software; she trains the system that replaces her."
+    },
+    {
+     "boundary": "Redundancy. At forty-four, the age her father was in 1986, she is out of the only job she has had for eighteen years.",
+     "id": "event.profile.redundancy_and_stones.change_arc.focal_change",
+     "interval": {
+      "end": 2023.4,
+      "start": 2023.3
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "profile.redundancy_and_stones.change_arc.focal_change.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "Avebury and the Marlborough Downs, Wiltshire",
+     "substrate": "event.profile.redundancy_and_stones.change_arc",
+     "description": "Redundancy. At forty-four, the age her father was in 1986, she is out of the only job she has had for eighteen years."
+    },
+    {
+     "boundary": "The Swindon railway works close in 1986 and her father loses the only job he has had.",
+     "id": "event.profile.works_closure.change_arc",
+     "interval": {
+      "end": 1990.7,
+      "start": 1985
+     },
+     "observation_process_ids": [],
+     "participants": {
+      "affected": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.works_closure.change_arc.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "Swindon, Wiltshire, England",
+     "substrate": null,
+     "description": "The Swindon railway works close in 1986 and her father loses the only job he has had."
+    },
+    {
+     "boundary": "Her father drives a taxi, then parcels, and stops walking on the downs. Faye learns that the routine that made the house safe was someone else's to end, and begins wanting to know how things work so that nothing can close on her without warning.",
+     "id": "event.profile.works_closure.change_arc.adaptation",
+     "interval": {
+      "end": 1990.7,
+      "start": 1986.3
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "profile.works_closure.change_arc.adaptation.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "Swindon, Wiltshire, England",
+     "substrate": "event.profile.works_closure.change_arc",
+     "description": "Her father drives a taxi, then parcels, and stops walking on the downs. Faye learns that the routine that made the house safe was someone else's to end, and begins wanting to know how things work so that nothing can close on her without warning."
+    },
+    {
+     "boundary": "Talk at the kitchen table about the works running down; her father says they will never close a place that big.",
+     "id": "event.profile.works_closure.change_arc.anticipation",
+     "interval": {
+      "end": 1986.2,
+      "start": 1985
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "profile.works_closure.change_arc.anticipation.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "Swindon, Wiltshire, England",
+     "substrate": "event.profile.works_closure.change_arc",
+     "description": "Talk at the kitchen table about the works running down; her father says they will never close a place that big."
+    },
+    {
+     "boundary": "The works close after about a hundred and forty years. Her father, forty-four, is out of work. Faye is seven.",
+     "id": "event.profile.works_closure.change_arc.focal_change",
+     "interval": {
+      "end": 1986.3,
+      "start": 1986.2
+     },
+     "observation_process_ids": [],
+     "participants": {},
+     "process_ids": [
+      "profile.works_closure.change_arc.focal_change.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": "Swindon, Wiltshire, England",
+     "substrate": "event.profile.works_closure.change_arc",
+     "description": "The works close after about a hundred and forty years. Her father, forty-four, is out of work. Faye is seven."
+    },
+    {
+     "id": "ev.faye.world",
+     "boundary": "Faye Titcombe's reality: our world from 1979 to 2026, the same world the novel is set in.",
+     "interval": {
+      "start": -3800,
+      "end": 2026.75
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "The author lives in the novel's world: England, the Wiltshire downs, the payments system, the crypto markets of 2020-2022."
+    },
+    {
+     "id": "ev.faye.inner",
+     "boundary": "Faye's inner perspective root: her wants, beliefs and appraisals are attributed here, never accepted as world fact.",
+     "interval": null,
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "ev.macro.works",
+     "boundary": "The Great Western railway works at Swindon, from the 1840s to their closure in 1986.",
+     "interval": {
+      "start": 1843,
+      "end": 1986.3
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Swindon, Wiltshire, England",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "For about a hundred and forty years the works made Swindon: the town grew around the sheds, the hooter set the day, and families like the Titcombes had sons there for three generations. Its closure ended the town's oldest routine."
+    },
+    {
+     "id": "ev.macro.clearing",
+     "boundary": "Automated interbank clearing in Britain from the late 1960s: overnight batch files and a three-working-day cycle.",
+     "interval": {
+      "start": 1968,
+      "end": 2026.75
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Britain",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "The payments infrastructure Faye worked inside was designed for magnetic tape and still ran on its rhythm: submit on day one, process on day two, settle on day three, nothing at weekends."
+    },
+    {
+     "id": "ev.macro.downs",
+     "boundary": "The monument landscape of the Marlborough Downs, from the first Neolithic gathering enclosures to the stone circle and the chalk figures kept by scouring.",
+     "interval": {
+      "start": -3700,
+      "end": 2026.75
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Avebury and the Marlborough Downs, Wiltshire",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "About 3700 BC herders began meeting at ditched hilltop enclosures such as Windmill Hill; later came the great henge and stone circle at Avebury and the long barrows. The chalk horses of the region fade unless people keep scouring them."
+    },
+    {
+     "id": "ev.macro.defi",
+     "boundary": "Cryptocurrency and decentralized finance, from 2008 to the collapses of 2022.",
+     "interval": {
+      "start": 2008.8,
+      "end": 2026.75
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Online, worldwide",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "Programmable money that never closes: the markets Faye entered in 2020 ran every hour of every day, at machine speed, in public."
+    },
+    {
+     "id": "ev.faye.p1.childhood",
+     "boundary": "Childhood in a railway-works family in north Swindon, 1979-1990.",
+     "interval": {
+      "start": 1979.2,
+      "end": 1990.7
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Swindon, Wiltshire, England",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "Faye grows up in a terraced house in north Swindon. Her father has worked in the railway works since he was sixteen; the works hooter, the shift and the Friday pay packet are the calendar of the house. Her mother is a school dinner lady. On Sundays they walk on the downs, where her father shows her the chalk horse and says it has been kept white for three thousand years by people scouring it."
+    },
+    {
+     "id": "ev.faye.p1b.school",
+     "boundary": "Secondary school and the sixth form, 1990-1997.",
+     "interval": {
+      "start": 1990.7,
+      "end": 1997.7
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Swindon, Wiltshire, England",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "A clever, watchful teenager who reads archaeology books from the town library and works Saturdays at a supermarket checkout. Her father drinks more; her mother holds the house together. A history teacher takes her class to Avebury and she stays behind in the rain to count the stones."
+    },
+    {
+     "id": "ev.faye.p2.study",
+     "boundary": "Archaeology, then a doctorate on Neolithic gathering enclosures, 1997-2004.",
+     "interval": {
+      "start": 1997.7,
+      "end": 2004.4
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "A university town on the English south coast",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "First in her family at university. She falls for deep time: the forager hundreds of thousands of years, then the first farmers who met at ditched hilltop enclosures to feast, trade and bury. Her doctorate asks why scattered herders began gathering in one place at set seasons: the beginning of institutions."
+    },
+    {
+     "id": "ev.faye.p3.ledger",
+     "boundary": "Eighteen years in a building society payments operations team, 2004-2022.",
+     "interval": {
+      "start": 2004.4,
+      "end": 2022.9
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "The building society payments office, west Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "She learns the batch: payment files that run overnight, exceptions that must be cleared before the cut-off, a three-day cycle designed in the 1960s. She becomes the person who knows why a payment failed. She meets her partner, a secondary-school geography teacher, in 2008; their daughter is born in 2011."
+    },
+    {
+     "id": "ev.faye.p4.rabbit_hole",
+     "boundary": "The decentralized-finance rabbit hole, 2020-2022.",
+     "interval": {
+      "start": 2020.25,
+      "end": 2022.6
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Faye's spare room in north Swindon, and online",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "Working from home in the 2020 lockdown, she follows a younger colleague into decentralized finance. She understands the mechanisms quickly and loves it: money as open code, a ledger anyone can read. She moves most of the family savings in, grows them, joins a chat server where people talk through the night, and holds through the spring 2022 collapse."
+    },
+    {
+     "id": "ev.faye.p5.after",
+     "boundary": "After: separation, the stones and the novel, 2022-2026.",
+     "interval": {
+      "start": 2022.6,
+      "end": 2026.75
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Avebury and the Marlborough Downs, Wiltshire",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "She confesses the loss in summer 2022; she and her partner separate in 2023 and share the care of their daughter. After redundancy she becomes a seasonal guide at the Avebury stones and writes fiction in the evenings, finishing this novel in 2026 when her daughter is fifteen and has a trading app on her phone."
+    },
+    {
+     "id": "ev.faye.want.safe",
+     "boundary": "Deepest want: to be safe, to have a floor under the house that nobody else can pull away.",
+     "interval": {
+      "start": 1979.2,
+      "end": 2026.75
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "Deepest want: to be safe, to have a floor under the house that nobody else can pull away."
+    },
+    {
+     "id": "ev.faye.want.known",
+     "boundary": "Deepest want: to be known by her people for what she actually sees.",
+     "interval": {
+      "start": 1979.2,
+      "end": 2026.75
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "Deepest want: to be known by her people for what she actually sees."
+    },
+    {
+     "id": "ev.faye.want.understand",
+     "boundary": "Deepest want: to understand how things came to be; for Faye understanding is the form freedom takes.",
+     "interval": {
+      "start": 1986.3,
+      "end": 2026.75
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "Deepest want: to understand how things came to be; for Faye understanding is the form freedom takes."
+    },
+    {
+     "id": "ev.faye.want.daughter",
+     "boundary": "Deepest want from 2011: that her daughter can trust her and will not be hurt by what hurt her.",
+     "interval": {
+      "start": 2011.3,
+      "end": 2026.75
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "Deepest want from 2011: that her daughter can trust her and will not be hurt by what hurt her."
+    },
+    {
+     "id": "ev.faye.want.mechanism",
+     "boundary": "Learned want after 1986: to know the mechanism of any system she depends on, so it cannot close on her without warning. It became a proxy: she came to believe that understanding a mechanism protects her from its pull on her feelings.",
+     "interval": {
+      "start": 1986.3,
+      "end": 2026.75
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "Learned want after 1986: to know the mechanism of any system she depends on, so it cannot close on her without warning. It became a proxy: she came to believe that understanding a mechanism protects her from its pull on her feelings."
+    },
+    {
+     "id": "ev.faye.want.useful",
+     "boundary": "Learned want after 2004: to be the reliable one who knows why a payment failed, as a way to belong.",
+     "interval": {
+      "start": 2004.4,
+      "end": 2023.4
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "Learned want after 2004: to be the reliable one who knows why a payment failed, as a way to belong."
+    },
+    {
+     "id": "ev.faye.want.band",
+     "boundary": "Learned want in 2020-2022: to belong to the band of those who know, the people awake at three in the morning in the chat server.",
+     "interval": {
+      "start": 2020.4,
+      "end": 2022.6
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "Learned want in 2020-2022: to belong to the band of those who know, the people awake at three in the morning in the chat server."
+    },
+    {
+     "id": "ev.faye.composition",
+     "boundary": "Writing this novel, autumn 2025 to autumn 2026.",
+     "interval": {
+      "start": 2025.7,
+      "end": 2026.75
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Faye's kitchen table, north Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "Faye writes in the evenings after guiding at the stones, at the kitchen table in north Swindon. She is four years from her own fall and far enough to laugh at parts of it."
+    },
+    {
+     "id": "ev.faye.daughter_app",
+     "boundary": "September 2025: Faye finds a trading app on her fifteen-year-old daughter's phone.",
+     "interval": {
+      "start": 2025.65,
+      "end": 2025.7
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Faye's kitchen table, north Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "description": "At the kitchen table her daughter shows her, half proud and half defiant, a small balance in a coin that a video told her about. Faye recognises the feeling in her own chest before she recognises the coin. She has to choose what to do."
+    }
+   ],
+   "physical_cuts": [],
+   "realizations": [
+    {
+     "id": "real.works.routine",
+     "concept_id": "concept.routine_as_safety",
+     "purpose": "describe",
+     "roles": {
+      "instance": "ev.macro.works"
+     },
+     "degree": 0.9,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "viewpoint": "author persona (Faye) as modeled by the recorder",
+     "authority": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "real.closure.understanding",
+     "concept_id": "concept.understanding_as_protection",
+     "purpose": "describe",
+     "roles": {
+      "instance": "event.profile.works_closure.change_arc.adaptation"
+     },
+     "degree": 0.8,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "viewpoint": "author persona (Faye) as modeled by the recorder",
+     "authority": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "real.collapse.understanding_fails",
+     "concept_id": "concept.understanding_as_protection",
+     "purpose": "describe",
+     "roles": {
+      "instance": "event.profile.collapse_2022.change_arc.focal_change"
+     },
+     "degree": 0.85,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "viewpoint": "author persona (Faye) as modeled by the recorder",
+     "authority": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "real.rabbit_hole.band",
+     "concept_id": "concept.the_band",
+     "purpose": "describe",
+     "roles": {
+      "instance": "ev.faye.p4.rabbit_hole"
+     },
+     "degree": 0.8,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "viewpoint": "author persona (Faye) as modeled by the recorder",
+     "authority": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "real.ledger.band",
+     "concept_id": "concept.the_band",
+     "purpose": "describe",
+     "roles": {
+      "instance": "ev.faye.p3.ledger"
+     },
+     "degree": 0.6,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "viewpoint": "author persona (Faye) as modeled by the recorder",
+     "authority": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "real.downs.gathering",
+     "concept_id": "concept.gathering_institution",
+     "purpose": "describe",
+     "roles": {
+      "instance": "ev.macro.downs"
+     },
+     "degree": 0.9,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "viewpoint": "author persona (Faye) as modeled by the recorder",
+     "authority": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "real.clearing.gathering",
+     "concept_id": "concept.gathering_institution",
+     "purpose": "describe",
+     "roles": {
+      "instance": "ev.macro.clearing"
+     },
+     "degree": 0.6,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "viewpoint": "author persona (Faye) as modeled by the recorder",
+     "authority": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "real.collapse.gap",
+     "concept_id": "concept.deep_time_gap",
+     "purpose": "describe",
+     "roles": {
+      "instance": "event.profile.collapse_2022.change_arc"
+     },
+     "degree": 0.85,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "viewpoint": "author persona (Faye) as modeled by the recorder",
+     "authority": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    }
+   ],
+   "referents": [
+    {
+     "authority": null,
+     "boundary": "Faye Titcombe, invented author persona: one English woman born 1979 in Swindon, Wiltshire",
+     "continuity_criterion": "Same living embodied person",
+     "id": "referent.profile.faye.person.faye",
+     "interval": null,
+     "lifecycle_event_id": "event.profile.faye.person.faye.life",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    }
+   ],
+   "schema": "life-sim-rust-meaning-model/v1",
+   "normalized_cuts": [
+    {
+     "id": "cut.faye.p1.childhood.outlook",
+     "parent_event_id": "ev.faye.p1.childhood",
+     "question": "Across her childhood, how does Faye expect what she wants to turn out?",
+     "unit": "share of one unit of represented outlook toward fulfilment of her active wants",
+     "answers": [
+      {
+       "key": "assurance",
+       "weight": 0.62
+      },
+      {
+       "key": "threat",
+       "weight": 0.28
+      },
+      {
+       "key": "remainder",
+       "weight": 0.1
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.p1.childhood.threatened",
+     "parent_event_id": "ev.faye.p1.childhood",
+     "question": "What does Faye see as threatened during her childhood?",
+     "unit": "share of what she sees as threatened in this period",
+     "answers": [
+      {
+       "key": "the_house_and_its_routine",
+       "weight": 0.5
+      },
+      {
+       "key": "her_father",
+       "weight": 0.3
+      },
+      {
+       "key": "remainder",
+       "weight": 0.2
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.p1b.school.outlook",
+     "parent_event_id": "ev.faye.p1b.school",
+     "question": "In her school years, how does Faye expect what she wants to turn out?",
+     "unit": "share of one unit of represented outlook toward fulfilment of her active wants",
+     "answers": [
+      {
+       "key": "assurance",
+       "weight": 0.55
+      },
+      {
+       "key": "threat",
+       "weight": 0.35
+      },
+      {
+       "key": "remainder",
+       "weight": 0.1
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.p1b.school.threatened",
+     "parent_event_id": "ev.faye.p1b.school",
+     "question": "What does Faye see as threatened in her school years?",
+     "unit": "share of what she sees as threatened in this period",
+     "answers": [
+      {
+       "key": "her_mother_holding_the_house",
+       "weight": 0.4
+      },
+      {
+       "key": "her_chance_to_leave",
+       "weight": 0.4
+      },
+      {
+       "key": "remainder",
+       "weight": 0.2
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.p2.study.outlook",
+     "parent_event_id": "ev.faye.p2.study",
+     "question": "At university, how does Faye expect what she wants to turn out?",
+     "unit": "share of one unit of represented outlook toward fulfilment of her active wants",
+     "answers": [
+      {
+       "key": "assurance",
+       "weight": 0.7
+      },
+      {
+       "key": "threat",
+       "weight": 0.2
+      },
+      {
+       "key": "remainder",
+       "weight": 0.1
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.p2.study.threatened",
+     "parent_event_id": "ev.faye.p2.study",
+     "question": "What does Faye see as threatened at university?",
+     "unit": "share of what she sees as threatened in this period",
+     "answers": [
+      {
+       "key": "money_and_debt",
+       "weight": 0.45
+      },
+      {
+       "key": "her_mother_at_home",
+       "weight": 0.35
+      },
+      {
+       "key": "remainder",
+       "weight": 0.2
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.p3.ledger.outlook",
+     "parent_event_id": "ev.faye.p3.ledger",
+     "question": "In the payments years, how does Faye expect what she wants to turn out?",
+     "unit": "share of one unit of represented outlook toward fulfilment of her active wants",
+     "answers": [
+      {
+       "key": "assurance",
+       "weight": 0.6
+      },
+      {
+       "key": "threat",
+       "weight": 0.25
+      },
+      {
+       "key": "remainder",
+       "weight": 0.15
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.p3.ledger.threatened",
+     "parent_event_id": "ev.faye.p3.ledger",
+     "question": "What does Faye see as threatened in the payments years?",
+     "unit": "share of what she sees as threatened in this period",
+     "answers": [
+      {
+       "key": "the_unfinished_life_she_meant_to_have",
+       "weight": 0.45
+      },
+      {
+       "key": "the_family_s_security",
+       "weight": 0.35
+      },
+      {
+       "key": "remainder",
+       "weight": 0.2
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.p4.rabbit_hole.outlook",
+     "parent_event_id": "ev.faye.p4.rabbit_hole",
+     "question": "In the rabbit hole, how does Faye expect what she wants to turn out?",
+     "unit": "share of one unit of represented outlook toward fulfilment of her active wants",
+     "answers": [
+      {
+       "key": "assurance",
+       "weight": 0.66
+      },
+      {
+       "key": "threat",
+       "weight": 0.26
+      },
+      {
+       "key": "remainder",
+       "weight": 0.08
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.p4.rabbit_hole.threatened",
+     "parent_event_id": "ev.faye.p4.rabbit_hole",
+     "question": "What does Faye see as threatened in the rabbit hole?",
+     "unit": "share of what she sees as threatened in this period",
+     "answers": [
+      {
+       "key": "being_left_behind",
+       "weight": 0.4
+      },
+      {
+       "key": "the_family_savings",
+       "weight": 0.35
+      },
+      {
+       "key": "remainder",
+       "weight": 0.25
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.p5.after.outlook",
+     "parent_event_id": "ev.faye.p5.after",
+     "question": "After the fall, how does Faye expect what she wants to turn out?",
+     "unit": "share of one unit of represented outlook toward fulfilment of her active wants",
+     "answers": [
+      {
+       "key": "assurance",
+       "weight": 0.48
+      },
+      {
+       "key": "threat",
+       "weight": 0.4
+      },
+      {
+       "key": "remainder",
+       "weight": 0.12
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.p5.after.threatened",
+     "parent_event_id": "ev.faye.p5.after",
+     "question": "What does Faye see as threatened after the fall?",
+     "unit": "share of what she sees as threatened in this period",
+     "answers": [
+      {
+       "key": "her_daughter_falling_the_same_way",
+       "weight": 0.5
+      },
+      {
+       "key": "her_self_respect",
+       "weight": 0.3
+      },
+      {
+       "key": "remainder",
+       "weight": 0.2
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.1986.safety",
+     "parent_event_id": "event.profile.works_closure.change_arc.adaptation",
+     "question": "After the works close, where does seven-year-old Faye come to locate safety?",
+     "unit": "share of her sense of safety",
+     "answers": [
+      {
+       "key": "in_knowing_how_things_work",
+       "weight": 0.45
+      },
+      {
+       "key": "in_her_mother",
+       "weight": 0.3
+      },
+      {
+       "key": "in_the_routine",
+       "weight": 0.1
+      },
+      {
+       "key": "remainder",
+       "weight": 0.15
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.2004.reasons",
+     "parent_event_id": "event.profile.leaving_doctorate.change_arc.focal_change",
+     "question": "What moves Faye to leave the doctorate: love or fear?",
+     "unit": "share of the motive",
+     "answers": [
+      {
+       "key": "love_care_for_mother",
+       "weight": 0.55
+      },
+      {
+       "key": "fear_debt_and_insecurity",
+       "weight": 0.35
+      },
+      {
+       "key": "remainder",
+       "weight": 0.1
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.2021.pull",
+     "parent_event_id": "ev.faye.p4.rabbit_hole",
+     "question": "Over her wants, where does Faye's motivational attention go as she moves deeper into decentralized finance in 2021?",
+     "unit": "share of motivational attention over her wants",
+     "answers": [
+      {
+       "key": "understand",
+       "weight": 0.35
+      },
+      {
+       "key": "band",
+       "weight": 0.3
+      },
+      {
+       "key": "safe",
+       "weight": 0.1
+      },
+      {
+       "key": "known",
+       "weight": 0.1
+      },
+      {
+       "key": "mechanism",
+       "weight": 0.1
+      },
+      {
+       "key": "remainder",
+       "weight": 0.05
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.2022.holding",
+     "parent_event_id": "event.profile.collapse_2022.change_arc.focal_change",
+     "question": "Why does Faye hold as the peg breaks?",
+     "unit": "share of the reason",
+     "answers": [
+      {
+       "key": "trust_in_her_own_understanding",
+       "weight": 0.35
+      },
+      {
+       "key": "loyalty_to_the_group",
+       "weight": 0.3
+      },
+      {
+       "key": "shame_of_selling_at_a_loss",
+       "weight": 0.2
+      },
+      {
+       "key": "remainder",
+       "weight": 0.15
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.2026.why_write",
+     "parent_event_id": "ev.faye.composition",
+     "question": "Over her wants, where does Faye's motivational attention go as she writes this novel?",
+     "unit": "share of motivational attention over her wants",
+     "answers": [
+      {
+       "key": "understand",
+       "weight": 0.35
+      },
+      {
+       "key": "daughter",
+       "weight": 0.3
+      },
+      {
+       "key": "known",
+       "weight": 0.15
+      },
+      {
+       "key": "safe",
+       "weight": 0.05
+      },
+      {
+       "key": "remainder",
+       "weight": 0.15
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored, not measured"
+     ]
+    },
+    {
+     "id": "cut.faye.2025.daughter_app.response",
+     "parent_event_id": "ev.faye.daughter_app",
+     "question": "What does Faye do when her daughter shows her the trading app?",
+     "unit": "proposal weight over mutually exclusive continuations",
+     "answers": [
+      {
+       "key": "forbid_it",
+       "weight": 0.2
+      },
+      {
+       "key": "learn_it_beside_her",
+       "weight": 0.35
+      },
+      {
+       "key": "say_little_and_write",
+       "weight": 0.3
+      },
+      {
+       "key": "remainder",
+       "weight": 0.15
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored proposal weights fixed before the draw; seed fixed in advance"
+     ]
+    }
+   ],
+   "context_roots": [
+    {
+     "event_id": "ev.faye.world",
+     "kind": "accepted_world",
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "event_id": "ev.faye.inner",
+     "kind": "inner",
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    }
+   ]
+  },
+  "processes": [
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.collapse_2022.change_arc.adaptation.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc-phase:collapse_2022:adaptation",
+    "scale": {
+     "phase": "adaptation",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_contained_event",
+     "semantic_role": "change_arc_phase_process"
+    },
+    "support": [
+     "event.profile.collapse_2022.change_arc"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.collapse_2022.change_arc.anticipation.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc-phase:collapse_2022:anticipation",
+    "scale": {
+     "phase": "anticipation",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_contained_event",
+     "semantic_role": "change_arc_phase_process"
+    },
+    "support": [
+     "event.profile.collapse_2022.change_arc"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.collapse_2022.change_arc.focal_change.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc-phase:collapse_2022:focal_change",
+    "scale": {
+     "phase": "focal_change",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_contained_event",
+     "semantic_role": "change_arc_phase_process"
+    },
+    "support": [
+     "event.profile.collapse_2022.change_arc"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.collapse_2022.change_arc.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc:collapse_2022",
+    "scale": {
+     "affected_referent_id": "referent.profile.faye.person.faye",
+     "change_kind": "financial_loss_and_shame",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_event_topology",
+     "semantic_role": "change_arc_process"
+    },
+    "support": [
+     "change_arc_scaffold:collapse_2022"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.faye.person.faye.is.body",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "person-is:faye",
+    "scale": {
+     "process_key": "body",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.faye.person.faye"
+    },
+    "support": [
+     "event.profile.faye.person.faye.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.faye.person.faye.is.kin",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "person-is:faye",
+    "scale": {
+     "process_key": "kin",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.faye.person.faye"
+    },
+    "support": [
+     "event.profile.faye.person.faye.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.faye.person.faye.is.knowledge",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "person-is:faye",
+    "scale": {
+     "process_key": "knowledge",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.faye.person.faye"
+    },
+    "support": [
+     "event.profile.faye.person.faye.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.faye.person.faye.is.meaning",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "person-is:faye",
+    "scale": {
+     "process_key": "meaning",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.faye.person.faye"
+    },
+    "support": [
+     "event.profile.faye.person.faye.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.faye.person.faye.is.means",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "person-is:faye",
+    "scale": {
+     "process_key": "means",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.faye.person.faye"
+    },
+    "support": [
+     "event.profile.faye.person.faye.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.faye.person.faye.is.partnership",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "person-is:faye",
+    "scale": {
+     "process_key": "partnership",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.faye.person.faye"
+    },
+    "support": [
+     "event.profile.faye.person.faye.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.faye.person.faye.is.place",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "person-is:faye",
+    "scale": {
+     "process_key": "place",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.faye.person.faye"
+    },
+    "support": [
+     "event.profile.faye.person.faye.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.faye.person.faye.is.standing",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "person-is:faye",
+    "scale": {
+     "process_key": "standing",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.faye.person.faye"
+    },
+    "support": [
+     "event.profile.faye.person.faye.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.faye.person.faye.is.work",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "person-is:faye",
+    "scale": {
+     "process_key": "work",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.faye.person.faye"
+    },
+    "support": [
+     "event.profile.faye.person.faye.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.faye.person.faye.life.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "person-life:faye",
+    "scale": {
+     "profile_version": "book-person/v1",
+     "semantic_role": "person_lifecycle_index",
+     "subject_referent_id": "referent.profile.faye.person.faye"
+    },
+    "support": [
+     "person_scaffold:faye"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.leaving_doctorate.change_arc.adaptation.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc-phase:leaving_doctorate:adaptation",
+    "scale": {
+     "phase": "adaptation",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_contained_event",
+     "semantic_role": "change_arc_phase_process"
+    },
+    "support": [
+     "event.profile.leaving_doctorate.change_arc"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.leaving_doctorate.change_arc.anticipation.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc-phase:leaving_doctorate:anticipation",
+    "scale": {
+     "phase": "anticipation",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_contained_event",
+     "semantic_role": "change_arc_phase_process"
+    },
+    "support": [
+     "event.profile.leaving_doctorate.change_arc"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.leaving_doctorate.change_arc.focal_change.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc-phase:leaving_doctorate:focal_change",
+    "scale": {
+     "phase": "focal_change",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_contained_event",
+     "semantic_role": "change_arc_phase_process"
+    },
+    "support": [
+     "event.profile.leaving_doctorate.change_arc"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.leaving_doctorate.change_arc.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc:leaving_doctorate",
+    "scale": {
+     "affected_referent_id": "referent.profile.faye.person.faye",
+     "change_kind": "abandoned_vocation",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_event_topology",
+     "semantic_role": "change_arc_process"
+    },
+    "support": [
+     "change_arc_scaffold:leaving_doctorate"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.redundancy_and_stones.change_arc.adaptation.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc-phase:redundancy_and_stones:adaptation",
+    "scale": {
+     "phase": "adaptation",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_contained_event",
+     "semantic_role": "change_arc_phase_process"
+    },
+    "support": [
+     "event.profile.redundancy_and_stones.change_arc"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.redundancy_and_stones.change_arc.anticipation.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc-phase:redundancy_and_stones:anticipation",
+    "scale": {
+     "phase": "anticipation",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_contained_event",
+     "semantic_role": "change_arc_phase_process"
+    },
+    "support": [
+     "event.profile.redundancy_and_stones.change_arc"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.redundancy_and_stones.change_arc.focal_change.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc-phase:redundancy_and_stones:focal_change",
+    "scale": {
+     "phase": "focal_change",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_contained_event",
+     "semantic_role": "change_arc_phase_process"
+    },
+    "support": [
+     "event.profile.redundancy_and_stones.change_arc"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.redundancy_and_stones.change_arc.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc:redundancy_and_stones",
+    "scale": {
+     "affected_referent_id": "referent.profile.faye.person.faye",
+     "change_kind": "change_of_work",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_event_topology",
+     "semantic_role": "change_arc_process"
+    },
+    "support": [
+     "change_arc_scaffold:redundancy_and_stones"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.works_closure.change_arc.adaptation.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc-phase:works_closure:adaptation",
+    "scale": {
+     "phase": "adaptation",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_contained_event",
+     "semantic_role": "change_arc_phase_process"
+    },
+    "support": [
+     "event.profile.works_closure.change_arc"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.works_closure.change_arc.anticipation.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc-phase:works_closure:anticipation",
+    "scale": {
+     "phase": "anticipation",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_contained_event",
+     "semantic_role": "change_arc_phase_process"
+    },
+    "support": [
+     "event.profile.works_closure.change_arc"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.works_closure.change_arc.focal_change.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc-phase:works_closure:focal_change",
+    "scale": {
+     "phase": "focal_change",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_contained_event",
+     "semantic_role": "change_arc_phase_process"
+    },
+    "support": [
+     "event.profile.works_closure.change_arc"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.works_closure.change_arc.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+    ],
+    "reference_frame": "change-arc:works_closure",
+    "scale": {
+     "affected_referent_id": "referent.profile.faye.person.faye",
+     "change_kind": "loss_of_institution",
+     "profile_version": "book-change-arc/v1",
+     "relationship": "unweighted_event_topology",
+     "semantic_role": "change_arc_process"
+    },
+    "support": [
+     "change_arc_scaffold:works_closure"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   }
+  ],
+  "revision": {
+   "number": 1,
+   "previous_model_hash": "cb24467c43d301aa8d9ab8f83b8c208ef23439f31151785067f591a51c960a6e",
+   "provenance": [
+    "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+   ],
+   "reason": "Revision 1: shocks rebuilt as change arcs (adding the 2023 redundancy), wants as inner Events under an inner root, places, the long developments enclosing the life, a school period, outlook and threat Cuts per period, motivational-attention Cuts, concepts with realizations, and one open decision (the daughter's trading app) for a seeded draw."
+  },
+  "schema": "life-sim-rust-model/v1",
+  "time_unit": "year"
+ },
+ "requireDescribedNumbers": true
+}

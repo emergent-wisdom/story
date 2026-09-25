@@ -1,0 +1,66 @@
+{
+  "schema": "meaning-model-direction-draw/v1",
+  "modelHash": "65cbe4fe46ca1fbc9be0eaf231a92238ecf9129635a5122c68e87e8551bba2d1",
+  "cutId": "cut.faye.2025.daughter_app.response",
+  "parentEventId": "ev.faye.daughter_app",
+  "question": "What does Faye do when her daughter shows her the trading app?",
+  "unit": "proposal weight over mutually exclusive continuations",
+  "answers": [
+    {
+      "key": "forbid_it",
+      "weight": 0.2
+    },
+    {
+      "key": "learn_it_beside_her",
+      "weight": 0.35
+    },
+    {
+      "key": "remainder",
+      "weight": 0.15
+    },
+    {
+      "key": "say_little_and_write",
+      "weight": 0.3
+    }
+  ],
+  "seed": "rabbit-hole-run/faye/daughter-app/2025-09",
+  "algorithm": "sha256-first-32-bits/v1",
+  "u": 0.2054575360380113,
+  "cumulative": [
+    {
+      "key": "forbid_it",
+      "weight": 0.2,
+      "from": 0,
+      "to": 0.2
+    },
+    {
+      "key": "learn_it_beside_her",
+      "weight": 0.35,
+      "from": 0.2,
+      "to": 0.55
+    },
+    {
+      "key": "remainder",
+      "weight": 0.15,
+      "from": 0.55,
+      "to": 0.7000000000000001
+    },
+    {
+      "key": "say_little_and_write",
+      "weight": 0.3,
+      "from": 0.7000000000000001,
+      "to": 1
+    }
+  ],
+  "realized": "learn_it_beside_her",
+  "realizedIsRemainder": false,
+  "drawIndex": 0,
+  "reroll": false,
+  "priorDraws": [],
+  "recorded": null,
+  "graphHash": null,
+  "previousGraphHash": null,
+  "graphMutation": false,
+  "worldMutation": false,
+  "nextStep": "Build learn_it_beside_her as the realized continuation and link its Event from ev.faye.daughter_app with a realizes_forecast relation naming this Cut and learn_it_beside_her. A further draw over this Cut is recorded as a reroll."
+}

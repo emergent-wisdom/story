@@ -1,0 +1,10 @@
+{
+ "targetKind": "name",
+ "brief": "Name the invented online chat server (a Discord-style community) that Kieran joins in 2020: a few thousand anonymous members, mostly young men, who farm yields in decentralized finance through the night, trade tips and memes, and treat each other as a tribe. Its name should be the kind of in-joke name such servers actually had in 2020, and it must not be the name of a real community.",
+ "context": "British English narrator; the server itself is international and English-speaking with crypto slang. Existing names: Kieran Hale (Kez), Barbara Ashby, Laura Russell (Lor), the White Hart Building Society (the Hart), Faye Titcombe (author persona).",
+ "constraints": [
+  "Must not be a known real crypto community's name",
+  "Should sound like a 2020 crypto in-joke rather than a literary symbol",
+  "Should not repeat the story's rabbit imagery directly"
+ ]
+}

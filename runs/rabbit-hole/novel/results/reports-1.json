@@ -1,0 +1,30 @@
+{
+  "schema": "meaning-model-understanding-record/v1",
+  "graphHash": "651e8a04d0adc4075c353db425ffa17377e42982fcad808b71abc578c8b98922",
+  "previousGraphHash": "7fef5c1ee63206a31b279dca680219de539825eb8e659e2dfaaeada12f50bf5c",
+  "understandingRootId": "understanding.calling-llm-claude-opus-5-5",
+  "nodeIds": [
+    "report.wilson",
+    "report.harari",
+    "report.works_closure",
+    "report.car_plant",
+    "report.avebury",
+    "report.clearing",
+    "report.scam_code",
+    "report.crypto_rules",
+    "report.lockdowns",
+    "report.crash_2020",
+    "report.defi_summer",
+    "report.peak_2021",
+    "report.stablecoin",
+    "report.lender_freeze",
+    "report.exchange_collapse",
+    "report.genesis"
+  ],
+  "authoringStep": 23,
+  "writtenAgainstModel": "d0424dd9ab5a52105fa426562446ea080aae8805fe99216be04f745fe8b3b09a",
+  "graphMutation": true,
+  "worldMutation": false,
+  "semanticVerification": false,
+  "nextStep": "Keep recording as you work: choices, ideas, predictions and their reasons, linked to what they concern. A later agent reads them through life_construction_replay and life_model_outline."
+}

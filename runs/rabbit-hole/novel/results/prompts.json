@@ -1,0 +1,163 @@
+{
+  "prompts": [
+    {
+      "name": "life_modeling_start",
+      "title": "Start Meaning Model modeling",
+      "description": "Begin with the operational protocol, a purpose-specific profile and an example; the papers carry the reasons behind the rules.",
+      "arguments": [
+        {
+          "name": "purpose",
+          "description": "One of creative_story, source_reconstruction, person_reflection, observation, forecasting, counterfactual.",
+          "required": true
+        },
+        {
+          "name": "sessionMode",
+          "description": "One of first_use, repeat_same_domain, new_domain, consequential or continuation. Use continuation when you continue recorded work in this server; new_domain or consequential start a new reading record.",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "life_general_modeling_start",
+      "title": "Build and revise a general-purpose world model",
+      "description": "Model macro context and long-term developments before local processes, with optional Jev estimation and automatic graph ingestion. Storytelling is independent and opt-in.",
+      "arguments": [
+        {
+          "name": "purpose",
+          "description": "One of observation, forecasting or counterfactual. observation also covers explaining why something observed happened; forecasting adds testable values after the evidence cutoff; counterfactual holds an alternative premise apart from the accepted history.",
+          "required": false
+        },
+        {
+          "name": "sessionMode",
+          "description": "One of first_use, repeat_same_domain, new_domain, consequential or continuation. Use continuation when you continue recorded work in this server: the prompt then starts with reading the construction record.",
+          "required": false
+        },
+        {
+          "name": "brief",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "life_story_scene_start",
+      "title": "Develop a scene with the optional storytelling add-on",
+      "description": "Establish initial story settings and human involvement separately, reuse explicit delegation, then model the world first (candidate worlds, their opening, implications and a route), then author outlook and character life trends, and prepare, review, and commit scenes within the agreed role.",
+      "arguments": []
+    },
+    {
+      "name": "life_story_structure_explore",
+      "title": "Explore story structures or names from an everyday word",
+      "description": "Ask the invoking LLM for structures or story-fitting names inspired by a random common word or a supplied seed. Use targetKind name when naming new characters or places. Create the model and story graph first; record the returned seed and authored alternatives with life_story_author_record.",
+      "arguments": [
+        {
+          "name": "targetKind",
+          "required": false
+        },
+        {
+          "name": "brief",
+          "required": true
+        },
+        {
+          "name": "context",
+          "required": false
+        },
+        {
+          "name": "seedWord",
+          "required": false
+        },
+        {
+          "name": "constraints",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "life_story_purpose_review",
+      "title": "Review a chapter or section’s purpose",
+      "description": "At completed chapters, turning points, or consequential revisions, ask the invoking LLM what the unit aims to accomplish and whether it succeeds. Review anticipation, change, adaptation and the selected author model’s prose effects where relevant. Judgments are advisory.",
+      "arguments": [
+        {
+          "name": "graphHash",
+          "required": true
+        },
+        {
+          "name": "rootId",
+          "required": true
+        },
+        {
+          "name": "unit",
+          "required": false
+        },
+        {
+          "name": "authorGoal",
+          "required": false
+        },
+        {
+          "name": "authorModelNodeId",
+          "required": false
+        },
+        {
+          "name": "context",
+          "required": false
+        },
+        {
+          "name": "accessScopes",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "life_story_deepen",
+      "title": "Deepen an existing story and its model",
+      "description": "Bind existing prose and model evidence for a separate revision pass. Preserve the baseline, record voice and depth findings as Understanding Nodes, revise locally or structurally within delegation, and compare the final canonical result.",
+      "arguments": [
+        {
+          "name": "graphHash",
+          "required": true
+        },
+        {
+          "name": "storyRootId",
+          "required": true
+        },
+        {
+          "name": "lifeTrendsNodeId",
+          "required": true
+        },
+        {
+          "name": "focusNodeId",
+          "description": "Stored outline or plan identifying the consequential choices and outcomes being reviewed; may be the story root if its text supplies this.",
+          "required": true
+        },
+        {
+          "name": "rootId",
+          "description": "Existing rendered work or unit to deepen, contained in storyRootId.",
+          "required": true
+        },
+        {
+          "name": "unit",
+          "required": false
+        },
+        {
+          "name": "authorModelNodeId",
+          "required": false
+        },
+        {
+          "name": "revisionScope",
+          "required": false
+        },
+        {
+          "name": "brief",
+          "required": false
+        },
+        {
+          "name": "accessScopes",
+          "required": true
+        },
+        {
+          "name": "contextNodeIds",
+          "required": false
+        }
+      ]
+    }
+  ]
+}

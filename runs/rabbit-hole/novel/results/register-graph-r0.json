@@ -1,0 +1,42 @@
+{
+  "schema": "life-sim-mcp-service/v2",
+  "graphHash": "7b5f55a9cd5fa1f7e0f5d8d48e0064e96b29d90e598c540faafb97b9d346d8d9",
+  "snapshotHash": "3a3cea980c7d4118a1c84be9137592de9883eb379c54084756e1d77fe23ee1fc",
+  "stored": true,
+  "reusedExisting": false,
+  "immutableRevision": true,
+  "summary": {
+    "edge_count": 0,
+    "graph_hash": "7b5f55a9cd5fa1f7e0f5d8d48e0064e96b29d90e598c540faafb97b9d346d8d9",
+    "id": "rabbit-hole-novel",
+    "node_count": 1,
+    "revision": {
+      "number": 0,
+      "previous_graph_hash": null,
+      "provenance": [
+        "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+      ],
+      "reason": "Story graph bound to the story world before any story material is developed."
+    },
+    "roles": {
+      "document_root": 1
+    },
+    "root_count": 1,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "model_revision": 0,
+      "source_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "requestPayloadHash": "3dd0f6674d2d1472a4a99cfc898edf519ab18af5e7f57aadbdcae298c0ef1da0"
+}

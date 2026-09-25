@@ -1,0 +1,60 @@
+{
+  "schema": "life-sim-mcp-service/v2",
+  "graphHash": "d68afc1715d8f1b6d5546a33c09ba1becc52c9f1a75d063312f22f7fee20bd51",
+  "previousGraphHash": "0a0e57fdca9044901c0fe4fa7f639c7d806e364c0e053ce5dc77f82dbaadffed",
+  "snapshotHash": "3a3cea980c7d4118a1c84be9137592de9883eb379c54084756e1d77fe23ee1fc",
+  "stored": true,
+  "reusedExisting": false,
+  "immutableRevision": true,
+  "additiveBatch": true,
+  "batch": {
+    "added_edge_count": 2,
+    "added_node_count": 1,
+    "added_root_count": 0
+  },
+  "summary": {
+    "edge_count": 65,
+    "graph_hash": "d68afc1715d8f1b6d5546a33c09ba1becc52c9f1a75d063312f22f7fee20bd51",
+    "id": "rabbit-hole-novel",
+    "node_count": 26,
+    "revision": {
+      "number": 17,
+      "previous_graph_hash": "0a0e57fdca9044901c0fe4fa7f639c7d806e364c0e053ce5dc77f82dbaadffed",
+      "provenance": [
+        "Meaning Model storytelling add-on v1",
+        "author:calling-llm:claude-opus-5-5",
+        "Authoring clock: authoring_step, not world time."
+      ],
+      "reason": "Record candidate author.names.society.candidates."
+    },
+    "roles": {
+      "document_root": 1,
+      "externalized_reflection": 8,
+      "metadata": 17
+    },
+    "root_count": 2,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "model_revision": 0,
+      "source_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "requestPayloadHash": "f0aa185c5cfa8f1e1772b570ff5e8216945d3d93d46c8c4632ae02a0fcf596d5",
+  "recordNodeId": "author.names.society.candidates",
+  "understandingRootId": "story.understanding.c478361e6869af25970682a2",
+  "authoringStep": 16,
+  "understandingNode": false,
+  "graphMutation": true,
+  "worldMutation": false,
+  "semanticVerification": false
+}

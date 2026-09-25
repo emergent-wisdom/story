@@ -1,0 +1,10 @@
+{
+ "targetKind": "name",
+ "brief": "Name the invented author persona who writes this novel: an English person born in 1979 in Swindon, Wiltshire, into a railway-works family; studied archaeology, left a doctorate on Neolithic gathering sites to work for eighteen years in a building society's payments operations; fell into decentralized finance in 2020 and lost money in 2022; in 2026 guides visitors at a Neolithic stone circle and writes this first novel in the evenings. Propose a first name and surname a working-class Swindon family would give a child in 1979, plus the name the persona would publish under if different.",
+ "context": "Language: English (British). Setting of the author's life: Swindon and the Wiltshire downs (Avebury, the Ridgeway). Tone of the novel: wry, humane, curious, with deep-time perspective. No other names exist yet in this story.",
+ "constraints": [
+  "The persona is explicitly fictional and must not resemble a real, known novelist's name",
+  "Plausible for an English child born in 1979 in a working-class family",
+  "Short enough to sit on a book cover"
+ ]
+}

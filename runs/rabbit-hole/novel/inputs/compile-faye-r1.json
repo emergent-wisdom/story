@@ -1,0 +1,176 @@
+{
+ "profileRequest": {
+  "schema": "life-sim-rust-profile-compilation/v1",
+  "model": {
+   "id": "faye-titcombe-life",
+   "time_unit": "year",
+   "reason": "Revision 1: shocks as change arcs, wants as inner Events, places, enclosing long developments, concepts, outlook Cuts per period and one open decision.",
+   "provenance": [
+    "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+   ]
+  },
+  "profiles": [
+   {
+    "kind": "person_scaffold",
+    "profile": {
+     "id": "faye",
+     "subject_id": "faye",
+     "person_boundary": "Faye Titcombe, invented author persona: one English woman born 1979 in Swindon, Wiltshire",
+     "continuity_criterion": "Same living embodied person",
+     "life_description": "Invented: railway-works childhood in Swindon; archaeology and an unfinished doctorate on Neolithic gathering sites; eighteen years in a building society's payments operations; a decentralized-finance rabbit hole 2020-2022 and its losses; from 2023 a guide at the Avebury stones who writes this novel in 2025-2026",
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    }
+   },
+   {
+    "kind": "change_arc_scaffold",
+    "profile": {
+     "id": "works_closure",
+     "change_kind": "loss_of_institution",
+     "affected_referent_id": "referent.profile.faye.person.faye",
+     "description": "The Swindon railway works close in 1986 and her father loses the only job he has had.",
+     "interval": {
+      "start": 1985.0,
+      "end": 1990.7
+     },
+     "anticipation": {
+      "description": "Talk at the kitchen table about the works running down; her father says they will never close a place that big.",
+      "interval": {
+       "start": 1985.0,
+       "end": 1986.2
+      }
+     },
+     "focal_change": {
+      "description": "The works close after about a hundred and forty years. Her father, forty-four, is out of work. Faye is seven.",
+      "interval": {
+       "start": 1986.2,
+       "end": 1986.3
+      }
+     },
+     "adaptation": {
+      "description": "Her father drives a taxi, then parcels, and stops walking on the downs. Faye learns that the routine that made the house safe was someone else's to end, and begins wanting to know how things work so that nothing can close on her without warning.",
+      "interval": {
+       "start": 1986.3,
+       "end": 1990.7
+      }
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    }
+   },
+   {
+    "kind": "change_arc_scaffold",
+    "profile": {
+     "id": "leaving_doctorate",
+     "change_kind": "abandoned_vocation",
+     "affected_referent_id": "referent.profile.faye.person.faye",
+     "description": "She leaves an unfinished doctorate to care for her mother and pay her debts.",
+     "interval": {
+      "start": 2003.5,
+      "end": 2008.0
+     },
+     "anticipation": {
+      "description": "Her mother's illness worsens, the debt grows and the final year's funding is not renewed.",
+      "interval": {
+       "start": 2003.5,
+       "end": 2004.2
+      }
+     },
+     "focal_change": {
+      "description": "She leaves the doctorate, moves home to Swindon and takes a job clearing payment exceptions at a building society.",
+      "interval": {
+       "start": 2004.2,
+       "end": 2004.4
+      }
+     },
+     "adaptation": {
+      "description": "She tells herself it is temporary. The payments office becomes her field site: she watches colleagues as a band, the tea round as food sharing, the appraisal as a status ritual, and keeps notes she never writes up.",
+      "interval": {
+       "start": 2004.4,
+       "end": 2008.0
+      }
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    }
+   },
+   {
+    "kind": "change_arc_scaffold",
+    "profile": {
+     "id": "collapse_2022",
+     "change_kind": "financial_loss_and_shame",
+     "affected_referent_id": "referent.profile.faye.person.faye",
+     "description": "In May 2022 an algorithmic stablecoin loses its peg; Faye loses about two thirds of the family savings she moved into decentralized finance.",
+     "interval": {
+      "start": 2022.2,
+      "end": 2023.8
+     },
+     "anticipation": {
+      "description": "She has read the stablecoin's design and knows its weak point in theory; the chat server says the peg has always come back.",
+      "interval": {
+       "start": 2022.2,
+       "end": 2022.35
+      }
+     },
+     "focal_change": {
+      "description": "The peg breaks and the sister token collapses within days. She holds, then it is too late to sell for anything.",
+      "interval": {
+       "start": 2022.35,
+       "end": 2022.4
+      }
+     },
+     "adaptation": {
+      "description": "She hides the loss for two months, then tells her partner. The shame is less about the money than about having known the mechanism and held anyway. The partnership ends in 2023; she keeps her daughter's trust by telling her the truth.",
+      "interval": {
+       "start": 2022.4,
+       "end": 2023.8
+      }
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    }
+   },
+   {
+    "kind": "change_arc_scaffold",
+    "profile": {
+     "id": "redundancy_and_stones",
+     "change_kind": "change_of_work",
+     "affected_referent_id": "referent.profile.faye.person.faye",
+     "description": "Her payments team is automated away in 2023 and she becomes a seasonal guide at the Avebury stones.",
+     "interval": {
+      "start": 2022.9,
+      "end": 2025.0
+     },
+     "anticipation": {
+      "description": "Rumours that the overnight exception queue will be handled by software; she trains the system that replaces her.",
+      "interval": {
+       "start": 2022.9,
+       "end": 2023.3
+      }
+     },
+     "focal_change": {
+      "description": "Redundancy. At forty-four, the age her father was in 1986, she is out of the only job she has had for eighteen years.",
+      "interval": {
+       "start": 2023.3,
+       "end": 2023.4
+      }
+     },
+     "adaptation": {
+      "description": "She takes a guide's job at the stones she once studied. Talking to visitors about the first farmers every day, she starts writing fiction in the evenings.",
+      "interval": {
+       "start": 2023.4,
+       "end": 2025.0
+      }
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    }
+   }
+  ]
+ }
+}

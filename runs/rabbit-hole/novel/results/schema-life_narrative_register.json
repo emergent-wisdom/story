@@ -1,0 +1,32 @@
+{
+  "name": "life_narrative_register",
+  "description": "Register a complete immutable revision-0 graph-native story/understanding artifact in the Rust authority. Story passages remain canonical nodes, externalized reflections remain distinct scope-guarded testimony, and typed edges may target stable model objects or validated nested subpaths. Read life-sim://protocol/narrative-understanding-graph before first use. This layer is optional and does not mutate the bound world. A complete valid request, model and graph are shown in life-sim://example/minimal-model-and-graph.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "requestId": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256
+      },
+      "narrativeGraph": {
+        "type": "object",
+        "propertyNames": {
+          "type": "string"
+        },
+        "additionalProperties": {}
+      }
+    },
+    "required": [
+      "requestId",
+      "narrativeGraph"
+    ],
+    "$schema": "https://json-schema.org/draft/2020-12/schema"
+  },
+  "annotations": {
+    "readOnlyHint": false,
+    "destructiveHint": false,
+    "idempotentHint": true,
+    "openWorldHint": false
+  }
+}

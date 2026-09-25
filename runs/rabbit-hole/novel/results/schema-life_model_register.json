@@ -1,0 +1,36 @@
+{
+  "name": "life_model_register",
+  "description": "Validate, hash, and store one complete immutable revision-0 typed model in the Rust machine. The result's descriptionCoverage lists Events that carry a Cut without a description; give each one, so its numbers mean something, and describe most other Events. requireDescribedNumbers refuses such a model. A complete valid request, model and graph are shown in life-sim://example/minimal-model-and-graph.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "requestId": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256
+      },
+      "model": {
+        "type": "object",
+        "propertyNames": {
+          "type": "string"
+        },
+        "additionalProperties": {}
+      },
+      "requireDescribedNumbers": {
+        "default": false,
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "requestId",
+      "model"
+    ],
+    "$schema": "https://json-schema.org/draft/2020-12/schema"
+  },
+  "annotations": {
+    "readOnlyHint": false,
+    "destructiveHint": false,
+    "idempotentHint": true,
+    "openWorldHint": false
+  }
+}

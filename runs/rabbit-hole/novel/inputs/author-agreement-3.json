@@ -1,0 +1,25 @@
+{
+ "graphHash": "ffaff0dea4800a49dec8a8ddffc66d96a7f9f6c19e9eb135a00c5378730b8937",
+ "requestId": "author-agreement-3",
+ "nodeId": "author.agreement.3",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "selection",
+ "text": "Change from the human (2026-09-25, about 20:13 CEST): 'Actually do not care about the PDF for now. The other AI agent will do it. Just focus on finishing the story.' The PDF is removed from this run's deliverables; another agent will make it. Everything else in author.agreement.2 stands: about 16,000 words in twelve parts, straight through to a complete draft, iterate on the finished story, everything inside the graph, then novel.md rendered by the tool and the construction export.",
+ "data": {
+  "decidedBy": "human",
+  "removedDeliverables": [
+   "PDF"
+  ],
+  "focus": "finish the story"
+ },
+ "links": [
+  {
+   "relation": "supersedes",
+   "targetNodeId": "author.agreement.2"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "graphHash": "627b14b59cd6b521b061d4efbc06099d2b6875e3ddb1cc24af97dc5739a539c9",
+ "requestId": "name-clerk-selection",
+ "nodeId": "author.names.clerk.selection",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "selection",
+ "text": "Selected under delegation (LLM choice): the protagonist is Kieran Hale, born 1990 in Swindon, called Kez by colleagues. The name is ordinary for his year and town, and the seed's sense of listening fits a man whose job is to hear a scam in a stranger's voice, without symbolism on the surface. Tom Earley reads as a pun; Ryan Hearn is flatter.",
+ "data": {
+  "chosen": "Kieran Hale",
+  "nickname": "Kez",
+  "decidedBy": "calling LLM under delegation",
+  "seedWord": "ear"
+ },
+ "links": [
+  {
+   "relation": "refines",
+   "targetNodeId": "author.names.clerk.candidates"
+  }
+ ],
+ "about": [
+  {
+   "record": "referent:referent.profile.protagonist.person.protagonist"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "life-sim-mcp-service/v2",
+  "graphHash": "674f7710bb4a23c390be51293a3d6fe8f4e0f42419c6269e13578ed4c202f1aa",
+  "previousGraphHash": "1e5748960243537870443947f29c78fd884dcf05ab7f118d788b0df5f5af9e51",
+  "snapshotHash": "3a3cea980c7d4118a1c84be9137592de9883eb379c54084756e1d77fe23ee1fc",
+  "stored": true,
+  "reusedExisting": false,
+  "immutableRevision": true,
+  "additiveBatch": true,
+  "batch": {
+    "added_edge_count": 3,
+    "added_node_count": 1,
+    "added_root_count": 0
+  },
+  "summary": {
+    "edge_count": 10,
+    "graph_hash": "674f7710bb4a23c390be51293a3d6fe8f4e0f42419c6269e13578ed4c202f1aa",
+    "id": "rabbit-hole-novel",
+    "node_count": 6,
+    "revision": {
+      "number": 4,
+      "previous_graph_hash": "1e5748960243537870443947f29c78fd884dcf05ab7f118d788b0df5f5af9e51",
+      "provenance": [
+        "Meaning Model storytelling add-on v1",
+        "author:calling-llm:claude-opus-5-5",
+        "Authoring clock: authoring_step, not world time."
+      ],
+      "reason": "Record selection author.names.author.selection."
+    },
+    "roles": {
+      "document_root": 1,
+      "externalized_reflection": 2,
+      "metadata": 3
+    },
+    "root_count": 2,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "model_revision": 0,
+      "source_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "requestPayloadHash": "76654e7dbc7ff47adeda65714c8282b365d1f7288cbb5d611c021355c243f874",
+  "recordNodeId": "author.names.author.selection",
+  "understandingRootId": "story.understanding.c478361e6869af25970682a2",
+  "authoringStep": 3,
+  "understandingNode": true,
+  "graphMutation": true,
+  "worldMutation": false,
+  "semanticVerification": false,
+  "advancedFrom": "cedb7a8b07f33585646cd3ece748958684790debe4652813b4afbf26bb3f63fe"
+}

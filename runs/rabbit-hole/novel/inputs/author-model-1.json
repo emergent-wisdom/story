@@ -1,0 +1,199 @@
+{
+ "graphHash": "50e837c1eea54dc8ed685e07814bc93cb3907a18f5e2d6319d51daf666815d7f",
+ "requestId": "author-model-1",
+ "nodeId": "author.model.faye",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "author_model",
+ "text": "Author model: Faye Titcombe, an invented persona (fictional_author), writing this novel in 2025-2026. Her life (faye-titcombe-life r2) produces six writing dispositions: band vision (offices and chat servers seen as forager bands), mechanism clarity (exact, brief explanations of how the money moves), walking beside (no warnings, no punishment, no absolution), wry comedy as a way of carrying shame, a landscape of chalk and stones with three clocks running at once, and respect for the dignity of routine. Each has a counterweight recorded with it. All basis is invented except one labelled interpretation. Composition point and reasons are recorded as basis b.composition; her life model is faye-titcombe-life revision 2 (model 4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e).",
+ "data": {
+  "schema": "meaning-model-story-author-model/v1",
+  "modeledAuthorId": "referent.profile.faye.person.faye",
+  "mode": "fictional_author",
+  "label": "Faye Titcombe (invented persona), writing in 2025-2026 at 46-47",
+  "basis": [
+   {
+    "id": "b.works",
+    "kind": "invented",
+    "description": "Railway-works childhood in north Swindon; the works close in 1986 when she is seven and her father loses the only job he has had (faye-titcombe-life: event.profile.works_closure.change_arc)."
+   },
+   {
+    "id": "b.deeptime",
+    "kind": "invented",
+    "description": "Trained as an archaeologist of the Neolithic; an unfinished doctorate on why scattered herders began gathering at hilltop enclosures (ev.faye.p2.study, ev.macro.downs)."
+   },
+   {
+    "id": "b.ledger",
+    "kind": "invented",
+    "description": "Eighteen years clearing payment exceptions on a three-day batch cycle, keeping private field notes on the office as a band (ev.faye.p3.ledger, ev.faye.doctorate.adapt.field_notes)."
+   },
+   {
+    "id": "b.fall",
+    "kind": "invented",
+    "description": "Fell into decentralized finance in 2020, understood it fast, held through the May 2022 collapse because the group held and because she understood the mechanism, lost about two thirds of the family savings, hid it for two months (event.profile.collapse_2022.change_arc and its opened adaptation)."
+   },
+   {
+    "id": "b.stones",
+    "kind": "invented",
+    "description": "Since 2023 a guide at the Avebury stones, explaining deep time plainly to strangers every day; began writing fiction in 2024 (ev.faye.redundancy.adapt.guide)."
+   },
+   {
+    "id": "b.beside",
+    "kind": "invented",
+    "description": "In September 2025, finding a trading app on her fifteen-year-old daughter's phone, she chose (drawn from cut.faye.2025.daughter_app.response) to learn it beside her rather than forbid it (ev.faye.learn_beside)."
+   },
+   {
+    "id": "b.humour",
+    "kind": "interpretation",
+    "description": "Interpretation of the invented life, not a statement by Faye: her jokes about 2021 are a way of carrying shame she has not finished adapting to (cut.faye.2022.after.beliefs)."
+   },
+   {
+    "id": "b.composition",
+    "kind": "invented",
+    "description": "Composition point: autumn 2025 to autumn 2026, aged 46-47, separated with shared care of a fifteen-year-old daughter, a seasonal guide at the Avebury stones, four years from her own fall. Reasons, which conflict: to understand why a careful person who understood the mechanism still fell; love for the daughter she has chosen to walk beside; to make the shame useful; the pleasure of making (faye-titcombe-life r2, model 4d462a80: cut.faye.2026.why_write, ev.faye.learn_beside, ev.faye.composition)."
+   }
+  ],
+  "dispositions": [
+   {
+    "id": "d.band_vision",
+    "basisIds": [
+     "b.deeptime",
+     "b.ledger",
+     "b.stones"
+    ],
+    "outlookOrHabit": "She sees offices, chat servers and crowds as forager bands: the tea round as food sharing, likes as grooming, the office party as a feast at the enclosure.",
+    "writingConsequences": [
+     "Carries the Wilson and Harari idea through what the protagonist notices, not through lectures",
+     "Similes and images drawn from fire, hunting, weather, harvest and the band",
+     "Group scenes staged as rituals with a clock"
+    ],
+    "usefulContexts": "Office life, the first meetups and chat servers, the panic of the crowd in the crash.",
+    "risksOrCounterweights": "Becomes a tic or a thesis. Counterweight: ration it to moments the protagonist would notice; no character delivers the theory as a speech; let one or two images carry a whole scene.",
+    "dimensionIds": []
+   },
+   {
+    "id": "d.mechanism",
+    "basisIds": [
+     "b.ledger",
+     "b.fall",
+     "b.works",
+     "b.composition"
+    ],
+    "outlookOrHabit": "She wants the reader to know exactly how the machine works: the clearing cycle, the peg, the liquidation, the batch at two in the morning.",
+    "writingConsequences": [
+     "Short, exact explanations of mechanisms at the moment they bite",
+     "Money that can be followed: amounts, times, settlement",
+     "Jargon arriving in avalanches when the protagonist is overwhelmed, then sorted later"
+    ],
+    "usefulContexts": "The white rabbit, the first transactions, the crash, the bank's own systems.",
+    "risksOrCounterweights": "Explanation can smother feeling: this is Faye's own flaw (understanding as protection). Counterweight: the feeling arrives first and the explanation after, and at the worst moment the explanation is cut off or fails to help.",
+    "dimensionIds": [
+     "dim.explain"
+    ]
+   },
+   {
+    "id": "d.beside",
+    "basisIds": [
+     "b.beside",
+     "b.fall",
+     "b.composition"
+    ],
+    "outlookOrHabit": "She writes as someone walking beside a person who will go in anyway: no warnings, no punishment, no absolution.",
+    "writingConsequences": [
+     "Close third person that keeps faith with the protagonist's curiosity",
+     "The pull of the rabbit hole is made genuinely attractive",
+     "Costs are paid on the page without narrator judgement"
+    ],
+    "usefulContexts": "The choice to follow the rabbit, the high of 2021, the ending.",
+    "risksOrCounterweights": "Can soften costs into sentiment. Counterweight: every principal pays for the ending; the narrator never says it was worth it or not.",
+    "dimensionIds": [
+     "dim.distance"
+    ]
+   },
+   {
+    "id": "d.wry",
+    "basisIds": [
+     "b.humour",
+     "b.fall",
+     "b.composition"
+    ],
+    "outlookOrHabit": "She handles shame with dry comedy: the OMG, WTF of the fall is funny before it is frightening.",
+    "writingConsequences": [
+     "Comic lists and deadpan asides in the overwhelm",
+     "Characters who are ridiculous without being contemptible"
+    ],
+    "usefulContexts": "The first days down the rabbit hole, the jargon, the grand battle as a playground fight between tribes.",
+    "risksOrCounterweights": "Jokes can deflect from pain. Counterweight: no jokes at the worst moment; let one silence stand.",
+    "dimensionIds": []
+   },
+   {
+    "id": "d.landscape",
+    "basisIds": [
+     "b.deeptime",
+     "b.stones",
+     "b.works"
+    ],
+    "outlookOrHabit": "Chalk, stones, the old road and the railway sheds are physically present in her mind; three clocks run at once: the body's, the institution's and the machine's.",
+    "writingConsequences": [
+     "Sensory detail from the downs, the chalk and the sheds where the protagonist is actually standing",
+     "A structural motif of three clocks"
+    ],
+    "usefulContexts": "Openings of parts, the protagonist alone, the ending.",
+    "risksOrCounterweights": "Purple landscape writing. Counterweight: landscape only where the protagonist is, and only what they would see.",
+    "dimensionIds": []
+   },
+   {
+    "id": "d.routine_dignity",
+    "basisIds": [
+     "b.works",
+     "b.ledger"
+    ],
+    "outlookOrHabit": "She respects the nine-to-five world: her father's works fed a town. The blue pill world is safe and loving as well as dull.",
+    "writingConsequences": [
+     "The ordinary world is written with affection and specific pleasures",
+     "The monotony is felt through repetition, not contempt"
+    ],
+    "usefulContexts": "The first two parts and the return.",
+    "risksOrCounterweights": "Affection can make the rabbit hole seem unmotivated. Counterweight: let the monotony ache, week after week, in the protagonist's body.",
+    "dimensionIds": []
+   }
+  ],
+  "dimensions": [
+   {
+    "id": "dim.explain",
+    "meaning": "How much of a scene's prose is spent explaining how a mechanism works",
+    "comparisonQuestion": "Compared with a literary novel about money (about 0.05 of words) and a popular explainer (about 0.5)",
+    "unit": "share of scene words",
+    "minimum": 0,
+    "maximum": 1,
+    "value": 0.15
+   },
+   {
+    "id": "dim.distance",
+    "meaning": "How close the narration sits to the protagonist's perception",
+    "comparisonQuestion": "From omniscient summary (0) to free indirect style inside the protagonist's perception (1)",
+    "unit": "authored position on a 0-1 scale",
+    "minimum": 0,
+    "maximum": 1,
+    "value": 0.75
+   }
+  ]
+ },
+ "about": [
+  {
+   "record": "referent:referent.profile.faye.person.faye",
+   "modelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e"
+  },
+  {
+   "record": "event:ev.faye.learn_beside",
+   "modelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e"
+  },
+  {
+   "record": "event:ev.faye.composition",
+   "modelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e"
+  }
+ ]
+}

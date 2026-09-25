@@ -1,0 +1,10 @@
+{
+ "targetKind": "name",
+ "brief": "Name the protagonist's partner: an English woman born in 1991, an intensive-care nurse at the Swindon hospital through the 2020-2021 pandemic, who has been saving with Kieran for a house deposit. Propose a first name and surname plausible for 1991 (she keeps her own surname) and what Kieran calls her.",
+ "context": "Language: British English. Setting: Swindon and the Wiltshire downs, 2019-2023. Tone: wry, humane, curious. Existing names: Kieran Hale (protagonist, called Kez), Faye Titcombe (author persona, not a character). Also being named: a retired woman engineer born 1953.",
+ "constraints": [
+  "Plausible for an English girl born in 1991",
+  "Distinct in sound and initials from Kieran Hale and Faye Titcombe",
+  "Ordinary, not symbolic"
+ ]
+}

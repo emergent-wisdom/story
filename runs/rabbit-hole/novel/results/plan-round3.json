@@ -1,0 +1,15 @@
+{
+  "schema": "meaning-model-understanding-record/v1",
+  "graphHash": "7fef5c1ee63206a31b279dca680219de539825eb8e659e2dfaaeada12f50bf5c",
+  "previousGraphHash": "8a8f644723e31b78115c80b85db5abe1e096f5b1a5a7a4dbd8e21bcb70b76fad",
+  "understandingRootId": "understanding.calling-llm-claude-opus-5-5",
+  "nodeIds": [
+    "note.plan.round3"
+  ],
+  "authoringStep": 22,
+  "writtenAgainstModel": "d0424dd9ab5a52105fa426562446ea080aae8805fe99216be04f745fe8b3b09a",
+  "graphMutation": true,
+  "worldMutation": false,
+  "semanticVerification": false,
+  "nextStep": "Keep recording as you work: choices, ideas, predictions and their reasons, linked to what they concern. A later agent reads them through life_construction_replay and life_model_outline."
+}

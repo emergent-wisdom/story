@@ -1,0 +1,24 @@
+{
+ "graphHash": "674f7710bb4a23c390be51293a3d6fe8f4e0f42419c6269e13578ed4c202f1aa",
+ "requestId": "idea-round1-plan",
+ "nodeId": "author.idea.round1.plan",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "idea",
+ "text": "End of round 1 (19:28 CEST). Made: story model r0 (deep-time frame, protagonist scaffold), story graph, brief and agreement records, author persona Faye Titcombe named and her life registered as its own model (faye-titcombe-life r0). Next, from that model's open questions: rebuild her shocks with change_arc_scaffold so they read as change arcs; model her deepest and learned wants in the construct the tool reads; give Cut-bearing moments places (Swindon, the south-coast university, the payments office, Avebury); add the long developments that enclose her life (the Swindon railway works 1843-1986, the building society and the three-day clearing cycle, the Neolithic landscape of the downs); name concepts (routine as safety, understanding as protection, the band); draw one choice of hers. Then her author model (voice), the author_reader stage, and at least three candidate worlds. Early candidate seeds, not yet chosen: (a) a payments-operations clerk whose job is scam checks, whose white rabbit is a customer who turns the fraud script back on them; (b) twelve words of a recovery phrase found on a paying-in slip, one word per part; (c) the deep-time layers of the Wiltshire downs (Avebury, the Ridgeway, the chalk horse) beside a back-office town, so the Wilson/Harari gap is a landscape the protagonist drives through daily. Pop-culture echoes to weigh: liquid mirror (touching glass to sign), the hidden world behind an ordinary wall, a flood of letters (notifications), the man behind the curtain, the painted sky at the edge of the set, off with their heads (liquidations).",
+ "about": [
+  {
+   "record": "event:event.profile.faye.person.faye.life",
+   "modelHash": "cb24467c43d301aa8d9ab8f83b8c208ef23439f31151785067f591a51c960a6e"
+  },
+  {
+   "record": "event:event.deep.crypto"
+  },
+  {
+   "record": "referent:referent.profile.protagonist.person.protagonist"
+  }
+ ]
+}

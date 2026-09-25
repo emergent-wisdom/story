@@ -1,0 +1,59 @@
+{
+  "schema": "life-sim-mcp-service/v2",
+  "graphHash": "feb1e048a159ff4bed90d077ac270fdce9894cdf6604e7ce653ebd8cadde092e",
+  "previousGraphHash": "7b5f55a9cd5fa1f7e0f5d8d48e0064e96b29d90e598c540faafb97b9d346d8d9",
+  "snapshotHash": "3a3cea980c7d4118a1c84be9137592de9883eb379c54084756e1d77fe23ee1fc",
+  "stored": true,
+  "reusedExisting": false,
+  "immutableRevision": true,
+  "additiveBatch": true,
+  "batch": {
+    "added_edge_count": 2,
+    "added_node_count": 2,
+    "added_root_count": 1
+  },
+  "summary": {
+    "edge_count": 2,
+    "graph_hash": "feb1e048a159ff4bed90d077ac270fdce9894cdf6604e7ce653ebd8cadde092e",
+    "id": "rabbit-hole-novel",
+    "node_count": 3,
+    "revision": {
+      "number": 1,
+      "previous_graph_hash": "7b5f55a9cd5fa1f7e0f5d8d48e0064e96b29d90e598c540faafb97b9d346d8d9",
+      "provenance": [
+        "Meaning Model storytelling add-on v1",
+        "author:calling-llm:claude-opus-5-5",
+        "Authoring clock: authoring_step, not world time."
+      ],
+      "reason": "Record context author.brief."
+    },
+    "roles": {
+      "document_root": 1,
+      "metadata": 2
+    },
+    "root_count": 2,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "model_revision": 0,
+      "source_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "requestPayloadHash": "307d0c0a1bccf71d6cd61799aa7e59862a838a9407d4c8a17b8b7cd38e20b525",
+  "recordNodeId": "author.brief",
+  "understandingRootId": "story.understanding.c478361e6869af25970682a2",
+  "authoringStep": 0,
+  "understandingNode": false,
+  "graphMutation": true,
+  "worldMutation": false,
+  "semanticVerification": false
+}

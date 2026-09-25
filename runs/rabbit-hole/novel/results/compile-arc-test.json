@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Life Simulation Rust operation compile_profiles failed (invalid_json): missing field `change_kind` A complete valid change_arc_scaffold entry, from the engine's own example: {\"kind\":\"change_arc_scaffold\",\"profile\":{\"id\":\"bounded-engine\",\"change_kind\":\"invention\",\"affected_referent_id\":\"referent.profile.engine.thing.analytical_engine\",\"description\":\"A bounded card-directed apparatus is separated from the unbounded general Engine and made testable.\",\"interval\":{\"start\":1843,\"end\":1855},\"anticipation\":{\"description\":\"Design work and negotiation make a bounded undertaking conceivable.\",\"interval\":{\"start\":1843,\"end\":1844}},\"focal_change\":{\"description\":\"A configuration is frozen, manufactured, and tested.\",\"interval\":{\"start\":1844,\"end\":1851}},\"adaptation\":{\"description\":\"The principals and the office reorganize around the result and its limits.\",\"interval\":{\"start\":1851,\"end\":1855}},\"provenance\":[\"authored construction-scaffold example\"]}}. Adapt it: every field shown is expected, and a referent it names must exist in the same request or model."
+    }
+  ],
+  "isError": true
+}

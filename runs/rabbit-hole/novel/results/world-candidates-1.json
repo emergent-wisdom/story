@@ -1,0 +1,140 @@
+{
+  "schema": "meaning-model-story-world-record/v1",
+  "graphHash": "73852bee8879b6b7cd712679c8615f482786bb34cf47d7f77c3e30ee6830af1e",
+  "previousGraphHash": "2e83f14915725df510cc05fe0b263f6854b72004528a6e0c8285937a28020ca8",
+  "snapshotHash": "3a3cea980c7d4118a1c84be9137592de9883eb379c54084756e1d77fe23ee1fc",
+  "stored": true,
+  "reusedExisting": false,
+  "immutableRevision": true,
+  "additiveBatch": true,
+  "batch": {
+    "added_edge_count": 3,
+    "added_node_count": 1,
+    "added_root_count": 0
+  },
+  "summary": {
+    "edge_count": 30,
+    "graph_hash": "73852bee8879b6b7cd712679c8615f482786bb34cf47d7f77c3e30ee6830af1e",
+    "id": "rabbit-hole-novel",
+    "node_count": 14,
+    "revision": {
+      "number": 8,
+      "previous_graph_hash": "2e83f14915725df510cc05fe0b263f6854b72004528a6e0c8285937a28020ca8",
+      "provenance": [
+        "Meaning Model storytelling add-on v1",
+        "author:calling-llm:claude-opus-5-5",
+        "Authoring clock: authoring_step, not world time."
+      ],
+      "reason": "Record world world.candidates."
+    },
+    "roles": {
+      "document_root": 1,
+      "externalized_reflection": 3,
+      "metadata": 10
+    },
+    "root_count": 2,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "model_revision": 0,
+      "source_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "requestPayloadHash": "e3900c8b51e8b4af2e55eec2df80d6556aa554369f2b6c36fef038be036da02e",
+  "recordNodeId": "world.candidates",
+  "understandingRootId": "story.understanding.c478361e6869af25970682a2",
+  "authoringStep": 7,
+  "understandingNode": false,
+  "graphMutation": true,
+  "worldMutation": false,
+  "semanticVerification": false,
+  "stage": "candidates",
+  "worldNodeId": "world.candidates",
+  "openImplications": [],
+  "worldQuestions": [],
+  "openQuestions": {
+    "total": 7,
+    "questions": [
+      {
+        "kind": "life-untimed",
+        "subject": "referent.profile.protagonist.person.protagonist",
+        "principal": false,
+        "question": "Protagonist's life has no interval. When were they born, and when does the life end or the work leave it? Without time the model cannot keep their states consistent.",
+        "tool": "life_model_revise"
+      },
+      {
+        "kind": "periods-missing",
+        "subject": "referent.profile.protagonist.person.protagonist",
+        "principal": false,
+        "question": "What were the periods of Protagonist's life, from birth to its end? The model shows none. One way: contain each in the life Event with an interval, together covering the life.",
+        "tool": "life_model_revise"
+      },
+      {
+        "kind": "shocks-few",
+        "subject": "referent.profile.protagonist.person.protagonist",
+        "principal": false,
+        "question": "What shocks did Protagonist's life contain, in the body, work, kin or one conversation, how did they anticipate each, and how did they adapt? The model shows 0 as change arcs. One way is a change arc per shock (change_arc_scaffold), with an adaptation that changes the processes of the life.",
+        "tool": "life_profile_compile (change_arc_scaffold) or your own structure, then life_model_revise"
+      },
+      {
+        "kind": "wants-missing",
+        "subject": "referent.profile.protagonist.person.protagonist",
+        "principal": false,
+        "question": "What does Protagonist most deeply want, and which learned wants has their life taught them as ways to get it? Nothing in the model says. Model the wants, and give their key moments a Cut of motivational attention over them.",
+        "tool": "life_model_revise"
+      },
+      {
+        "kind": "laws-missing",
+        "subject": null,
+        "principal": false,
+        "question": "What regularities hold across these Events: when one thing happens, what tends to follow, for whom, and why? State them as laws, claims or abstract relations, and test them against what the model shows.",
+        "tool": "life_model_revise"
+      },
+      {
+        "kind": "concepts-thin",
+        "subject": null,
+        "principal": false,
+        "question": "The model has 17 Events and 0 concepts. What are these Events instances of? Climb up: name the concepts they realize, how the concepts specialize, oppose or express one another, and which one explains several of them at once.",
+        "tool": "life_model_revise"
+      },
+      {
+        "kind": "process-empty",
+        "subject": "referent.profile.protagonist.person.protagonist",
+        "principal": false,
+        "question": "Protagonist's body, kin, knowledge, meaning, means, partnership, place, standing, work are empty. What happened in each over their life: which episodes, shocks and changes, and when? Open the ones the causality runs through into Events and Cuts, or into subcategories of your own if they understand Protagonist better.",
+        "tool": "life_model_revise",
+        "processes": [
+          "body",
+          "kin",
+          "knowledge",
+          "meaning",
+          "means",
+          "partnership",
+          "place",
+          "standing",
+          "work"
+        ]
+      }
+    ],
+    "jumps": [],
+    "alwaysAsk": [
+      "How can you understand what you are working on better, using the model? Whatever the object of investigation is (a character, an object, a concept, an era, whatever the work is about), go deeper by modeling more: its history, its parts and processes over time, what it depends on and what depends on it, and what it is an instance of.",
+      "List all the aspects of what you are working on you could understand better (for a story: the characters' choices, the author's writing and style, each voice, the technology, the time period, places, institutions, relationships, money, bodies, beliefs; for a market: its participants, instruments, rules, regimes, technology, history), then investigate each by modeling: create new processes, refine existing ones, open sub-processes, add earlier Events that explain or later Events that follow (a childhood, a war a century back, a consequence years on), add Cuts and estimate them, draw decisions, name the concepts and laws things instantiate, model how Things work and where everything is, try another decomposition, sample trajectories.",
+      "Is there a macro aspect you must model to truly understand what is going on in what you are working on? It could be something from a character's childhood or a war a hundred years ago; you will not know unless you model it. Follow the causes back along the lives and the world's long processes, and model what you find.",
+      "What kinds of reasons lie behind what the people acting in what you are working on do, are they primarily out of fear or out of love, and what does that fear or love ask of them? Fear of losing one's place, of being excluded, of not being accepted, of missing out; love of oneself, expressed and given to others, and of the people, work and things cared for. The same act can come from either, and what it does to the person depends on which. Most acts mix both: model the shares and how they shift with shocks and with being seen, what the person believes the reason is, and what others read.",
+      "What can be richer about what you are working on? A process still coarse, a person without a life, a thing without a history, a feeling without its cause, a consequence nobody followed. Open it in the model before you use it.",
+      "What is what you are working on an instance of? Climb up the ladder: which concept, pattern or law explains it together with other things in the model, and what does that abstraction predict elsewhere?",
+      "What else? These questions are a start, not a boundary: what question about what you are working on has nobody asked yet, and what category would you need to invent to answer it?"
+    ]
+  },
+  "nextStep": "Open the chosen world in successive expansions (stage opening)."
+}

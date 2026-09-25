@@ -1,0 +1,36 @@
+{
+ "graphHash": "7b5f55a9cd5fa1f7e0f5d8d48e0064e96b29d90e598c540faafb97b9d346d8d9",
+ "requestId": "author-brief-1",
+ "nodeId": "author.brief",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "context",
+ "text": "The human author's brief (2026-09-25, supplied by the human in chat, verbatim): \"Write me a novel of about 11,000 words in twelve parts from this idea of mine. Choose everything else yourself.\" The idea follows verbatim.\n\nWrite a story about someone born into a world they know nothing about. It's a \"blue pill\" world: comfortable, familiar, and predictable. They know the people around them, and every week is pretty much the same, stuck in the 9-to-5 routine.\n\nThen, somewhere along the line, something strange happens. A \"white rabbit\" appears: a sign, a stranger, an opportunity that doesn't fit into their ordinary life. Our protagonist is faced with a difficult choice. Human curiosity is powerful, and after years of monotony, they're tired enough to follow it. They choose the unknown.\n\nThe story should echo the most iconic imagery in pop culture, moments everyone recognizes, like Neo touching the liquid mirror in The Matrix or Harry discovering the wizarding world hidden behind the ordinary one. The protagonist and their world are original; these moments are echoes, not borrowed scenes. The protagonist realizes that life is like a video game, a vast playing field, and they've only ever been aware of one small corner of it. Anyone can get pulled down the rabbit hole.\n\nOnce they fall through, they're overwhelmed. There are more options than they know what to do with: crypto, DeFi, blockchain, legacy systems, and a grand battle between competing forces. It's a completely new world, and their reaction is basically \"OMG, WTF.\"\n\nUnderneath it all, tie the story to one fundamental idea, in the biologist E. O. Wilson's words: humanity has Paleolithic emotions, medieval institutions, and godlike technology. Yuval Noah Harari tells the history behind it in Sapiens: for hundreds of thousands of years, we lived as hunter-gatherers. Then, about twelve thousand years ago, agriculture changed everything as we began cultivating the land, and the global institutions we live inside took shape only in the last 50 to 80 years. The protagonist's journey should reflect this gap: an ancient human mind thrown into a world moving faster than it was built for.",
+ "data": {
+  "supplier": "human author (the user)",
+  "suppliedAt": "2026-09-25T19:15+02:00",
+  "fixedRequirements": [
+   "a novel of about 11,000 words",
+   "twelve parts",
+   "protagonist born into a comfortable, predictable 'blue pill' 9-to-5 world they know nothing about beyond it",
+   "a 'white rabbit' (sign, stranger or opportunity) that does not fit the ordinary life",
+   "a difficult choice; curiosity and years of monotony lead the protagonist to choose the unknown",
+   "echoes of iconic pop-culture imagery (the liquid mirror, the hidden world behind the ordinary one) as echoes, not borrowed scenes; protagonist and world original",
+   "the realization that life is like a video game, a vast playing field of which they knew one small corner; anyone can be pulled down the rabbit hole",
+   "after the fall: overwhelm by crypto, DeFi, blockchain, legacy systems and a grand battle between competing forces ('OMG, WTF')",
+   "the underlying idea: E. O. Wilson's Paleolithic emotions, medieval institutions and godlike technology, with Harari's history (foragers for hundreds of thousands of years, agriculture about 12,000 years ago, global institutions in the last 50-80 years); the journey reflects an ancient mind in a world moving faster than it was built for"
+  ],
+  "delegated": "everything else: genre treatment, setting and era, cast, names, viewpoint, voice and author persona, structure within twelve parts, title, plot and ending",
+  "processRules": [
+   "work in rounds of about 15 minutes, noting the time with date; at each stop report what has been made and what comes next, then wait until told to continue",
+   "do not print, copy or look for API keys or credentials",
+   "do not read or change files outside the run folder, including the Meaning Model source",
+   "if the relay stops responding, tell the human instead of restarting it",
+   "when finished: save the novel as the tool renders it to novel.md, export the whole construction with life_construction_export into the folder, and report the story root, final graph and model hashes and briefly how it was made",
+   "this is a test of a fresh model: use no memories, notes or earlier conversations"
+  ]
+ }
+}

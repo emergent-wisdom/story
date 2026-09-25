@@ -1,0 +1,1199 @@
+{
+ "requestId": "register-story-r0",
+ "model": {
+  "decomposition": [],
+  "dependencies": [],
+  "id": "rabbit-hole-world",
+  "initial_claims": [],
+  "laws": [],
+  "meaning_model": {
+   "abstract_cuts": [],
+   "abstract_relations": [],
+   "concepts": [],
+   "encapsulation_cuts": [],
+   "event_referent_bindings": [
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.protagonist.person.protagonist.is.body.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "referent_id": "referent.profile.protagonist.person.protagonist",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.protagonist.person.protagonist.is.body",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.protagonist.person.protagonist.is.kin.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "referent_id": "referent.profile.protagonist.person.protagonist",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.protagonist.person.protagonist.is.kin",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.protagonist.person.protagonist.is.knowledge.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "referent_id": "referent.profile.protagonist.person.protagonist",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.protagonist.person.protagonist.is.knowledge",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.protagonist.person.protagonist.is.meaning.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "referent_id": "referent.profile.protagonist.person.protagonist",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.protagonist.person.protagonist.is.meaning",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.protagonist.person.protagonist.is.means.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "referent_id": "referent.profile.protagonist.person.protagonist",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.protagonist.person.protagonist.is.means",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.protagonist.person.protagonist.is.partnership.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "referent_id": "referent.profile.protagonist.person.protagonist",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.protagonist.person.protagonist.is.partnership",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.protagonist.person.protagonist.is.place.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "referent_id": "referent.profile.protagonist.person.protagonist",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.protagonist.person.protagonist.is.place",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.protagonist.person.protagonist.is.standing.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "referent_id": "referent.profile.protagonist.person.protagonist",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.protagonist.person.protagonist.is.standing",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "person_process_subject",
+     "id": "binding.profile.protagonist.person.protagonist.is.work.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "referent_id": "referent.profile.protagonist.person.protagonist",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.protagonist.person.protagonist.is.work",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "binding_type": "lifecycle_subject",
+     "id": "binding.profile.protagonist.person.protagonist.life.subject",
+     "interval": null,
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "referent_id": "referent.profile.protagonist.person.protagonist",
+     "role": "subject",
+     "target": {
+      "event_id": "event.profile.protagonist.person.protagonist.life",
+      "kind": "event"
+     },
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    }
+   ],
+   "event_relations": [
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.protagonist.person.protagonist.life.contains.body",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "source_event_id": "event.profile.protagonist.person.protagonist.life",
+     "target_event_id": "event.profile.protagonist.person.protagonist.is.body",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.protagonist.person.protagonist.life.contains.kin",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "source_event_id": "event.profile.protagonist.person.protagonist.life",
+     "target_event_id": "event.profile.protagonist.person.protagonist.is.kin",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.protagonist.person.protagonist.life.contains.knowledge",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "source_event_id": "event.profile.protagonist.person.protagonist.life",
+     "target_event_id": "event.profile.protagonist.person.protagonist.is.knowledge",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.protagonist.person.protagonist.life.contains.meaning",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "source_event_id": "event.profile.protagonist.person.protagonist.life",
+     "target_event_id": "event.profile.protagonist.person.protagonist.is.meaning",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.protagonist.person.protagonist.life.contains.means",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "source_event_id": "event.profile.protagonist.person.protagonist.life",
+     "target_event_id": "event.profile.protagonist.person.protagonist.is.means",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.protagonist.person.protagonist.life.contains.partnership",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "source_event_id": "event.profile.protagonist.person.protagonist.life",
+     "target_event_id": "event.profile.protagonist.person.protagonist.is.partnership",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.protagonist.person.protagonist.life.contains.place",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "source_event_id": "event.profile.protagonist.person.protagonist.life",
+     "target_event_id": "event.profile.protagonist.person.protagonist.is.place",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.protagonist.person.protagonist.life.contains.standing",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "source_event_id": "event.profile.protagonist.person.protagonist.life",
+     "target_event_id": "event.profile.protagonist.person.protagonist.is.standing",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "authority": null,
+     "description": null,
+     "id": "relation.profile.protagonist.person.protagonist.life.contains.work",
+     "kind": "contains",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "source_event_id": "event.profile.protagonist.person.protagonist.life",
+     "target_event_id": "event.profile.protagonist.person.protagonist.is.work",
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    },
+    {
+     "id": "world.contains.deep.foragers",
+     "kind": "contains",
+     "source_event_id": "event.world",
+     "target_event_id": "event.deep.foragers",
+     "description": "Accepted-world containment.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "world.contains.deep.agriculture",
+     "kind": "contains",
+     "source_event_id": "event.world",
+     "target_event_id": "event.deep.agriculture",
+     "description": "Accepted-world containment.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "world.contains.deep.old_institutions",
+     "kind": "contains",
+     "source_event_id": "event.world",
+     "target_event_id": "event.deep.old_institutions",
+     "description": "Accepted-world containment.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "world.contains.deep.global_order",
+     "kind": "contains",
+     "source_event_id": "event.world",
+     "target_event_id": "event.deep.global_order",
+     "description": "Accepted-world containment.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "world.contains.deep.digital",
+     "kind": "contains",
+     "source_event_id": "event.world",
+     "target_event_id": "event.deep.digital",
+     "description": "Accepted-world containment.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "world.contains.deep.crypto",
+     "kind": "contains",
+     "source_event_id": "event.world",
+     "target_event_id": "event.deep.crypto",
+     "description": "Accepted-world containment.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "world.contains.profile.protagonist.person.protagonist.life",
+     "kind": "contains",
+     "source_event_id": "event.world",
+     "target_event_id": "event.profile.protagonist.person.protagonist.life",
+     "description": "Accepted-world containment.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "foragers.precedes.agriculture",
+     "kind": "other",
+     "source_event_id": "event.deep.foragers",
+     "target_event_id": "event.deep.agriculture",
+     "description": "Precedes: the agricultural transition follows the long forager era and inherits its minds.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "agriculture.enables.old_institutions",
+     "kind": "enables",
+     "source_event_id": "event.deep.agriculture",
+     "target_event_id": "event.deep.old_institutions",
+     "description": "Surplus, property and writing make ledgers, banks and courts possible.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "old_institutions.enables.global_order",
+     "kind": "enables",
+     "source_event_id": "event.deep.old_institutions",
+     "target_event_id": "event.deep.global_order",
+     "description": "The post-war order is built from inherited institutions scaled to the world.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "global_order.enables.crypto",
+     "kind": "enables",
+     "source_event_id": "event.deep.global_order",
+     "target_event_id": "event.deep.crypto",
+     "description": "The 2008 crisis in the global banking order is the stated occasion of the first cryptocurrency.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "digital.enables.crypto",
+     "kind": "enables",
+     "source_event_id": "event.deep.digital",
+     "target_event_id": "event.deep.crypto",
+     "description": "Networked computing is the substrate of programmable money.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   ],
+   "events": [
+    {
+     "boundary": "body process for protagonist: growth, embodiment, physical capacity, disability, aging, and mortality",
+     "id": "event.profile.protagonist.person.protagonist.is.body",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "profile.protagonist.person.protagonist.is.body"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.protagonist.person.protagonist.life"
+    },
+    {
+     "boundary": "kin process for protagonist: family, household, dependency, support, and rupture",
+     "id": "event.profile.protagonist.person.protagonist.is.kin",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "profile.protagonist.person.protagonist.is.kin"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.protagonist.person.protagonist.life"
+    },
+    {
+     "boundary": "knowledge process for protagonist: perception, belief, learning, correction, and capability",
+     "id": "event.profile.protagonist.person.protagonist.is.knowledge",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "profile.protagonist.person.protagonist.is.knowledge"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.protagonist.person.protagonist.life"
+    },
+    {
+     "boundary": "meaning process for protagonist: constitutive aims, commitments, and self-understanding",
+     "id": "event.profile.protagonist.person.protagonist.is.meaning",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "profile.protagonist.person.protagonist.is.meaning"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.protagonist.person.protagonist.life"
+    },
+    {
+     "boundary": "means process for protagonist: money, time, tools, capacity, debt, and runway",
+     "id": "event.profile.protagonist.person.protagonist.is.means",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "profile.protagonist.person.protagonist.is.means"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.protagonist.person.protagonist.life"
+    },
+    {
+     "boundary": "partnership process for protagonist: participation in joint relationships and the person's readings of them",
+     "id": "event.profile.protagonist.person.protagonist.is.partnership",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "profile.protagonist.person.protagonist.is.partnership"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.protagonist.person.protagonist.life"
+    },
+    {
+     "boundary": "place process for protagonist: residence, presence, access, travel, and spatial constraint",
+     "id": "event.profile.protagonist.person.protagonist.is.place",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "profile.protagonist.person.protagonist.is.place"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.protagonist.person.protagonist.life"
+    },
+    {
+     "boundary": "standing process for protagonist: office, audience, attributed recognition, and reputation",
+     "id": "event.profile.protagonist.person.protagonist.is.standing",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "profile.protagonist.person.protagonist.is.standing"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.protagonist.person.protagonist.life"
+    },
+    {
+     "boundary": "work process for protagonist: roles, projects, labor, duties, and institutional work",
+     "id": "event.profile.protagonist.person.protagonist.is.work",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "profile.protagonist.person.protagonist.is.work"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.protagonist.person.protagonist.life"
+    },
+    {
+     "boundary": "Authored: a whole life from birth to the story's end, opened later with periods, shocks, wants and Cuts",
+     "id": "event.profile.protagonist.person.protagonist.life",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.protagonist.person.protagonist"
+     },
+     "process_ids": [
+      "profile.protagonist.person.protagonist.life.index"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "region": null,
+     "substrate": null
+    },
+    {
+     "id": "event.world",
+     "boundary": "The accepted world of the novel: our real world as documented up to the opening stage's cutoff, with invented people and companies in the foreground and real events, technology, prices and laws in the background.",
+     "interval": null,
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    },
+    {
+     "id": "event.deep.foragers",
+     "boundary": "Homo sapiens as mobile foragers, from about 300,000 to about 12,000 years before the present.",
+     "interval": {
+      "start": -298000,
+      "end": -10000
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "For almost the whole history of the species people lived in bands of a few dozen inside a network of perhaps a hundred and fifty known faces. Trust ran on kinship, reputation and repeated meeting; wealth was what you could carry; a stranger was rare and a threat or a gift. The emotions the protagonist carries (fear of exclusion, hunger for status, the pull of the group, alarm at sudden loss, delight in discovery) were tuned for this world."
+    },
+    {
+     "id": "event.deep.agriculture",
+     "boundary": "Cultivation and its consequences, from about 12,000 years ago.",
+     "interval": {
+      "start": -10000,
+      "end": 2026
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Farming produced surplus, storage, property, hierarchy, writing, money and debt. Time became the calendar of the harvest: the same work in the same field every season. Institutions grew to manage strangers who had to trust each other: temples, granaries, ledgers, kings, courts, and much later banks with double-entry books."
+    },
+    {
+     "id": "event.deep.old_institutions",
+     "boundary": "The slow institutions inherited from agrarian and early modern states: the bank, the ledger, the court, the nation state, the working week.",
+     "interval": {
+      "start": 1400,
+      "end": 2026
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "These are the medieval institutions of E. O. Wilson's phrase: they change on the scale of generations, settle disputes through intermediaries, open at nine and close at five, and remember everything in someone else's book."
+    },
+    {
+     "id": "event.deep.global_order",
+     "boundary": "The global institutional order built mostly after 1944: a world of international money, treaties, clearing systems and multinational banks.",
+     "interval": {
+      "start": 1944,
+      "end": 2026
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "The global institutions people live inside took shape within roughly the last fifty to eighty years: post-war monetary agreements, the international lenders, card networks, interbank messaging, the floating dollar after 1971. They are younger than many living grandparents, and most people who depend on them have never seen how they work."
+    },
+    {
+     "id": "event.deep.digital",
+     "boundary": "The networked and then pocketed computer, from the public internet of the 1990s to the smartphone and its feeds.",
+     "interval": {
+      "start": 1991,
+      "end": 2026
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "Information, then attention, then money began to move at the speed of software. A phone in every pocket connected a forager's mind to millions of strangers at once."
+    },
+    {
+     "id": "event.deep.crypto",
+     "boundary": "Programmable money: from the 2008 crisis and the first cryptocurrency to smart contracts, decentralized finance and the booms and crashes of 2017 to 2022.",
+     "interval": {
+      "start": 2008.8,
+      "end": 2026
+     },
+     "participants": {},
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": null,
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "description": "A ledger nobody owns, that never closes, where code replaces the clerk. It promised to route around the old institutions and instead reproduced most of their temptations at machine speed, in public, around the clock."
+    }
+   ],
+   "physical_cuts": [],
+   "realizations": [],
+   "referents": [
+    {
+     "authority": null,
+     "boundary": "The novel's protagonist: one human adult raised inside a comfortable, predictable routine; identity, place and dates are authored in the candidates and opening stages",
+     "continuity_criterion": "Same living embodied person",
+     "id": "referent.profile.protagonist.person.protagonist",
+     "interval": null,
+     "lifecycle_event_id": "event.profile.protagonist.person.protagonist.life",
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ],
+     "uncertainty": {
+      "kind": "unknown"
+     }
+    }
+   ],
+   "schema": "life-sim-rust-meaning-model/v1",
+   "context_roots": [
+    {
+     "event_id": "event.world",
+     "kind": "accepted_world",
+     "provenance": [
+      "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+     ]
+    }
+   ]
+  },
+  "processes": [
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.protagonist.person.protagonist.is.body",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+    ],
+    "reference_frame": "person-is:protagonist",
+    "scale": {
+     "process_key": "body",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.protagonist.person.protagonist"
+    },
+    "support": [
+     "event.profile.protagonist.person.protagonist.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.protagonist.person.protagonist.is.kin",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+    ],
+    "reference_frame": "person-is:protagonist",
+    "scale": {
+     "process_key": "kin",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.protagonist.person.protagonist"
+    },
+    "support": [
+     "event.profile.protagonist.person.protagonist.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.protagonist.person.protagonist.is.knowledge",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+    ],
+    "reference_frame": "person-is:protagonist",
+    "scale": {
+     "process_key": "knowledge",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.protagonist.person.protagonist"
+    },
+    "support": [
+     "event.profile.protagonist.person.protagonist.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.protagonist.person.protagonist.is.meaning",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+    ],
+    "reference_frame": "person-is:protagonist",
+    "scale": {
+     "process_key": "meaning",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.protagonist.person.protagonist"
+    },
+    "support": [
+     "event.profile.protagonist.person.protagonist.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.protagonist.person.protagonist.is.means",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+    ],
+    "reference_frame": "person-is:protagonist",
+    "scale": {
+     "process_key": "means",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.protagonist.person.protagonist"
+    },
+    "support": [
+     "event.profile.protagonist.person.protagonist.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.protagonist.person.protagonist.is.partnership",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+    ],
+    "reference_frame": "person-is:protagonist",
+    "scale": {
+     "process_key": "partnership",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.protagonist.person.protagonist"
+    },
+    "support": [
+     "event.profile.protagonist.person.protagonist.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.protagonist.person.protagonist.is.place",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+    ],
+    "reference_frame": "person-is:protagonist",
+    "scale": {
+     "process_key": "place",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.protagonist.person.protagonist"
+    },
+    "support": [
+     "event.profile.protagonist.person.protagonist.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.protagonist.person.protagonist.is.standing",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+    ],
+    "reference_frame": "person-is:protagonist",
+    "scale": {
+     "process_key": "standing",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.protagonist.person.protagonist"
+    },
+    "support": [
+     "event.profile.protagonist.person.protagonist.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.protagonist.person.protagonist.is.work",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+    ],
+    "reference_frame": "person-is:protagonist",
+    "scale": {
+     "process_key": "work",
+     "profile_version": "book-person/v1",
+     "relationship": "concurrent_non_summing",
+     "semantic_role": "person_is_process",
+     "subject_referent_id": "referent.profile.protagonist.person.protagonist"
+    },
+    "support": [
+     "event.profile.protagonist.person.protagonist.life"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   },
+   {
+    "access_scopes": [],
+    "axes": [],
+    "id": "profile.protagonist.person.protagonist.life.index",
+    "initial_value": {
+     "kind": "graph",
+     "value": {
+      "edges": [],
+      "nodes": []
+     }
+    },
+    "provenance": [
+     "authored optional profile; structurally executable, not empirically validated",
+     "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+    ],
+    "reference_frame": "person-life:protagonist",
+    "scale": {
+     "profile_version": "book-person/v1",
+     "semantic_role": "person_lifecycle_index",
+     "subject_referent_id": "referent.profile.protagonist.person.protagonist"
+    },
+    "support": [
+     "person_scaffold:protagonist"
+    ],
+    "uncertainty": {
+     "kind": "unknown"
+    },
+    "unit": null,
+    "update_mode": "observed",
+    "value_type": {
+     "kind": "graph"
+    }
+   }
+  ],
+  "revision": {
+   "number": 0,
+   "previous_model_hash": null,
+   "provenance": [
+    "rabbit-hole-run; authored by the calling LLM under the human's delegation"
+   ],
+   "reason": "Revision 0 of the story world: the deep-time frame the brief fixes (forager minds, agrarian and global institutions, fast technology) and the protagonist's whole-life scaffold, before candidate worlds are chosen."
+  },
+  "schema": "life-sim-rust-model/v1",
+  "time_unit": "year"
+ }
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "life-sim-mcp-service/v2",
+  "graphHash": "5bd9b9cd10f2676d37a770969b5f5e1f0aa9ca44e82e36e486d84a28d091a971",
+  "previousGraphHash": "1f041aaf29a2b4b3794717d063129fa151cdb5d541956bb4f8cb781c801aa103",
+  "snapshotHash": "3a3cea980c7d4118a1c84be9137592de9883eb379c54084756e1d77fe23ee1fc",
+  "stored": true,
+  "reusedExisting": false,
+  "immutableRevision": true,
+  "additiveBatch": true,
+  "batch": {
+    "added_edge_count": 4,
+    "added_node_count": 1,
+    "added_root_count": 0
+  },
+  "summary": {
+    "edge_count": 47,
+    "graph_hash": "5bd9b9cd10f2676d37a770969b5f5e1f0aa9ca44e82e36e486d84a28d091a971",
+    "id": "rabbit-hole-novel",
+    "node_count": 20,
+    "revision": {
+      "number": 11,
+      "previous_graph_hash": "1f041aaf29a2b4b3794717d063129fa151cdb5d541956bb4f8cb781c801aa103",
+      "provenance": [
+        "Meaning Model storytelling add-on v1",
+        "author:calling-llm:claude-opus-5-5",
+        "Authoring clock: authoring_step, not world time.",
+        "written-against-model:282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070"
+      ],
+      "reason": "Record selection author.names.clerk.selection."
+    },
+    "roles": {
+      "document_root": 1,
+      "externalized_reflection": 5,
+      "metadata": 14
+    },
+    "root_count": 2,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "model_revision": 0,
+      "source_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "requestPayloadHash": "1168bd76e4318e1c4bc118bbf13788416f676c7776a9ea5d2e7f6e6a126dd663",
+  "recordNodeId": "author.names.clerk.selection",
+  "understandingRootId": "story.understanding.c478361e6869af25970682a2",
+  "authoringStep": 10,
+  "understandingNode": true,
+  "graphMutation": true,
+  "worldMutation": false,
+  "semanticVerification": false,
+  "advancedFrom": "627b14b59cd6b521b061d4efbc06099d2b6875e3ddb1cc24af97dc5739a539c9"
+}

@@ -1,0 +1,23 @@
+{
+ "graphHash": "cedb7a8b07f33585646cd3ece748958684790debe4652813b4afbf26bb3f63fe",
+ "requestId": "name-author-selection",
+ "nodeId": "author.names.author.selection",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "selection",
+ "text": "Selected under delegation (LLM choice, not a human decision): the invented author persona is Faye Titcombe, born 1979 in Swindon, who publishes under that name. Reason: the name fits a working-class Swindon family in 1979, carries the seed's two private senses (fading chalk that must be scoured; betting against the crowd) without symbolism on the surface, and is not a known author's name. Jade Kempster fits the year less well; Dale Webb is flatter and fits the chosen life less.",
+ "data": {
+  "chosen": "Faye Titcombe",
+  "decidedBy": "calling LLM under delegation",
+  "seedWord": "fade"
+ },
+ "links": [
+  {
+   "relation": "refines",
+   "targetNodeId": "author.names.author.candidates"
+  }
+ ]
+}

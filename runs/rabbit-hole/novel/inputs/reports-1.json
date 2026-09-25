@@ -1,0 +1,299 @@
+{
+ "graphHash": "7fef5c1ee63206a31b279dca680219de539825eb8e659e2dfaaeada12f50bf5c",
+ "requestId": "reports-real-facts-1",
+ "accessScopes": [
+  "story-author"
+ ],
+ "holder": "calling-llm:claude-opus-5-5",
+ "notes": [
+  {
+   "nodeId": "report.wilson",
+   "kind": "report",
+   "title": "E. O. Wilson's formulation: humanity has Paleolithic emotions, medieval institutions and god-like technology.",
+   "text": "E. O. Wilson's formulation: humanity has Paleolithic emotions, medieval institutions and god-like technology. Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "Edward O. Wilson, remarks in a public debate at the Harvard Museum of Natural History (2009), widely quoted; Wilson died on 26 December 2021",
+    "published": "2009",
+    "reportsOn": "2009"
+   },
+   "about": [
+    {
+     "record": "concept:concept.deep_time_gap"
+    },
+    {
+     "record": "abstract_cut:acut.deep_time_gap.wilson"
+    }
+   ]
+  },
+  {
+   "nodeId": "report.harari",
+   "kind": "report",
+   "title": "Harari's account: Homo sapiens lived as foragers for most of its history; the agricultural revolution began about 12,000",
+   "text": "Harari's account: Homo sapiens lived as foragers for most of its history; the agricultural revolution began about 12,000 years ago, and he argues it domesticated its farmers as much as they domesticated wheat. Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "Yuval Noah Harari, Sapiens: A Brief History of Humankind (English edition, Harvill Secker, 2014), part two",
+    "published": "2014",
+    "reportsOn": "prehistory to present"
+   },
+   "about": [
+    {
+     "record": "event:event.deep.foragers"
+    },
+    {
+     "record": "event:event.deep.agriculture"
+    },
+    {
+     "record": "concept:concept.second_agriculture"
+    }
+   ]
+  },
+  {
+   "nodeId": "report.works_closure",
+   "kind": "report",
+   "title": "The Great Western Railway works at Swindon, established in the early 1840s, closed in March 1986.",
+   "text": "The Great Western Railway works at Swindon, established in the early 1840s, closed in March 1986. Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "Swindon railway works histories, e.g. the STEAM Museum of the Great Western Railway, Swindon",
+    "reportsOn": "1843-1986"
+   },
+   "about": [
+    {
+     "record": "event:ev.works.life"
+    },
+    {
+     "record": "event:event.profile.barbara_works_closure.change_arc.focal_change"
+    }
+   ]
+  },
+  {
+   "nodeId": "report.car_plant",
+   "kind": "report",
+   "title": "The car maker whose Swindon plant stood on the former South Marston airfield announced in February 2019 that it would cl",
+   "text": "The car maker whose Swindon plant stood on the former South Marston airfield announced in February 2019 that it would close the plant in 2021; production ended at the end of July 2021. The company stays unnamed in the story. Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "Contemporaneous reporting, e.g. BBC News, 19 February 2019 and July 2021",
+    "published": "2019-02-19",
+    "reportsOn": "2019-02 to 2021-07"
+   },
+   "about": [
+    {
+     "record": "event:ev.car_plant.life"
+    },
+    {
+     "record": "event:event.profile.kieran_father_plant.change_arc.focal_change"
+    }
+   ]
+  },
+  {
+   "nodeId": "report.avebury",
+   "kind": "report",
+   "title": "The Avebury henge and stone circles were built by Neolithic communities between about 2850 and 2200 BC; the Windmill Hil",
+   "text": "The Avebury henge and stone circles were built by Neolithic communities between about 2850 and 2200 BC; the Windmill Hill causewayed enclosure nearby dates from about 3700 BC; the Ridgeway has been used as a route for at least five thousand years. Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "Historic England and the heritage trust's guidebooks to Avebury; the Stonehenge and Avebury World Heritage Site management plan",
+    "reportsOn": "c. 3700-2200 BC"
+   },
+   "about": [
+    {
+     "record": "event:ev.stones.life"
+    }
+   ]
+  },
+  {
+   "nodeId": "report.clearing",
+   "kind": "report",
+   "title": "British automated clearing began in the late 1960s as an interbank computer bureau; its main bulk payment scheme runs on",
+   "text": "British automated clearing began in the late 1960s as an interbank computer bureau; its main bulk payment scheme runs on a three-working-day cycle (input, processing, entry). Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "Pay.UK and Bacs scheme documentation on the three-day processing cycle",
+    "reportsOn": "1968-2023"
+   },
+   "about": [
+    {
+     "record": "event:ev.clearing.life"
+    },
+    {
+     "record": "process:clearing.cycle_days"
+    }
+   ]
+  },
+  {
+   "nodeId": "report.scam_code",
+   "kind": "report",
+   "title": "A voluntary code for reimbursing victims of authorised push-payment scams came into force in May 2019; confirmation of p",
+   "text": "A voluntary code for reimbursing victims of authorised push-payment scams came into force in May 2019; confirmation of payee name checks were introduced by the largest banks in 2020. Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "Lending Standards Board, Contingent Reimbursement Model Code (May 2019); Pay.UK, Confirmation of Payee (2020)",
+    "reportsOn": "2019-05 to 2020-06"
+   },
+   "about": [
+    {
+     "record": "event:ev.macro.scam_rules"
+    },
+    {
+     "record": "event:ev.kieran.call_2019"
+    }
+   ]
+  },
+  {
+   "nodeId": "report.crypto_rules",
+   "kind": "report",
+   "title": "The regulator banned the sale of cryptoasset derivatives to retail consumers from 6 January 2021 and issued repeated war",
+   "text": "The regulator banned the sale of cryptoasset derivatives to retail consumers from 6 January 2021 and issued repeated warnings in 2021; from 2021 several British banks blocked or limited payments to some crypto exchanges. Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "Financial Conduct Authority policy statement PS20/10 (October 2020) and 2021 consumer warnings; contemporaneous reporting on bank payment blocks, 2021",
+    "reportsOn": "2021"
+   },
+   "about": [
+    {
+     "record": "event:ev.macro.scam_rules"
+    },
+    {
+     "record": "event:ev.hart.life"
+    }
+   ]
+  },
+  {
+   "nodeId": "report.lockdowns",
+   "kind": "report",
+   "title": "England entered its first national lockdown on 23 March 2020, a second in November 2020 and a third from 6 January 2021;",
+   "text": "England entered its first national lockdown on 23 March 2020, a second in November 2020 and a third from 6 January 2021; intensive-care units were under the heaviest pressure in April 2020 and January 2021. Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "UK Government coronavirus announcements (23 March 2020, 31 October 2020, 4 January 2021); NHS England critical-care data",
+    "reportsOn": "2020-03 to 2021-03"
+   },
+   "about": [
+    {
+     "record": "event:ev.macro.pandemic"
+    },
+    {
+     "record": "event:event.profile.laura_first_wave.change_arc.focal_change"
+    },
+    {
+     "record": "event:event.profile.laura_second_wave.change_arc.focal_change"
+    }
+   ]
+  },
+  {
+   "nodeId": "report.crash_2020",
+   "kind": "report",
+   "title": "On 12 March 2020 bitcoin fell by roughly half within about a day, from near 8,000 to near 4,000-5,000 US dollars, as mar",
+   "text": "On 12 March 2020 bitcoin fell by roughly half within about a day, from near 8,000 to near 4,000-5,000 US dollars, as markets fell worldwide. Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "Contemporaneous market reporting and exchange price histories, e.g. CoinDesk, 12-13 March 2020",
+    "reportsOn": "2020-03-12"
+   },
+   "about": [
+    {
+     "record": "event:ev.market.crash_2020"
+    },
+    {
+     "record": "event:ev.kieran.mirror"
+    }
+   ]
+  },
+  {
+   "nodeId": "report.defi_summer",
+   "kind": "report",
+   "title": "From mid-June 2020, when a lending protocol began paying its users in governance tokens, yield farming boomed; many new ",
+   "text": "From mid-June 2020, when a lending protocol began paying its users in governance tokens, yield farming boomed; many new tokens were named after food. Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "Contemporaneous crypto press coverage of 'DeFi summer', June-September 2020",
+    "reportsOn": "2020-06 to 2020-09"
+   },
+   "about": [
+    {
+     "record": "event:ev.market.defi_summer"
+    },
+    {
+     "record": "concept:concept.second_agriculture"
+    }
+   ]
+  },
+  {
+   "nodeId": "report.peak_2021",
+   "kind": "report",
+   "title": "Bitcoin reached its then all-time high of about 69,000 US dollars on 10 November 2021.",
+   "text": "Bitcoin reached its then all-time high of about 69,000 US dollars on 10 November 2021. Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "Exchange price histories and contemporaneous reporting, 10 November 2021",
+    "reportsOn": "2021-11-10"
+   },
+   "about": [
+    {
+     "record": "event:ev.market.boom_2021"
+    }
+   ]
+  },
+  {
+   "nodeId": "report.stablecoin",
+   "kind": "report",
+   "title": "An algorithmic dollar stablecoin that kept its peg through mint-and-burn arbitrage with a sister token, and whose saving",
+   "text": "An algorithmic dollar stablecoin that kept its peg through mint-and-burn arbitrage with a sister token, and whose savings protocol paid about 19.5 percent, lost its peg from 9 May 2022; the sister token collapsed to almost nothing by 13 May, and the stablecoin traded around 10-20 cents that day and one or two cents weeks later. Protocol, token and founder stay unnamed or invented in the story. Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "Contemporaneous reporting and on-chain price histories, 7-13 May 2022 and after",
+    "reportsOn": "2022-05-07 to 2022-06"
+   },
+   "about": [
+    {
+     "record": "event:ev.stablecoin.life"
+    },
+    {
+     "record": "event:ev.market.stablecoin_collapse"
+    },
+    {
+     "record": "process:stablecoin.price_usd"
+    }
+   ]
+  },
+  {
+   "nodeId": "report.lender_freeze",
+   "kind": "report",
+   "title": "In June 2022 a large crypto lender froze customer withdrawals, one of several failures that followed the stablecoin coll",
+   "text": "In June 2022 a large crypto lender froze customer withdrawals, one of several failures that followed the stablecoin collapse. Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "Contemporaneous reporting, 12-13 June 2022",
+    "reportsOn": "2022-06"
+   },
+   "about": [
+    {
+     "record": "event:ev.market.lender_freeze"
+    }
+   ]
+  },
+  {
+   "nodeId": "report.exchange_collapse",
+   "kind": "report",
+   "title": "In November 2022 a large crypto exchange collapsed and filed for bankruptcy after it emerged that customer funds had bee",
+   "text": "In November 2022 a large crypto exchange collapsed and filed for bankruptcy after it emerged that customer funds had been used by an affiliated trading firm; bitcoin fell to about a quarter of its 2021 peak. Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "Contemporaneous reporting, 8-11 November 2022",
+    "reportsOn": "2022-11"
+   },
+   "about": [
+    {
+     "record": "event:ev.market.exchange_collapse"
+    }
+   ]
+  },
+  {
+   "nodeId": "report.genesis",
+   "kind": "report",
+   "title": "The first cryptocurrency was described in a paper published on 31 October 2008 during the banking crisis; its first bloc",
+   "text": "The first cryptocurrency was described in a paper published on 31 October 2008 during the banking crisis; its first block, mined on 3 January 2009, carried a newspaper headline about a second bank bailout. Recalled from the recorder's training knowledge; the cited source was not consulted in this session.",
+   "source": {
+    "citation": "Satoshi Nakamoto, 'Bitcoin: A Peer-to-Peer Electronic Cash System' (31 October 2008); the genesis block of 3 January 2009",
+    "published": "2008-10-31",
+    "reportsOn": "2008-2009"
+   },
+   "about": [
+    {
+     "record": "event:event.deep.crypto"
+    },
+    {
+     "record": "event:event.profile.barbara_crisis_2008.change_arc.adaptation"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+{"profileRequest":{"schema":"life-sim-rust-profile-compilation/v1",
+ "model":{"id":"arc-probe","time_unit":"year","reason":"Probe change_arc_scaffold structure.","provenance":["rabbit-hole-run"]},
+ "profiles":[{"kind":"change_arc_scaffold","profile":{"id":"probe"}}]}}

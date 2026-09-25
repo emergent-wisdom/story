@@ -1,0 +1,1052 @@
+{
+  "schema": "life-sim-mcp-service/v2",
+  "valid": true,
+  "readOnly": true,
+  "stored": false,
+  "mutationPerformed": false,
+  "modelHash": "8355a076aed6c577b44c72004886e730e2b80f0153677d3b160f5188049c9b5c",
+  "summary": {
+    "decomposition_edge_count": 0,
+    "dependency_edge_count": 0,
+    "id": "author-life-test",
+    "law_count": 0,
+    "law_roles": {},
+    "meaning_model": {
+      "abstract_cut_count": 0,
+      "abstract_cut_ids": [],
+      "abstract_relation_count": 0,
+      "abstract_relation_ids": [],
+      "concept_count": 0,
+      "concept_ids": [],
+      "context_root_count": 0,
+      "context_root_event_ids": [],
+      "encapsulation_cut_count": 0,
+      "encapsulation_cut_ids": [],
+      "event_count": 10,
+      "event_ids": [
+        "event.profile.author.person.author.is.body",
+        "event.profile.author.person.author.is.kin",
+        "event.profile.author.person.author.is.knowledge",
+        "event.profile.author.person.author.is.meaning",
+        "event.profile.author.person.author.is.means",
+        "event.profile.author.person.author.is.partnership",
+        "event.profile.author.person.author.is.place",
+        "event.profile.author.person.author.is.standing",
+        "event.profile.author.person.author.is.work",
+        "event.profile.author.person.author.life"
+      ],
+      "event_referent_binding_count": 10,
+      "event_referent_binding_ids": [
+        "binding.profile.author.person.author.is.body.subject",
+        "binding.profile.author.person.author.is.kin.subject",
+        "binding.profile.author.person.author.is.knowledge.subject",
+        "binding.profile.author.person.author.is.meaning.subject",
+        "binding.profile.author.person.author.is.means.subject",
+        "binding.profile.author.person.author.is.partnership.subject",
+        "binding.profile.author.person.author.is.place.subject",
+        "binding.profile.author.person.author.is.standing.subject",
+        "binding.profile.author.person.author.is.work.subject",
+        "binding.profile.author.person.author.life.subject"
+      ],
+      "event_relation_count": 9,
+      "event_relation_ids": [
+        "relation.profile.author.person.author.life.contains.body",
+        "relation.profile.author.person.author.life.contains.kin",
+        "relation.profile.author.person.author.life.contains.knowledge",
+        "relation.profile.author.person.author.life.contains.meaning",
+        "relation.profile.author.person.author.life.contains.means",
+        "relation.profile.author.person.author.life.contains.partnership",
+        "relation.profile.author.person.author.life.contains.place",
+        "relation.profile.author.person.author.life.contains.standing",
+        "relation.profile.author.person.author.life.contains.work"
+      ],
+      "normalized_cut_count": 0,
+      "normalized_cut_ids": [],
+      "physical_cut_count": 0,
+      "physical_cut_ids": [],
+      "realization_count": 0,
+      "realization_ids": [],
+      "referent_count": 1,
+      "referent_ids": [
+        "referent.profile.author.person.author"
+      ],
+      "schema": "life-sim-rust-meaning-model/v1",
+      "temporal_cut_recomposition_count": 0,
+      "temporal_cut_recomposition_parent_cut_ids": []
+    },
+    "model_hash": "8355a076aed6c577b44c72004886e730e2b80f0153677d3b160f5188049c9b5c",
+    "process_count": 10,
+    "process_ids": [
+      "profile.author.person.author.is.body",
+      "profile.author.person.author.is.kin",
+      "profile.author.person.author.is.knowledge",
+      "profile.author.person.author.is.meaning",
+      "profile.author.person.author.is.means",
+      "profile.author.person.author.is.partnership",
+      "profile.author.person.author.is.place",
+      "profile.author.person.author.is.standing",
+      "profile.author.person.author.is.work",
+      "profile.author.person.author.life.index"
+    ],
+    "processes": [
+      {
+        "id": "profile.author.person.author.is.body",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.author.person.author.is.kin",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.author.person.author.is.knowledge",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.author.person.author.is.meaning",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.author.person.author.is.means",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.author.person.author.is.partnership",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.author.person.author.is.place",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.author.person.author.is.standing",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.author.person.author.is.work",
+        "value_type": "graph"
+      },
+      {
+        "id": "profile.author.person.author.life.index",
+        "value_type": "graph"
+      }
+    ],
+    "revision": {
+      "number": 0,
+      "previous_model_hash": null,
+      "provenance": [
+        "rabbit-hole-run"
+      ],
+      "reason": "Probe the person_scaffold structure before authoring the author persona's life."
+    },
+    "schema": "life-sim-rust-model/v1",
+    "time_unit": "year"
+  },
+  "model": {
+    "decomposition": [],
+    "dependencies": [],
+    "id": "author-life-test",
+    "initial_claims": [],
+    "laws": [],
+    "meaning_model": {
+      "abstract_cuts": [],
+      "abstract_relations": [],
+      "concepts": [],
+      "encapsulation_cuts": [],
+      "event_referent_bindings": [
+        {
+          "authority": null,
+          "binding_type": "person_process_subject",
+          "id": "binding.profile.author.person.author.is.body.subject",
+          "interval": null,
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "referent_id": "referent.profile.author.person.author",
+          "role": "subject",
+          "target": {
+            "event_id": "event.profile.author.person.author.is.body",
+            "kind": "event"
+          },
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "binding_type": "person_process_subject",
+          "id": "binding.profile.author.person.author.is.kin.subject",
+          "interval": null,
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "referent_id": "referent.profile.author.person.author",
+          "role": "subject",
+          "target": {
+            "event_id": "event.profile.author.person.author.is.kin",
+            "kind": "event"
+          },
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "binding_type": "person_process_subject",
+          "id": "binding.profile.author.person.author.is.knowledge.subject",
+          "interval": null,
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "referent_id": "referent.profile.author.person.author",
+          "role": "subject",
+          "target": {
+            "event_id": "event.profile.author.person.author.is.knowledge",
+            "kind": "event"
+          },
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "binding_type": "person_process_subject",
+          "id": "binding.profile.author.person.author.is.meaning.subject",
+          "interval": null,
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "referent_id": "referent.profile.author.person.author",
+          "role": "subject",
+          "target": {
+            "event_id": "event.profile.author.person.author.is.meaning",
+            "kind": "event"
+          },
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "binding_type": "person_process_subject",
+          "id": "binding.profile.author.person.author.is.means.subject",
+          "interval": null,
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "referent_id": "referent.profile.author.person.author",
+          "role": "subject",
+          "target": {
+            "event_id": "event.profile.author.person.author.is.means",
+            "kind": "event"
+          },
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "binding_type": "person_process_subject",
+          "id": "binding.profile.author.person.author.is.partnership.subject",
+          "interval": null,
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "referent_id": "referent.profile.author.person.author",
+          "role": "subject",
+          "target": {
+            "event_id": "event.profile.author.person.author.is.partnership",
+            "kind": "event"
+          },
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "binding_type": "person_process_subject",
+          "id": "binding.profile.author.person.author.is.place.subject",
+          "interval": null,
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "referent_id": "referent.profile.author.person.author",
+          "role": "subject",
+          "target": {
+            "event_id": "event.profile.author.person.author.is.place",
+            "kind": "event"
+          },
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "binding_type": "person_process_subject",
+          "id": "binding.profile.author.person.author.is.standing.subject",
+          "interval": null,
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "referent_id": "referent.profile.author.person.author",
+          "role": "subject",
+          "target": {
+            "event_id": "event.profile.author.person.author.is.standing",
+            "kind": "event"
+          },
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "binding_type": "person_process_subject",
+          "id": "binding.profile.author.person.author.is.work.subject",
+          "interval": null,
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "referent_id": "referent.profile.author.person.author",
+          "role": "subject",
+          "target": {
+            "event_id": "event.profile.author.person.author.is.work",
+            "kind": "event"
+          },
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "binding_type": "lifecycle_subject",
+          "id": "binding.profile.author.person.author.life.subject",
+          "interval": null,
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "referent_id": "referent.profile.author.person.author",
+          "role": "subject",
+          "target": {
+            "event_id": "event.profile.author.person.author.life",
+            "kind": "event"
+          },
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        }
+      ],
+      "event_relations": [
+        {
+          "authority": null,
+          "description": null,
+          "id": "relation.profile.author.person.author.life.contains.body",
+          "kind": "contains",
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "source_event_id": "event.profile.author.person.author.life",
+          "target_event_id": "event.profile.author.person.author.is.body",
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "description": null,
+          "id": "relation.profile.author.person.author.life.contains.kin",
+          "kind": "contains",
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "source_event_id": "event.profile.author.person.author.life",
+          "target_event_id": "event.profile.author.person.author.is.kin",
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "description": null,
+          "id": "relation.profile.author.person.author.life.contains.knowledge",
+          "kind": "contains",
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "source_event_id": "event.profile.author.person.author.life",
+          "target_event_id": "event.profile.author.person.author.is.knowledge",
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "description": null,
+          "id": "relation.profile.author.person.author.life.contains.meaning",
+          "kind": "contains",
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "source_event_id": "event.profile.author.person.author.life",
+          "target_event_id": "event.profile.author.person.author.is.meaning",
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "description": null,
+          "id": "relation.profile.author.person.author.life.contains.means",
+          "kind": "contains",
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "source_event_id": "event.profile.author.person.author.life",
+          "target_event_id": "event.profile.author.person.author.is.means",
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "description": null,
+          "id": "relation.profile.author.person.author.life.contains.partnership",
+          "kind": "contains",
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "source_event_id": "event.profile.author.person.author.life",
+          "target_event_id": "event.profile.author.person.author.is.partnership",
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "description": null,
+          "id": "relation.profile.author.person.author.life.contains.place",
+          "kind": "contains",
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "source_event_id": "event.profile.author.person.author.life",
+          "target_event_id": "event.profile.author.person.author.is.place",
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "description": null,
+          "id": "relation.profile.author.person.author.life.contains.standing",
+          "kind": "contains",
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "source_event_id": "event.profile.author.person.author.life",
+          "target_event_id": "event.profile.author.person.author.is.standing",
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        },
+        {
+          "authority": null,
+          "description": null,
+          "id": "relation.profile.author.person.author.life.contains.work",
+          "kind": "contains",
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "source_event_id": "event.profile.author.person.author.life",
+          "target_event_id": "event.profile.author.person.author.is.work",
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        }
+      ],
+      "events": [
+        {
+          "boundary": "body process for author: growth, embodiment, physical capacity, disability, aging, and mortality",
+          "id": "event.profile.author.person.author.is.body",
+          "interval": null,
+          "observation_process_ids": [],
+          "participants": {
+            "subject": "referent.profile.author.person.author"
+          },
+          "process_ids": [
+            "profile.author.person.author.is.body"
+          ],
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "region": null,
+          "substrate": "event.profile.author.person.author.life"
+        },
+        {
+          "boundary": "kin process for author: family, household, dependency, support, and rupture",
+          "id": "event.profile.author.person.author.is.kin",
+          "interval": null,
+          "observation_process_ids": [],
+          "participants": {
+            "subject": "referent.profile.author.person.author"
+          },
+          "process_ids": [
+            "profile.author.person.author.is.kin"
+          ],
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "region": null,
+          "substrate": "event.profile.author.person.author.life"
+        },
+        {
+          "boundary": "knowledge process for author: perception, belief, learning, correction, and capability",
+          "id": "event.profile.author.person.author.is.knowledge",
+          "interval": null,
+          "observation_process_ids": [],
+          "participants": {
+            "subject": "referent.profile.author.person.author"
+          },
+          "process_ids": [
+            "profile.author.person.author.is.knowledge"
+          ],
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "region": null,
+          "substrate": "event.profile.author.person.author.life"
+        },
+        {
+          "boundary": "meaning process for author: constitutive aims, commitments, and self-understanding",
+          "id": "event.profile.author.person.author.is.meaning",
+          "interval": null,
+          "observation_process_ids": [],
+          "participants": {
+            "subject": "referent.profile.author.person.author"
+          },
+          "process_ids": [
+            "profile.author.person.author.is.meaning"
+          ],
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "region": null,
+          "substrate": "event.profile.author.person.author.life"
+        },
+        {
+          "boundary": "means process for author: money, time, tools, capacity, debt, and runway",
+          "id": "event.profile.author.person.author.is.means",
+          "interval": null,
+          "observation_process_ids": [],
+          "participants": {
+            "subject": "referent.profile.author.person.author"
+          },
+          "process_ids": [
+            "profile.author.person.author.is.means"
+          ],
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "region": null,
+          "substrate": "event.profile.author.person.author.life"
+        },
+        {
+          "boundary": "partnership process for author: participation in joint relationships and the person's readings of them",
+          "id": "event.profile.author.person.author.is.partnership",
+          "interval": null,
+          "observation_process_ids": [],
+          "participants": {
+            "subject": "referent.profile.author.person.author"
+          },
+          "process_ids": [
+            "profile.author.person.author.is.partnership"
+          ],
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "region": null,
+          "substrate": "event.profile.author.person.author.life"
+        },
+        {
+          "boundary": "place process for author: residence, presence, access, travel, and spatial constraint",
+          "id": "event.profile.author.person.author.is.place",
+          "interval": null,
+          "observation_process_ids": [],
+          "participants": {
+            "subject": "referent.profile.author.person.author"
+          },
+          "process_ids": [
+            "profile.author.person.author.is.place"
+          ],
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "region": null,
+          "substrate": "event.profile.author.person.author.life"
+        },
+        {
+          "boundary": "standing process for author: office, audience, attributed recognition, and reputation",
+          "id": "event.profile.author.person.author.is.standing",
+          "interval": null,
+          "observation_process_ids": [],
+          "participants": {
+            "subject": "referent.profile.author.person.author"
+          },
+          "process_ids": [
+            "profile.author.person.author.is.standing"
+          ],
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "region": null,
+          "substrate": "event.profile.author.person.author.life"
+        },
+        {
+          "boundary": "work process for author: roles, projects, labor, duties, and institutional work",
+          "id": "event.profile.author.person.author.is.work",
+          "interval": null,
+          "observation_process_ids": [],
+          "participants": {
+            "subject": "referent.profile.author.person.author"
+          },
+          "process_ids": [
+            "profile.author.person.author.is.work"
+          ],
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "region": null,
+          "substrate": "event.profile.author.person.author.life"
+        },
+        {
+          "boundary": "Invented persona; life to be authored",
+          "id": "event.profile.author.person.author.life",
+          "interval": null,
+          "observation_process_ids": [],
+          "participants": {
+            "subject": "referent.profile.author.person.author"
+          },
+          "process_ids": [
+            "profile.author.person.author.life.index"
+          ],
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "region": null,
+          "substrate": null
+        }
+      ],
+      "physical_cuts": [],
+      "realizations": [],
+      "referents": [
+        {
+          "authority": null,
+          "boundary": "The fictional author persona of this novel, one human adult",
+          "continuity_criterion": "Same living embodied person",
+          "id": "referent.profile.author.person.author",
+          "interval": null,
+          "lifecycle_event_id": "event.profile.author.person.author.life",
+          "provenance": [
+            "authored optional profile; structurally executable, not empirically validated",
+            "rabbit-hole-run"
+          ],
+          "uncertainty": {
+            "kind": "unknown"
+          }
+        }
+      ],
+      "schema": "life-sim-rust-meaning-model/v1"
+    },
+    "processes": [
+      {
+        "access_scopes": [],
+        "axes": [],
+        "id": "profile.author.person.author.is.body",
+        "initial_value": {
+          "kind": "graph",
+          "value": {
+            "edges": [],
+            "nodes": []
+          }
+        },
+        "provenance": [
+          "authored optional profile; structurally executable, not empirically validated",
+          "rabbit-hole-run"
+        ],
+        "reference_frame": "person-is:author",
+        "scale": {
+          "process_key": "body",
+          "profile_version": "book-person/v1",
+          "relationship": "concurrent_non_summing",
+          "semantic_role": "person_is_process",
+          "subject_referent_id": "referent.profile.author.person.author"
+        },
+        "support": [
+          "event.profile.author.person.author.life"
+        ],
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "unit": null,
+        "update_mode": "observed",
+        "value_type": {
+          "kind": "graph"
+        }
+      },
+      {
+        "access_scopes": [],
+        "axes": [],
+        "id": "profile.author.person.author.is.kin",
+        "initial_value": {
+          "kind": "graph",
+          "value": {
+            "edges": [],
+            "nodes": []
+          }
+        },
+        "provenance": [
+          "authored optional profile; structurally executable, not empirically validated",
+          "rabbit-hole-run"
+        ],
+        "reference_frame": "person-is:author",
+        "scale": {
+          "process_key": "kin",
+          "profile_version": "book-person/v1",
+          "relationship": "concurrent_non_summing",
+          "semantic_role": "person_is_process",
+          "subject_referent_id": "referent.profile.author.person.author"
+        },
+        "support": [
+          "event.profile.author.person.author.life"
+        ],
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "unit": null,
+        "update_mode": "observed",
+        "value_type": {
+          "kind": "graph"
+        }
+      },
+      {
+        "access_scopes": [],
+        "axes": [],
+        "id": "profile.author.person.author.is.knowledge",
+        "initial_value": {
+          "kind": "graph",
+          "value": {
+            "edges": [],
+            "nodes": []
+          }
+        },
+        "provenance": [
+          "authored optional profile; structurally executable, not empirically validated",
+          "rabbit-hole-run"
+        ],
+        "reference_frame": "person-is:author",
+        "scale": {
+          "process_key": "knowledge",
+          "profile_version": "book-person/v1",
+          "relationship": "concurrent_non_summing",
+          "semantic_role": "person_is_process",
+          "subject_referent_id": "referent.profile.author.person.author"
+        },
+        "support": [
+          "event.profile.author.person.author.life"
+        ],
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "unit": null,
+        "update_mode": "observed",
+        "value_type": {
+          "kind": "graph"
+        }
+      },
+      {
+        "access_scopes": [],
+        "axes": [],
+        "id": "profile.author.person.author.is.meaning",
+        "initial_value": {
+          "kind": "graph",
+          "value": {
+            "edges": [],
+            "nodes": []
+          }
+        },
+        "provenance": [
+          "authored optional profile; structurally executable, not empirically validated",
+          "rabbit-hole-run"
+        ],
+        "reference_frame": "person-is:author",
+        "scale": {
+          "process_key": "meaning",
+          "profile_version": "book-person/v1",
+          "relationship": "concurrent_non_summing",
+          "semantic_role": "person_is_process",
+          "subject_referent_id": "referent.profile.author.person.author"
+        },
+        "support": [
+          "event.profile.author.person.author.life"
+        ],
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "unit": null,
+        "update_mode": "observed",
+        "value_type": {
+          "kind": "graph"
+        }
+      },
+      {
+        "access_scopes": [],
+        "axes": [],
+        "id": "profile.author.person.author.is.means",
+        "initial_value": {
+          "kind": "graph",
+          "value": {
+            "edges": [],
+            "nodes": []
+          }
+        },
+        "provenance": [
+          "authored optional profile; structurally executable, not empirically validated",
+          "rabbit-hole-run"
+        ],
+        "reference_frame": "person-is:author",
+        "scale": {
+          "process_key": "means",
+          "profile_version": "book-person/v1",
+          "relationship": "concurrent_non_summing",
+          "semantic_role": "person_is_process",
+          "subject_referent_id": "referent.profile.author.person.author"
+        },
+        "support": [
+          "event.profile.author.person.author.life"
+        ],
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "unit": null,
+        "update_mode": "observed",
+        "value_type": {
+          "kind": "graph"
+        }
+      },
+      {
+        "access_scopes": [],
+        "axes": [],
+        "id": "profile.author.person.author.is.partnership",
+        "initial_value": {
+          "kind": "graph",
+          "value": {
+            "edges": [],
+            "nodes": []
+          }
+        },
+        "provenance": [
+          "authored optional profile; structurally executable, not empirically validated",
+          "rabbit-hole-run"
+        ],
+        "reference_frame": "person-is:author",
+        "scale": {
+          "process_key": "partnership",
+          "profile_version": "book-person/v1",
+          "relationship": "concurrent_non_summing",
+          "semantic_role": "person_is_process",
+          "subject_referent_id": "referent.profile.author.person.author"
+        },
+        "support": [
+          "event.profile.author.person.author.life"
+        ],
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "unit": null,
+        "update_mode": "observed",
+        "value_type": {
+          "kind": "graph"
+        }
+      },
+      {
+        "access_scopes": [],
+        "axes": [],
+        "id": "profile.author.person.author.is.place",
+        "initial_value": {
+          "kind": "graph",
+          "value": {
+            "edges": [],
+            "nodes": []
+          }
+        },
+        "provenance": [
+          "authored optional profile; structurally executable, not empirically validated",
+          "rabbit-hole-run"
+        ],
+        "reference_frame": "person-is:author",
+        "scale": {
+          "process_key": "place",
+          "profile_version": "book-person/v1",
+          "relationship": "concurrent_non_summing",
+          "semantic_role": "person_is_process",
+          "subject_referent_id": "referent.profile.author.person.author"
+        },
+        "support": [
+          "event.profile.author.person.author.life"
+        ],
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "unit": null,
+        "update_mode": "observed",
+        "value_type": {
+          "kind": "graph"
+        }
+      },
+      {
+        "access_scopes": [],
+        "axes": [],
+        "id": "profile.author.person.author.is.standing",
+        "initial_value": {
+          "kind": "graph",
+          "value": {
+            "edges": [],
+            "nodes": []
+          }
+        },
+        "provenance": [
+          "authored optional profile; structurally executable, not empirically validated",
+          "rabbit-hole-run"
+        ],
+        "reference_frame": "person-is:author",
+        "scale": {
+          "process_key": "standing",
+          "profile_version": "book-person/v1",
+          "relationship": "concurrent_non_summing",
+          "semantic_role": "person_is_process",
+          "subject_referent_id": "referent.profile.author.person.author"
+        },
+        "support": [
+          "event.profile.author.person.author.life"
+        ],
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "unit": null,
+        "update_mode": "observed",
+        "value_type": {
+          "kind": "graph"
+        }
+      },
+      {
+        "access_scopes": [],
+        "axes": [],
+        "id": "profile.author.person.author.is.work",
+        "initial_value": {
+          "kind": "graph",
+          "value": {
+            "edges": [],
+            "nodes": []
+          }
+        },
+        "provenance": [
+          "authored optional profile; structurally executable, not empirically validated",
+          "rabbit-hole-run"
+        ],
+        "reference_frame": "person-is:author",
+        "scale": {
+          "process_key": "work",
+          "profile_version": "book-person/v1",
+          "relationship": "concurrent_non_summing",
+          "semantic_role": "person_is_process",
+          "subject_referent_id": "referent.profile.author.person.author"
+        },
+        "support": [
+          "event.profile.author.person.author.life"
+        ],
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "unit": null,
+        "update_mode": "observed",
+        "value_type": {
+          "kind": "graph"
+        }
+      },
+      {
+        "access_scopes": [],
+        "axes": [],
+        "id": "profile.author.person.author.life.index",
+        "initial_value": {
+          "kind": "graph",
+          "value": {
+            "edges": [],
+            "nodes": []
+          }
+        },
+        "provenance": [
+          "authored optional profile; structurally executable, not empirically validated",
+          "rabbit-hole-run"
+        ],
+        "reference_frame": "person-life:author",
+        "scale": {
+          "profile_version": "book-person/v1",
+          "semantic_role": "person_lifecycle_index",
+          "subject_referent_id": "referent.profile.author.person.author"
+        },
+        "support": [
+          "person_scaffold:author"
+        ],
+        "uncertainty": {
+          "kind": "unknown"
+        },
+        "unit": null,
+        "update_mode": "observed",
+        "value_type": {
+          "kind": "graph"
+        }
+      }
+    ],
+    "revision": {
+      "number": 0,
+      "previous_model_hash": null,
+      "provenance": [
+        "rabbit-hole-run"
+      ],
+      "reason": "Probe the person_scaffold structure before authoring the author persona's life."
+    },
+    "schema": "life-sim-rust-model/v1",
+    "time_unit": "year"
+  },
+  "registrationNextStep": {
+    "operation": "registerModel",
+    "explicit": true
+  }
+}

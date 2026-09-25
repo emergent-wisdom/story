@@ -1,0 +1,42 @@
+{
+ "graphHash": "8a8f644723e31b78115c80b85db5abe1e096f5b1a5a7a4dbd8e21bcb70b76fad",
+ "requestId": "plan-round3",
+ "accessScopes": [
+  "story-author"
+ ],
+ "holder": "calling-llm:claude-opus-5-5",
+ "notes": [
+  {
+   "nodeId": "note.plan.round3",
+   "kind": "plan",
+   "title": "End of round 3: plan for the model's questions",
+   "text": "Round 3 (19:48-20:07 CEST, interrupted 19:52-19:59 when the app quit and the relay stopped; the human restarted it and all state had survived). Made: the Sharehouse named; the opening stage in four accounts with two revisions that reconcile the numbers with documented prices (the wallet is first opened on 12 March 2020, not in April; the deposit is worth about 3,000 pounds on 13 May 2022 and a few hundred by June); story model revision 1 (d0424dd9) with the Things, the long developments and dated market episodes, the three principals' lives, eleven change arcs, wants, Cuts and concepts opening the Wilson triad; the graph rebound to it. Next, in this order: record each real fact used as a report with its source (recalled from training knowledge, not consulted in this session); answer the rebind's questions: estimate the eight motivational and fear-or-love Cuts with the configured estimator from their described situations, model Kieran's and Barbara's state just before each decision (moment-unmodeled), give Barbara a decision of her own (whether to meet Kieran, or what to do after his fall), open the ten adaptations where the story runs through them, give the Things short lives of their own (the Hart's 2021 block decision, the Sharehouse's growth and panic, the stablecoin's launch and spiral), and explain the threat shifts between periods; then draw the two direction Cuts (deposit consent, depeg response) with seeds fixed in advance; then the aspects and implications stages, the route, and the director on the world.",
+   "about": [
+    {
+     "record": "cut:cut.kieran.2022.deposit_consent"
+    },
+    {
+     "record": "cut:cut.kieran.2022.depeg_response"
+    },
+    {
+     "record": "event:ev.market.stablecoin_collapse"
+    },
+    {
+     "record": "referent:referent.profile.protagonist.person.protagonist"
+    },
+    {
+     "record": "referent:referent.profile.barbara.person.barbara"
+    },
+    {
+     "record": "referent:referent.profile.laura.person.laura"
+    }
+   ],
+   "links": [
+    {
+     "relation": "about",
+     "targetNodeId": "world.opening"
+    }
+   ]
+  }
+ ]
+}

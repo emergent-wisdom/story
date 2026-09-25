@@ -1,0 +1,473 @@
+{
+ "requestId": "revise-faye-r2",
+ "previousModelHash": "65cbe4fe46ca1fbc9be0eaf231a92238ecf9129635a5122c68e87e8551bba2d1",
+ "change": {
+  "reason": "Revision 2: build the drawn continuation (learn_it_beside_her, seed rabbit-hole-run/faye/daughter-app/2025-09, u=0.2055) with its realizes_forecast relation; open the three adaptations the model asked about; give the redundancy arc its outlook and threat Cuts; describe the nine slow processes of her life.",
+  "provenance": [
+   "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+  ],
+  "upsert": {
+   "events": [
+    {
+     "id": "ev.faye.learn_beside",
+     "boundary": "Autumn 2025 to 2026: Faye learns the trading app beside her daughter.",
+     "description": "Instead of forbidding it, Faye asks her daughter to show her how it works. They sit with it on Sunday evenings; Faye explains what she knows about order books and liquidity and, in pieces, what happened to her in 2022. Her daughter keeps a small balance and starts asking better questions. Faye starts the novel the same autumn, writing as someone walking beside a person who will go in anyway.",
+     "interval": {
+      "start": 2025.7,
+      "end": 2026.75
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Faye's kitchen table, north Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "ev.faye.collapse.adapt.hiding",
+     "boundary": "Summer 2022: two months of hiding the loss.",
+     "description": "She keeps checking a dead balance at night, tells her partner the savings are \"tied up\", and stops sleeping. What changes first is her body: weight loss, a tremor in the hand that holds the phone.",
+     "interval": {
+      "start": 2022.4,
+      "end": 2022.6
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Faye's spare room, north Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "ev.faye.collapse.adapt.confession",
+     "boundary": "August 2022: the confession and its aftermath.",
+     "description": "She tells her partner at the kitchen table. He is less angry about the money than about the months of lying. Their partnership, already thin, lasts another year. What she believes changes: she no longer thinks understanding a mechanism protects her, and she stops trusting her own calm.",
+     "interval": {
+      "start": 2022.6,
+      "end": 2023.8
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Faye's kitchen table, north Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "ev.faye.doctorate.adapt.field_notes",
+     "boundary": "2004-2008: the payments office as a field site.",
+     "description": "She treats the office as fieldwork to make the loss bearable: notes on the tea round, the smokers' door, the appraisal. The notes are never written up, but the habit of seeing people as a band stays for life and becomes her way of writing.",
+     "interval": {
+      "start": 2004.4,
+      "end": 2008.0
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "The building society payments office, west Swindon",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "ev.faye.redundancy.adapt.guide",
+     "boundary": "2023-2025: guiding at the stones.",
+     "description": "She learns to talk to strangers for a living, which she had never done. Visitors ask why anyone would drag a forty-ton stone across the downs; she finds herself answering that people will do almost anything to gather. She begins writing fiction in the evenings in 2024.",
+     "interval": {
+      "start": 2023.4,
+      "end": 2025.0
+     },
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [],
+     "observation_process_ids": [],
+     "region": "Avebury and the Marlborough Downs, Wiltshire",
+     "substrate": null,
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "boundary": "body process for faye: growth, embodiment, physical capacity, disability, aging, and mortality",
+     "id": "event.profile.faye.person.faye.is.body",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.body"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life",
+     "description": "Healthy and restless as a child; in 2022 the loss shows first in her body (sleeplessness, weight loss, a tremor in the phone hand); from 2023 guiding on the downs gives her walking legs again."
+    },
+    {
+     "boundary": "kin process for faye: family, household, dependency, support, and rupture",
+     "id": "event.profile.faye.person.faye.is.kin",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.kin"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life",
+     "description": "Father a railway-works fitter (unemployed at forty-four in 1986, later a taxi and parcels driver), mother a school dinner lady who holds the house together and falls ill in 2003; a daughter born 2011 whose trust matters more to Faye than anything."
+    },
+    {
+     "boundary": "knowledge process for faye: perception, belief, learning, correction, and capability",
+     "id": "event.profile.faye.person.faye.is.knowledge",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.knowledge"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life",
+     "description": "Archaeology and deep time; then an operator's knowledge of payment clearing; then a fast, deep technical grasp of decentralized finance; then the harder knowledge that understanding a mechanism does not govern one's feelings."
+    },
+    {
+     "boundary": "meaning process for faye: constitutive aims, commitments, and self-understanding",
+     "id": "event.profile.faye.person.faye.is.meaning",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.meaning"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life",
+     "description": "Understanding as freedom; being the one who knows; after 2022, telling the truth to her daughter; from 2024, making something from it in writing."
+    },
+    {
+     "boundary": "means process for faye: money, time, tools, capacity, debt, and runway",
+     "id": "event.profile.faye.person.faye.is.means",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.means"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life",
+     "description": "Working-class household; student debt; a steady clerk's salary; family savings of about thirty-eight thousand pounds by 2020, grown on paper in 2021 and cut by about two thirds in May 2022; redundancy pay in 2023; a seasonal guide's wage."
+    },
+    {
+     "boundary": "partnership process for faye: participation in joint relationships and the person's readings of them",
+     "id": "event.profile.faye.person.faye.is.partnership",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.partnership"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life",
+     "description": "With a secondary-school geography teacher from 2008; one daughter; thinned by routine, broken by the 2022 lies rather than the loss; separated 2023 with shared care."
+    },
+    {
+     "boundary": "place process for faye: residence, presence, access, travel, and spatial constraint",
+     "id": "event.profile.faye.person.faye.is.place",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.place"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life",
+     "description": "North Swindon almost all her life, the south coast for seven years, the payments office in west Swindon, a spare room online at three in the morning, the stones at Avebury from 2023."
+    },
+    {
+     "boundary": "standing process for faye: office, audience, attributed recognition, and reputation",
+     "id": "event.profile.faye.person.faye.is.standing",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.standing"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life",
+     "description": "The clever girl from the estate; the one in the office who knows why a payment failed; a respected voice in a chat server in 2021; nobody after 2022; a guide visitors thank; an unpublished novelist."
+    },
+    {
+     "boundary": "work process for faye: roles, projects, labor, duties, and institutional work",
+     "id": "event.profile.faye.person.faye.is.work",
+     "interval": null,
+     "observation_process_ids": [],
+     "participants": {
+      "subject": "referent.profile.faye.person.faye"
+     },
+     "process_ids": [
+      "profile.faye.person.faye.is.work"
+     ],
+     "provenance": [
+      "authored optional profile; structurally executable, not empirically validated",
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "region": null,
+     "substrate": "event.profile.faye.person.faye.life",
+     "description": "Supermarket Saturdays, archaeology, eighteen years of payment exceptions, training the software that replaced her, guiding at the stones, writing in the evenings."
+    }
+   ],
+   "event_relations": [
+    {
+     "id": "daughter_app.realizes.learn_beside",
+     "kind": "realizes_forecast",
+     "source_event_id": "ev.faye.daughter_app",
+     "target_event_id": "ev.faye.learn_beside",
+     "description": "Drawn continuation: seed rabbit-hole-run/faye/daughter-app/2025-09, u=0.2055, answer learn_it_beside_her.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ],
+     "forecast_answer": {
+      "cut_id": "cut.faye.2025.daughter_app.response",
+      "answer_key": "learn_it_beside_her"
+     }
+    },
+    {
+     "id": "p5.contains.learn_beside",
+     "kind": "contains",
+     "source_event_id": "ev.faye.p5.after",
+     "target_event_id": "ev.faye.learn_beside",
+     "description": "Continuation inside the last period.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "learn_beside.enables.composition",
+     "kind": "enables",
+     "source_event_id": "ev.faye.learn_beside",
+     "target_event_id": "ev.faye.composition",
+     "description": "Writing beside her daughter's learning sets the novel's stance: companionship, not warning.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "collapse_adapt.contains.hiding",
+     "kind": "contains",
+     "source_event_id": "event.profile.collapse_2022.change_arc.adaptation",
+     "target_event_id": "ev.faye.collapse.adapt.hiding",
+     "description": "Opened adaptation.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "collapse_adapt.contains.confession",
+     "kind": "contains",
+     "source_event_id": "event.profile.collapse_2022.change_arc.adaptation",
+     "target_event_id": "ev.faye.collapse.adapt.confession",
+     "description": "Opened adaptation.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "hiding.causes.confession",
+     "kind": "causes",
+     "source_event_id": "ev.faye.collapse.adapt.hiding",
+     "target_event_id": "ev.faye.collapse.adapt.confession",
+     "description": "The strain of hiding forces the confession.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "doc_adapt.contains.field_notes",
+     "kind": "contains",
+     "source_event_id": "event.profile.leaving_doctorate.change_arc.adaptation",
+     "target_event_id": "ev.faye.doctorate.adapt.field_notes",
+     "description": "Opened adaptation.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    },
+    {
+     "id": "red_adapt.contains.guide",
+     "kind": "contains",
+     "source_event_id": "event.profile.redundancy_and_stones.change_arc.adaptation",
+     "target_event_id": "ev.faye.redundancy.adapt.guide",
+     "description": "Opened adaptation.",
+     "authority": null,
+     "uncertainty": {
+      "kind": "unknown"
+     },
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation"
+     ]
+    }
+   ],
+   "normalized_cuts": [
+    {
+     "id": "cut.faye.redundancy.outlook",
+     "parent_event_id": "event.profile.redundancy_and_stones.change_arc",
+     "question": "Across redundancy and the move to the stones, how does Faye expect what she wants to turn out?",
+     "unit": "share of one unit of represented outlook toward fulfilment of her active wants",
+     "answers": [
+      {
+       "key": "assurance",
+       "weight": 0.45
+      },
+      {
+       "key": "threat",
+       "weight": 0.42
+      },
+      {
+       "key": "remainder",
+       "weight": 0.13
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored by the recorder (calling LLM) under delegation; not estimated"
+     ]
+    },
+    {
+     "id": "cut.faye.redundancy.threatened",
+     "parent_event_id": "event.profile.redundancy_and_stones.change_arc",
+     "question": "What does Faye see as threatened by the redundancy?",
+     "unit": "share of what she sees as threatened in this period",
+     "answers": [
+      {
+       "key": "money_for_her_daughter",
+       "weight": 0.45
+      },
+      {
+       "key": "her_standing_as_the_one_who_knows",
+       "weight": 0.35
+      },
+      {
+       "key": "remainder",
+       "weight": 0.2
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored by the recorder (calling LLM) under delegation; not estimated"
+     ]
+    },
+    {
+     "id": "cut.faye.2022.after.beliefs",
+     "parent_event_id": "ev.faye.collapse.adapt.confession",
+     "question": "After the confession, how does Faye's belief about understanding divide?",
+     "unit": "share of her represented belief",
+     "answers": [
+      {
+       "key": "understanding_does_not_protect_feelings",
+       "weight": 0.55
+      },
+      {
+       "key": "understanding_still_protects_if_used_sooner",
+       "weight": 0.25
+      },
+      {
+       "key": "remainder",
+       "weight": 0.2
+      }
+     ],
+     "provenance": [
+      "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
+      "authored by the recorder (calling LLM) under delegation; not estimated"
+     ]
+    }
+   ]
+  }
+ },
+ "requireDescribedNumbers": true
+}

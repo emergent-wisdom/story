@@ -1,0 +1,61 @@
+{
+  "schema": "life-sim-mcp-service/v2",
+  "graphHash": "e6900acf5221128c567b5b37f4bff759e6e8d452bf745b2cee7c5f66b06a15c9",
+  "previousGraphHash": "312bf6ee8663b65b74234827ad3773575007f69d3f52f0f78d3ea11dadddac99",
+  "snapshotHash": "3a3cea980c7d4118a1c84be9137592de9883eb379c54084756e1d77fe23ee1fc",
+  "stored": true,
+  "reusedExisting": false,
+  "immutableRevision": true,
+  "additiveBatch": true,
+  "batch": {
+    "added_edge_count": 3,
+    "added_node_count": 1,
+    "added_root_count": 0
+  },
+  "summary": {
+    "edge_count": 73,
+    "graph_hash": "e6900acf5221128c567b5b37f4bff759e6e8d452bf745b2cee7c5f66b06a15c9",
+    "id": "rabbit-hole-novel",
+    "node_count": 29,
+    "revision": {
+      "number": 20,
+      "previous_graph_hash": "312bf6ee8663b65b74234827ad3773575007f69d3f52f0f78d3ea11dadddac99",
+      "provenance": [
+        "Meaning Model storytelling add-on v1",
+        "author:calling-llm:claude-opus-5-5",
+        "Authoring clock: authoring_step, not world time."
+      ],
+      "reason": "Record selection author.names.server.selection."
+    },
+    "roles": {
+      "document_root": 1,
+      "externalized_reflection": 10,
+      "metadata": 18
+    },
+    "root_count": 2,
+    "schema": "life-sim-rust-narrative-graph/v1",
+    "source": {
+      "kind": "model",
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070"
+    },
+    "source_snapshot": {
+      "candidate_status": null,
+      "model_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "model_revision": 0,
+      "source_hash": "282531cc472c577ff972f6beda3b74626bb4c24987ca6fe41313e31479c28070",
+      "source_kind": "model",
+      "time": null,
+      "world_id": null,
+      "world_version": null
+    }
+  },
+  "requestPayloadHash": "0451231938c60a52d5698b26c165a782e6b3d11a6215508e0f66d793257ba971",
+  "recordNodeId": "author.names.server.selection",
+  "understandingRootId": "story.understanding.c478361e6869af25970682a2",
+  "authoringStep": 19,
+  "understandingNode": true,
+  "graphMutation": true,
+  "worldMutation": false,
+  "semanticVerification": false,
+  "advancedFrom": "7737cfc3c62010965c0ba981da424fc8df9a57a1cac49a675ed7e9919ea5c3a2"
+}

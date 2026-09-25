@@ -1,0 +1,99 @@
+{
+  "name": "life_direction_draw",
+  "description": "Draw one answer from a registered model's normalized Cut, typically a direction Cut over mutually exclusive continuations, with a recorded seed. The server computes u as the first 32 bits of SHA-256(seed) divided by 2^32 and takes the answer whose cumulative interval contains u, in the registered model's order: the engine stores a Cut's answers sorted by key, so the intervals run alphabetically, not in the order you wrote them (the result lists every interval). With record, the draw is stored in a graph bound to that model, and any earlier draw over the same Cut is reported and linked, so a second draw is visible as a reroll rather than a silent replacement. A drawn remainder calls for a new admissible continuation, not renormalization of the named answers. The draw decides nothing by itself: build and accept the realized continuation through the ordinary model and narrative tools.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "modelHash": {
+        "type": "string",
+        "pattern": "^[a-f0-9]{64}$"
+      },
+      "cutId": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1024
+      },
+      "seed": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256
+      },
+      "record": {
+        "default": null,
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "graphHash": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "requestId": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 256
+              },
+              "nodeId": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 256
+              },
+              "rootId": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 1024
+              },
+              "accessScopes": {
+                "minItems": 1,
+                "maxItems": 64,
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxLength": 256
+                }
+              },
+              "reason": {
+                "default": null,
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 4000
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "graphHash",
+              "requestId",
+              "nodeId",
+              "rootId",
+              "accessScopes"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "null"
+          }
+        ]
+      }
+    },
+    "required": [
+      "modelHash",
+      "cutId",
+      "seed"
+    ],
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "additionalProperties": false
+  },
+  "annotations": {
+    "readOnlyHint": false,
+    "destructiveHint": false,
+    "idempotentHint": false,
+    "openWorldHint": false
+  }
+}

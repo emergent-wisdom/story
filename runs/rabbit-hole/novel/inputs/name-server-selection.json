@@ -1,0 +1,24 @@
+{
+ "graphHash": "7737cfc3c62010965c0ba981da424fc8df9a57a1cac49a675ed7e9919ea5c3a2",
+ "requestId": "name-server-selection",
+ "nodeId": "author.names.server.selection",
+ "storyRootId": "story",
+ "authorId": "calling-llm:claude-opus-5-5",
+ "accessScopes": [
+  "story-author"
+ ],
+ "kind": "selection",
+ "text": "Selected under delegation (LLM choice): the chat server is the Sharehouse (members say 'the House'), an invented community of a few thousand anonymous yield farmers. The name reads as ordinary crypto slang; that Kieran's shared house deposit ends up serving a 'house' online is never remarked on in the prose.",
+ "data": {
+  "chosen": "the Sharehouse",
+  "shortName": "the House",
+  "decidedBy": "calling LLM under delegation",
+  "seedWord": "share"
+ },
+ "links": [
+  {
+   "relation": "refines",
+   "targetNodeId": "author.names.server.candidates"
+  }
+ ]
+}

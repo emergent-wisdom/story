@@ -1,0 +1,10 @@
+{
+ "targetKind": "name",
+ "brief": "Name the invented building society Kieran works for: a mutual savings and mortgage society founded in Swindon in the nineteenth century by railway workers pooling savings to buy houses, now a mid-sized society with its head office and payments operations in west Swindon. It stands in for the real mutuals of the town and must not resemble any real society's name.",
+ "context": "British English; Swindon, Wiltshire. Existing names: Kieran Hale, Barbara Ashby, Laura Russell, Faye Titcombe (author persona). Real building societies must not be named or imitated.",
+ "constraints": [
+  "Sounds like a real British building society name of the Victorian mutual tradition",
+  "Must not match or closely resemble an existing building society",
+  "Short enough for a lanyard and a letterhead"
+ ]
+}

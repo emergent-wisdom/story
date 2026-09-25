@@ -1,0 +1,26 @@
+{
+  "name": "life_profile_compile",
+  "description": "Compile scaffold profiles in Rust into an ordinary revision-0 ModelDefinition: person_scaffold for a whole life, change_arc_scaffold for a shock with its anticipation, focal change and adaptation, thing_scaffold for a machine, document or institution, relationship_scaffold, concept_scaffold, and the experimental Story, Person and Decision profiles. A scaffold is a starting structure to adapt, extend or replace with processes of your own; the modeler may also author a model directly with application-specific categories. It needs both complete theory resources read in this live MCP process. A refused request returns a complete valid example of its kind, and rust-engine/examples/construction-scaffolds-command.json holds one of each. Structural starters are unweighted by default; person_scaffold offers lifecycle alone or Book-style processes (the existing default). Story and Decision add experimental numerical meanings and behavioural laws, not universal rules; inspect these assumptions before choosing them. This read-only operation never registers or persists the result. Adapt it before life_model_register, or use an explicit successor revision for later category changes. A complete valid request, model and graph are shown in life-sim://example/minimal-model-and-graph.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "profileRequest": {
+        "type": "object",
+        "propertyNames": {
+          "type": "string"
+        },
+        "additionalProperties": {}
+      }
+    },
+    "required": [
+      "profileRequest"
+    ],
+    "$schema": "https://json-schema.org/draft/2020-12/schema"
+  },
+  "annotations": {
+    "readOnlyHint": true,
+    "destructiveHint": false,
+    "idempotentHint": true,
+    "openWorldHint": false
+  }
+}
