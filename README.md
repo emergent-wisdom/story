@@ -2,6 +2,8 @@
 
 Two stories built with the [Meaning Model](https://github.com/emergent-wisdom/meaning-model), with their worlds, character processes, physical settings and authored understanding available in one shared viewer.
 
+**[Explore both stories in the live viewer](https://emergentwisdom.org/meaning-model/?view=layers&timeView=layers)** — opens in your browser without installation. Use **Model** to switch between the books and their fictional authors' lives.
+
 **Current editions, September 27, 2026:**
 
 - **[Twelve Words](stories/twelve-words.md)** — the continuing version of the novel first written live at the Stockholm Claude Community event on September 25.
@@ -25,6 +27,8 @@ Give it the downloaded file's location. The assistant uses `life_construction_im
 These are native MCP construction bundles; no code, extraction step or source checkout is needed. They contain the current published world, prose and attributed understanding, including story reviews. They start new publication lineages so importing or exporting them does not bring in the earlier private working history. Exact download checksums are the `fileSha256` values in the [publication manifest](public/PUBLICATION-MANIFEST.json).
 
 ## Open the viewer
+
+Use the [live viewer on Emergent Wisdom](https://emergentwisdom.org/meaning-model/?view=layers&timeView=layers), or run the same viewer locally:
 
 ```sh
 git clone https://github.com/emergent-wisdom/story && cd story
