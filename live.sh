@@ -1,7 +1,13 @@
 #!/bin/sh
-# Refresh a run's data file every minute while the agent works: node extract.mjs reads a snapshot, never the live server.
-# usage: MEANING_MODEL_DIR=/path/to/meaning-model ./live.sh <run folder> <name>
-while true; do
-  node extract.mjs --run "$1" --out "public/data/$2.json" > /dev/null 2>> live.log || true
-  sleep 60
-done
+# Follow a run in the shared viewer without writing working exports into public/.
+# usage: ./live.sh <run folder> [name]
+set -eu
+if [ "$#" -lt 1 ]; then
+  echo "usage: ./live.sh <run folder> [name]" >&2
+  exit 1
+fi
+script_dir=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+if [ "$#" -ge 2 ]; then
+  exec node "$script_dir/serve.mjs" --run "$1" --name "$2" --live
+fi
+exec node "$script_dir/serve.mjs" --run "$1" --live

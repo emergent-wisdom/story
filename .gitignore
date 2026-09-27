@@ -11,3 +11,8 @@ renders/
 # Local agent worktrees and settings
 .claude/
 .DS_Store
+
+# Private revisions, local conversations and publication staging.
+.local-work/
+/work/
+*.sqlite-journal

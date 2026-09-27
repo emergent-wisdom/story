@@ -1,43 +1,30 @@
-# The Rabbit Hole
+# Twelve Words and The Book of Conditions
 
-**Made for the Stockholm Claude Community event *Push the limits with Fable 5.1 n Opus 5.5*, 25 September 2026.**
-During the event an AI agent wrote this novel live on the released [Meaning Model](https://github.com/emergent-wisdom/meaning-model),
-modelling its world, lives and decisions first, and this repo shows it being built.
+Two stories built with the [Meaning Model](https://github.com/emergent-wisdom/meaning-model), with their worlds, character processes, physical settings and authored understanding available in one shared viewer.
 
-[![The processes view: every process the agent modeled for the story, over its years](media/the-rabbit-hole-processes.png)](media/the-rabbit-hole-processes.mp4)
+**Current editions, September 27, 2026:**
 
-**[Watch the processes view play through the story (51 s video)](media/the-rabbit-hole-processes.mp4).** Run it yourself
-with `npm install && npm run serve` and open http://localhost:8765/processes.html?title=The%20Rabbit%20Hole.
+- **[Twelve Words](stories/twelve-words.md)** — the continuing version of the novel first written live at the Stockholm Claude Community event on September 25.
+- **[The Book of Conditions](stories/the-book-of-conditions.md)** — an alternative history of Babbage, Lovelace and a bounded calculating undertaking.
 
-**The story.** *Twelve Words*, a novel in twelve parts (about 8,400 words), written by an AI agent with the Meaning
-Model from an idea by Henrik Westerberg. Read it as [text](runs/rabbit-hole/novel/novel.md) or as a
-[book PDF](pdf/rabbit-hole.pdf); both are renders of the story graph, and everything that built it is in
-[`runs/rabbit-hole/`](runs/rabbit-hole/).
+These Markdown files are exact renders of the current public story graphs. The viewer's **Read full story** opens the same complete manuscript. The **Model** menu also opens the modeled lives of the fictional authors, Faye Titcombe and Nora Vale.
 
-**The Meaning Model.**
-- Source, releases and documentation: [github.com/emergent-wisdom/meaning-model](https://github.com/emergent-wisdom/meaning-model).
-  This story was made with [release v0.3.0](https://github.com/emergent-wisdom/meaning-model/releases/tag/v0.3.0).
-- The MCP server on npm: [@emergent-wisdom/meaning-model-mcp](https://www.npmjs.com/package/@emergent-wisdom/meaning-model-mcp).
-- The paper: *The Meaning Model: Constructing Worlds and Stories at Progressive Resolution*,
-  [doi:10.5281/zenodo.22313515](https://doi.org/10.5281/zenodo.22313515).
-- [Emergent Wisdom](https://emergentwisdom.org).
+These examples are separate downloads. Installing Meaning Model MCP or the standalone viewer does **not** download either story. This repository and its release assets provide the optional models.
 
-The agent does not just write the story: it models the world first, as processes over time. This page shows that
-model as a landscape.
+## Download a story model
 
-- **Every function over time is a ridge.** That covers each person's life, periods and shocks. It covers the
-  processes their life runs through (body, kin, work, meaning and the rest), what they want, feel and expect as Cut
-  series, and the world's long developments behind them.
-- **Events stand as beams of light, decisions as diamonds.** A diamond glows when the model has drawn the decision.
-- **The mind floats above.** Understanding Nodes, world stages, the director's findings, drawn decisions and prose
-  hang over the terrain, threaded to the moments they are about.
-- **Press play to watch it emerge.** The construction replays in the order the agent built it, with the agent's own
-  reasons as captions.
+- [Download The Book of Conditions](https://github.com/emergent-wisdom/story/raw/refs/heads/main/models/the-book-of-conditions.meaning-model.json)
+- [Download Twelve Words](https://github.com/emergent-wisdom/story/raw/refs/heads/main/models/twelve-words.meaning-model.json)
 
-When a story reaches into deep time, the axis becomes years before the present on a log scale. The story in this repo
-reaches back to hunter-gatherers.
+Save the JSON file on your computer. With [Meaning Model MCP installed in your AI app](https://github.com/emergent-wisdom/meaning-model#readme), tell the assistant:
 
-## Run it
+> Import the Meaning Model story file I downloaded, then open its latest graph in the viewer.
+
+Give it the downloaded file's location. The assistant uses `life_construction_import` with that absolute file path, then `life_model_viewer_open` with the returned `headGraphHash`. The Book uses the access scope `book.07r2.authoring`; Twelve Words uses `story-author`. Each download includes its fictional author's modeled life. The viewer makes that life available alongside the story. Import both files and ask **“Open these stories together”** to switch between them. You can continue writing from either imported edition.
+
+These are native MCP construction bundles; no code, extraction step or source checkout is needed. They contain the current published world, prose and attributed understanding, including story reviews. They start new publication lineages so importing or exporting them does not bring in the earlier private working history. Exact download checksums are the `fileSha256` values in the [publication manifest](public/PUBLICATION-MANIFEST.json).
+
+## Open the viewer
 
 ```sh
 git clone https://github.com/emergent-wisdom/story && cd story
@@ -45,75 +32,69 @@ npm install
 npm run serve
 ```
 
-It needs Node.js 22.18 or later. Open http://localhost:8765, which is `landscape.html?data=rabbit-hole`. Add `&play`
-to start the replay, `&live` to follow a
-running story, `&still` to stop the slow orbit, and `&read` to open the story. **Read the story** shows the text as
-the Meaning Model renders it from the story graph (`life_narrative_render`), up to the replay's moment.
+Requires Node.js 22.18 or later. Open the local URL printed by the command. The reviewed snapshots load immediately; no engine installation is needed just to explore them.
 
-**The processes view** is http://localhost:8765/processes.html. It shows every named process the agent modeled
-(Kieran's belonging to the Sharehouse, Laura's exhaustion, Barbara's guilt, the bitcoin price, intensive-care
-occupancy and the rest) as a curtain of light on its own scale over the story's years. The events that move them run
-as threads through every process they touch, with the decisions the model drew, the love-or-fear split behind the
-acts, and the causal links between events. The heights follow each process's authored path in the model, read by
-`measures.mjs`. Press play to sweep through the years. Both views take `&title=` to show another title.
+**Show it as** switches between Processes (together or layers), Tree, Terrain, Graph, Structure and Space in one page. **Coarse view** gives the overview; more detail reveals subprocesses. Select a record to inspect its meaning and links. Use **Recenter** or Home to restore the overview. Physical positions come from declared coordinates and reference frames; the other graph layouts are not geography.
 
-## Make data from a story run
+This repository uses the [shared viewer launcher](https://github.com/emergent-wisdom/meaning-model-viewer) and the exact interface bundled with **Meaning Model MCP 0.5.0**. Existing `/processes.html` and `/landscape.html` event links open the current Twelve Words edition in their corresponding representation. An explicit current dataset choice remains selected. There is no separate story-specific viewer to maintain.
 
-The extractor reads a run's relay call log and an online SQLite backup of its engine database. It never calls the
-run's own server, so it is safe while the agent works. It needs the Meaning Model with its engine: `npm install` brings
-the published package, then `npx meaning-model-mcp --install-engine` fetches the engine for your platform. A checkout
-named by `MEANING_MODEL_DIR` works too.
+For your own models, install Meaning Model MCP in your AI app and ask **“Open this model.”** The assistant returns a local snapshot link. Ask **“Open these models together”** to compare selected models. Reopen after edits to inspect a new revision. No separate viewer checkout is required for normal MCP use.
 
-```sh
-node extract.mjs --run <run folder> --out public/data/<name>.json
-./live.sh <run folder> <name>   # refresh every minute while the agent works
-node sync-run.mjs <run folder> <name>   # copy the run into runs/<name>/ for this repo
-node export-run.mjs <run folder> <graph hash> <access scope>   # the construction export, made in process
-```
+## What is published
 
-## The story in this repo
+[`models/`](models/) holds the two importable MCP downloads. [`public/models/`](public/models/) holds matching viewer snapshots for the stories and their fictional authors. The [publication manifest](public/PUBLICATION-MANIFEST.json) identifies the exact graph and model revisions, manuscript checksums and downloadable file checksums. The models are the same in the downloads, manuscripts and viewer.
 
-`runs/rabbit-hole/` is the story's whole run, from 25 September 2026. Henrik Westerberg's brief (`PROMPT.md`), about a
-comfortable "blue pill" world, the white rabbit, and Paleolithic emotions, medieval institutions and godlike
-technology, was given to a fresh agent on the released tool. The folder holds the operator's `PROTOCOL.md`; every tool
-call the agent made with its arguments and full result (`novel/inputs/`, `novel/results/` and the call log
-`novel/mcp-transcript.jsonl`); the scripts it wrote (`novel/build/`); a backup of the Meaning Model's engine state
-(`novel/engine-state.sqlite`); the whole construction history (`novel/construction-export.json`); and the tool's render
-of the story (`novel/novel.md`). The story lives in the engine state: the world, the lives, the decisions and the
-prose, in story graph `6e840daa…` on story model revision 17.
+The public models retain authored thoughts, critical story reviews, revision findings, process values, spatial declarations and passage-to-Event links. Private user conversation and incidental execution details are summarized. Working databases, relay transcripts and earlier private construction histories are not included in these current editions. Publication projections have their own genuine model and graph identities; the original private authoring graphs remain unchanged. Twelve Words also includes the audited initial author-life model because historical story records explicitly refer to it.
 
-Rebuild the page's data from it with the published tool:
+## Original September 25 event archive
 
-```sh
-npm install
-npx meaning-model-mcp --install-engine
-node extract.mjs --run runs/rabbit-hole --out public/data/rabbit-hole.json
-npm run serve
-```
+The original *Twelve Words* run was made for the Stockholm Claude Community event **Push the limits with Fable 5.1 n Opus 5.5**, September 25, 2026. An AI agent wrote the novel live using Meaning Model [v0.3.0](https://github.com/emergent-wisdom/meaning-model/releases/tag/v0.3.0), from Henrik Westerberg's brief about a comfortable “blue pill” world, the white rabbit, and Paleolithic emotions, medieval institutions and godlike technology.
 
-Typeset the story as a book PDF from the same render. It needs Chrome or Chromium; set `CHROME` if it is elsewhere.
+The original event [text](runs/rabbit-hole/novel/novel.md), [book PDF](pdf/rabbit-hole.pdf) and [`runs/rabbit-hole/`](runs/rabbit-hole/) archive remain unchanged. They differ from the current editions linked above. The archive preserves the event's brief, protocol, call inputs/results, scripts, construction history and database for reproducibility; it does not contain the later private Writer workspace.
 
-```sh
-node book.mjs rabbit-hole   # writes pdf/rabbit-hole.pdf
-```
+[![The original event processes view](media/the-rabbit-hole-processes.png)](media/the-rabbit-hole-processes.mp4)
 
-## Open the story's model with your own agent
+**[Watch the original interface (51-second video)](media/the-rabbit-hole-processes.mp4).** A new recording of the current interface is being prepared.
 
-The story's world model opens in the published Meaning Model server. From the repo folder, install the engine once,
-work on a copy of the state, and add the server to Claude Code:
+To inspect the original run using today's shared interface:
 
 ```sh
 npx meaning-model-mcp --install-engine
-cp runs/rabbit-hole/novel/engine-state.sqlite story-state.sqlite
-claude mcp add story-model -e LIFE_SIM_STATE_FILE="$PWD/story-state.sqlite" -e MEANING_MODEL_ADDONS=storytelling -e MEANING_MODEL_READING=guides -- npx meaning-model-mcp
+npm run serve -- --run runs/rabbit-hole
 ```
 
-The story graph is `6e840daa393fbdd16608dff4c81c045dca622386be4e9f8d5d7c95816d45eb29`, read with the access scope
-`story-author`. `life_narrative_render` on it gives the novel; `life_narrative_query` and `life_model_inspect` show how
-it is built. Two known limits of this history: `life_construction_export` stops the server on it (the export is
-already in `novel/construction-export.json`), and `life_model_questions` does not see the notes and draws, whose links
-broke when the graph was rebound.
+The launcher reads an online backup and does not change the archive. The engine is needed to extract a run, but not to view the already prepared current snapshots.
 
-## License
+## Work with a saved run
 
-The code is MIT, in [LICENSE](LICENSE). three.js is vendored under its own MIT license.
+```sh
+npx meaning-model-mcp --install-engine
+npm run extract -- --run runs/rabbit-hole --out .local-work/rabbit-hole.json
+npm run serve -- --data .local-work
+```
+
+Generated exports include the author's model, notes and construction record. Keep them in the ignored `.local-work/` directory until reviewed for publication. A story's authored understanding and critical reviews can remain part of its public model; private conversations, personal information and secrets must be removed deliberately.
+
+For an agent actively working in a saved run, `npm run serve -- --run <folder> --live` checks the run once a minute and follows revisions in every representation. It waits for playback to pause before reloading the current view. Ordinary MCP links remain immutable snapshots.
+
+Existing Writer contributors can use `npm run view:writer` with their already running Writer relay. `MEANING_MODEL_RELAY` may name that relay's `relay.mjs`; the default is this checkout's ignored `work/relay.mjs`. This adapter discovers the latest unambiguous saved story and asks the existing MCP to open it. It starts no second database writer and is not needed to view the public snapshots.
+
+For the current stories, use the downloads above. To reproduce the original event world with your own agent, use a private copy of the archived database:
+
+```sh
+npx meaning-model-mcp --install-engine
+mkdir -p .local-work
+cp runs/rabbit-hole/novel/engine-state.sqlite .local-work/story-state.sqlite
+claude mcp add story-model -e LIFE_SIM_STATE_FILE="$PWD/.local-work/story-state.sqlite" -e MEANING_MODEL_ADDONS=storytelling -e MEANING_MODEL_READING=guides -- npx meaning-model-mcp
+```
+
+The original event graph is `6e840daa393fbdd16608dff4c81c045dca622386be4e9f8d5d7c95816d45eb29`, with scope `story-author`. Ask the agent to inspect and render that graph. Use the publication manifest to distinguish it from the later current public editions.
+
+## Meaning Model
+
+- [Source, releases and documentation](https://github.com/emergent-wisdom/meaning-model)
+- [MCP package on npm](https://www.npmjs.com/package/@emergent-wisdom/meaning-model-mcp)
+- [Paper: The Meaning Model](https://doi.org/10.5281/zenodo.22313515)
+- [Emergent Wisdom](https://emergentwisdom.org)
+
+The code is MIT; see [LICENSE](LICENSE). Third-party viewer notices ship with the MCP package.

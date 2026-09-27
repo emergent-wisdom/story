@@ -1,0 +1,109 @@
+{
+  "schema": "meaning-model-publication-projection/v1",
+  "date": "2026-09-27",
+  "purpose": "Public current-state story models, manuscripts, reviews and attributed understanding, separately downloadable from the MCP tool. Current publication models and graphs begin fresh lineages; an explicitly referenced, audited revision-zero author model is retained as historical evidence. No private construction predecessors are included.",
+  "stories": {
+    "book": {
+      "title": "The Book of Conditions",
+      "graphHash": "2647c51d51c96796cadc4204c252feb594bcd1892e2ec589135e2122e70217ff",
+      "sourceGraphHash": "bd73ecc62b1038fc64567baae63e5511e843691a2bfad9fd1b934e6f5b90e48b",
+      "modelHash": "03a3544816984b4dfacac6f37204cb25ddc6b893b78437e15403df690123ddde",
+      "proseSha256": "bc1a487e0c5a32e6a54127d2b66fdbe97a3a6df092ae8b277e21bc75fc57a22b",
+      "nodeCount": 214,
+      "edgeCount": 1105,
+      "reviewCount": 5,
+      "reviewRecordsUnchanged": true,
+      "snapshot": "book.json",
+      "sourceModelHash": "f03405884f776bbd40491a4056d5cce8f565cd436440139072d394cefc66afcf",
+      "modelId": "book-of-conditions-07r2-retrospective-import.public-2026-09-27",
+      "sourceModelId": "book-of-conditions-07r2-retrospective-import",
+      "modelContentUnchangedExceptPublicationIdentityAndLineageMetadata": true,
+      "scopes": [
+        "book.07r2.authoring"
+      ],
+      "rootId": "document.book.07r2",
+      "bundle": "the-book-of-conditions.meaning-model.json",
+      "constructionContentSha256": "84f64bef850e05719d75dc4a6b517389b43b3acc2fe1c0a6969bce86826cf07f",
+      "bundleFileSha256": "524f20415094b94fb601397d86337a4de6d5e5f7ef253e136af8e4c3c1af2754"
+    },
+    "twelve": {
+      "title": "Twelve Words",
+      "graphHash": "f7a61c96af66d7dc398df86af200da2903011ae678f3dc8934a30aa4d5189102",
+      "sourceGraphHash": "b32563bf7ca8db0d10643f9fea45366cbaa8176369e873b581a49ea361a66651",
+      "modelHash": "7da7c4498460b0d47f9918ce6781a1b60addaa46e9c897910cf71eaee94790dc",
+      "proseSha256": "b41906ce4daf23e624b666f9c2ceab2c40cf637c55b986b8df7b054d375c1383",
+      "nodeCount": 383,
+      "edgeCount": 1694,
+      "reviewCount": 8,
+      "reviewRecordsUnchanged": true,
+      "snapshot": "twelve.json",
+      "sourceModelHash": "3d2311bb2b4238c22f770503a0137a756bc95600d582cbbdec59bda1b5c576e3",
+      "modelId": "rabbit-hole-world.public-2026-09-27",
+      "sourceModelId": "rabbit-hole-world",
+      "modelContentUnchangedExceptPublicationIdentityAndLineageMetadata": true,
+      "scopes": [
+        "story-author"
+      ],
+      "rootId": "story",
+      "bundle": "twelve-words.meaning-model.json",
+      "constructionContentSha256": "08fad72b124a7dcad6213f015c37a17c7de6a57ebb1ff40e0995150fad189b7b",
+      "bundleFileSha256": "ecb89fa5f4056062b3f950d3ff9a2b3cc0714eaf100f0df4e11525a5cc923990"
+    }
+  },
+  "authorLives": {
+    "nora": {
+      "title": "Author life · Nora Vale",
+      "modelHash": "6dfce04a2eec4b581f99d9215237b5f22973882a4992a30c6e1029177648a4e0",
+      "sourceModelHash": "cf455166e276bfd8021b4603872904fafbe618fb05f31668ad8e4842a981a4ab",
+      "modelId": "nora-vale-fictional-author-life.public-2026-09-27",
+      "sourceModelId": "nora-vale-fictional-author-life",
+      "snapshot": "nora.json",
+      "modelContentUnchangedExceptPublicationIdentityAndLineageMetadata": true
+    },
+    "faye": {
+      "title": "Author life · Faye Titcombe",
+      "modelHash": "66335be7f45c1ab93c7e59fe604b1edab462ca7340c309b9eca269f1e7c7f5c6",
+      "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
+      "modelId": "faye-titcombe-life.public-2026-09-27",
+      "sourceModelId": "faye-titcombe-life",
+      "snapshot": "faye.json",
+      "modelContentUnchangedExceptPublicationIdentityAndLineageMetadata": true
+    }
+  },
+  "historicalDependencies": {
+    "fayeOriginal": {
+      "modelHash": "cb24467c43d301aa8d9ab8f83b8c208ef23439f31151785067f591a51c960a6e",
+      "modelId": "faye-titcombe-life",
+      "reason": "Exact initial author-life revision explicitly referenced by historical story records. Already revision zero; included unchanged after privacy review.",
+      "contentUnchanged": true,
+      "privateHistoryIncluded": false
+    }
+  },
+  "importableBundles": {
+    "book": {
+      "file": "the-book-of-conditions.meaning-model.json",
+      "bytes": 2831300,
+      "graphHash": "2647c51d51c96796cadc4204c252feb594bcd1892e2ec589135e2122e70217ff",
+      "modelCount": 2,
+      "graphRevisionCount": 1,
+      "privateHistoryIncluded": false,
+      "constructionContentSha256": "84f64bef850e05719d75dc4a6b517389b43b3acc2fe1c0a6969bce86826cf07f",
+      "fileSha256": "524f20415094b94fb601397d86337a4de6d5e5f7ef253e136af8e4c3c1af2754"
+    },
+    "twelve": {
+      "file": "twelve-words.meaning-model.json",
+      "bytes": 3534265,
+      "graphHash": "f7a61c96af66d7dc398df86af200da2903011ae678f3dc8934a30aa4d5189102",
+      "modelCount": 3,
+      "graphRevisionCount": 1,
+      "privateHistoryIncluded": false,
+      "constructionContentSha256": "08fad72b124a7dcad6213f015c37a17c7de6a57ebb1ff40e0995150fad189b7b",
+      "fileSha256": "ecb89fa5f4056062b3f950d3ff9a2b3cc0714eaf100f0df4e11525a5cc923990"
+    }
+  },
+  "checksumDefinitions": {
+    "fileSha256": "SHA-256 of the exact downloadable JSON file bytes. Use this value to verify a downloaded file with shasum -a 256 or another SHA-256 tool.",
+    "constructionContentSha256": "Meaning Model canonical construction-content checksum, excluding the checksum field. Equals the bundle JSON field bundleSha256 and is verified by life_construction_import; it is not the checksum of the complete file.",
+    "proseSha256": "SHA-256 of the exact rendered manuscript text, verified before export and after import."
+  }
+}

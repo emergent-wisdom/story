@@ -1,10 +1,14 @@
 {
   "name": "story-landscape",
-  "version": "0.1.0",
+  "version": "0.5.0",
+  "private": true,
   "description": "A 3D landscape of a story as an agent builds it with the Meaning Model: every function over time, the understanding above, the construction replayed.",
   "scripts": {
     "serve": "node serve.mjs",
-    "extract": "node extract.mjs"
+    "extract": "node extract.mjs",
+    "view": "node serve.mjs",
+    "test:viewer": "node --test test/*.test.mjs",
+    "view:writer": "node open-model.mjs"
   },
   "license": "MIT",
   "type": "module",
@@ -12,8 +16,8 @@
     "node": ">=22.18.0"
   },
   "dependencies": {
-    "@emergent-wisdom/meaning-model-mcp": "^0.3.0",
-    "three": "^0.186.1"
+    "@emergent-wisdom/meaning-model-mcp": "0.5.0",
+    "meaning-model-viewer": "github:emergent-wisdom/meaning-model-viewer#v0.5.0"
   },
   "devDependencies": {
     "qrcode": "^1.5.4"
