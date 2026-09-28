@@ -30,6 +30,10 @@ title ??= data.title ?? name;
 const words = data.story.units.reduce((sum, unit) => sum + unit.text.split('\n').filter((line) => !/^\s*#/.test(line)).join(' ').split(/\s+/).filter(Boolean).length, 0);
 const date = new Date().toISOString().slice(0, 10);
 const short = (hash) => (hash ? `${hash.slice(0, 12)}…` : 'unknown');
+// These credits belong to the archived Rabbit Hole run, not every input story.
+const writingCredit = name === 'rabbit-hole'
+  ? 'A novel written autonomously by Claude Opus 5.5 Max<br>using the Meaning Model<br>from a prompt supplied by an event participant'
+  : 'A novel written by an AI agent with the Meaning Model';
 
 const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${escape(title)}</title><style>
   @page { size: 5.5in 8.5in; margin: 0.85in 0.72in 0.95in; @bottom-center { content: counter(page); font: 9.5pt "Iowan Old Style", Palatino, Georgia, serif; color: #555; } }
@@ -48,7 +52,7 @@ const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>
   h2 + p, h3 + p, h4 + p, .break + p { text-indent: 0; }
   p.break { text-align: center; text-indent: 0; margin: 10pt 0; }
 </style></head><body>
-<section class="front title"><h1>${escape(title)}</h1><div class="by">A novel written by an AI agent with the Meaning Model,<br>from an idea by Henrik Westerberg</div></section>
+<section class="front title"><h1>${escape(title)}</h1><div class="by">${writingCredit}</div></section>
 <section class="front colophon">
   <p>${escape(title)}. ${words.toLocaleString('en-US')} words.</p>
   <p>The text is the Meaning Model's render of the story graph ${short(data.headGraphHash)} (projection ${short(data.story.projectionHash)}), made with life_narrative_render. The story, its world model and every step of their construction are at github.com/emergent-wisdom/story. The Meaning Model is at github.com/emergent-wisdom/meaning-model.</p>

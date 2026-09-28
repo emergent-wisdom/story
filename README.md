@@ -52,9 +52,9 @@ The public models retain authored thoughts, critical story reviews, revision fin
 
 ## Original September 25 event archive
 
-The original *Twelve Words* run was made for the Stockholm Claude Community event **Push the limits with Fable 5.1 n Opus 5.5**, September 25, 2026. An AI agent wrote the novel live using Meaning Model [v0.3.0](https://github.com/emergent-wisdom/meaning-model/releases/tag/v0.3.0), from Henrik Westerberg's brief about a comfortable “blue pill” world, the white rabbit, and Paleolithic emotions, medieval institutions and godlike technology.
+The original *Twelve Words* run was made for the Stockholm Claude Community event **Push the limits with Fable 5.1 n Opus 5.5**, September 25, 2026. A participant at the event described what they wanted the story to be about and supplied the prompt: a comfortable “blue pill” world, the white rabbit, and Paleolithic emotions, medieval institutions and godlike technology. **Claude Opus 5.5 Max** then wrote the novel autonomously, live at the event, using Meaning Model [v0.3.0](https://github.com/emergent-wisdom/meaning-model/releases/tag/v0.3.0).
 
-The original event [text](runs/rabbit-hole/novel/novel.md), [book PDF](pdf/rabbit-hole.pdf) and [`runs/rabbit-hole/`](runs/rabbit-hole/) archive remain unchanged. They differ from the current editions linked above. The archive preserves the event's brief, protocol, call inputs/results, scripts, construction history and database for reproducibility; it does not contain the later private Writer workspace.
+The original event [text](runs/rabbit-hole/novel/novel.md) and [book PDF](pdf/rabbit-hole.pdf) remain unchanged. They differ from the current editions linked above. The [`runs/rabbit-hole/`](runs/rabbit-hole/) archive preserves the event's brief, protocol, call inputs/results, scripts, construction history and database for reproducibility, with the prompt and writing credits corrected in the protocol; it does not contain the later private Writer workspace.
 
 [![The original event processes view](media/the-rabbit-hole-processes.png)](media/the-rabbit-hole-processes.mp4)
 

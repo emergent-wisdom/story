@@ -1,13 +1,14 @@
 # Rabbit-hole story run, 2026-09-25
 
-Henrik Westerberg's story idea (a comfortable "blue pill" world, the white rabbit, the rabbit hole of crypto and DeFi,
-and Paleolithic emotions, medieval institutions and godlike technology), given to a fresh agent on the released tool,
-as a user would. The story is visualized in this repo while it is written.
+A participant at the event described what they wanted the story to be about and supplied the prompt: a comfortable "blue pill" world,
+the white rabbit, the rabbit hole of crypto and DeFi, and Paleolithic emotions, medieval institutions and godlike
+technology. Claude Opus 5.5 Max then wrote the story autonomously using the released Meaning Model.
+The story is visualized in this repo while it is written.
 
 - **Tool.** Meaning Model 0.3.0, release [v0.3.0](https://github.com/emergent-wisdom/meaning-model/releases/tag/v0.3.0)
   (commit 9e7fc76): the release engine, the storytelling add-on, guides-first reading, and the Jev estimator
   configured with no cap.
-- **The agent.** A fresh session opened in `novel/`, with no memory loaded, given `PROMPT.md`: the idea verbatim, the
+- **The agent.** Claude Opus 5.5 Max, in a fresh session opened in `novel/`, with no memory loaded, given `PROMPT.md`: the brief verbatim, the
   relay mechanics, 15-minute rounds, the safety rules and an export at the end.
 - **The relay.** `novel/relay.mjs` holds one MCP connection to the server and logs every call and its full result to
   `novel/mcp-transcript.jsonl`. The agent writes a call's arguments to `novel/inputs/` and calls
