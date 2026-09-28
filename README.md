@@ -2,7 +2,7 @@
 
 Two stories built with the [Meaning Model](https://github.com/emergent-wisdom/meaning-model), with their worlds, character processes, physical settings and authored understanding available in one shared viewer.
 
-**[Explore both stories in the live viewer](https://emergentwisdom.org/meaning-model/?view=layers&timeView=layers)** — opens in your browser without installation. Use **Model** to switch between the books and their fictional authors' lives.
+**[Explore both stories in the interactive viewer](https://emergentwisdom.org/meaning-model/twelve-words/?reading=off&view=together&everything=&timeView=together)** — opens in your browser without installation. Use **Model** to switch between the books and their fictional authors' lives.
 
 **Current editions, September 27, 2026:**
 
@@ -28,7 +28,7 @@ These are native MCP construction bundles; no code, extraction step or source ch
 
 ## Open the viewer
 
-Use the [live viewer on Emergent Wisdom](https://emergentwisdom.org/meaning-model/?view=layers&timeView=layers), or run the same viewer locally:
+Use the [interactive viewer on Emergent Wisdom](https://emergentwisdom.org/meaning-model/twelve-words/?reading=off&view=together&everything=&timeView=together), or run the same viewer locally:
 
 ```sh
 git clone https://github.com/emergent-wisdom/story && cd story
@@ -40,9 +40,9 @@ Requires Node.js 22.18 or later. Open the local URL printed by the command. The 
 
 **Show it as** switches between Processes (together or layers), Tree, Terrain, Graph, Structure and Space in one page. **Coarse view** gives the overview; more detail reveals subprocesses. Select a record to inspect its meaning and links. Use **Recenter** or Home to restore the overview. Physical positions come from declared coordinates and reference frames; the other graph layouts are not geography.
 
-This repository uses the [shared viewer launcher](https://github.com/emergent-wisdom/meaning-model-viewer) and the exact interface bundled with **Meaning Model MCP 0.5.0**. Existing `/processes.html` and `/landscape.html` event links open the current Twelve Words edition in their corresponding representation. An explicit current dataset choice remains selected. There is no separate story-specific viewer to maintain.
+This repository uses the [shared viewer launcher](https://github.com/emergent-wisdom/meaning-model-viewer) and the exact interface bundled with **Meaning Model MCP 0.5.2**. Existing `/processes.html` and `/landscape.html` event links open the current Twelve Words edition in their corresponding representation. An explicit current dataset choice remains selected. There is no separate story-specific viewer to maintain.
 
-For your own models, install Meaning Model MCP in your AI app and ask **“Open this model.”** The assistant returns a local snapshot link. Ask **“Open these models together”** to compare selected models. Reopen after edits to inspect a new revision. No separate viewer checkout is required for normal MCP use.
+For your own models, install Meaning Model MCP in your AI app and ask **“Open this model.”** The assistant returns a local snapshot link. Ask **“Open these models together”** to compare selected models. When writing, ask **“Keep the viewer following as we work.”** The assistant opens the story's `graphHash` with `mode: "live"`; saved graph revisions update the model and prose at the same local URL. Updates preserve your reading context through guarded page refreshes and pause while you interact or play. A fork or inaccessible revision pauses following. Exact snapshot links remain available. No separate viewer checkout is required for normal MCP use. The hosted website shows the reviewed published editions and does not follow private drafts.
 
 ## What is published
 
@@ -79,9 +79,9 @@ npm run serve -- --data .local-work
 
 Generated exports include the author's model, notes and construction record. Keep them in the ignored `.local-work/` directory until reviewed for publication. A story's authored understanding and critical reviews can remain part of its public model; private conversations, personal information and secrets must be removed deliberately.
 
-For an agent actively working in a saved run, `npm run serve -- --run <folder> --live` checks the run once a minute and follows revisions in every representation. It waits for playback to pause before reloading the current view. Ordinary MCP links remain immutable snapshots.
+For an agent actively working in a saved run, `npm run serve -- --run <folder> --live` checks the run once a minute and follows revisions in every representation. It waits for playback to pause before reloading the current view. Ordinary MCP links remain immutable snapshots unless the assistant opens a story graph with `mode: "live"`.
 
-Existing Writer contributors can use `npm run view:writer` with their already running Writer relay. `MEANING_MODEL_RELAY` may name that relay's `relay.mjs`; the default is this checkout's ignored `work/relay.mjs`. This adapter discovers the latest unambiguous saved story and asks the existing MCP to open it. It starts no second database writer and is not needed to view the public snapshots.
+Existing Writer contributors can use `npm run view:writer` with their already running Writer relay. `MEANING_MODEL_RELAY` may name that relay's `relay.mjs`; the default is this checkout's ignored `work/relay.mjs`. This adapter discovers the latest unambiguous saved story and asks the existing MCP (0.5.1 or later) to open it in live mode. The same link follows later saved revisions. It starts no second database writer and is not needed to view the public snapshots.
 
 For the current stories, use the downloads above. To reproduce the original event world with your own agent, use a private copy of the archived database:
 

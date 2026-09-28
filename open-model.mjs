@@ -25,8 +25,9 @@ export async function openStory(call, { graphId = 'rabbit-hole-novel', accessSco
   if (unique.length === 0) throw new Error(`No visible saved story '${graphId}' was found. Ask the connected assistant to import or select the intended story with its access scopes.`);
   if (unique.length !== 1) throw new Error(`The story has ${unique.length} branch heads. Ask the connected assistant to select the intended branch before opening it.`);
   const selected = unique[0];
-  const viewer = await call('life_model_viewer_open', { graphHash: selected.graphHash, accessScopes });
+  const viewer = await call('life_model_viewer_open', { graphHash: selected.graphHash, accessScopes, mode: 'live' });
   if (!viewer.url || viewer.graphHash !== selected.graphHash) throw new Error('The MCP did not return a viewer for the selected story revision.');
+  if (viewer.mode !== 'live') throw new Error('The Writer MCP did not open a live view. Upgrade the running MCP to 0.5.1 or later before following the story.');
   return { ...viewer, graphId, revision: selected.revision };
 }
 
@@ -52,6 +53,6 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
     const viewer = await openStory(await runningRelay(relay));
     console.log(viewer.url);
     console.log(`Opened ${viewer.graphId}, revision ${viewer.revision}, in the bundled Meaning Model viewer.`);
-    console.log('This link shows a saved revision. Run this command again after writing changes. Keep the Writer MCP running while viewing.');
+    console.log('This link follows saved story revisions. Keep the Writer MCP running while viewing; a branch or inaccessible revision pauses updates.');
   } catch (error) { console.error(error.message); process.exitCode = 1; }
 }

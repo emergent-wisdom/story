@@ -12,11 +12,11 @@ test('opens the declared current saved head through the public MCP', async () =>
     calls.push({ name, args });
     return name === 'life_saved_work_list'
       ? { heads: [head], window: { nextOffset: null } }
-      : { graphHash, url: 'http://127.0.0.1:5000/example/', mode: 'snapshot' };
+      : { graphHash, url: 'http://127.0.0.1:5000/example/', mode: 'live' };
   });
   assert.equal(opened.graphHash, graphHash);
   assert.deepEqual(calls.map((call) => call.name), ['life_saved_work_list', 'life_model_viewer_open']);
-  assert.deepEqual(calls[1].args, { graphHash, accessScopes: ['story-author'] });
+  assert.deepEqual(calls[1].args, { graphHash, accessScopes: ['story-author'], mode: 'live' });
 });
 
 test('finishes catalog paging before deciding whether the story has one head', async () => {
@@ -38,4 +38,10 @@ test('refuses a viewer for a different revision', async () => {
   await assert.rejects(openStory(async (name) => name === 'life_saved_work_list'
     ? { heads: [head], window: { nextOffset: null } }
     : { graphHash: 'b'.repeat(64), url: 'http://127.0.0.1:5000/example/' }), /selected story revision/);
+});
+
+test('does not promise live following when an older MCP returns a fixed snapshot', async () => {
+  await assert.rejects(openStory(async (name) => name === 'life_saved_work_list'
+    ? { heads: [head], window: { nextOffset: null } }
+    : { graphHash, url: 'http://127.0.0.1:5000/example/', mode: 'snapshot' }), /did not open a live view/);
 });

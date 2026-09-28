@@ -9,10 +9,10 @@ test('explicit run and snapshot requests pass unchanged to the shared viewer', (
 
 test('the story depends on the shared viewer and MCP release rather than a copied interface', async () => {
   const pkg=JSON.parse(await readFile(new URL('../package.json',import.meta.url),'utf8'));
-  assert.equal(pkg.dependencies['@emergent-wisdom/meaning-model-mcp'],'0.5.0');
-  assert.equal(pkg.dependencies['meaning-model-viewer'],'github:emergent-wisdom/meaning-model-viewer#v0.5.0');
+  assert.equal(pkg.dependencies['@emergent-wisdom/meaning-model-mcp'],'0.5.2');
+  assert.equal(pkg.dependencies['meaning-model-viewer'],'github:emergent-wisdom/meaning-model-viewer#v0.5.2');
   assert.equal(pkg.scripts.serve,'node serve.mjs');
-  assert.equal(pkg.version,'0.5.0');
+  assert.equal(pkg.version,'0.5.2');
   assert.equal(pkg.private,true);
 });
 
