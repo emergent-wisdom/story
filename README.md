@@ -9,6 +9,8 @@ Two stories built with the [Meaning Model](https://github.com/emergent-wisdom/me
 - **[Twelve Words](stories/twelve-words.md)** — the continuing version of the novel first written live at the Stockholm Claude Community event on September 25.
 - **[The Book of Conditions](stories/the-book-of-conditions.md)** — an alternative history of Babbage, Lovelace and a bounded calculating undertaking.
 
+The current *Book of Conditions* was created by Codex and Claude under Henrik Westerberg's direction.
+
 These Markdown files are exact renders of the current public story graphs. The viewer's **Read full story** opens the same complete manuscript. The **Model** menu also opens the modeled lives of the fictional authors, Faye Titcombe and Nora Vale.
 
 These examples are separate downloads. Installing Meaning Model MCP or the standalone viewer does **not** download either story. This repository and its release assets provide the optional models.
