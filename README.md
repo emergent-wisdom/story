@@ -4,7 +4,7 @@ Two stories built with the [Meaning Model](https://github.com/emergent-wisdom/me
 
 **[Explore both stories in the interactive viewer](https://emergentwisdom.org/meaning-model/twelve-words/?reading=off&view=together&everything=&timeView=together)** — opens in your browser without installation. Use **Model** to switch between the books and their fictional authors' lives.
 
-**Current editions, September 27, 2026:**
+**Current editions, September 29, 2026:**
 
 - **[Twelve Words](stories/twelve-words.md)** — the continuing version of the novel first written live at the Stockholm Claude Community event on September 25.
 - **[The Book of Conditions](stories/the-book-of-conditions.md)** — an alternative history of Babbage, Lovelace and a bounded calculating undertaking.
