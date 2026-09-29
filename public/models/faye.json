@@ -1,9 +1,9 @@
 {
   "schema": "meaning-model-viewer/2",
   "runFormat": null,
-  "meaningModel": "0.5.0",
+  "meaningModel": "0.6.0",
   "readingsPlaced": false,
-  "generatedAt": "2026-09-27T19:23:50.330Z",
+  "generatedAt": "2026-09-29T19:00:01.255Z",
   "run": "faye",
   "title": "Author life · Faye Titcombe",
   "display": null,
@@ -25,7 +25,7 @@
   "firstCall": null,
   "lastCall": null,
   "headGraphHash": null,
-  "modelHash": "66335be7f45c1ab93c7e59fe604b1edab462ca7340c309b9eca269f1e7c7f5c6",
+  "modelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb",
   "window": {
     "start": 1985,
     "end": 2025.7
@@ -3244,6 +3244,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -3341,6 +3344,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -3447,6 +3453,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -3553,6 +3562,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored by the recorder (calling LLM) under delegation; not estimated"
@@ -3650,6 +3662,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -3752,6 +3767,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored proposal weights fixed before the draw; seed fixed in advance"
@@ -3858,6 +3876,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -3960,6 +3981,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -4054,6 +4078,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -4148,6 +4175,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -4242,6 +4272,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -4336,6 +4369,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -4430,6 +4466,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -4524,6 +4563,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -4618,6 +4660,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -4712,6 +4757,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -4806,6 +4854,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -4900,6 +4951,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -4994,6 +5048,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored, not measured"
@@ -5112,6 +5169,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored by the recorder (calling LLM) under delegation; not estimated"
@@ -5230,6 +5290,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "rabbit-hole-run; invented author persona, authored by the calling LLM under delegation",
           "authored by the recorder (calling LLM) under delegation; not estimated"
@@ -5302,11 +5365,11 @@
   },
   "constructionTiming": "unavailable",
   "inspection": {
-    "modelHash": "66335be7f45c1ab93c7e59fe604b1edab462ca7340c309b9eca269f1e7c7f5c6",
+    "modelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb",
     "model": {
       "decomposition": [],
       "dependencies": [],
-      "id": "faye-titcombe-life.public-2026-09-27",
+      "id": "faye-titcombe-life.public-2026-09-29",
       "initial_claims": [],
       "laws": [],
       "meaning_model": {
@@ -9254,11 +9317,10 @@
         "number": 0,
         "previous_model_hash": null,
         "provenance": [
-          "Public current-state publication, 2026-09-27.",
           "Source model: 4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e.",
-          "Only lineage metadata is reset; this does not claim to replay the private development history."
+          "All modeled world records remain unchanged except explicitly documented personal-attribution cleanup. Publication identity does not claim a new independent assessment."
         ],
-        "reason": "Public current-state edition, 27 September 2026. Modeled content retained; a new publication lineage excludes private construction predecessors."
+        "reason": "Current public publication, 2026-09-29. Fresh root excludes private construction predecessors."
       },
       "schema": "life-sim-rust-model/v1",
       "time_unit": "year"
@@ -9269,10 +9331,10 @@
       "edges": []
     }
   },
+  "relatedModels": [],
   "publication": {
     "schema": "meaning-model-publication-projection/v1",
     "kind": "public-current-state-projection",
-    "privateHistoryIncluded": false,
-    "modelLineage": "Fresh publication model ID and root; all internal record identities and modeled content retained."
+    "privateHistoryIncluded": false
   }
 }

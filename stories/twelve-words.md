@@ -6,7 +6,7 @@ The payments file left White Hart House at ten every night and came back at seve
 
 The Hart had been founded in 1868 by railwaymen pooling their wages in the back room of a White Hart inn so that each of them, one by one, could buy a house. It still had the brass hart on the door and a mural of the founders in the canteen, men with moustaches and bowler hats looking faintly surprised to find themselves on a wall in west Swindon. Kieran liked the mural. He liked most things about the Hart. That was the problem, if it was a problem.
 
-His week had one shape. The 8.12 bus from Old Town. The blue lanyard. The tea round, which went clockwise from the window and which nobody had ever agreed to and everybody kept. Cut-off at ten. Lunch at one. The Thursday quiz at the Beehive, where his team came third nearly every week. Laura's rota on the fridge, printed monthly and held up by a magnet from Weymouth: days, nights, and the twelve-and-a-half-hour shifts she called longs. Sunday lunch in Penhill, where his father talked about the car plant closing in 2021 as if it were weather.
+His week had one shape. The 8.12 bus from Old Town. The blue lanyard. The tea round, which went clockwise from the window and which nobody had ever agreed to and everybody kept. Lunch at one. The Thursday quiz at the Beehive, where his team came third nearly every week. Laura's rota on the fridge, printed monthly and held up by a magnet from Weymouth: days, nights, and the twelve-and-a-half-hour shifts she called longs. Sunday lunch in Penhill, where his father talked about the announced closure of the car plant in 2021 as if it were weather.
 
 "They'll find something for the good ones," his father said, carving. "Pass the gravy."
 
@@ -82,11 +82,21 @@ The routine stayed the same. It only began, faintly, to feel like a costume. War
 
 In the canteen the founders looked down from their mural with their moustaches and their surprise. He found himself wondering what the back room of the White Hart had smelt of in 1868, beer and coal smoke and wet wool, and whether any of those men had lain awake afraid that the thing they were building would not hold.
 
-At the Thursday quiz the question was which animal Alice followed down the hole, and everyone at the table wrote rabbit, and they came third.
+One Thursday Laura was off and came to the quiz. In the music round she sang the wrong words softly into his ear until he could no longer remember the right ones.
+
+"Stop it. I knew this."
+
+"Write mine," she said. "Mine's better."
+
+"Lor."
+
+She took the pencil and wrote the artist, who she had known all along, then pushed the sheet back. Under the table her cold hand found the gap between his cuff and his watch. He tried to shake her off without spilling his pint, and she laughed into his shoulder.
+
+The question was which animal Alice followed down the hole, and everyone at the table wrote rabbit, and they came third.
 
 ## Three: Mirror
 
-On the evening of Thursday 12 March 2020 the news said the markets had had their worst day since 1987 and bitcoin had lost half its value in a day. Laura was on a long and would not be home until after nine. The flat smelt of the pasta bake she had left him, covered in foil, with a note that said 40 MINS 180 LOVE YOU. She had written it at six that morning with her coat on, and had known, writing it, that he would forget. Kieran stood at the kitchen table with the television on in the other room and took the card out of his wallet.
+On the evening of Thursday 12 March 2020 the news said the markets had had their worst day since 1987 and bitcoin had lost half its value in a day. Laura was on a long and would not be home until after nine. The pasta bake she had left him sat under its foil on the side, with a note that said 40 MINS 180 LOVE YOU. She had written it at six that morning with her coat on, and had known, writing it, that he would forget. Kieran stood at the kitchen table with the television on in the other room and took the card out of his wallet.
 
 He downloaded a wallet app. It asked him whether he wanted to create a new wallet or restore one. It felt like the character-select screen of a game he had not played for ten years: new, or continue. He pressed restore. It gave him twelve empty boxes, and he typed the words into them one by one.
 
@@ -102,7 +112,7 @@ Half of what she had given him. The first thing the other world taught him was t
 
 Then he found the explorer, the public ledger, and pasted in his address, and there was the transaction that had sent him the coins on 31 October 2019, and the one before that which had sent them to her, and behind that another, and another, branching back through thousands of hands and eleven years. There was no queue. There was no cut-off. There were no exceptions, only confirmations. Anyone could read it. Anyone in the world. He sat down on the kitchen chair so suddenly that it scraped.
 
-It was like the moment in the old game when you rode out of the starting valley for the first time and the map, which you had thought was the world, turned out to be a green corner of a continent, with the rest of it black at the edges, waiting. New area discovered. He had forgotten that feeling.
+It was like the moment in the old game when you rode out of the starting valley for the first time and the map, which you had thought was the world, turned out to be a green corner of a continent, with the rest of it black at the edges, waiting. New area discovered.
 
 Laura came in at twenty past nine and found him still at the table with the pasta bake cold in its foil.
 
@@ -114,7 +124,7 @@ Laura came in at twenty past nine and found him still at the table with the past
 
 On 23 March the country locked down. Laura went onto the COVID intensive-care unit at the hospital on the edge of town and began sleeping in the day with a towel over the curtain rail. Kieran carried the queue home on a laptop and set it up in the spare room, and the Hart shrank to a screen, and the week lost its shape. What it had instead was the laptop, and the phone, and the card, and every night after the file went, the black edges of the map.
 
-He only read. He read until three in the morning, as he had read patch notes at fifteen, and in the day he cleared the exceptions queue from the spare room with Laura asleep through the wall. When she woke they talked about the car park and the canteen and whether the Co-op had flour, because there was nothing either of them could say about their real day that would not frighten the other.
+He only read. He read until three in the morning, and in the day he cleared the exceptions queue from the spare room with Laura asleep through the wall. When she woke they talked about the car park and the canteen and whether the Co-op had flour, because there was nothing either of them could say about their real day that would not frighten the other.
 
 What she did not tell him about were nights like the one in the middle of April, when the unit was running at half again as many beds as it was built for, and the alarms went all night like birds in a hedge. She spent twelve and a half hours in a hood that made her own breath loud in her ears. At three in the morning she and six others turned a man of fifty-eight onto his front, on the count of the one holding his head, every line and tube gathered in their hands so that nothing pulled, because on his front his lungs might take the air the machine was pushing into them. At five she held a phone to another man's ear so that his daughter in Leeds could tell him the cat was fine, and that she loved him, and that he was not to worry about the cat. She did not cry. You did not, on the unit. You did it in the car, or not at all.
 
@@ -124,7 +134,7 @@ At eight she came home and found Kieran asleep at the spare-room desk with his c
 
 What happened that summer happened to everyone who was there, and they all said the same thing about it afterwards, and the thing they said was: what the actual hell was that.
 
-In the middle of June a lending protocol started paying its users in a new token just for using it, and within two months there were pools, and pools of pools, and tokens named after food, and people moving money between them at three in the morning to chase yields of four hundred, nine hundred, two thousand percent a year. Kieran read the words and none of them meant anything. Liquidity. Impermanent loss. Governance. Gas. Staking. Slippage. Rug. APY, APR, TVL, LP, DAO, ape, degen, wen, ser. A new word every hour, a new protocol every day, and every protocol named after something you could eat. A sushi one. A pasta one. A pickle one. A yam, which lasted about a day and a half and then broke, and everybody laughed about it, and some people lost their houses.
+In the middle of June a lending protocol started paying its users in a new token just for using it, and within two months there were pools, and pools of pools, and tokens named after food, and people moving money between them at three in the morning to chase yields of four hundred, nine hundred, two thousand percent a year. Kieran read the words and none of them meant anything. Liquidity. Impermanent loss. Governance. Gas. Staking. Slippage. Rug. APY, APR, TVL, LP, DAO, ape, degen, wen, ser. A new word every hour, a new protocol every day, and every protocol named after something you could eat. A sushi one. A pasta one. A pickle one. A yam, which lasted about a day and a half and then broke, and everybody laughed about it, and somebody said they had lost their house.
 
 "Oh my God," he said to the empty spare room at two in the morning, and then, because it was two in the morning, he typed into the search bar: wtf is impermanent loss.
 
@@ -132,7 +142,7 @@ He learned it anyway, the way he had learned the game: by doing the stupid thing
 
 In July he put in six thousand pounds: his own savings, which were going to pay for Crete, Laura's first holiday abroad since a school trip to Calais, before the pandemic cancelled it. It was his money. It was not the deposit. He told himself that on the landing, with his hand on the bathroom door, and it was true.
 
-He began to farm. That was the word. You put your seed into a field and it grew and you harvested it and replanted, and the fields were open all night, and the crop did not care what time it was in Wiltshire. He set alarms for three and five, and learned which pools would thin at which hours. There were three clocks in the spare room now: his body's, which wanted to sleep at eleven; the Hart's, which sent the file at ten and brought it back at seven; and the pools', which never stopped. He started living by the third. It did not occur to him until much later that he was not farming the tokens so much as they were farming him: that what he had planted was his own sleep, and that it was being harvested every night at three.
+He began to farm. That was the word. You put your seed into a field and it grew and you harvested it and replanted, and the fields were open all night, and the crop did not care what time it was in Wiltshire. He set alarms for three and five, and learned which pools would thin at which hours. There were three clocks in the spare room now: his body's, which wanted to sleep at eleven; the Hart's, which sent the file at ten and brought it back at seven; and the pools', which never stopped. He started living by the third.
 
 In August, the week the yam broke, a link in a thread about it took him to a chat server called the Sharehouse, where a few thousand anonymous people with cartoon avatars were awake in every time zone at once.
 
@@ -160,7 +170,7 @@ The yields were real, some of them. By September his six thousand was nine.
 
 "Couldn't sleep," he said, and closed the lid, not quickly, because quickly would have meant something.
 
-In September, the month of the rule of six, Barbara emailed him. He had written to the address on the back of her note once, in March, a single line: thank you, I looked. She wrote back: Good. Do you walk?
+In March he had written to the address on the back of her note, a single line: thank you, I looked. In September, the month of the rule of six, she answered: Good. Do you walk? She had watched the coins on the public ledger all summer, and they had not moved.
 
 ## Five: Tribe
 
@@ -168,19 +178,19 @@ They met in the car park above Avebury on a Sunday, with a hard wind coming acro
 
 "You're taller than you sound," she said. "Come on. She needs walking, and so do you, by the look of you."
 
-She lived at Avebury Trusloe, the far side of the village from the stones, in a cottage with a satellite dish she had put up herself.
+She lived at Avebury Trusloe, a short walk west of the ring, in a cottage with a satellite dish she had put up herself.
 
 She walked faster than he did. They went up onto the Ridgeway, the chalk track white between the fields, and she told him about herself in the order she chose, in short sentences.
 
-"Rodbourne. Dad was a boilermaker in the works, Grandad before him. I wanted to be an electrician from when I was ten. Mended the wireless with a hairgrip. Nobody took it serious." A stile; she went over it without using her hands. "1969 they let me in as an apprentice. Three women on the tools in the whole works. The men called me Babs. I didn't answer to it. After about a year they stopped."
+"Rodbourne. Dad was a boilermaker in the works, Grandad before him. I wanted to be an electrician from when I was ten. Mended the wireless with a hairgrip. Nobody took it serious." A stile; she went over it without using her hands. "1969 they let me in as an apprentice. New manager. I beat every boy in the test. Three women on the tools in the whole works. The men called me Babs. I didn't answer to it. After about a year they stopped."
 
-"My grandad was in the works," Kieran said. "Ron Hale. He was a fitter."
+"My grandad was in the works," Kieran said. "Ron Hale. He was a fitter." He still had Ron's brass tally token, in a drawer at home.
 
 She stopped on the track. "Ron Hale. Boiler shop. Big hands. Whistled Elvis." For a moment she looked at him differently. "He called me Barbara from the first week. Him and about two others." She set off again. "He was all right, your grandad."
 
 "It must have been hard, though. The rest of them."
 
-"It was a job. I was good at it. Seventeen years." She walked on. "Then March '86, and they shut the lot. Hundred and forty years, and the hooter just stops. Whole town's clock, that hooter. People who never set foot in the works set their kitchen clocks by it. And then it doesn't go, and you're thirty-three with a trade nobody wants."
+"It was a job. I was good at it. Seventeen years." She walked on. "Then March '86, and they shut the lot. Hundred and forty years, and the hooter just stops. Whole town's clock, that hooter. People who never set foot in the works set their kitchen clocks by it. And then it doesn't go, and you're thirty-two with a trade nobody wants."
 
 "What did you do?"
 
@@ -208,7 +218,7 @@ Far below them the great stones stood in their circle round the village, grey an
 
 "I heard a man on the radio," she said. "Biologist. Ants, mostly. He said the trouble with people is we've got Palaeolithic emotions, medieval institutions and god-like technology." She looked down at the stones. "He missed one out. A phone in your hand at three in the morning."
 
-Kieran thought that a phone in your hand at three in the morning was not a fourth thing but all three at once, and that the man on the radio had missed nothing. He let it stand. He kept the rest to himself as well: that the Sharehouse was the first band since the guild that needed him, and that when he typed and forty people answered he felt what the men in the back room of the White Hart must have felt: that he was one of them, that they were building something, that it would hold.
+Kieran thought that a phone in your hand at three in the morning was not a fourth thing but all three at once, and that the man on the radio had missed nothing. He let it stand. He kept the rest to himself as well: that when he typed and forty people answered he felt what the men in the back room of the White Hart must have felt: that he was one of them, that they were building something, that it would hold.
 
 At the car park she opened her boot and the collie jumped in.
 
@@ -244,7 +254,7 @@ kez wen new pool
 
 kez my mum wants to get in, what do i tell her
 
-tell her only what she can lose, he wrote, and felt wise, and did not think about his own mother.
+tell her to only put in what she can lose, he wrote, and felt wise, and did not think about his own mother.
 
 In June the Hart's board decided to block payments to several crypto exchanges, after the regulator's warnings and a run of scam losses, and because Kieran knew better than anyone on the floor why a payment failed, they seconded him to the project that built the block.
 
@@ -274,7 +284,7 @@ For three months, until the union won back his father's agency years and the red
 
 "Well." His father looked at the Job Centre's glass door, and at his own reflection in it. "Your grandad would have liked that. Doesn't matter where it comes from, he used to say, as long as it comes."
 
-It was the best thing the money ever did. It was also the thing that made him certain the money was real: that the game was not a game, that he had been right, that everybody who had laughed at the food tokens was wrong.
+It was the best thing the money ever did. After that he could not hear anyone call it a game without thinking of the first of the month.
 
 His mother asked him once, in the kitchen with the door shut, whether it was that bitcoin. He said it was savings. She said, "Well, be careful," and he said he was.
 
@@ -286,11 +296,11 @@ In October the Sharehouse met in Swindon. One of the regulars, a cartoon owl, tu
 
 "Don't be sorry. You saved me eleven hundred quid in the summer with that thing about slippage." She lifted her glass. "To Kez."
 
-"To Kez," said the room, and he stood in the back room of a pub in the town where he was born and felt it: whatever the railwaymen had felt in the back room of the White Hart in 1868, whatever the farmers felt when the last stone went up. The band had faces now.
+"To Kez," said the room. He lifted his pint too, then saw what he was doing and lowered it. Mandy made room for him on the bench. The lorry driver leaned across the table to ask him something, and used his name.
 
 By November 2021 his screen said he was worth seventy-one thousand pounds. He liked it, more than he would have admitted. Some nights he opened the app only to look at the number, and felt it in his shoulders like a warm bath. His alarms went at three and five. The rota on the fridge said LONG, LONG, OFF, NIGHT, NIGHT, NIGHT, and he read it every morning as he read the price: to know what was coming.
 
-Laura had a shortlist of three houses and a folder called HOUSE on the laptop they shared. He had never opened it. One night that month, with Laura asleep through the wall between two nights, he opened the laptop to pay the electricity, and there it was on the desktop where it had been for a year, and he opened it.
+Laura had a shortlist of three houses and a folder called HOUSE on the old laptop they shared. He had never opened it. One night that month, with Laura asleep through the wall between two nights, he opened the old laptop to pay the electricity, and there it was on the desktop where it had been for a year, and he opened it.
 
 Three houses, each in its own folder, the listings saved. A spreadsheet of what the mortgage would be at four different rates. A document called DEPOSIT with one line in it, updated in September: 21,200. Under it, in her capitals: 3,800 TO GO.
 
@@ -315,6 +325,8 @@ smart money is going to safe yield, typed Dmitri. twenty percent on a dollar. it
 Safe yield was a dollar. Not a real dollar, but a token that was always worth a dollar, and a savings protocol that paid nearly twenty percent a year for holding it. The token did not keep its dollar with dollars in a vault. It kept it with a trick of arithmetic: anyone could always swap one of them for a dollar's worth of a sister token, and back, and all that swapping held the price in place like a tent held by its guy ropes. Kieran read the paper. He understood it. He understood that the ropes held only while the sister token was worth more than all the dollars tied to it, and he understood that everybody in the tent believed it would hold, and that the believing was part of what held it. It was a peg. Everything he had ever worked in was a peg, when you looked: the Hart's deposits, the three-day cycle, the plant, the works. They held because everyone agreed they would.
 
 House prices in Wroughton had gone up faster than the deposit. The deposit was twenty-four thousand pounds in a savings account at the Hart, earning nothing, and fifteen thousand of it was Laura's, most of it overtime from two pandemic winters.
+
+On the Saturday night he ran the script on himself, the way he ran it on strangers. Has anyone contacted you and asked you to move your money? Nobody had asked him; he had found it himself, which was different. Have you been promised a return? Not a return: a rate, on a dollar. Has anyone asked you to keep this conversation private? Only until it had grown; at a hundred thousand it would have been a surprise. Have you been asked to download anything onto your computer? He had helped write the block. He knew what the rules would not see. He heard each answer go past the point at which he would have kept a customer on the line, and he did not ring himself back. His own money was down by a third and would only come back if he did not sell it. The deposit was the one sum he could move without admitting anything. Everything was a peg, he had thought, and it had sounded like wisdom. The works had been a peg. The plant had been a peg until July.
 
 On a Sunday in January he said it at the kitchen table. The rota was on the fridge behind her. She had the calendar open and was writing viewings into it in green pen.
 
@@ -342,7 +354,15 @@ In February he told Barbara on the Ridgeway, walking towards the long barrow, pl
 
 She stopped walking. She looked at the barrow for a long time, at the great sarsens of its doorway, and he waited for her to say the thing about casinos.
 
-She nearly told him. She had the whole of it ready: the tent and the guy ropes, the sister token, the arithmetic. What stopped her was the other name in it. Half that money was Laura's, and Laura was not there and had not asked her, and Barbara, who had spent seventeen years in the works being talked about by men who never said it to her face, had never in her life discussed a woman's money behind her back.
+She had the explanation ready: the sister token, the arithmetic, what happened when people wanted out at once.
+
+"Laura knows where it is?"
+
+"I asked her. She said do what I think." He smiled. "She trusts me with that stuff."
+
+Barbara looked away from him. There was a loose strap on her rucksack; she pulled it tight, then had to loosen it again. She had liked that voice on the phone, the young man who listened when she spoke. Now he was waiting for her to say he had done well.
+
+Laura wasn't there. It was a reason Barbara could use.
 
 "That's yours and Laura's to decide," she said.
 
@@ -350,7 +370,9 @@ She nearly told him. She had the whole of it ready: the tent and the guy ropes, 
 
 "I think it's yours and Laura's to decide." She clicked her tongue at the collie. "Come on. Dog's getting cold."
 
-She said nothing else about it all afternoon. She talked about the men who had dragged the stones, and about the collie's hips, and about a programmer she had worked with in 1994 who had kept a ferret in his desk drawer. On the short drive down to Avebury Trusloe, with the collie asleep on the back seat, she composed the three sentences she could have said, clause by clause. One: a dollar held up by guy ropes is a tent, and tents come down in weather. Two: take Laura's half out tomorrow, whatever you do with your own. Three: I gave you that card, so I get a say. They were good sentences. She said none of them out loud, even to the dog, because she had never been anybody's mother and did not mean to start at sixty-eight.
+She said nothing else about it all afternoon. She talked about the men who had dragged the stones, and about the collie's hips, and about a programmer she had worked with in 1994 who had kept a ferret in his desk drawer. At the car she nearly said, Bring Laura next time. She pulled the blanket straight for the collie instead.
+
+On the short drive down to Avebury Trusloe, with the collie asleep in the back, she began the explanation again. It wasn't a dollar. That was where she should have started. At the turning into the village she found herself saying, "I gave you the bloody card," and disliked the sound of it enough to turn the radio on.
 
 ## Eight: Hole
 
@@ -378,11 +400,11 @@ TOLD YOU
 
 few understand
 
-He could have sold at ninety. He could have sold at sixty. He did not, because selling would make it real, and because of a night in May 2010.
+He could have sold at ninety. He could have sold at sixty. He did not. Selling would make it real. He kept the channel open.
 
-It was the night before his first shift at the Hart. Twenty-five of them on voice chat, four minutes into the hardest fight of the expansion, the fight they had been trying for six weeks. The tank went down. Someone in Tallinn was shouting for heals. Kieran, calling it, looked at the clock on his bedroom wall in Penhill, which said 11.52, and at the shirt his mother had ironed for the morning on the back of the door, and said into the headset, "Sander, you've got it," and logged off. He never logged in again. He heard later that they wiped, and wiped again, and that by June the guild had broken up and Sander had stopped playing. Nobody blamed him. Somebody wrote on the forum: kez had a real life to go to. That was the part he could not forgive. That it had been easy. That nobody had minded. That twenty-five people had been in the dark and he had gone to bed.
+May 2010. The night before his first shift at the Hart. Twenty-five of them on voice chat, four minutes into the hardest fight of the expansion, the fight they had been trying for six weeks. The tank went down. Someone in Tallinn was shouting for heals. Kieran, calling it, looked at the clock on his bedroom wall in Penhill, which said 11.52, and at the shirt his mother had ironed for the morning on the back of the door, and said into the headset, "Sander, you've got it," and logged off. He never logged in again. He heard later that they wiped, and wiped again, and that by June the guild had broken up and Sander had stopped playing. Nobody blamed him. Somebody wrote on the forum: kez had a real life to go to. That was the part he could not forgive. That it had been easy. That nobody had minded. That twenty-five people had been in the dark and he had gone to bed.
 
-By Thursday it was twenty cents, and the Hart's fraud lines filled with customers who had lost their savings, some of them through the same app Kieran had used to walk round the block he had built, and the payments team was pulled onto the phones. He was afraid of the Hart. All morning he waited for somebody from the fraud team to come down to the third floor with a printout of three payments of eight thousand pounds and his name at the top. Nobody came. They were busy with the customers.
+By Thursday it was twenty cents, and the Hart's fraud lines filled with customers who had lost their savings, some of them through the same app Kieran had used to walk round the block he had built, and the payments team was pulled onto the phones. All morning he waited for somebody from the fraud team to come down to the third floor with a printout of three payments of eight thousand pounds and his name at the top. Nobody came. They were busy with the customers.
 
 After lunch he took a call from a man in Stratton who had put in his redundancy money.
 
@@ -434,7 +456,7 @@ The agent said the sellers wanted a quick sale and were open to offers. Laura sa
 
 In the car she talked all the way home about where the sofa would go. At the Wroughton roundabout she put her hand on his knee, which she did perhaps twice a year, and said, "I know work's been horrible. It'll be better once we're in." He said it would. He would remember that roundabout for the rest of his life, and nobody watching from the pavement would have seen anything at all.
 
-At the start of June Mandy messaged him privately. The owl, and then:
+At the start of June Mandy messaged him privately, from the owl:
 
 hiya kez sorry to bother u
 
@@ -476,15 +498,19 @@ She listened. She let him get to the end. When he stopped she asked three questi
 
 Then she went to bed.
 
-In the morning she moved what was left into an account in her own name, picked up two extra shifts a week, and withdrew the mortgage enquiry with a polite email he found in the shared inbox: Due to a change in our circumstances. She did not shout. If she cried, it was in the car. She had learned on five doorsteps, watching her mother hand back keys to men who did not look at her, that you hold everything together and you say nothing, and she was very good at it, and she held.
+In the morning she moved what was left in the joint savings into an account in her own name, picked up two extra shifts a week, and withdrew the mortgage enquiry with a polite email he found in the shared inbox: Due to a change in our circumstances. She did not shout. If she cried, it was in the car. She had learned on five doorsteps, watching her mother hand back keys to men who did not look at her, that you hold everything together and you say nothing, and she was very good at it, and she held.
 
-What she felt, under the holding, was not only anger. It was the thing she had seen on her mother's face on those doorsteps. She had been asked. She had said do what you think, and she had not looked, and she had handed their front door to him the way her mother handed back keys. She could not look at the fridge. She could not have said any of it, because saying it would have meant saying her own part, and she had no words for her own part. Nobody had ever shown her what they sounded like.
+What she felt, under the holding, was not only anger. It was the thing she had seen on her mother's face on those doorsteps. Hadn't she been asked? Hadn't she said do what you think? She went back to the kitchen table, the pen that wouldn't write, how glad she had been to let him take it. Then to the viewings she had booked while he knew. She could not make those two things fit. She could not look at the fridge.
 
 The flat went quiet in a new way. Before, they had been two people with screens: hers the monitors, his the charts. Now his charts showed a dead number, and there were no more words either. The rota stayed on the fridge. He read it every morning to know when she would be asleep, awake or gone, and understood that for two years he had been reading it as a timetable of when nobody would be watching.
 
 In July he walked with Barbara and told her the rest. She did not laugh, and she did not say anything about casinos. She walked a long way without speaking, faster than him, the collie trotting to keep up, and at the long barrow she stopped and put her hand flat on one of the great stones, as if she were checking it for current.
 
 "I gave you a key," she said, "and not a map."
+
+"I read the paper. I knew how it worked."
+
+"On your own," she said. "At three in the morning."
 
 "It's not your fault."
 
@@ -508,11 +534,11 @@ Laura answered in a hoodie and pyjama bottoms, between nights, with her hair tie
 
 She stayed standing, in the kitchen by the fridge with the rota on it and told Laura what she had done, in short flat sentences.
 
-"I gave him a key without a map. I checked the key and not the person. That's the opposite of everything I believe, and I did it anyway, because I liked his voice on the phone and I thought, there's one who could see it. In February he told me where your deposit was. I knew how that thing could fail. I could have drawn it for him on the back of a car-park ticket. I said it was his choice and nothing else, because I have never been anybody's mother, and I have been very proud of that for fifty years." She looked at the rota. "That part's mine. The rest is his. I'm not here to make it better. I can't. I'm here because somebody in this should say it out loud to you, and it isn't going to be him, and by the look of you it isn't going to be you either."
+"I sent him the card because I liked his voice on the phone. I thought, there's one who could see it." She looked at the rota. "In February he told me where your deposit was. I knew how that thing could fail. I could have drawn it for him on the back of a car-park ticket. I didn't."
 
-Laura stood with her arms folded. "You don't know anything about me."
+Laura stood with her arms folded.
 
-"No. That's fair." Barbara looked at her properly then. "I know what holding everything looks like. I held a whole works together for seventeen years, one fuse at a time, and nobody ever asked me how. You're allowed to say something. That's all. That's all I came to tell you. You're allowed."
+"I said it wasn't mine to say. I've been very proud of not being anybody's mother. That's what I came to tell you. That part's mine."
 
 "You knew about the deposit," Laura said.
 
@@ -536,17 +562,21 @@ That evening, when Kieran came in, she was sitting at the table with a notepad, 
 
 He sat.
 
-"Situation," Laura said. "Our deposit's gone. Fifteen thousand of it was mine. It was every night shift I did in the pandemic. Every one." She never looked down at the notepad. "Background. I've been moved out of five houses. The last one I was twelve and I carried my stuff to the car in a bin bag because we'd run out of boxes, and I decided, I'm never doing that again. Never. That money was a front door. That's what it was. It wasn't money." She breathed in, out, as she taught relatives to. "Assessment. You lied to me for five weeks. You went to work and came home and ate your tea and lied. And before that there were two years of nights in that room, and a year of them rich. In November you had seventy-one thousand pounds on your phone. That's three deposits. You opened my folder and saw what I still needed and closed it again, and I was doing extra nights for it, and you let me. That's worse than the money. It's so much worse than the money, Kieran. And I said do what you think. I know I did. I said it because I was so tired of being the one who holds everything that I handed it to you without looking. So that's mine. Barbara's right. That bit's mine." Her voice went, and came back. "Recommendation."
+"Situation," Laura said. "Our deposit's gone. Fifteen thousand of it was mine. It was every night shift I did in the pandemic. Every one." She never looked down at the notepad. "Background. I've been moved out of five houses. The last one I was twelve and I carried my stuff to the car in a bin bag because we'd run out of boxes, and I decided, I'm never doing that again. Never. That money was a front door. That's what it was. It wasn't money." She breathed in, out, as she taught relatives to. "Assessment. You lied to me for five weeks. You went to work and came home and ate your tea and lied. And before that there were two years of nights in that room, and a year of them rich. In November you had seventy-one thousand pounds on your phone. That's three deposits. You opened my folder and saw what I still needed and closed it again, and I was doing extra nights for it, and you let me. That's worse than the money. It's so much worse than the money, Kieran. And I said do what you think. I know I did. I said it because I was so tired of being the one who holds everything that I handed it to you without looking. So that's mine. Barbara came today and said her part was hers. That bit's mine." Her voice went, and came back. "Recommendation."
 
 She stopped. It was the only line she had not written down.
 
 "I don't know," she said. "I don't know. I want you to tell me what we do."
 
-He did not answer with the scam-line voice. He did not have it any more. He reached across the table and put his hand next to hers, not on it, where she could take it or not.
+He looked at the blank line on her notepad.
+
+"I told you it was a savings account," he said. "It wasn't."
+
+She put the pen down. He reached across the table and put his hand next to hers, not on it, where she could take it or not.
 
 "We tell each other everything," he said. "Every number. Every time. Even the boring ones. And we start again, slowly. And I'm sorry. I'm so sorry, Lor."
 
-She did not take his hand. She did not move hers away. It was the first conversation they had had in two years that neither of them was having through a screen, and it went on until after one in the morning, and at the end of it she was the one who said, "Come to bed," and he was the one who cried.
+She did not take his hand. She did not move hers away. They talked until after one in the morning, and at the end of it she was the one who said, "Come to bed," and he was the one who cried.
 
 ## Eleven: Field, Again
 
@@ -556,7 +586,7 @@ In the morning Laura got up before him, on her day off, and when he came into th
 
 He sat down beside her and showed her, and she wrote down every number he read out, in a column down the side of the page, the way she wrote obs. Her hand was not quite steady.
 
-They opened one account that both of them could see. They stuck a spreadsheet on the fridge next to the rota, held by a second magnet, from Lyme Regis. It was a ledger, Kieran thought, the oldest thing there was: not the kind anyone in the world could read, like the one that had swallowed the deposit, but the kind two people could. They postponed the house by two years. In September he sold what was left of his own tokens, five thousand two hundred pounds, and paid it into the joint account, and they both watched the number arrive. Kieran deleted the apps and told Laura every number, every time, until telling her every number stopped feeling like confession and started feeling like housekeeping. He slept again: six hours, then seven.
+They closed the old accounts and opened one that both of them could see. They stuck a spreadsheet on the fridge next to the rota, held by a second magnet, from Lyme Regis. They postponed the house by two years. In September he sold what was left of his own tokens, five thousand two hundred pounds, and paid it into the joint account, and they both watched the number arrive. Kieran deleted the apps and told Laura every number, every time, until telling her every number stopped feeling like confession and started feeling like housekeeping. He slept again: six hours, then seven.
 
 "Four hundred and twelve in the joint," he would say, coming in. "Car insurance is up."
 
@@ -570,15 +600,17 @@ Laura asked her friend Jade on the unit to swap so that she could have one Sunda
 
 "Lor. It's a swap."
 
-They tried it again when the next rota came out. On the unit Laura had always been the one who said the true thing first, to consultants, to families, to the dying. Asking for a day off with Kieran made her feel as if she ought to explain what they would do with it. She put it in the calendar in green.
+They swapped again when the next rota came out. On the unit Laura had always been the one who said the true thing first, to consultants, to families, to the dying. Asking for a day off with Kieran made her feel as if she ought to explain what they would do with it. She put it in the calendar in green.
 
-Rebuilding was slow and dull, and they chose that too. It was harvest in the old sense: the same field, the same work, every season, nothing that doubled overnight.
+On her longs Kieran packed her food before she left. He took over the shopping and got the uniforms washed before she went to bed, so the machine's last spin would not wake her. At first he asked what she wanted for tea before each shift. After she said, the third time, "Anything. Please just have it there," he stopped asking.
+
+Some nights it was only beans on toast. It was there when she came in.
 
 On the first of those Sundays they went to Penhill for lunch. His father had work now, as caretaker at the primary school at the bottom of the road, and he made the tea himself, and he made it in the plant mug: SWINDON 1992-2021 THANK YOU, in blue on white, the mug that had gone into the cupboard over the kettle on the night of the last shift and had not come out since.
 
 "Dave Pritchard lost his redundancy on that bitcoin," his father said, carving. "Thirty years on the line with me, Dave. Put the lot in a dollar that wasn't a dollar."
 
-Kieran put his knife down. "I know," he said, and left it there. The call was a customer's. He looked at Laura, and Laura looked back and nodded once, a nurse's nod: go on. "Dad. Mum. I need to tell you something about our deposit."
+Kieran put his knife down. "I know," he said, and left it there. He had taken the call, and it was not his to repeat. He looked at Laura, and Laura looked back and nodded once: go on. "Dad. Mum. I need to tell you something about our deposit."
 
 He told them. His mother, Sue, put her hand over her mouth, and then took it away and said, not to him but to Laura, "Are you all right, love? Are you?" His father listened with the carving knife in one hand and the fork in the other, and when Kieran had finished he set them down very carefully, either side of the joint.
 
@@ -588,7 +620,7 @@ It was, Laura said in the car, the most she had ever heard him say.
 
 In October he forgot to tell her about forty pounds.
 
-It was a game for the laptop. He had not bought one since he was twenty, and he had meant to say and hadn't. She found it on a Thursday evening, going down the statement with the green pen as she did every month now, and she put the pen on the line and turned the paper round so that he could read it.
+It was a game for his laptop. He had not bought one since he was twenty, and he had meant to say and hadn't. She found it on a Thursday evening, going down the statement with the green pen as she did every month now, and she put the pen on the line and turned the paper round so that he could read it.
 
 "What's this?"
 
@@ -602,9 +634,9 @@ It was a game for the laptop. He had not bought one since he was twenty, and he 
 
 It was the worst row of their eight years, and it was about forty pounds, and for an hour neither of them said what it was about. He said he could not live like a man on probation. She said nobody had asked him to. He said it felt like it. At the end of it she sat down on the kitchen floor with her back against the fridge, under the rota and the spreadsheet, and put her hands over her face.
 
-"Every day," she said, through them. "Since August. I've checked the account behind your back every day. I hate it. I hate myself for it."
+"Every day," she said, through them. "Since August. I've checked your account behind your back every day. I hate it. I hate myself for it."
 
-"I know," he said. "You leave the bank open on the laptop."
+"I know," he said. "You leave the bank open on the old laptop."
 
 She took her hands away. "You knew."
 
@@ -624,9 +656,9 @@ In November a big exchange collapsed in the background, and it turned out its cu
 
 "I've seen three of these. Four, if you count 2008, and I do." She walked on. "The coins aren't the point. The point's that nobody can switch them off. Price is just noise."
 
-She did not sell. And on the walks she began, unasked, to explain things to him. How the clearing actually worked, file by file, down to the byte. Why the bit that waits had been written to wait: because in 1988 you could not be sure the other bank existed until morning. What a key was, and what a map was, and the difference.
+"Nobody can give it back, either," Kieran said.
 
-"A key gets you in," she said. "A map tells you where the floor stops. I gave you the one without the other. So." She tapped her head. "Map. Month by month. You'll hate it. Wear proper shoes."
+She did not sell. And on the walks she began, unasked, to explain things to him. How the clearing actually worked, file by file, down to the byte. Who could switch it off: a board, in an office. Why the bit that waits had been written to wait: because in 1988 you could not be sure the other bank existed until morning. "A key gets you in," she said. "A map tells you where the floor stops. I gave you the one without the other. So." She tapped her head. "Map. Month by month. You'll hate it. Wear proper shoes."
 
 The walks became lessons, and he let them. Somewhere in the second month he found that he liked it again: not the number, which he no longer looked at, but the thing itself, how the old machine and the new one actually worked, the black edges of the map coming in slowly, on foot, at Barbara's pace.
 
@@ -634,7 +666,25 @@ In December he told her about the guild: the raid, the clock that said 11.52, th
 
 "In the works," she said, "when the hooter went, a man put his tools down and went home. Middle of a job, sometimes. Nobody called it deserting." She looked at him sideways. "You went to work, Kieran. You were twenty and you went to work. That's not leaving your mates. That's the first grown-up thing you ever did."
 
-He had told himself the story one way for twelve years. It took him most of the walk down to hear it the other way, and he was not sure, even at the car park, that he believed it. But something in him that had been holding its breath since 2010 let a little of it out.
+"Nobody called it deserting there, either," Kieran said.
+
+"Well, then."
+
+"They said it was fine." He looked down at the track. "That's the bit. Sorry. I can't explain it."
+
+Barbara held the gate while the collie went through. Kieran stayed where he was.
+
+"What would you have wanted Sander to say?"
+
+"Don't know."
+
+She waited.
+
+"I used to like them waiting for me," he said. "They'd all be talking, and then I'd come on and they'd stop. And I'd say right."
+
+He smiled, almost, at the sound of it. Barbara let the gate close again. Neither of them went through for a little while.
+
+At the car she pulled the collie's blanket straight and said, without looking at him, "Bring Laura next time." He carried it home.
 
 Half the Sharehouse's channels were empty now. A few regulars still posted gm in the mornings, from Ohio and Manila and São Paulo. Dmitri had gone; his account said deleted user. Kieran looked in sometimes, and only looked. Once, when he had woken at three for no reason and gone through to the spare room out of old habit, a newcomer asked whether it was too late to get in, and Kieran wrote a long careful message about pegs and guy ropes and fires in draughts, and then deleted it, and wrote instead: ask someone who loves you to sit with you while you decide.
 
@@ -644,9 +694,9 @@ He closed the laptop and went back to bed, where Laura was asleep, on a day off,
 
 ## Twelve: Awake
 
-He stayed on the payments-exceptions desk at the Hart. The routine was the same. He was not.
+He stayed on the payments-exceptions desk at the Hart. The routine was the same.
 
-He knew how old the machine was now, and what ran under it, and who could switch it off. He knew what the new machine had done to him in the night. He kept the card in his wallet behind his bus pass, soft as cloth now, with its 0.0071 bitcoin still behind it, which he had looked up once that spring: about a hundred and fifty pounds. He had never spent it and never would. It was not a key any more. It was a reminder, kept by choice, as his grandfather Ron had kept a brass works tally token in his pocket for fifteen years after the hooter stopped.
+He kept the card in his wallet behind his bus pass, soft as cloth now, with its 0.0071 bitcoin still behind it, which he had looked up once that spring: about a hundred and fifty pounds. He had never spent it and never would. He kept it as his grandfather Ron had kept a brass works tally token in his pocket for fifteen years after the hooter stopped.
 
 It was also, he knew, a gift from a customer that he had never declared. In October Harriet from Compliance had run the same refresher course in the training room, with the same cartoon of the man holding the chocolates under the red cross, and he had sat through it with the card in his wallet and had not put his hand up. He never told her about the card, or the app, or the three payments of eight thousand pounds. He told Laura every number, every time, and he told the Hart nothing, and he knew exactly where that line ran.
 
@@ -654,7 +704,7 @@ In March 2023 fraud rule forty-one stopped a payment of twelve thousand pounds f
 
 "Hi, is that Chloe? Sorry to bother you. My name's Kieran, I'm calling from the White Hart's payments team about a transfer you made this morning. It's just a check we do."
 
-He read her the script. Has anyone contacted you and asked you to move your money. Have you been promised a return. Has anyone asked you to keep this conversation private.
+He read her the script. Has anyone contacted you and asked you to move your money. Have you been promised a return. Has anyone asked you to keep this conversation private. Have you been asked to download anything onto your computer.
 
 She said no to all of it, a little impatiently. He would have, too.
 
@@ -672,7 +722,7 @@ Another silence. "My brother, probably," she said at last. "He'd kill me."
 
 "Tell him before," Kieran said. "Not after. That's all. Good luck, Chloe."
 
-He understood then, with the line quiet and the flag still orange on his screen, what he was for. Barbara had written the bit that waits into the machine. He was the bit that waits in the building: a person between a saver and the speed of everything, asking her to stop for the length of a question.
+The old machine had a wait built into it, because Barbara had written one. A board in an office could switch it off; a man on the third floor could only make it wait. Kieran looked at the orange flag. He could give Chloe a smaller one: the rest of the afternoon.
 
 He held the payment until 4.55, as long as the day would let him, and then released it, because nothing in the rules let him stop it, and because it was hers. He hoped she would ring her brother first.
 
@@ -682,7 +732,7 @@ On the Sunday the three of them walked on the Ridgeway: Barbara in front with th
 
 "Why would anyone drag them all that way?" Laura asked.
 
-"To gather," Kieran said. "People will do almost anything to have somewhere to gather."
+"To gather," Kieran said. "People will do almost anything to have a place to gather."
 
 Barbara snorted, because it was her line. "He steals everything," she said to Laura. "Watch your purse."
 

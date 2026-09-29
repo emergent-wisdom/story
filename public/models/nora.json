@@ -1,9 +1,9 @@
 {
   "schema": "meaning-model-viewer/2",
   "runFormat": null,
-  "meaningModel": "0.5.0",
+  "meaningModel": "0.6.0",
   "readingsPlaced": false,
-  "generatedAt": "2026-09-27T19:23:50.324Z",
+  "generatedAt": "2026-09-29T19:00:01.241Z",
   "run": "nora",
   "title": "Author life · Nora Vale",
   "display": null,
@@ -25,7 +25,7 @@
   "firstCall": null,
   "lastCall": null,
   "headGraphHash": null,
-  "modelHash": "6dfce04a2eec4b581f99d9215237b5f22973882a4992a30c6e1029177648a4e0",
+  "modelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84",
   "window": {
     "start": 2001.2696359268157,
     "end": 2026.7376469058229
@@ -1732,6 +1732,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "fictional-author-created-under-human-delegation-2026-09-27",
           "Entire life is a newly authored fictional construction, not biography or recovered authorship.",
@@ -1841,6 +1844,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "fictional-author-created-under-human-delegation-2026-09-27",
           "Entire life is a newly authored fictional construction, not biography or recovered authorship.",
@@ -1950,6 +1956,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "fictional-author-created-under-human-delegation-2026-09-27",
           "Entire life is a newly authored fictional construction, not biography or recovered authorship.",
@@ -2059,6 +2068,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "fictional-author-created-under-human-delegation-2026-09-27",
           "Entire life is a newly authored fictional construction, not biography or recovered authorship.",
@@ -2168,6 +2180,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "fictional-author-created-under-human-delegation-2026-09-27",
           "Entire life is a newly authored fictional construction, not biography or recovered authorship.",
@@ -2277,6 +2292,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "fictional-author-created-under-human-delegation-2026-09-27",
           "Entire life is a newly authored fictional construction, not biography or recovered authorship.",
@@ -2386,6 +2404,9 @@
         ],
         "contextStatus": "declared",
         "contextIssues": [],
+        "evidence": {
+          "status": "untracked"
+        },
         "provenance": [
           "fictional-author-created-under-human-delegation-2026-09-27",
           "Entire life is a newly authored fictional construction, not biography or recovered authorship.",
@@ -2464,11 +2485,11 @@
   },
   "constructionTiming": "unavailable",
   "inspection": {
-    "modelHash": "6dfce04a2eec4b581f99d9215237b5f22973882a4992a30c6e1029177648a4e0",
+    "modelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84",
     "model": {
       "decomposition": [],
       "dependencies": [],
-      "id": "nora-vale-fictional-author-life.public-2026-09-27",
+      "id": "nora-vale-fictional-author-life.public-2026-09-29",
       "initial_claims": [],
       "laws": [],
       "meaning_model": {
@@ -2489,7 +2510,7 @@
               "Read the named situation, the person’s claim and the other person’s response separately; a polished explanation alone is insufficient."
             ],
             "provenance": [
-              "Fictional author development, 27 September 2026",
+              "Fictional author development under human delegation, 27 September 2026",
               "Interpretive concepts selected for this invented life, not general psychological laws."
             ],
             "state_schema": {}
@@ -2508,7 +2529,7 @@
               "Read the named situation, the person’s claim and the other person’s response separately; a polished explanation alone is insufficient."
             ],
             "provenance": [
-              "Fictional author development, 27 September 2026",
+              "Fictional author development under human delegation, 27 September 2026",
               "Interpretive concepts selected for this invented life, not general psychological laws."
             ],
             "state_schema": {}
@@ -2526,7 +2547,7 @@
               "Read the named situation, the person’s claim and the other person’s response separately; a polished explanation alone is insufficient."
             ],
             "provenance": [
-              "Fictional author development, 27 September 2026",
+              "Fictional author development under human delegation, 27 September 2026",
               "Interpretive concepts selected for this invented life, not general psychological laws."
             ],
             "state_schema": {}
@@ -4976,7 +4997,7 @@
             },
             "physical_cut_id": null,
             "provenance": [
-              "Fictional author development, 27 September 2026",
+              "Fictional author development under human delegation, 27 September 2026",
               "Interpretive concepts selected for this invented life, not general psychological laws."
             ],
             "purpose": "describe",
@@ -5000,7 +5021,7 @@
             },
             "physical_cut_id": null,
             "provenance": [
-              "Fictional author development, 27 September 2026",
+              "Fictional author development under human delegation, 27 September 2026",
               "Interpretive concepts selected for this invented life, not general psychological laws."
             ],
             "purpose": "describe",
@@ -5024,7 +5045,7 @@
             },
             "physical_cut_id": null,
             "provenance": [
-              "Fictional author development, 27 September 2026",
+              "Fictional author development under human delegation, 27 September 2026",
               "Interpretive concepts selected for this invented life, not general psychological laws."
             ],
             "purpose": "describe",
@@ -5048,7 +5069,7 @@
             },
             "physical_cut_id": null,
             "provenance": [
-              "Fictional author development, 27 September 2026",
+              "Fictional author development under human delegation, 27 September 2026",
               "Interpretive concepts selected for this invented life, not general psychological laws."
             ],
             "purpose": "describe",
@@ -5072,7 +5093,7 @@
             },
             "physical_cut_id": null,
             "provenance": [
-              "Fictional author development, 27 September 2026",
+              "Fictional author development under human delegation, 27 September 2026",
               "Interpretive concepts selected for this invented life, not general psychological laws."
             ],
             "purpose": "describe",
@@ -5096,7 +5117,7 @@
             },
             "physical_cut_id": null,
             "provenance": [
-              "Fictional author development, 27 September 2026",
+              "Fictional author development under human delegation, 27 September 2026",
               "Interpretive concepts selected for this invented life, not general psychological laws."
             ],
             "purpose": "describe",
@@ -5120,7 +5141,7 @@
             },
             "physical_cut_id": null,
             "provenance": [
-              "Fictional author development, 27 September 2026",
+              "Fictional author development under human delegation, 27 September 2026",
               "Interpretive concepts selected for this invented life, not general psychological laws."
             ],
             "purpose": "describe",
@@ -5405,11 +5426,10 @@
         "number": 0,
         "previous_model_hash": null,
         "provenance": [
-          "Public current-state publication, 2026-09-27.",
-          "Source model: cf455166e276bfd8021b4603872904fafbe618fb05f31668ad8e4842a981a4ab.",
-          "Only lineage metadata is reset; this does not claim to replay the private development history."
+          "Source model: 633db7aec9cd08f3a4e65b4ab58f099ee56f0c708308c65aa264e9f889463359.",
+          "All modeled world records remain unchanged except explicitly documented personal-attribution cleanup. Publication identity does not claim a new independent assessment."
         ],
-        "reason": "Public current-state edition, 27 September 2026. Modeled content retained; a new publication lineage excludes private construction predecessors."
+        "reason": "Current public publication, 2026-09-29. Fresh root excludes private construction predecessors."
       },
       "schema": "life-sim-rust-model/v1",
       "time_unit": "civil_day_since_1970"
@@ -5420,10 +5440,10 @@
       "edges": []
     }
   },
+  "relatedModels": [],
   "publication": {
     "schema": "meaning-model-publication-projection/v1",
     "kind": "public-current-state-projection",
-    "privateHistoryIncluded": false,
-    "modelLineage": "Fresh publication model ID and root; all internal record identities and modeled content retained."
+    "privateHistoryIncluded": false
   }
 }
