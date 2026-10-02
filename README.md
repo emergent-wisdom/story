@@ -11,6 +11,10 @@ Two stories built with the [Meaning Model](https://github.com/emergent-wisdom/me
 
 The current *Book of Conditions* was created by Codex and Claude under Henrik Westerberg's direction.
 
+[![Twelve Words in the current viewer](media/twelve-words-processes.png)](media/twelve-words-processes.mp4)
+
+**[Watch the current interface (64-second video)](media/twelve-words-processes.mp4).** The October 2 Twelve Words edition: its processes over the story's years, the construction replayed step by step, the Tree, the full story beside its model, Space and Graph. The recording is silent.
+
 These Markdown files are exact renders of the current public story graphs. The viewer's **Read full story** opens the same complete manuscript. The **Model** menu also opens the modeled lives of the fictional authors, Faye Titcombe and Nora Vale.
 
 These examples are separate downloads. Installing Meaning Model MCP or the standalone viewer does **not** download either story. This repository and its release assets provide the optional models.
@@ -62,7 +66,7 @@ The original event [text](runs/rabbit-hole/novel/novel.md) and [book PDF](pdf/ra
 
 [![The original event processes view](media/the-rabbit-hole-processes.png)](media/the-rabbit-hole-processes.mp4)
 
-**[Watch the original interface (51-second video)](media/the-rabbit-hole-processes.mp4).** A new recording of the current interface is being prepared.
+**[Watch the original interface (51-second video)](media/the-rabbit-hole-processes.mp4).** The current interface is recorded at the top of this page.
 
 To inspect the original run using today's shared interface:
 
