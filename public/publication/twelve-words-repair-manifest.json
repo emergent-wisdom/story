@@ -1,0 +1,24 @@
+{
+  "schema": "meaning-model-bounded-publication-repair/v1",
+  "toolVersion": "0.6.4-dev.exploration.6c5047708861",
+  "file": "twelve-words-reviewed-2026-10-02.meaning-model.json",
+  "sourceHeadGraphHash": "780314871f5b66e6e76fe55ebc61848aad1c268effe275938a1635de772c29f7",
+  "headGraphHash": "585d5f801225c8d388cf9f29cfb47c24a5be72f449197d5b0c63b89bbf7c0869",
+  "sourceModelHash": "80d15dc9457a26da6b2ff47e241348a54ed3935a2985b09d642d1d240a3ed652",
+  "modelHash": "217a230e696bf1fca4a3967c6da36d818e30fbf066b41706ad538d47747b2f73",
+  "sourceRevisionCount": 57,
+  "revisionCount": 60,
+  "modelCount": 9,
+  "fileSha256": "a8176335194a86bb3f4278f2178c348067cec0927391b22d89c8b559f72a7bb6",
+  "bundleSha256": "d19b2f58924677b5c42b9801e460f38a764fdc3c54fa91799e9b68b7324af074",
+  "manuscriptSha256": "e98dd41d694da36da1fca6a6b0ab47bd2dd52ed7eecd4f12c962169fa7cf0cc1",
+  "manuscriptUnchanged": true,
+  "sourceHistoryPreserved": true,
+  "nativeChange": {
+    "removedRelation": "arel.band.specializes.paleolithic",
+    "addedRelation": "arel.band.narrative_association.paleolithic"
+  },
+  "numericalReassessmentPerformed": false,
+  "numericalStatusNode": "understanding.twelve.numerical-status.20261002",
+  "remaining": "Selected numerical readings remain unrenewed; no whole-model audit or demonstrated prose improvement is claimed."
+}

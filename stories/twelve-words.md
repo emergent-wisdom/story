@@ -454,7 +454,7 @@ The deposit was worth three hundred and forty pounds. He had checked it in the c
 
 The agent said the sellers wanted a quick sale and were open to offers. Laura said she would email the mortgage adviser on Monday. Kieran looked at the green door and thought: now, here, in the porch, before she sends it. He said, "Monday, yeah," and held the door for the agent.
 
-In the car she talked all the way home about where the sofa would go. At the Wroughton roundabout she put her hand on his knee, which she did perhaps twice a year, and said, "I know work's been horrible. It'll be better once we're in." He said it would. He would remember that roundabout for the rest of his life, and nobody watching from the pavement would have seen anything at all.
+In the car she talked all the way home about where the sofa would go. At the Wroughton roundabout she put her hand on his knee, which she did perhaps twice a year, and said, "I know work's been horrible. It'll be better once we're in." He said it would.
 
 At the start of June Mandy messaged him privately, from the owl:
 
@@ -500,9 +500,9 @@ Then she went to bed.
 
 In the morning she moved what was left in the joint savings into an account in her own name, picked up two extra shifts a week, and withdrew the mortgage enquiry with a polite email he found in the shared inbox: Due to a change in our circumstances. She did not shout. If she cried, it was in the car. She had learned on five doorsteps, watching her mother hand back keys to men who did not look at her, that you hold everything together and you say nothing, and she was very good at it, and she held.
 
-What she felt, under the holding, was not only anger. It was the thing she had seen on her mother's face on those doorsteps. Hadn't she been asked? Hadn't she said do what you think? She went back to the kitchen table, the pen that wouldn't write, how glad she had been to let him take it. Then to the viewings she had booked while he knew. She could not make those two things fit. She could not look at the fridge.
+What she felt, under the holding, was not only anger. It was the thing she had seen on her mother's face on those doorsteps. Hadn't she been asked? Hadn't she said do what you think? A savings account, he had said. She went back to the kitchen table, the pen that wouldn't write, how glad she had been to let him take it. Then to the viewings she had booked while he knew. She could not make those two things fit. She could not look at the fridge.
 
-The flat went quiet in a new way. Before, they had been two people with screens: hers the monitors, his the charts. Now his charts showed a dead number, and there were no more words either. The rota stayed on the fridge. He read it every morning to know when she would be asleep, awake or gone, and understood that for two years he had been reading it as a timetable of when nobody would be watching.
+The flat went quiet in a new way. His charts showed a dead number, and there were no more words either. The rota stayed on the fridge. He read it every morning to know when she would be asleep, awake or gone, and understood that for two years he had been reading it as a timetable of when nobody would be watching.
 
 In July he walked with Barbara and told her the rest. She did not laugh, and she did not say anything about casinos. She walked a long way without speaking, faster than him, the collie trotting to keep up, and at the long barrow she stopped and put her hand flat on one of the great stones, as if she were checking it for current.
 
@@ -658,9 +658,11 @@ In November a big exchange collapsed in the background, and it turned out its cu
 
 "Nobody can give it back, either," Kieran said.
 
+She said nothing.
+
 She did not sell. And on the walks she began, unasked, to explain things to him. How the clearing actually worked, file by file, down to the byte. Who could switch it off: a board, in an office. Why the bit that waits had been written to wait: because in 1988 you could not be sure the other bank existed until morning. "A key gets you in," she said. "A map tells you where the floor stops. I gave you the one without the other. So." She tapped her head. "Map. Month by month. You'll hate it. Wear proper shoes."
 
-The walks became lessons, and he let them. Somewhere in the second month he found that he liked it again: not the number, which he no longer looked at, but the thing itself, how the old machine and the new one actually worked, the black edges of the map coming in slowly, on foot, at Barbara's pace.
+The walks became lessons, and he let them. Sometimes he stopped her: he knew that bit. She listened while he went through it, and they went on. Somewhere in the second month he found that he liked it again: not the number, which he no longer looked at, but going over it with her, on foot, at Barbara's pace.
 
 In December he told her about the guild: the raid, the clock that said 11.52, the shirt on the back of the door, Sander. He had never told anyone. She walked a long way before she answered.
 

@@ -1,15 +1,18 @@
 {
   "schema": "meaning-model-publication-projection/v1",
-  "date": "2026-09-29",
-  "meaningModelVersion": "0.6.0",
-  "purpose": "Public current-state story models, manuscripts, reviews and attributed understanding, separately downloadable from the MCP tool. Fresh public roots exclude private predecessor history; explicitly referenced historical evidence remains identified as historical.",
+  "date": "2026-10-02",
+  "meaningModelVersion": "0.6.5",
+  "authoringToolVersion": "0.6.4-dev.exploration.6c5047708861",
+  "purpose": "Reviewed story models, manuscripts and attributed understanding, separately downloadable from the MCP tool. Retains the selected public construction lineages and their native model ancestry; no private Writer database is changed.",
   "stories": {
     "book": {
       "title": "The Book of Conditions",
-      "graphHash": "7a52371c766ae6bffc87864e55923c6e8fe7b8ea47d76369523ba6c2d31b20df",
-      "sourceGraphHash": "25af8029d87240b7de2fdeb5b3c795906f75ea0501629d6960c107022b762a53",
-      "modelHash": "a153791242320f0db13c79d498956eda64d3e3eb5ec8a6739be0fd7bd8d80c00",
-      "sourceModelHash": "bae0b30c14614c648c0c63b55b99582e89635b3adfce251fe889b3e5871b8f64",
+      "graphHash": "411735a38675e455b3e5088e719d38136b7c2011b296d2086a69ef87accab1e8",
+      "graphRevision": 65,
+      "sourceGraphHash": "d840d074f6712c6d56f93b79eefc06b02857c495dcb87f679daec5d33b4e303d",
+      "modelHash": "1157d4959f6e8aad7a909d68a1bcbe46fb68e57978d85fa84a89c85aabd7f0cc",
+      "modelRevision": 5,
+      "sourceModelHash": "1157d4959f6e8aad7a909d68a1bcbe46fb68e57978d85fa84a89c85aabd7f0cc",
       "modelId": "book-of-conditions-07r2-retrospective-import.public-2026-09-29",
       "snapshot": "book.json",
       "bundle": "the-book-of-conditions.meaning-model.json",
@@ -17,133 +20,48 @@
       "scopes": [
         "book.07r2.authoring"
       ],
-      "proseSha256": "5b13a0fad46b2e63b92f5ddeab780a4ba181ffd8f31a46123311c18820d9e548",
-      "nodeCount": 458,
-      "edgeCount": 4066,
-      "reviewCount": 19,
+      "proseSha256": "4dbe1f5caa94aba8ef9d8d2a77a75e2faf56f3fff79e617d877672748fd97bb3",
+      "nodeCount": 531,
+      "edgeCount": 4682,
+      "reviewCount": 37,
       "allReviewRecordsRetained": true,
-      "reviewRecordsUnchanged": false,
-      "modelContentUnchangedExceptPublicationIdentityAndLineageMetadata": true,
-      "manuscript": "book.md",
-      "words": 13020,
+      "manuscript": "stories/the-book-of-conditions.md",
+      "words": 13342,
       "tellingProcesses": 9,
       "tellingPhases": 63,
       "tellingPhaseStatus": {
         "current": 63
       },
       "inventory": {
-        "events": 581,
-        "processes": 256,
+        "events": 589,
+        "processes": 257,
         "normalizedCuts": 120,
         "renderedPassages": 34
       },
-      "typedAuthorReferenceRemaps": [
-        {
-          "nodeId": "ref.2bd4fd1c1b0a9eeb.concept_concept.nora.partial_transfer",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "ref.2bd4fd1c1b0a9eeb.concept_concept.nora.record_as_substitute",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.body_adaptation",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.body_limit",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.care_adaptation",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.care_fatigue",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.care_quarrel",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.choir_return",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.composition",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.first_job",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.freelance",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.kit_born",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.kit_departure",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.learning_adaptation",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.writing_revision",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "ref.633db7aec9cd08f3.concept_concept.nora.shared_pleasure",
-          "sourceModelHash": "633db7aec9cd08f3a4e65b4ab58f099ee56f0c708308c65aa264e9f889463359",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "world.book.nora-author-reader.20260927",
-          "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "world.book.nora-author-reader.calendar-20260927",
-          "sourceModelHash": "633db7aec9cd08f3a4e65b4ab58f099ee56f0c708308c65aa264e9f889463359",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        },
-        {
-          "nodeId": "world.book.nora-author-reader.ideas-20260929",
-          "sourceModelHash": "633db7aec9cd08f3a4e65b4ab58f099ee56f0c708308c65aa264e9f889463359",
-          "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
-        }
-      ],
-      "currentModelAnchorRemaps": [],
-      "constructionContentSha256": "b49646e6f27516c51394884dc195513303049a8db2d6f84024c6472f5be2aaea",
-      "bundleFileSha256": "dceee7bfe557b235d1c7aa98a51db8114d6562bf71f95365288c8f0165faabec"
+      "viewerConstruction": {
+        "timing": "order",
+        "steps": 72,
+        "available": true
+      },
+      "constructionHistory": {
+        "graphRevisions": 66,
+        "storedModelDefinitions": 7,
+        "storyModelRevisions": 6,
+        "currentModels": 2
+      },
+      "constructionContentSha256": "ea3d4b417fba843c0d49de7a9ab0d37af6a33aeed2a381f6a22797ed4c5b9e6a",
+      "bundleFileSha256": "aabdcfab702553908f3960eb6ad190bf2a7deac9019f9d1cd638d610822267c1",
+      "snapshotFileSha256": "f87abbd6f31fe3d52a3220b49ef6e830273eb5618411011e3a209af55d10d9f6",
+      "manuscriptUnchangedFromReviewedExploration": true
     },
     "twelve": {
       "title": "Twelve Words",
-      "graphHash": "11770b5dd5e386449ef6f59fd1deeac6e0dd9778e0709c7c372f4047676cb754",
-      "sourceGraphHash": "3328488aaf1936555115fd704aa3b025c73cc9a8cfd4bdb9f3033ad70406535f",
-      "modelHash": "80e6a2450f1af91f22679d88a3e03d3145171f976edc9837ecf72ffb595cb274",
-      "sourceModelHash": "6aff31554f9a392b3620df7614d74e8a919fd38986bf7cebcb32ef08d14fa501",
+      "graphHash": "585d5f801225c8d388cf9f29cfb47c24a5be72f449197d5b0c63b89bbf7c0869",
+      "graphRevision": 59,
+      "sourceGraphHash": "780314871f5b66e6e76fe55ebc61848aad1c268effe275938a1635de772c29f7",
+      "modelHash": "217a230e696bf1fca4a3967c6da36d818e30fbf066b41706ad538d47747b2f73",
+      "modelRevision": 6,
+      "sourceModelHash": "80d15dc9457a26da6b2ff47e241348a54ed3935a2985b09d642d1d240a3ed652",
       "modelId": "rabbit-hole-world.public-2026-09-29",
       "snapshot": "twelve.json",
       "bundle": "twelve-words.meaning-model.json",
@@ -151,76 +69,40 @@
       "scopes": [
         "story-author"
       ],
-      "proseSha256": "5f2cc5a119396fbe0fc5cd04aac05933a79dc74c1d91bfd18e840854f02dea81",
-      "nodeCount": 540,
-      "edgeCount": 3149,
-      "reviewCount": 19,
+      "proseSha256": "e98dd41d694da36da1fca6a6b0ab47bd2dd52ed7eecd4f12c962169fa7cf0cc1",
+      "nodeCount": 617,
+      "edgeCount": 3644,
+      "reviewCount": 38,
       "allReviewRecordsRetained": true,
-      "reviewRecordsUnchanged": true,
-      "modelContentUnchangedExceptPublicationIdentityAndLineageMetadata": true,
-      "manuscript": "twelve.md",
-      "words": 12238,
+      "manuscript": "stories/twelve-words.md",
+      "words": 12211,
       "tellingProcesses": 10,
       "tellingPhases": 82,
       "tellingPhaseStatus": {
         "current": 82
       },
       "inventory": {
-        "events": 696,
-        "processes": 148,
+        "events": 699,
+        "processes": 149,
         "normalizedCuts": 401,
         "renderedPassages": 14
       },
-      "typedAuthorReferenceRemaps": [
-        {
-          "nodeId": "ref.4d462a80d15a0f08.cut_cut.faye.2021.pull",
-          "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
-          "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
-        },
-        {
-          "nodeId": "ref.4d462a80d15a0f08.cut_cut.faye.2025.daughter_app.response",
-          "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
-          "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
-        },
-        {
-          "nodeId": "ref.4d462a80d15a0f08.cut_cut.faye.2026.why_write",
-          "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
-          "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
-        },
-        {
-          "nodeId": "ref.4d462a80d15a0f08.event_ev.faye.composition",
-          "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
-          "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
-        },
-        {
-          "nodeId": "ref.4d462a80d15a0f08.event_ev.faye.learn_beside",
-          "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
-          "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
-        },
-        {
-          "nodeId": "ref.4d462a80d15a0f08.referent_referent.profile.faye.person.faye",
-          "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
-          "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
-        },
-        {
-          "nodeId": "world.author_reader",
-          "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
-          "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
-        },
-        {
-          "nodeId": "world.author_reader.ideas-20260929",
-          "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
-          "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
-        },
-        {
-          "nodeId": "world.author_reader.m163",
-          "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
-          "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
-        }
-      ],
-      "currentModelAnchorRemaps": [],
-      "constructionContentSha256": "c1ef40e9ef186400c2d9bcc551e79f5c039c89cfd3f607dfc425f7ca2ebcfa2c",
-      "bundleFileSha256": "10b7b8bec659f33cf00e729e3f8d2a78e9def5b889c1eaa5fa43fe0def0d9c1f"
+      "viewerConstruction": {
+        "timing": "order",
+        "steps": 67,
+        "available": true
+      },
+      "constructionHistory": {
+        "graphRevisions": 60,
+        "storedModelDefinitions": 9,
+        "storyModelRevisions": 7,
+        "currentModels": 2
+      },
+      "constructionContentSha256": "d19b2f58924677b5c42b9801e460f38a764fdc3c54fa91799e9b68b7324af074",
+      "bundleFileSha256": "a8176335194a86bb3f4278f2178c348067cec0927391b22d89c8b559f72a7bb6",
+      "snapshotFileSha256": "f41309725a347cae23510f0789aaf5f8e12218027cfa00a011dd66956cedf9ad",
+      "manuscriptUnchangedFromReviewedExploration": true,
+      "numericalReviewQualification": "Selected guild Cuts, an inherited stale alibi Cut, two Barbara readings and six realization degrees are explicitly marked unrenewed or unvalidated. No numerical values were changed or recertified; these notes do not quarantine values in the engine."
     }
   },
   "authorLives": {
@@ -230,7 +112,9 @@
       "sourceModelHash": "633db7aec9cd08f3a4e65b4ab58f099ee56f0c708308c65aa264e9f889463359",
       "modelId": "nora-vale-fictional-author-life.public-2026-09-29",
       "snapshot": "nora.json",
-      "modelContentUnchangedExceptPublicationIdentityAndDocumentedPrivacyFields": true
+      "modelContentUnchangedExceptPublicationIdentityAndDocumentedPrivacyFields": true,
+      "snapshotFileSha256": "8633430510ddb62cf348bee3c43f91c1035601f89c942658c08da39022daa619",
+      "story": "book"
     },
     "faye": {
       "title": "Author life · Faye Titcombe",
@@ -238,7 +122,9 @@
       "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
       "modelId": "faye-titcombe-life.public-2026-09-29",
       "snapshot": "faye.json",
-      "modelContentUnchangedExceptPublicationIdentityAndDocumentedPrivacyFields": true
+      "modelContentUnchangedExceptPublicationIdentityAndDocumentedPrivacyFields": true,
+      "snapshotFileSha256": "ebb9dc0bb11a5c676f269c6a96c8a27f23edb7c71e258f5fd3632e097da4b79f",
+      "story": "twelve"
     }
   },
   "historicalDependencies": {
@@ -253,557 +139,729 @@
   "importableBundles": {
     "book": {
       "file": "the-book-of-conditions.meaning-model.json",
-      "bytes": 8909442,
-      "graphHash": "7a52371c766ae6bffc87864e55923c6e8fe7b8ea47d76369523ba6c2d31b20df",
-      "modelCount": 2,
-      "graphRevisionCount": 1,
+      "bytes": 19675011,
+      "graphHash": "411735a38675e455b3e5088e719d38136b7c2011b296d2086a69ef87accab1e8",
+      "modelCount": 7,
+      "graphRevisionCount": 66,
       "privateHistoryIncluded": false,
-      "constructionContentSha256": "b49646e6f27516c51394884dc195513303049a8db2d6f84024c6472f5be2aaea",
-      "fileSha256": "dceee7bfe557b235d1c7aa98a51db8114d6562bf71f95365288c8f0165faabec"
+      "retainedPublicHistoryIncluded": true,
+      "constructionContentSha256": "ea3d4b417fba843c0d49de7a9ab0d37af6a33aeed2a381f6a22797ed4c5b9e6a",
+      "fileSha256": "aabdcfab702553908f3960eb6ad190bf2a7deac9019f9d1cd638d610822267c1"
     },
     "twelve": {
       "file": "twelve-words.meaning-model.json",
-      "bytes": 7363688,
-      "graphHash": "11770b5dd5e386449ef6f59fd1deeac6e0dd9778e0709c7c372f4047676cb754",
-      "modelCount": 3,
-      "graphRevisionCount": 1,
+      "bytes": 19171761,
+      "graphHash": "585d5f801225c8d388cf9f29cfb47c24a5be72f449197d5b0c63b89bbf7c0869",
+      "modelCount": 9,
+      "graphRevisionCount": 60,
       "privateHistoryIncluded": false,
-      "constructionContentSha256": "c1ef40e9ef186400c2d9bcc551e79f5c039c89cfd3f607dfc425f7ca2ebcfa2c",
-      "fileSha256": "10b7b8bec659f33cf00e729e3f8d2a78e9def5b889c1eaa5fa43fe0def0d9c1f"
+      "retainedPublicHistoryIncluded": true,
+      "constructionContentSha256": "d19b2f58924677b5c42b9801e460f38a764fdc3c54fa91799e9b68b7324af074",
+      "fileSha256": "a8176335194a86bb3f4278f2178c348067cec0927391b22d89c8b559f72a7bb6"
     }
   },
-  "publicationChanges": [
-    {
-      "subject": "model:nora",
-      "path": [
-        "meaning_model",
-        "concepts",
-        0,
-        "provenance",
-        0
-      ],
-      "action": "replace",
-      "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
-    },
-    {
-      "subject": "model:nora",
-      "path": [
-        "meaning_model",
-        "concepts",
-        1,
-        "provenance",
-        0
-      ],
-      "action": "replace",
-      "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
-    },
-    {
-      "subject": "model:nora",
-      "path": [
-        "meaning_model",
-        "concepts",
-        2,
-        "provenance",
-        0
-      ],
-      "action": "replace",
-      "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
-    },
-    {
-      "subject": "model:nora",
-      "path": [
-        "meaning_model",
-        "events",
-        11,
-        "description"
-      ],
-      "action": "replace",
-      "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
-    },
-    {
-      "subject": "model:nora",
-      "path": [
-        "meaning_model",
-        "realizations",
-        0,
-        "provenance",
-        0
-      ],
-      "action": "replace",
-      "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
-    },
-    {
-      "subject": "model:nora",
-      "path": [
-        "meaning_model",
-        "realizations",
-        1,
-        "provenance",
-        0
-      ],
-      "action": "replace",
-      "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
-    },
-    {
-      "subject": "model:nora",
-      "path": [
-        "meaning_model",
-        "realizations",
-        2,
-        "provenance",
-        0
-      ],
-      "action": "replace",
-      "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
-    },
-    {
-      "subject": "model:nora",
-      "path": [
-        "meaning_model",
-        "realizations",
-        3,
-        "provenance",
-        0
-      ],
-      "action": "replace",
-      "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
-    },
-    {
-      "subject": "model:nora",
-      "path": [
-        "meaning_model",
-        "realizations",
-        4,
-        "provenance",
-        0
-      ],
-      "action": "replace",
-      "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
-    },
-    {
-      "subject": "model:nora",
-      "path": [
-        "meaning_model",
-        "realizations",
-        5,
-        "provenance",
-        0
-      ],
-      "action": "replace",
-      "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
-    },
-    {
-      "subject": "model:nora",
-      "path": [
-        "meaning_model",
-        "realizations",
-        6,
-        "provenance",
-        0
-      ],
-      "action": "replace",
-      "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
-    },
-    {
-      "subject": "model:nora",
-      "path": [
-        "meaning_model",
-        "referents",
-        0,
-        "boundary"
-      ],
-      "action": "replace",
-      "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
-    },
-    {
-      "subject": "book:node:plan.book.branch.r23.20260929",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
-    },
-    {
-      "subject": "book:node:plan.book.branch.r26.20260929",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
-    },
-    {
-      "subject": "book:node:answers.book.draft-direction.r29",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
-    },
-    {
-      "subject": "book:node:status.book.r29.narrow-readback-on-hold",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
-    },
-    {
-      "subject": "book:node:author-model.nora-vale.20260927",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Anonymize private human attribution; use the wording already present in the published Book snapshot. Preserve fictional-author distinction and all substantive model/review content."
-    },
-    {
-      "subject": "book:node:ref.2bd4fd1c1b0a9eeb.event_event.nora.composition",
-      "path": [
-        "summary"
-      ],
-      "action": "replace",
-      "reason": "Anonymize private human attribution; use the wording already present in the published Book snapshot. Preserve fictional-author distinction and all substantive model/review content."
-    },
-    {
-      "subject": "book:node:review.book.blind.fable-5-1.20260929",
-      "path": [
-        "data",
-        "prompt",
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Omit a private local folder path from the public edition. The recorded prompt sha256 attests the unredacted prompt the reviewer received; only the two folder paths differ."
-    },
-    {
-      "subject": "twelve:node:author.brief",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove verbatim task dialogue and incidental run instructions; preserve the supplied creative premise and requirements."
-    },
-    {
-      "subject": "twelve:node:author.brief",
-      "path": [
-        "data",
-        "supplier"
-      ],
-      "action": "replace",
-      "reason": "Remove verbatim task dialogue and incidental run instructions; preserve the supplied creative premise and requirements."
-    },
-    {
-      "subject": "twelve:node:author.brief",
-      "path": [
-        "data",
-        "processRules"
-      ],
-      "action": "remove",
-      "reason": "Remove verbatim task dialogue and incidental run instructions; preserve the supplied creative premise and requirements."
-    },
-    {
-      "subject": "twelve:node:author.agreement",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove chat quotations, local folder choice and progress/relay scheduling; retain creative authority and initial constraints."
-    },
-    {
-      "subject": "twelve:node:author.agreement",
-      "path": [
-        "data",
-        "involvement"
-      ],
-      "action": "remove",
-      "reason": "Remove chat quotations, local folder choice and progress/relay scheduling; retain creative authority and initial constraints."
-    },
-    {
-      "subject": "twelve:node:author.agreement",
-      "path": [
-        "data",
-        "humanOperationalDecisions"
-      ],
-      "action": "remove",
-      "reason": "Remove chat quotations, local folder choice and progress/relay scheduling; retain creative authority and initial constraints."
-    },
-    {
-      "subject": "twelve:node:author.agreement",
-      "path": [
-        "data",
-        "deliverables"
-      ],
-      "action": "remove",
-      "reason": "Remove chat quotations, local folder choice and progress/relay scheduling; retain creative authority and initial constraints."
-    },
-    {
-      "subject": "twelve:node:author.agreement",
-      "path": [
-        "data",
-        "creativeAuthority"
-      ],
-      "action": "replace",
-      "reason": "Remove chat quotations, local folder choice and progress/relay scheduling; retain creative authority and initial constraints."
-    },
-    {
-      "subject": "twelve:node:author.agreement.2",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove verbatim private requests, file/relay workflow and PDF handoff; preserve the changed literary specification and graph authority."
-    },
-    {
-      "subject": "twelve:node:author.agreement.2",
-      "path": [
-        "data",
-        "involvement"
-      ],
-      "action": "remove",
-      "reason": "Remove verbatim private requests, file/relay workflow and PDF handoff; preserve the changed literary specification and graph authority."
-    },
-    {
-      "subject": "twelve:node:author.agreement.2",
-      "path": [
-        "data",
-        "deliverables"
-      ],
-      "action": "remove",
-      "reason": "Remove verbatim private requests, file/relay workflow and PDF handoff; preserve the changed literary specification and graph authority."
-    },
-    {
-      "subject": "twelve:node:author.agreement.2",
-      "path": [
-        "data",
-        "iteration"
-      ],
-      "action": "replace",
-      "reason": "Remove verbatim private requests, file/relay workflow and PDF handoff; preserve the changed literary specification and graph authority."
-    },
-    {
-      "subject": "twelve:node:author.agreement.3",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Summarize production scope without the private message or another-agent coordination."
-    },
-    {
-      "subject": "twelve:node:author.decision.enhancement_fork",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove deployment instructions, working database path and simultaneous-server details; preserve construction lineage and literary changes."
-    },
-    {
-      "subject": "twelve:node:note.plan.round3",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove app crash, relay interruption and human restart details; preserve the complete modeling plan."
-    },
-    {
-      "subject": "twelve:node:note.lens.fixes.verified",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove local relay-restart context; preserve the observed tool behavior and verification."
-    },
-    {
-      "subject": "twelve:node:author.idea.round1.plan",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove incidental session-clock time while retaining the development round and plan."
-    },
-    {
-      "subject": "twelve:node:author.idea.round2.plan",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove incidental session-clock time while retaining the development round and plan."
-    },
-    {
-      "subject": "twelve:node:assessment.voice.before",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove a quoted private request; preserve the full critical self-review and findings."
-    },
-    {
-      "subject": "twelve:node:note.decision.draw_sequence",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Describe the creative premise without referring to a chat brief."
-    },
-    {
-      "subject": "twelve:node:answer.blind1.f33",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Preserve the response to the blind review while describing its creative premise neutrally."
-    },
-    {
-      "subject": "twelve:node:lens.wanting-bartering-standing",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
-    },
-    {
-      "subject": "twelve:node:lens.wanting-bartering-standing",
-      "path": [
-        "data",
-        "source"
-      ],
-      "action": "replace",
-      "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
-    },
-    {
-      "subject": "twelve:node:lens.wanting-bartering-standing.r2",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
-    },
-    {
-      "subject": "twelve:node:lens.wanting-bartering-standing.r2",
-      "path": [
-        "data",
-        "source"
-      ],
-      "action": "replace",
-      "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
-    },
-    {
-      "subject": "twelve:node:lens.wanting-bartering-standing.r3",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
-    },
-    {
-      "subject": "twelve:node:lens.wanting-bartering-standing.r3",
-      "path": [
-        "data",
-        "source"
-      ],
-      "action": "replace",
-      "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
-    },
-    {
-      "subject": "twelve:node:lens.wonder-appetite-anxiety",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Preserve the lens source as the creative premise rather than a reference to conversation."
-    },
-    {
-      "subject": "twelve:node:lens.wonder-appetite-anxiety",
-      "path": [
-        "data",
-        "source"
-      ],
-      "action": "replace",
-      "reason": "Preserve the lens source as the creative premise rather than a reference to conversation."
-    },
-    {
-      "subject": "twelve:node:plan.twelve.branch.t159.20260929",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
-    },
-    {
-      "subject": "twelve:node:plan.twelve.branch.t162.20260929",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
-    },
-    {
-      "subject": "twelve:node:answers.twelve.draft-direction.m165",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
-    },
-    {
-      "subject": "twelve:node:plan.twelve.branch.t162.20260929",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
-    },
-    {
-      "subject": "twelve:node:answers.twelve.world-direction.m163",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Retain the estimator limitation without private execution wording."
-    },
-    {
-      "subject": "twelve:node:consistency.twelve.revcheck.t161",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Retain the estimator limitation without private execution wording."
-    },
-    {
-      "subject": "twelve:node:plan.twelve.branch.t162.readback",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Preserve the prospective read-back timing without private coordination wording."
-    },
-    {
-      "subject": "twelve:node:note.blind2.orphan_rekey",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Preserve the substantive correction without a reference to a private conversation."
-    },
-    {
-      "subject": "twelve:node:lens.reason-alibi-or-recognition",
-      "path": [
-        "text"
-      ],
-      "action": "replace",
-      "reason": "Preserve the source as an attributed editorial suggestion without private coordination wording."
-    },
-    {
-      "subject": "twelve:node:lens.reason-alibi-or-recognition",
-      "path": [
-        "data",
-        "source"
-      ],
-      "action": "replace",
-      "reason": "Preserve the source as an attributed editorial suggestion without private coordination wording."
-    }
-  ],
-  "reviewHashQualification": "Historical review hashes continue to identify their original reviewed material. The old Book blind-reader prompt retains the hash of the prompt originally received; its public text has only its two local folder prefixes removed.",
+  "publicationRepairs": {
+    "book": "publication/book-publication-exploration-manifest-2026-10-02.json",
+    "twelve": "publication/twelve-words-repair-manifest.json"
+  },
+  "constructionHistoryScope": "Each selected lineage begins at its September 29 public root. Later reviewed construction is retained, including dated or undated revisions as recorded. Missing earlier private history and wall-clock timestamps are not reconstructed.",
+  "reviewHashQualification": "Historical reviewers, task identities and reviewed-material hashes retain their original meaning; the mapping identifies publication counterparts, not a fresh review of those hashes.",
+  "writerStateQualification": "These are reviewed exported continuations. Publishing them does not update or assert parity with private canonical Writer databases.",
   "checksumDefinitions": {
     "fileSha256": "SHA-256 of the exact downloadable file bytes.",
     "constructionContentSha256": "Canonical construction-content checksum verified by life_construction_import; excludes the bundle checksum field.",
     "proseSha256": "SHA-256 of the exact rendered manuscript text."
+  },
+  "initialPublicationCleanup": {
+    "date": "2026-09-29",
+    "stories": {
+      "book": {
+        "graphHash": "7a52371c766ae6bffc87864e55923c6e8fe7b8ea47d76369523ba6c2d31b20df",
+        "sourceGraphHash": "25af8029d87240b7de2fdeb5b3c795906f75ea0501629d6960c107022b762a53",
+        "modelHash": "a153791242320f0db13c79d498956eda64d3e3eb5ec8a6739be0fd7bd8d80c00",
+        "sourceModelHash": "bae0b30c14614c648c0c63b55b99582e89635b3adfce251fe889b3e5871b8f64",
+        "typedAuthorReferenceRemaps": [
+          {
+            "nodeId": "ref.2bd4fd1c1b0a9eeb.concept_concept.nora.partial_transfer",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "ref.2bd4fd1c1b0a9eeb.concept_concept.nora.record_as_substitute",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.body_adaptation",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.body_limit",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.care_adaptation",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.care_fatigue",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.care_quarrel",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.choir_return",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.composition",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.first_job",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.freelance",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.kit_born",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.kit_departure",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.learning_adaptation",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "ref.2bd4fd1c1b0a9eeb.event_event.nora.writing_revision",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "ref.633db7aec9cd08f3.concept_concept.nora.shared_pleasure",
+            "sourceModelHash": "633db7aec9cd08f3a4e65b4ab58f099ee56f0c708308c65aa264e9f889463359",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "world.book.nora-author-reader.20260927",
+            "sourceModelHash": "2bd4fd1c1b0a9eeb1f9f2bfb6a741c7654cb96efd03af16e8904e399898f5dca",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "world.book.nora-author-reader.calendar-20260927",
+            "sourceModelHash": "633db7aec9cd08f3a4e65b4ab58f099ee56f0c708308c65aa264e9f889463359",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          },
+          {
+            "nodeId": "world.book.nora-author-reader.ideas-20260929",
+            "sourceModelHash": "633db7aec9cd08f3a4e65b4ab58f099ee56f0c708308c65aa264e9f889463359",
+            "publicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84"
+          }
+        ],
+        "currentModelAnchorRemaps": []
+      },
+      "twelve": {
+        "graphHash": "11770b5dd5e386449ef6f59fd1deeac6e0dd9778e0709c7c372f4047676cb754",
+        "sourceGraphHash": "3328488aaf1936555115fd704aa3b025c73cc9a8cfd4bdb9f3033ad70406535f",
+        "modelHash": "80e6a2450f1af91f22679d88a3e03d3145171f976edc9837ecf72ffb595cb274",
+        "sourceModelHash": "6aff31554f9a392b3620df7614d74e8a919fd38986bf7cebcb32ef08d14fa501",
+        "typedAuthorReferenceRemaps": [
+          {
+            "nodeId": "ref.4d462a80d15a0f08.cut_cut.faye.2021.pull",
+            "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
+            "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
+          },
+          {
+            "nodeId": "ref.4d462a80d15a0f08.cut_cut.faye.2025.daughter_app.response",
+            "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
+            "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
+          },
+          {
+            "nodeId": "ref.4d462a80d15a0f08.cut_cut.faye.2026.why_write",
+            "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
+            "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
+          },
+          {
+            "nodeId": "ref.4d462a80d15a0f08.event_ev.faye.composition",
+            "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
+            "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
+          },
+          {
+            "nodeId": "ref.4d462a80d15a0f08.event_ev.faye.learn_beside",
+            "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
+            "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
+          },
+          {
+            "nodeId": "ref.4d462a80d15a0f08.referent_referent.profile.faye.person.faye",
+            "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
+            "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
+          },
+          {
+            "nodeId": "world.author_reader",
+            "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
+            "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
+          },
+          {
+            "nodeId": "world.author_reader.ideas-20260929",
+            "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
+            "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
+          },
+          {
+            "nodeId": "world.author_reader.m163",
+            "sourceModelHash": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
+            "publicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb"
+          }
+        ],
+        "currentModelAnchorRemaps": []
+      }
+    },
+    "publicationChanges": [
+      {
+        "subject": "model:nora",
+        "path": [
+          "meaning_model",
+          "concepts",
+          0,
+          "provenance",
+          0
+        ],
+        "action": "replace",
+        "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
+      },
+      {
+        "subject": "model:nora",
+        "path": [
+          "meaning_model",
+          "concepts",
+          1,
+          "provenance",
+          0
+        ],
+        "action": "replace",
+        "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
+      },
+      {
+        "subject": "model:nora",
+        "path": [
+          "meaning_model",
+          "concepts",
+          2,
+          "provenance",
+          0
+        ],
+        "action": "replace",
+        "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
+      },
+      {
+        "subject": "model:nora",
+        "path": [
+          "meaning_model",
+          "events",
+          11,
+          "description"
+        ],
+        "action": "replace",
+        "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
+      },
+      {
+        "subject": "model:nora",
+        "path": [
+          "meaning_model",
+          "realizations",
+          0,
+          "provenance",
+          0
+        ],
+        "action": "replace",
+        "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
+      },
+      {
+        "subject": "model:nora",
+        "path": [
+          "meaning_model",
+          "realizations",
+          1,
+          "provenance",
+          0
+        ],
+        "action": "replace",
+        "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
+      },
+      {
+        "subject": "model:nora",
+        "path": [
+          "meaning_model",
+          "realizations",
+          2,
+          "provenance",
+          0
+        ],
+        "action": "replace",
+        "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
+      },
+      {
+        "subject": "model:nora",
+        "path": [
+          "meaning_model",
+          "realizations",
+          3,
+          "provenance",
+          0
+        ],
+        "action": "replace",
+        "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
+      },
+      {
+        "subject": "model:nora",
+        "path": [
+          "meaning_model",
+          "realizations",
+          4,
+          "provenance",
+          0
+        ],
+        "action": "replace",
+        "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
+      },
+      {
+        "subject": "model:nora",
+        "path": [
+          "meaning_model",
+          "realizations",
+          5,
+          "provenance",
+          0
+        ],
+        "action": "replace",
+        "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
+      },
+      {
+        "subject": "model:nora",
+        "path": [
+          "meaning_model",
+          "realizations",
+          6,
+          "provenance",
+          0
+        ],
+        "action": "replace",
+        "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
+      },
+      {
+        "subject": "model:nora",
+        "path": [
+          "meaning_model",
+          "referents",
+          0,
+          "boundary"
+        ],
+        "action": "replace",
+        "reason": "Anonymize private human attribution without changing the fictional author, events, numbers or relationships."
+      },
+      {
+        "subject": "book:node:plan.book.branch.r23.20260929",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
+      },
+      {
+        "subject": "book:node:plan.book.branch.r26.20260929",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
+      },
+      {
+        "subject": "book:node:answers.book.draft-direction.r29",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
+      },
+      {
+        "subject": "book:node:status.book.r29.narrow-readback-on-hold",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
+      },
+      {
+        "subject": "book:node:author-model.nora-vale.20260927",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Anonymize private human attribution; use the wording already present in the published Book snapshot. Preserve fictional-author distinction and all substantive model/review content."
+      },
+      {
+        "subject": "book:node:ref.2bd4fd1c1b0a9eeb.event_event.nora.composition",
+        "path": [
+          "summary"
+        ],
+        "action": "replace",
+        "reason": "Anonymize private human attribution; use the wording already present in the published Book snapshot. Preserve fictional-author distinction and all substantive model/review content."
+      },
+      {
+        "subject": "book:node:review.book.blind.fable-5-1.20260929",
+        "path": [
+          "data",
+          "prompt",
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Omit a private local folder path from the public edition. The recorded prompt sha256 attests the unredacted prompt the reviewer received; only the two folder paths differ."
+      },
+      {
+        "subject": "twelve:node:author.brief",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove verbatim task dialogue and incidental run instructions; preserve the supplied creative premise and requirements."
+      },
+      {
+        "subject": "twelve:node:author.brief",
+        "path": [
+          "data",
+          "supplier"
+        ],
+        "action": "replace",
+        "reason": "Remove verbatim task dialogue and incidental run instructions; preserve the supplied creative premise and requirements."
+      },
+      {
+        "subject": "twelve:node:author.brief",
+        "path": [
+          "data",
+          "processRules"
+        ],
+        "action": "remove",
+        "reason": "Remove verbatim task dialogue and incidental run instructions; preserve the supplied creative premise and requirements."
+      },
+      {
+        "subject": "twelve:node:author.agreement",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove chat quotations, local folder choice and progress/relay scheduling; retain creative authority and initial constraints."
+      },
+      {
+        "subject": "twelve:node:author.agreement",
+        "path": [
+          "data",
+          "involvement"
+        ],
+        "action": "remove",
+        "reason": "Remove chat quotations, local folder choice and progress/relay scheduling; retain creative authority and initial constraints."
+      },
+      {
+        "subject": "twelve:node:author.agreement",
+        "path": [
+          "data",
+          "humanOperationalDecisions"
+        ],
+        "action": "remove",
+        "reason": "Remove chat quotations, local folder choice and progress/relay scheduling; retain creative authority and initial constraints."
+      },
+      {
+        "subject": "twelve:node:author.agreement",
+        "path": [
+          "data",
+          "deliverables"
+        ],
+        "action": "remove",
+        "reason": "Remove chat quotations, local folder choice and progress/relay scheduling; retain creative authority and initial constraints."
+      },
+      {
+        "subject": "twelve:node:author.agreement",
+        "path": [
+          "data",
+          "creativeAuthority"
+        ],
+        "action": "replace",
+        "reason": "Remove chat quotations, local folder choice and progress/relay scheduling; retain creative authority and initial constraints."
+      },
+      {
+        "subject": "twelve:node:author.agreement.2",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove verbatim private requests, file/relay workflow and PDF handoff; preserve the changed literary specification and graph authority."
+      },
+      {
+        "subject": "twelve:node:author.agreement.2",
+        "path": [
+          "data",
+          "involvement"
+        ],
+        "action": "remove",
+        "reason": "Remove verbatim private requests, file/relay workflow and PDF handoff; preserve the changed literary specification and graph authority."
+      },
+      {
+        "subject": "twelve:node:author.agreement.2",
+        "path": [
+          "data",
+          "deliverables"
+        ],
+        "action": "remove",
+        "reason": "Remove verbatim private requests, file/relay workflow and PDF handoff; preserve the changed literary specification and graph authority."
+      },
+      {
+        "subject": "twelve:node:author.agreement.2",
+        "path": [
+          "data",
+          "iteration"
+        ],
+        "action": "replace",
+        "reason": "Remove verbatim private requests, file/relay workflow and PDF handoff; preserve the changed literary specification and graph authority."
+      },
+      {
+        "subject": "twelve:node:author.agreement.3",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Summarize production scope without the private message or another-agent coordination."
+      },
+      {
+        "subject": "twelve:node:author.decision.enhancement_fork",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove deployment instructions, working database path and simultaneous-server details; preserve construction lineage and literary changes."
+      },
+      {
+        "subject": "twelve:node:note.plan.round3",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove app crash, relay interruption and human restart details; preserve the complete modeling plan."
+      },
+      {
+        "subject": "twelve:node:note.lens.fixes.verified",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove local relay-restart context; preserve the observed tool behavior and verification."
+      },
+      {
+        "subject": "twelve:node:author.idea.round1.plan",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove incidental session-clock time while retaining the development round and plan."
+      },
+      {
+        "subject": "twelve:node:author.idea.round2.plan",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove incidental session-clock time while retaining the development round and plan."
+      },
+      {
+        "subject": "twelve:node:assessment.voice.before",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove a quoted private request; preserve the full critical self-review and findings."
+      },
+      {
+        "subject": "twelve:node:note.decision.draw_sequence",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Describe the creative premise without referring to a chat brief."
+      },
+      {
+        "subject": "twelve:node:answer.blind1.f33",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Preserve the response to the blind review while describing its creative premise neutrally."
+      },
+      {
+        "subject": "twelve:node:lens.wanting-bartering-standing",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
+      },
+      {
+        "subject": "twelve:node:lens.wanting-bartering-standing",
+        "path": [
+          "data",
+          "source"
+        ],
+        "action": "replace",
+        "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
+      },
+      {
+        "subject": "twelve:node:lens.wanting-bartering-standing.r2",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
+      },
+      {
+        "subject": "twelve:node:lens.wanting-bartering-standing.r2",
+        "path": [
+          "data",
+          "source"
+        ],
+        "action": "replace",
+        "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
+      },
+      {
+        "subject": "twelve:node:lens.wanting-bartering-standing.r3",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
+      },
+      {
+        "subject": "twelve:node:lens.wanting-bartering-standing.r3",
+        "path": [
+          "data",
+          "source"
+        ],
+        "action": "replace",
+        "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
+      },
+      {
+        "subject": "twelve:node:lens.wonder-appetite-anxiety",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Preserve the lens source as the creative premise rather than a reference to conversation."
+      },
+      {
+        "subject": "twelve:node:lens.wonder-appetite-anxiety",
+        "path": [
+          "data",
+          "source"
+        ],
+        "action": "replace",
+        "reason": "Preserve the lens source as the creative premise rather than a reference to conversation."
+      },
+      {
+        "subject": "twelve:node:plan.twelve.branch.t159.20260929",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
+      },
+      {
+        "subject": "twelve:node:plan.twelve.branch.t162.20260929",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
+      },
+      {
+        "subject": "twelve:node:answers.twelve.draft-direction.m165",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
+      },
+      {
+        "subject": "twelve:node:plan.twelve.branch.t162.20260929",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
+      },
+      {
+        "subject": "twelve:node:answers.twelve.world-direction.m163",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Retain the estimator limitation without private execution wording."
+      },
+      {
+        "subject": "twelve:node:consistency.twelve.revcheck.t161",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Retain the estimator limitation without private execution wording."
+      },
+      {
+        "subject": "twelve:node:plan.twelve.branch.t162.readback",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Preserve the prospective read-back timing without private coordination wording."
+      },
+      {
+        "subject": "twelve:node:note.blind2.orphan_rekey",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Preserve the substantive correction without a reference to a private conversation."
+      },
+      {
+        "subject": "twelve:node:lens.reason-alibi-or-recognition",
+        "path": [
+          "text"
+        ],
+        "action": "replace",
+        "reason": "Preserve the source as an attributed editorial suggestion without private coordination wording."
+      },
+      {
+        "subject": "twelve:node:lens.reason-alibi-or-recognition",
+        "path": [
+          "data",
+          "source"
+        ],
+        "action": "replace",
+        "reason": "Preserve the source as an attributed editorial suggestion without private coordination wording."
+      }
+    ],
+    "reviewHashQualification": "Historical review hashes continue to identify their original reviewed material. The old Book blind-reader prompt retains the hash of the prompt originally received; its public text has only its two local folder prefixes removed."
   }
 }

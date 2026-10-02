@@ -4,7 +4,7 @@ Two stories built with the [Meaning Model](https://github.com/emergent-wisdom/me
 
 **[Explore both stories in the interactive viewer](https://emergentwisdom.org/meaning-model/twelve-words/?reading=off&view=together&everything=&timeView=together)** — opens in your browser without installation. Use **Model** to switch between the books and their fictional authors' lives.
 
-**Current editions, September 29, 2026:**
+**Current editions, October 2, 2026:**
 
 - **[Twelve Words](stories/twelve-words.md)** — the continuing version of the novel first written live at the Stockholm Claude Community event on September 25.
 - **[The Book of Conditions](stories/the-book-of-conditions.md)** — an alternative history of Babbage, Lovelace and a bounded calculating undertaking.
@@ -26,7 +26,7 @@ Save the JSON file on your computer. With [Meaning Model MCP installed in your A
 
 Give it the downloaded file's location. The assistant uses `life_construction_import` with that absolute file path, then `life_model_viewer_open` with the returned `headGraphHash`. The Book uses the access scope `book.07r2.authoring`; Twelve Words uses `story-author`. Each download includes its fictional author's modeled life. The viewer makes that life available alongside the story. Import both files and ask **“Open these stories together”** to switch between them. You can continue writing from either imported edition.
 
-These are native MCP construction bundles; no code, extraction step or source checkout is needed. They contain the current published world, prose and attributed understanding, including story reviews. They start new publication lineages so importing or exporting them does not bring in the earlier private working history. Exact download checksums are the `fileSha256` values in the [publication manifest](public/PUBLICATION-MANIFEST.json).
+These are native MCP construction bundles; no code, extraction step or source checkout is needed. They contain the current published world, prose and attributed understanding, including story reviews. The Book retains 66 graph revisions and seven stored model definitions; Twelve Words retains 60 graph revisions and nine stored model definitions. Each history begins at its September 29 public root and preserves the subsequent reviewed continuation. Earlier private construction history is not reconstructed. Exact download checksums are the `fileSha256` values in the [publication manifest](public/PUBLICATION-MANIFEST.json).
 
 ## Open the viewer
 
@@ -38,11 +38,11 @@ npm install
 npm run serve
 ```
 
-Requires Node.js 22.18 or later. Open the local URL printed by the command. The reviewed snapshots load immediately; no engine installation is needed just to explore them.
+Requires Node.js 22.18 or later. The install pins the [Meaning Model MCP 0.6.5 package from its GitHub release](https://github.com/emergent-wisdom/meaning-model/releases/tag/v0.6.5), and the shared launcher uses that same package. Open the local URL printed by the command. The reviewed snapshots load immediately; no engine installation is needed just to explore them.
 
-**Show it as** switches between Processes (together or layers), Tree, Terrain, Graph, Structure and Space in one page. **Coarse view** gives the overview; more detail reveals subprocesses. Select a record to inspect its meaning and links. Use **Recenter** or Home to restore the overview. Physical positions come from declared coordinates and reference frames; the other graph layouts are not geography.
+**Show it as** switches between Processes (together or layers), Tree, Terrain, Graph, Structure and Space in one page. **Coarse view** gives the overview; more detail reveals subprocesses. Select a record to inspect its meaning and links. Use **Recenter** or Home to restore the overview. Physical positions come from declared coordinates and reference frames; the other graph layouts are not geography. To replay the retained construction, choose **Play ▾ → The construction**. The books use ordered steps because their retained exports have no tool-call timestamps; the completed model remains available in Story time.
 
-This repository uses the [shared viewer launcher](https://github.com/emergent-wisdom/meaning-model-viewer) and the exact interface bundled with **Meaning Model MCP 0.6.0**. Existing `/processes.html` and `/landscape.html` event links open the current Twelve Words edition in their corresponding representation. An explicit current dataset choice remains selected. There is no separate story-specific viewer to maintain.
+This repository uses the [shared viewer launcher](https://github.com/emergent-wisdom/meaning-model-viewer) and the exact interface bundled with **Meaning Model MCP 0.6.5**. Existing `/processes.html` and `/landscape.html` event links open the current Twelve Words edition in their corresponding representation. An explicit current dataset choice remains selected. There is no separate story-specific viewer to maintain.
 
 For your own models, install Meaning Model MCP in your AI app and ask **“Open this model.”** The assistant returns a local snapshot link. Ask **“Open these models together”** to compare selected models. When writing, ask **“Keep the viewer following as we work.”** The assistant opens the story's `graphHash` with `mode: "live"`; saved graph revisions update the model and prose at the same local URL. Updates preserve your reading context through guarded page refreshes and pause while you interact or play. A fork or inaccessible revision pauses following. Exact snapshot links remain available. No separate viewer checkout is required for normal MCP use. The hosted website shows the reviewed published editions and does not follow private drafts.
 
@@ -50,7 +50,9 @@ For your own models, install Meaning Model MCP in your AI app and ask **“Open 
 
 [`models/`](models/) holds the two importable MCP downloads. [`public/models/`](public/models/) holds matching viewer snapshots for the stories and their fictional authors. The [publication manifest](public/PUBLICATION-MANIFEST.json) identifies the exact graph and model revisions, manuscript checksums and downloadable file checksums. The models are the same in the downloads, manuscripts and viewer.
 
-The public models retain authored thoughts, critical story reviews, revision findings, process values, spatial declarations and passage-to-Event links. Private user conversation and incidental execution details are summarized. Working databases, relay transcripts and earlier private construction histories are not included in these current editions. Publication projections have their own genuine model and graph identities; the original private authoring graphs remain unchanged. Twelve Words also includes the audited initial author-life model because historical story records explicitly refer to it.
+The public models retain authored thoughts, critical story reviews, revision findings, process values, spatial declarations and passage-to-Event links, together with the retained publication history. Working databases, relay transcripts and private working files are not included. The October 2 Book copy replaces one local artifact path with its filename and discloses the mapping of affected graph revisions; its native definitions and manuscript match the reviewed continuation. Twelve Words corrects an unsupported subtype relation and explicitly marks selected numerical readings as unrenewed or unvalidated; their values are unchanged. These notes are review status, not an engine quarantine or a claim of a complete numerical reassessment. The [Book publication mapping](public/publication/book-publication-exploration-manifest-2026-10-02.json) and [Twelve Words repair manifest](public/publication/twelve-words-repair-manifest.json) record the exact scope.
+
+Both manuscripts are unchanged from the reviewed exploration outputs. This model update does not claim a new literary evaluation or alter the private Writer databases. Historical reviewer identities and reviewed-material hashes continue to name the original material, not a new certification of publication hashes. Twelve Words also includes the audited initial author-life model because historical story records explicitly refer to it.
 
 ## Original September 25 event archive
 

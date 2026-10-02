@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { viewerArguments, openViewer } from '../serve.mjs';
+import { meaningModelRoot } from 'meaning-model-viewer/meaning-model.mjs';
 
 test('explicit run and snapshot requests pass unchanged to the shared viewer', () => {
   for (const args of [['--run','runs/rabbit-hole'],['--data','reviewed','--port','9000'],['--help']]) assert.deepEqual(viewerArguments(args),args);
@@ -9,11 +10,21 @@ test('explicit run and snapshot requests pass unchanged to the shared viewer', (
 
 test('the story depends on the shared viewer and MCP release rather than a copied interface', async () => {
   const pkg=JSON.parse(await readFile(new URL('../package.json',import.meta.url),'utf8'));
-  assert.equal(pkg.dependencies['@emergent-wisdom/meaning-model-mcp'],'0.6.0');
+  assert.equal(pkg.dependencies['@emergent-wisdom/meaning-model-mcp'],'https://github.com/emergent-wisdom/meaning-model/releases/download/v0.6.5/emergent-wisdom-meaning-model-mcp-0.6.5.tgz');
+  assert.equal(pkg.overrides['@emergent-wisdom/meaning-model-mcp'],'$@emergent-wisdom/meaning-model-mcp');
   assert.equal(pkg.dependencies['meaning-model-viewer'],'github:emergent-wisdom/meaning-model-viewer#v0.6.0');
   assert.equal(pkg.scripts.serve,'node serve.mjs');
-  assert.equal(pkg.version,'0.6.0');
+  assert.equal(pkg.version,'0.6.5');
   assert.equal(pkg.private,true);
+  const suppliedRoot=process.env.MEANING_MODEL_DIR;
+  delete process.env.MEANING_MODEL_DIR;
+  try {
+    const resolved=JSON.parse(await readFile(`${meaningModelRoot()}/package.json`,'utf8'));
+    assert.equal(resolved.version,pkg.version,
+      'The shared launcher must serve the selected MCP version, not an older nested dependency');
+  } finally {
+    if(suppliedRoot!==undefined) process.env.MEANING_MODEL_DIR=suppliedRoot;
+  }
 });
 
 test('original event URLs open Twelve Words while explicit current choices remain intact',async()=>{
