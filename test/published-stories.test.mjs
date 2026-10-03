@@ -94,3 +94,23 @@ test('publication repair records name the delivered bundles without private work
     assert.doesNotMatch(JSON.stringify(repair),/\/Users\/|\/home\/|[A-Z]:\\Users\\/i);
   }
 });
+
+test('October 3 privacy projections keep the October 2 prose and omit private coordination',async()=>{
+  const manifest=await json('../public/PUBLICATION-MANIFEST.json');
+  assert.equal(manifest.date,'2026-10-03');
+  assert.equal(manifest.proseEditionDate,'2026-10-02');
+  const expectedProse={book:'4dbe1f5caa94aba8ef9d8d2a77a75e2faf56f3fff79e617d877672748fd97bb3',
+    twelve:'e98dd41d694da36da1fca6a6b0ab47bd2dd52ed7eecd4f12c962169fa7cf0cc1'};
+  const privateCoordination=/Authorized\s*next-round\s*delegation\s*from\s*the\s*source\s*chat|Book\s*pass\s*completed\s*first|one\s*book\s*at\s*a\s*time|root\s*follow[\s-]*up|no\s*(?:publish\/commit|commit\/publish)/i;
+  for(const [key,entry]of Object.entries(manifest.stories)) {
+    assert.equal(sha(await readFile(new URL(`../${entry.manuscript}`,import.meta.url))),expectedProse[key]);
+    const projection=await json(`../public/${manifest.publicationRepairs[key]}`);
+    assert.equal(projection.proseEditionDate,'2026-10-02');
+    assert.equal(projection.publicationDate,'2026-10-03');
+    const snapshot=await json(`../public/models/${entry.snapshot}`);
+    assert(snapshot.inspection.graph.nodes.some(node=>node.id===projection.publication.disclosureNodeId));
+    for(const path of [`../models/${entry.bundle}`,`../public/models/${entry.snapshot}`]) {
+      assert.doesNotMatch(await readFile(new URL(path,import.meta.url),'utf8'),privateCoordination,path);
+    }
+  }
+});

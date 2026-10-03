@@ -1,14 +1,14 @@
 {
   "schema": "meaning-model-publication-projection/v1",
-  "date": "2026-10-02",
-  "meaningModelVersion": "0.6.5",
+  "date": "2026-10-03",
+  "meaningModelVersion": "0.6.6",
   "authoringToolVersion": "0.6.4-dev.exploration.6c5047708861",
-  "purpose": "Reviewed story models, manuscripts and attributed understanding, separately downloadable from the MCP tool. Retains the selected public construction lineages and their native model ancestry; no private Writer database is changed.",
+  "purpose": "October 3 privacy projection of the reviewed October 2 story editions. Removes private coordination from non-rendered notes while preserving native models, literary findings, prose and the selected public construction histories. No private Writer database is changed.",
   "stories": {
     "book": {
       "title": "The Book of Conditions",
-      "graphHash": "411735a38675e455b3e5088e719d38136b7c2011b296d2086a69ef87accab1e8",
-      "graphRevision": 65,
+      "graphHash": "e3db64fc05556d357b943bcd26967d4519a73330910bbddd5965f5c7f4070c3e",
+      "graphRevision": 66,
       "sourceGraphHash": "d840d074f6712c6d56f93b79eefc06b02857c495dcb87f679daec5d33b4e303d",
       "modelHash": "1157d4959f6e8aad7a909d68a1bcbe46fb68e57978d85fa84a89c85aabd7f0cc",
       "modelRevision": 5,
@@ -21,8 +21,8 @@
         "book.07r2.authoring"
       ],
       "proseSha256": "4dbe1f5caa94aba8ef9d8d2a77a75e2faf56f3fff79e617d877672748fd97bb3",
-      "nodeCount": 531,
-      "edgeCount": 4682,
+      "nodeCount": 532,
+      "edgeCount": 4684,
       "reviewCount": 37,
       "allReviewRecordsRetained": true,
       "manuscript": "stories/the-book-of-conditions.md",
@@ -40,24 +40,31 @@
       },
       "viewerConstruction": {
         "timing": "order",
-        "steps": 72,
+        "steps": 73,
         "available": true
       },
       "constructionHistory": {
-        "graphRevisions": 66,
+        "graphRevisions": 67,
         "storedModelDefinitions": 7,
         "storyModelRevisions": 6,
         "currentModels": 2
       },
-      "constructionContentSha256": "ea3d4b417fba843c0d49de7a9ab0d37af6a33aeed2a381f6a22797ed4c5b9e6a",
-      "bundleFileSha256": "aabdcfab702553908f3960eb6ad190bf2a7deac9019f9d1cd638d610822267c1",
-      "snapshotFileSha256": "f87abbd6f31fe3d52a3220b49ef6e830273eb5618411011e3a209af55d10d9f6",
-      "manuscriptUnchangedFromReviewedExploration": true
+      "constructionContentSha256": "3a13d5d51a6d9e694f488b4956f2317bf440746af93823665766c6aa31c1efb1",
+      "bundleFileSha256": "1f08618e7591645f21b8620d9059b427f03a808b37bde655d493e0c7ffcb3fc0",
+      "snapshotFileSha256": "84b8d925b31a7aa5a2cacfec70f02e7caf5ccf402549a9b4c19e39ca2bf75adf",
+      "manuscriptUnchangedFromReviewedExploration": true,
+      "privacyProjection": {
+        "publicationDate": "2026-10-03",
+        "proseEditionDate": "2026-10-02",
+        "sourceGraphHash": "411735a38675e455b3e5088e719d38136b7c2011b296d2086a69ef87accab1e8",
+        "manifest": "publication/book-publication-privacy-2026-10-03.json",
+        "disclosureNodeId": "author.book.publication-privacy.20261003"
+      }
     },
     "twelve": {
       "title": "Twelve Words",
-      "graphHash": "585d5f801225c8d388cf9f29cfb47c24a5be72f449197d5b0c63b89bbf7c0869",
-      "graphRevision": 59,
+      "graphHash": "2520ef0e8aa7e6befe5cafeeacb842edfcdaddcbaf202496212d6ce155c23c38",
+      "graphRevision": 60,
       "sourceGraphHash": "780314871f5b66e6e76fe55ebc61848aad1c268effe275938a1635de772c29f7",
       "modelHash": "217a230e696bf1fca4a3967c6da36d818e30fbf066b41706ad538d47747b2f73",
       "modelRevision": 6,
@@ -70,8 +77,8 @@
         "story-author"
       ],
       "proseSha256": "e98dd41d694da36da1fca6a6b0ab47bd2dd52ed7eecd4f12c962169fa7cf0cc1",
-      "nodeCount": 617,
-      "edgeCount": 3644,
+      "nodeCount": 618,
+      "edgeCount": 3646,
       "reviewCount": 38,
       "allReviewRecordsRetained": true,
       "manuscript": "stories/twelve-words.md",
@@ -89,20 +96,27 @@
       },
       "viewerConstruction": {
         "timing": "order",
-        "steps": 67,
+        "steps": 68,
         "available": true
       },
       "constructionHistory": {
-        "graphRevisions": 60,
+        "graphRevisions": 61,
         "storedModelDefinitions": 9,
         "storyModelRevisions": 7,
         "currentModels": 2
       },
-      "constructionContentSha256": "d19b2f58924677b5c42b9801e460f38a764fdc3c54fa91799e9b68b7324af074",
-      "bundleFileSha256": "a8176335194a86bb3f4278f2178c348067cec0927391b22d89c8b559f72a7bb6",
-      "snapshotFileSha256": "f41309725a347cae23510f0789aaf5f8e12218027cfa00a011dd66956cedf9ad",
+      "constructionContentSha256": "3a0109bab32b957a15c46b1fbc47a19993451dbe87cacd25be556db7c95d743a",
+      "bundleFileSha256": "eb527227b8c9c1ac0a021d2066cbede2a87941d9d3521e92c8240d26915dca2b",
+      "snapshotFileSha256": "aaea92d8b0b72726aa55f1b9dbcd40238838816e5e2af97f68c56cee93d36405",
       "manuscriptUnchangedFromReviewedExploration": true,
-      "numericalReviewQualification": "Selected guild Cuts, an inherited stale alibi Cut, two Barbara readings and six realization degrees are explicitly marked unrenewed or unvalidated. No numerical values were changed or recertified; these notes do not quarantine values in the engine."
+      "numericalReviewQualification": "Selected guild Cuts, an inherited stale alibi Cut, two Barbara readings and six realization degrees are explicitly marked unrenewed or unvalidated. No numerical values were changed or recertified; these notes do not quarantine values in the engine.",
+      "privacyProjection": {
+        "publicationDate": "2026-10-03",
+        "proseEditionDate": "2026-10-02",
+        "sourceGraphHash": "585d5f801225c8d388cf9f29cfb47c24a5be72f449197d5b0c63b89bbf7c0869",
+        "manifest": "publication/twelve-publication-privacy-2026-10-03.json",
+        "disclosureNodeId": "author.twelve.publication-privacy.20261003"
+      }
     }
   },
   "authorLives": {
@@ -113,7 +127,7 @@
       "modelId": "nora-vale-fictional-author-life.public-2026-09-29",
       "snapshot": "nora.json",
       "modelContentUnchangedExceptPublicationIdentityAndDocumentedPrivacyFields": true,
-      "snapshotFileSha256": "8633430510ddb62cf348bee3c43f91c1035601f89c942658c08da39022daa619",
+      "snapshotFileSha256": "4068fad29be46fa23b4daf5b08011fd9262c5e7dc2edafb091707f439aec656c",
       "story": "book"
     },
     "faye": {
@@ -123,7 +137,7 @@
       "modelId": "faye-titcombe-life.public-2026-09-29",
       "snapshot": "faye.json",
       "modelContentUnchangedExceptPublicationIdentityAndDocumentedPrivacyFields": true,
-      "snapshotFileSha256": "ebb9dc0bb11a5c676f269c6a96c8a27f23edb7c71e258f5fd3632e097da4b79f",
+      "snapshotFileSha256": "78427f4afcce65504ec9986545d2d08d7beab212206ca5017acb54de5b01e2ca",
       "story": "twelve"
     }
   },
@@ -139,33 +153,33 @@
   "importableBundles": {
     "book": {
       "file": "the-book-of-conditions.meaning-model.json",
-      "bytes": 19675011,
-      "graphHash": "411735a38675e455b3e5088e719d38136b7c2011b296d2086a69ef87accab1e8",
+      "bytes": 19724177,
+      "graphHash": "e3db64fc05556d357b943bcd26967d4519a73330910bbddd5965f5c7f4070c3e",
       "modelCount": 7,
-      "graphRevisionCount": 66,
+      "graphRevisionCount": 67,
       "privateHistoryIncluded": false,
       "retainedPublicHistoryIncluded": true,
-      "constructionContentSha256": "ea3d4b417fba843c0d49de7a9ab0d37af6a33aeed2a381f6a22797ed4c5b9e6a",
-      "fileSha256": "aabdcfab702553908f3960eb6ad190bf2a7deac9019f9d1cd638d610822267c1"
+      "constructionContentSha256": "3a13d5d51a6d9e694f488b4956f2317bf440746af93823665766c6aa31c1efb1",
+      "fileSha256": "1f08618e7591645f21b8620d9059b427f03a808b37bde655d493e0c7ffcb3fc0"
     },
     "twelve": {
       "file": "twelve-words.meaning-model.json",
-      "bytes": 19171761,
-      "graphHash": "585d5f801225c8d388cf9f29cfb47c24a5be72f449197d5b0c63b89bbf7c0869",
+      "bytes": 19184388,
+      "graphHash": "2520ef0e8aa7e6befe5cafeeacb842edfcdaddcbaf202496212d6ce155c23c38",
       "modelCount": 9,
-      "graphRevisionCount": 60,
+      "graphRevisionCount": 61,
       "privateHistoryIncluded": false,
       "retainedPublicHistoryIncluded": true,
-      "constructionContentSha256": "d19b2f58924677b5c42b9801e460f38a764fdc3c54fa91799e9b68b7324af074",
-      "fileSha256": "a8176335194a86bb3f4278f2178c348067cec0927391b22d89c8b559f72a7bb6"
+      "constructionContentSha256": "3a0109bab32b957a15c46b1fbc47a19993451dbe87cacd25be556db7c95d743a",
+      "fileSha256": "eb527227b8c9c1ac0a021d2066cbede2a87941d9d3521e92c8240d26915dca2b"
     }
   },
   "publicationRepairs": {
-    "book": "publication/book-publication-exploration-manifest-2026-10-02.json",
-    "twelve": "publication/twelve-words-repair-manifest.json"
+    "book": "publication/book-publication-privacy-2026-10-03.json",
+    "twelve": "publication/twelve-publication-privacy-2026-10-03.json"
   },
-  "constructionHistoryScope": "Each selected lineage begins at its September 29 public root. Later reviewed construction is retained, including dated or undated revisions as recorded. Missing earlier private history and wall-clock timestamps are not reconstructed.",
-  "reviewHashQualification": "Historical reviewers, task identities and reviewed-material hashes retain their original meaning; the mapping identifies publication counterparts, not a fresh review of those hashes.",
+  "constructionHistoryScope": "Each selected lineage begins at its September 29 public root. Later reviewed construction is retained, including dated or undated revisions as recorded. Missing earlier private history and wall-clock timestamps are not reconstructed. The October 3 privacy projection preserves each selected revision in order, remaps only affected graph hashes, and adds one disclosure revision per story; the models and October 2 prose are unchanged.",
+  "reviewHashQualification": "Historical reviewers, task identities and reviewed-material hashes retain their original meaning. The privacy projection identifies publication counterparts and preserves substantive findings; it does not renew historical approvals.",
   "writerStateQualification": "These are reviewed exported continuations. Publishing them does not update or assert parity with private canonical Writer databases.",
   "checksumDefinitions": {
     "fileSha256": "SHA-256 of the exact downloadable file bytes.",
@@ -863,5 +877,11 @@
       }
     ],
     "reviewHashQualification": "Historical review hashes continue to identify their original reviewed material. The old Book blind-reader prompt retains the hash of the prompt originally received; its public text has only its two local folder prefixes removed."
+  },
+  "proseEditionDate": "2026-10-02",
+  "snapshotToolVersion": "0.6.6",
+  "priorPublicationRepairs": {
+    "book": "publication/book-publication-exploration-manifest-2026-10-02.json",
+    "twelve": "publication/twelve-words-repair-manifest.json"
   }
 }
