@@ -16,3 +16,12 @@ renders/
 .local-work/
 /work/
 *.sqlite-journal
+
+# Withdrawn operational copies contained private human coordination.
+/runs/rabbit-hole/novel/engine-state.sqlite
+/runs/rabbit-hole/novel/mcp-transcript.jsonl
+/runs/rabbit-hole/novel/construction-export.json
+/runs/rabbit-hole/novel/inputs/author-agreement-2.json
+/runs/rabbit-hole/novel/inputs/voice-assessment-before.json
+/runs/rabbit-hole/novel/results/query-full.json
+/public/data/rabbit-hole.json

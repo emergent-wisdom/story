@@ -66,45 +66,31 @@ Both manuscripts are unchanged from the reviewed exploration outputs. This model
 
 The original *Twelve Words* run was made for the Stockholm Claude Community event **Push the limits with Fable 5.1 n Opus 5.5**, September 25, 2026. A participant at the event described what they wanted the story to be about and supplied the prompt: a comfortable “blue pill” world, the white rabbit, and Paleolithic emotions, medieval institutions and godlike technology. **Claude Opus 5.5 Max** then wrote the novel autonomously, live at the event, using Meaning Model [v0.3.0](https://github.com/emergent-wisdom/meaning-model/releases/tag/v0.3.0).
 
-The original event [text](runs/rabbit-hole/novel/novel.md) and [book PDF](pdf/rabbit-hole.pdf) remain unchanged. They differ from the current editions linked above. The [`runs/rabbit-hole/`](runs/rabbit-hole/) archive preserves the event's brief, protocol, call inputs/results, scripts, construction history and database for reproducibility, with the prompt and writing credits corrected in the protocol; it does not contain the later private Writer workspace.
+The original event [text](runs/rabbit-hole/novel/novel.md) and [book PDF](pdf/rabbit-hole.pdf) remain unchanged. They differ from the current editions linked above. The [`runs/rabbit-hole/`](runs/rabbit-hole/) archive retains the event's brief, protocol, model-building scripts and selected inputs/results. Its raw database, relay transcript and copies containing quoted human coordination are no longer distributed. Exact raw operational replay is therefore unavailable from this checkout. See the [archive's publication note](runs/rabbit-hole/PROTOCOL.md#this-copy).
 
 [![The original event processes view](media/the-rabbit-hole-processes.png)](media/the-rabbit-hole-processes.mp4)
 
 **[Watch the original interface (51-second video)](media/the-rabbit-hole-processes.mp4).** The current interface is recorded at the top of this page.
 
-To inspect the original run using today's shared interface:
-
-```sh
-npx meaning-model-mcp --install-engine
-npm run serve -- --run runs/rabbit-hole
-```
-
-The launcher reads an online backup and does not change the archive. The engine is needed to extract a run, but not to view the already prepared current snapshots.
+To inspect or continue Twelve Words in today's shared interface, use the current [clean model download](models/twelve-words.meaning-model.json) or run `npm run serve`. That bundle has its own selected publication lineage; it does not reproduce the original event's complete database or call history.
 
 ## Work with a saved run
 
 ```sh
 npx meaning-model-mcp --install-engine
-npm run extract -- --run runs/rabbit-hole --out .local-work/rabbit-hole.json
+npm run extract -- --run /path/to/your/private-run --out .local-work/run.json
 npm run serve -- --data .local-work
 ```
 
 Generated exports include the author's model, notes and construction record. Keep them in the ignored `.local-work/` directory until reviewed for publication. A story's authored understanding and critical reviews can remain part of its public model; private conversations, personal information and secrets must be removed deliberately.
 
+`node sync-run.mjs /path/to/your/private-run <name>` stages a copy under `.local-work/imported-runs/<name>/`, including its database and call log. It requires that destination to be ignored and refuses an existing copy. It does not publish a run or certify its contents for publication.
+
 For an agent actively working in a saved run, `npm run serve -- --run <folder> --live` checks the run once a minute and follows revisions in every representation. It waits for playback to pause before reloading the current view. Ordinary MCP links remain immutable snapshots unless the assistant opens a story graph with `mode: "live"`.
 
 Existing Writer contributors can use `npm run view:writer` with their already running Writer relay. `MEANING_MODEL_RELAY` may name that relay's `relay.mjs`; the default is this checkout's ignored `work/relay.mjs`. This adapter discovers the latest unambiguous saved story and asks the existing MCP (0.5.1 or later) to open it in live mode. The same link follows later saved revisions. It starts no second database writer and is not needed to view the public snapshots.
 
-For the current stories, use the downloads above. To reproduce the original event world with your own agent, use a private copy of the archived database:
-
-```sh
-npx meaning-model-mcp --install-engine
-mkdir -p .local-work
-cp runs/rabbit-hole/novel/engine-state.sqlite .local-work/story-state.sqlite
-claude mcp add story-model -e LIFE_SIM_STATE_FILE="$PWD/.local-work/story-state.sqlite" -e MEANING_MODEL_ADDONS=storytelling -e MEANING_MODEL_READING=guides -- npx meaning-model-mcp
-```
-
-The original event graph is `6e840daa393fbdd16608dff4c81c045dca622386be4e9f8d5d7c95816d45eb29`, with scope `story-author`. Ask the agent to inspect and render that graph. Use the publication manifest to distinguish it from the later current public editions.
+For the current stories, use the downloads above. The original event graph was `6e840daa393fbdd16608dff4c81c045dca622386be4e9f8d5d7c95816d45eb29`, with scope `story-author`. This identifies the historical record; it is not an importable graph supplied by this checkout. Use the publication manifest to identify the later current public editions.
 
 ## Meaning Model
 

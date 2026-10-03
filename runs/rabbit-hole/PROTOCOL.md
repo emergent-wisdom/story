@@ -44,7 +44,17 @@ The story is visualized in this repo while it is written.
 
 ## This copy
 
-`novel/engine-state.sqlite` is an online backup of the engine state, taken while the agent works. `novel/relay.mjs`
-names the published package instead of the operator's checkout. The relay's queue files, process ids and logs are
-left out. `sync-run.mjs` at the repo root makes this copy and refuses to write one that holds a local path or a
-configured credential.
+The original event manuscript and PDF, model-building scripts, and selected call inputs/results remain public.
+On October 3, 2026, the raw `novel/engine-state.sqlite`, `novel/mcp-transcript.jsonl`, their hash-bound construction
+export, the obsolete viewer snapshot, and redundant inputs/results containing quoted human coordination were
+withdrawn from the current tree. They were preserved privately before removal. The account above describes the
+historical procedure; its file references do not promise that every original operational artifact is distributed.
+
+The removed export was not edited in place: changing its notes would change the recorded graph hashes and require
+a new replayed publication lineage. Exact raw operational replay is no longer available from this checkout. The
+current clean Twelve Words download has its own selected publication lineage and is not claimed to be a complete
+replacement for the original event history. The event's readable text and retained model sources are unchanged.
+
+`sync-run.mjs` now stages saved runs only in ignored `.local-work/imported-runs/`; publication requires a separate
+review of a selected export. The existing relay and model-building scripts document how the event was conducted,
+but should be used with a private run rather than treated as a complete executable copy of the original archive.

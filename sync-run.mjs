@@ -1,18 +1,22 @@
 #!/usr/bin/env node
-// Copy a story run into runs/<name>/ for this repo: the agent's own record, without the operator's machinery.
+// Stage a story run privately in .local-work/imported-runs/<name>/ for publication review.
 //   node sync-run.mjs <run folder> <name>
 // It copies the brief, the agent's inputs, results, build scripts and notes, the relay call log and an online
 // backup of the engine state. It leaves out the relay's queue files, process ids and logs, and the public
 // PROTOCOL.md, which is written by hand. The relay names the published package instead of a local checkout.
-// It stops if a local path or a configured credential would be copied.
+// It never writes to the public runs/ tree. It stops if a local path or a configured credential would be copied.
 import { execFileSync } from 'node:child_process';
-import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, lstatSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import { homedir } from 'node:os';
 import { join, relative, resolve } from 'node:path';
 
 const [source, name] = process.argv.slice(2);
 if (!source || !name) throw new Error('usage: node sync-run.mjs <run folder> <name>');
-const run = resolve(source); const out = resolve('runs', name);
+if (!/^[a-zA-Z0-9][a-zA-Z0-9._-]*$/.test(name)) throw new Error('Run name must be a simple directory name.');
+const run = resolve(source); const out = resolve('.local-work', 'imported-runs', name);
+try { execFileSync('git', ['check-ignore', '--quiet', '--', out], { stdio: 'ignore' }); }
+catch { throw new Error('The private staging destination must be ignored by Git.'); }
+if (existsSync(out)) throw new Error('Private staging copy already exists; choose a new name.');
 const SKIP = new Set(['daemon.json', 'relay-serve.log', 'server-stderr.log', 'relay', '__pycache__',
   'engine-state.sqlite', 'engine-state.sqlite-shm', 'engine-state.sqlite-wal', 'PROTOCOL.md']);
 
@@ -21,8 +25,10 @@ function copy(from, to) {
   for (const entry of readdirSync(from)) {
     if (SKIP.has(entry) || entry.startsWith('.') || entry === 'node_modules') continue;
     const a = join(from, entry); const b = join(to, entry);
-    if (statSync(a).isDirectory() && existsSync(join(a, '.git'))) continue; // a clone inside the run is not the run
-    if (statSync(a).isDirectory()) copy(a, b); else cpSync(a, b);
+    const info = lstatSync(a);
+    if (info.isSymbolicLink()) throw new Error(`Refusing symbolic link in run input: ${relative(run, a)}`);
+    if (info.isDirectory() && existsSync(join(a, '.git'))) continue; // a clone inside the run is not the run
+    if (info.isDirectory()) copy(a, b); else cpSync(a, b);
   }
 }
 copy(run, out);
@@ -32,7 +38,7 @@ execFileSync('sqlite3', [join(run, 'novel', 'engine-state.sqlite'), `.backup '${
 const relay = join(out, 'novel', 'relay.mjs');
 if (existsSync(relay)) {
   const text = readFileSync(relay, 'utf8').replace(/^const publish = '[^']*';$/m,
-    "const publish = process.env.MEANING_MODEL_DIR ?? fileURLToPath(new URL('../../../node_modules/@emergent-wisdom/meaning-model-mcp/', import.meta.url));");
+    "const publish = process.env.MEANING_MODEL_DIR ?? fileURLToPath(new URL('../../../../node_modules/@emergent-wisdom/meaning-model-mcp/', import.meta.url));");
   writeFileSync(relay, text);
 }
 
@@ -67,4 +73,4 @@ const home = Buffer.from(homedir()); const problems = [];
   }
 })(out);
 if (problems.length) { console.error(problems.join('\n')); process.exit(1); }
-console.log(`runs/${name}: copied and checked`);
+console.log(`.local-work/imported-runs/${name}: staged privately; review a selected export before publication`);

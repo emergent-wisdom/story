@@ -7,7 +7,7 @@ import { main } from 'meaning-model-viewer/serve.mjs';
 export function viewerArguments(argv = process.argv.slice(2)) {
   if (argv.includes('--run') || argv.includes('--data') || argv.includes('--help')) return argv;
   const snapshots = fileURLToPath(new URL('./public/models/', import.meta.url));
-  if (!existsSync(snapshots)) throw new Error('Reviewed story snapshots are missing. Use a complete story release, or pass --run runs/rabbit-hole to view the original event run.');
+  if (!existsSync(snapshots)) throw new Error('Reviewed story snapshots are missing. Use a complete story release, or pass --run <private-run-folder> to view your own saved run.');
   return ['--data', snapshots, ...argv];
 }
 
