@@ -2,7 +2,7 @@
 
 Two stories built with the [Meaning Model](https://github.com/emergent-wisdom/meaning-model), with their worlds, character processes, physical settings and authored understanding available in one shared viewer.
 
-**[Explore both stories in the interactive viewer](https://emergentwisdom.org/meaning-model/twelve-words/?reading=off&view=together&everything=&timeView=together)** — opens in your browser without installation. Use **Model** to switch between the books and their fictional authors' lives.
+**[Explore both stories in the interactive viewer](https://meaningmodel.ai/meaning-model/twelve-words/?reading=off&view=together&everything=&timeView=together)** — opens in your browser without installation. Use **Model** to switch between the books and their fictional authors' lives.
 
 **Current editions, October 2, 2026:**
 
@@ -36,7 +36,7 @@ These are native MCP construction bundles; no code, extraction step or source ch
 
 ## Open the viewer
 
-Use the [interactive viewer on Emergent Wisdom](https://emergentwisdom.org/meaning-model/twelve-words/?reading=off&view=together&everything=&timeView=together), or run the same viewer locally:
+Use the [interactive viewer on meaningmodel.ai](https://meaningmodel.ai/meaning-model/twelve-words/?reading=off&view=together&everything=&timeView=together), or run the same viewer locally:
 
 ```sh
 git clone https://github.com/emergent-wisdom/story && cd story
@@ -94,6 +94,7 @@ For the current stories, use the downloads above. The original event graph was `
 
 ## Meaning Model
 
+- [Project website and getting started](https://meaningmodel.ai/)
 - [Source, releases and documentation](https://github.com/emergent-wisdom/meaning-model)
 - [MCP package on npm](https://www.npmjs.com/package/@emergent-wisdom/meaning-model-mcp)
 - [Paper: The Meaning Model](https://doi.org/10.5281/zenodo.22313515)
