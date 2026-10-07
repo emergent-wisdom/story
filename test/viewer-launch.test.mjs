@@ -10,11 +10,11 @@ test('explicit run and snapshot requests pass unchanged to the shared viewer', (
 
 test('the story depends on the shared viewer and MCP release rather than a copied interface', async () => {
   const pkg=JSON.parse(await readFile(new URL('../package.json',import.meta.url),'utf8'));
-  assert.equal(pkg.dependencies['@emergent-wisdom/meaning-model-mcp'],'https://github.com/emergent-wisdom/meaning-model/releases/download/v0.7.1/emergent-wisdom-meaning-model-mcp-0.7.1.tgz');
+  assert.equal(pkg.dependencies['@emergent-wisdom/meaning-model-mcp'],'https://github.com/emergent-wisdom/meaning-model/releases/download/v0.8.0/emergent-wisdom-meaning-model-mcp-0.8.0.tgz');
   assert.equal(pkg.overrides['@emergent-wisdom/meaning-model-mcp'],'$@emergent-wisdom/meaning-model-mcp');
   assert.equal(pkg.dependencies['meaning-model-viewer'],'github:emergent-wisdom/meaning-model-viewer#v0.6.1');
   assert.equal(pkg.scripts.serve,'node serve.mjs');
-  assert.equal(pkg.version,'0.7.1');
+  assert.equal(pkg.version,'0.8.0');
   assert.equal(pkg.private,true);
   const suppliedRoot=process.env.MEANING_MODEL_DIR;
   delete process.env.MEANING_MODEL_DIR;

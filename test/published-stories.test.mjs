@@ -4,7 +4,9 @@ import { readFile, readdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { gunzipSync } from 'node:zlib';
 import { viewerArguments } from '../serve.mjs';
+import { loadMeaningModel } from 'meaning-model-viewer/meaning-model.mjs';
 import { applyNarrativeDefinitionDelta } from '@emergent-wisdom/meaning-model-mcp/mcp-server/src/narrative-delta.mjs';
+const { planHistoryModels, expandHistoryModels, expandedHistoryDigest } = await loadMeaningModel('src/construction-files.mjs');
 const json=async(relative)=>JSON.parse(await readFile(new URL(relative,import.meta.url),'utf8'));
 const sha=(text)=>createHash('sha256').update(text).digest('hex');
 
@@ -42,14 +44,21 @@ test('downloaded MCP bundles hold each complete history from its first revision 
     assert.equal(bytes.length,entry.unpackedBytes);assert.equal(sha(bytes),entry.unpackedSha256);
     assert(bytes.length<=256*1024*1024,'life_construction_import reads files of at most 256 MiB');
     const bundle=JSON.parse(bytes), story=manifest.stories[key];
+    const plan=planHistoryModels(bundle);
     const snapshot=await json(`../public/models/${story.snapshot}`);
     assert.equal(bundle.bundleSha256,entry.constructionContentSha256);
+    assert.equal(expandedHistoryDigest(bundle,plan),bundle.bundleSha256,'The expanded history must retain its checksum in either file format');
     assert.equal(bundle.headGraphHash,story.graphHash);
     assert.equal(bundle.models.length,entry.modelCount);
     assert.equal(bundle.revisionCount,entry.graphRevisionCount);
     assert.equal(bundle.revisions.length,entry.graphRevisionCount);
     assert.equal(bundle.revisions[0].graphHash,entry.firstGraphHash,'The history must begin at its first graph revision');
-    const models=new Map(bundle.models.map(model=>[model.modelHash,model.definition]));
+    const author=manifest.authorLives[key==='book'?'nora':'faye'];
+    const models=new Map(), selectedModels=new Map();
+    for(const {modelHash,definition} of expandHistoryModels(bundle,plan)) {
+      models.set(modelHash,{id:definition.id,revision:definition.revision});
+      if(modelHash===story.modelHash||modelHash===author.modelHash) selectedModels.set(modelHash,definition);
+    }
     assert.equal(models.size,bundle.models.length,'Model definitions must be unique');
     let definition=null, previousHash=null;
     const graphHashes=new Set();
@@ -74,18 +83,17 @@ test('downloaded MCP bundles hold each complete history from its first revision 
     assert.equal(definition.source.model_hash,story.modelHash);
     assert.deepEqual(definition.nodes,snapshot.inspection.graph.nodes);
     assert.deepEqual(definition.edges,snapshot.inspection.graph.edges);
-    assert.deepEqual(bundle.models.find(model=>model.modelHash===story.modelHash).definition,snapshot.inspection.model);
-    for(const model of bundle.models) {
-      const revision=model.definition.revision, parent=revision.previous_model_hash;
+    assert.deepEqual(selectedModels.get(story.modelHash),snapshot.inspection.model);
+    for(const model of models.values()) {
+      const revision=model.revision, parent=revision.previous_model_hash;
       if(parent) {
         assert(models.has(parent),'Native model ancestry must be included');
-        assert.equal(models.get(parent).id,model.definition.id);
+        assert.equal(models.get(parent).id,model.id);
         assert.equal(models.get(parent).revision.number+1,revision.number);
       } else assert.equal(revision.number,0);
     }
-    const author=manifest.authorLives[key==='book'?'nora':'faye'];
     const authorSnapshot=await json(`../public/models/${author.snapshot}`);
-    assert.deepEqual(bundle.models.find(model=>model.modelHash===author.modelHash).definition,authorSnapshot.inspection.model);
+    assert.deepEqual(selectedModels.get(author.modelHash),authorSnapshot.inspection.model);
   }
 });
 
