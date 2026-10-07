@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile, readdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
+import { gunzipSync } from 'node:zlib';
 import { viewerArguments } from '../serve.mjs';
 import { applyNarrativeDefinitionDelta } from '@emergent-wisdom/meaning-model-mcp/mcp-server/src/narrative-delta.mjs';
 const json=async(relative)=>JSON.parse(await readFile(new URL(relative,import.meta.url),'utf8'));
@@ -31,21 +32,23 @@ test('default public viewer contains exactly the selected stories and author liv
   const args=viewerArguments([]);assert.equal(args[0],'--data');assert.ok(args[1].endsWith('/public/models/'));
 });
 
-test('downloaded MCP bundles retain complete public revision chains and match the current viewer',async()=>{
+test('downloaded MCP bundles hold each complete history from its first revision and match the current viewer',async()=>{
   const manifest=await json('../public/PUBLICATION-MANIFEST.json');
   assert.deepEqual((await readdir(new URL('../models/',import.meta.url))).sort(),Object.values(manifest.importableBundles).map(entry=>entry.file).sort());
   for(const [key,entry]of Object.entries(manifest.importableBundles)) {
-    const bytes=await readFile(new URL(`../models/${entry.file}`,import.meta.url));
+    const download=await readFile(new URL(`../models/${entry.file}`,import.meta.url));
+    assert.equal(entry.compression,'gzip');assert.equal(download.length,entry.bytes);assert.equal(sha(download),entry.fileSha256);
+    const bytes=gunzipSync(download);
+    assert.equal(bytes.length,entry.unpackedBytes);assert.equal(sha(bytes),entry.unpackedSha256);
+    assert(bytes.length<=256*1024*1024,'life_construction_import reads files of at most 256 MiB');
     const bundle=JSON.parse(bytes), story=manifest.stories[key];
     const snapshot=await json(`../public/models/${story.snapshot}`);
-    assert.equal(bytes.length,entry.bytes);assert.equal(sha(bytes),entry.fileSha256);
     assert.equal(bundle.bundleSha256,entry.constructionContentSha256);
     assert.equal(bundle.headGraphHash,story.graphHash);
     assert.equal(bundle.models.length,entry.modelCount);
     assert.equal(bundle.revisionCount,entry.graphRevisionCount);
     assert.equal(bundle.revisions.length,entry.graphRevisionCount);
-    assert.equal(bundle.revisions[0].graphHash,manifest.initialPublicationCleanup.stories[key].graphHash,
-      'The existing publication root must not be replaced');
+    assert.equal(bundle.revisions[0].graphHash,entry.firstGraphHash,'The history must begin at its first graph revision');
     const models=new Map(bundle.models.map(model=>[model.modelHash,model.definition]));
     assert.equal(models.size,bundle.models.length,'Model definitions must be unique');
     let definition=null, previousHash=null;
@@ -64,6 +67,10 @@ test('downloaded MCP bundles retain complete public revision chains and match th
       previousHash=revision.graphHash;
     }
     assert.equal(previousHash,story.graphHash);
+    const record=await json(`../public/${manifest.publicationRepairs[key]}`);
+    for(const {current,graphRevision} of record.hashMapping.graphs) assert.equal(bundle.revisions[graphRevision].graphHash,current,'Every former public revision must be found in the history');
+    assert.equal(record.hashMapping.graphs.at(-1).current,story.graphHash);
+    for(const {current} of record.hashMapping.models) assert(models.has(current),'Every former public model must be found in the history');
     assert.equal(definition.source.model_hash,story.modelHash);
     assert.deepEqual(definition.nodes,snapshot.inspection.graph.nodes);
     assert.deepEqual(definition.edges,snapshot.inspection.graph.edges);
@@ -95,22 +102,29 @@ test('publication repair records name the delivered bundles without private work
   }
 });
 
-test('October 3 privacy projections keep the October 2 prose and omit private coordination',async()=>{
+test('October 7 complete histories keep the current editions and omit private material',async()=>{
   const manifest=await json('../public/PUBLICATION-MANIFEST.json');
-  assert.equal(manifest.date,'2026-10-03');
-  assert.equal(manifest.proseEditionDate,'2026-10-02');
+  assert.equal(manifest.date,'2026-10-07');
   const expectedProse={book:'4dbe1f5caa94aba8ef9d8d2a77a75e2faf56f3fff79e617d877672748fd97bb3',
-    twelve:'e98dd41d694da36da1fca6a6b0ab47bd2dd52ed7eecd4f12c962169fa7cf0cc1'};
+    twelve:'e8f7ec3088978135b9143be4ad14c0012c1f6c97fc57398666ea20d59e0dd53a'};
   const privateCoordination=/Authorized\s*next-round\s*delegation\s*from\s*the\s*source\s*chat|Book\s*pass\s*completed\s*first|one\s*book\s*at\s*a\s*time|root\s*follow[\s-]*up|no\s*(?:publish\/commit|commit\/publish)/i;
+  const personalOrLocal=/\bHenrik\b|Westerberg|\/Users\/|\/home\/[a-z]|[A-Z]:\\Users\\|\.local-work\//;
   for(const [key,entry]of Object.entries(manifest.stories)) {
     assert.equal(sha(await readFile(new URL(`../${entry.manuscript}`,import.meta.url))),expectedProse[key]);
-    const projection=await json(`../public/${manifest.publicationRepairs[key]}`);
-    assert.equal(projection.proseEditionDate,'2026-10-02');
-    assert.equal(projection.publicationDate,'2026-10-03');
+    assert.equal(entry.proseEditionDate,manifest.proseEditionDates[key]);
+    const record=await json(`../public/${manifest.publicationRepairs[key]}`);
+    assert.equal(record.publicationDate,'2026-10-07');
+    assert.equal(record.proseEditionDate,entry.proseEditionDate);
+    assert.equal(record.redactions.fields.length,record.redactions.count);
+    assert(record.redactions.fields.every(field=>Object.keys(field).every(name=>['where','path','rule','reason'].includes(name))),'Original values and their hashes stay private');
     const snapshot=await json(`../public/models/${entry.snapshot}`);
-    assert(snapshot.inspection.graph.nodes.some(node=>node.id===projection.publication.disclosureNodeId));
-    for(const path of [`../models/${entry.bundle}`,`../public/models/${entry.snapshot}`]) {
-      assert.doesNotMatch(await readFile(new URL(path,import.meta.url),'utf8'),privateCoordination,path);
+    assert(snapshot.inspection.graph.nodes.some(node=>node.id===entry.priorPublication.privacyProjection.disclosureNodeId),'The October 3 disclosure stays in the history');
+    const bundle=gunzipSync(await readFile(new URL(`../models/${entry.bundle}`,import.meta.url))).toString('utf8');
+    const author=manifest.authorLives[key==='book'?'nora':'faye'];
+    for(const [path,text] of [[`../models/${entry.bundle}`,bundle],[`../public/models/${entry.snapshot}`,await readFile(new URL(`../public/models/${entry.snapshot}`,import.meta.url),'utf8')],
+      [`../public/models/${author.snapshot}`,await readFile(new URL(`../public/models/${author.snapshot}`,import.meta.url),'utf8')]]) {
+      assert.doesNotMatch(text,privateCoordination,path);
+      assert.doesNotMatch(text,personalOrLocal,path);
     }
   }
 });

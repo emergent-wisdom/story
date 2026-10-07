@@ -1,0 +1,1111 @@
+{
+  "schema": "meaning-model-full-construction-history/v1",
+  "title": "Twelve Words",
+  "publicationDate": "2026-10-07",
+  "proseEditionDate": "2026-10-06",
+  "summary": "The complete construction of Twelve Words, from its first graph revision to the edition published on October 6, 2026. The construction before the September 29 public root is published here for the first time, with private material removed. The public lineage published since September 29 follows it unchanged in content.",
+  "publication": {
+    "graphId": "rabbit-hole-novel",
+    "headGraphHash": "5fc34bf77de09c31bca5eac608f044223610007f62961993b82f575ac9b8541c",
+    "graphRevision": 461,
+    "modelHash": "ef5b7b97a9515ea1cffb905d92a235c7d4dd6e83b56ce12417174b64a661d656",
+    "modelId": "rabbit-hole-world",
+    "modelRevision": 228,
+    "firstGraphHash": "7b5f55a9cd5fa1f7e0f5d8d48e0064e96b29d90e598c540faafb97b9d346d8d9",
+    "graphRevisions": 462,
+    "storedModelDefinitions": 232,
+    "constructionContentSha256": "3355cca688604309e8ed9615e5682c18a4729e4c78799568ca10bef47405cc2f",
+    "file": "twelve-words.meaning-model.json.gz",
+    "compression": "gzip",
+    "fileSha256": "be69b4e91ea8c11de76fc0a470b6158ffde94b1e1108c3d8230ce88e6783d6bb",
+    "bytes": 22444878,
+    "unpackedFile": "twelve-words.meaning-model.json",
+    "unpackedSha256": "2a802808dfebe5465d1d6932f3cb8448f90944aa35c6bf14734e5417fc4617cd",
+    "unpackedBytes": 248181723
+  },
+  "manuscript": {
+    "path": "stories/twelve-words.md",
+    "sha256": "e8f7ec3088978135b9143be4ad14c0012c1f6c97fc57398666ea20d59e0dd53a",
+    "words": 12336
+  },
+  "lineage": {
+    "earlierHistory": {
+      "graphRevisions": [
+        0,
+        357
+      ],
+      "lastGraphHash": "0e1ca7d5ce13e84ab9f21d268968f9750766aacfbb106d84dad7f8bad46e3db7",
+      "description": "The original construction, projected from the private Writer history. Every revision, model definition, note and review is kept, in order. Private material (verbatim chat messages, personal names, local file paths and coordination between working sessions) was replaced in the fields listed under redactions; everything else is the original record."
+    },
+    "joinRevision": null,
+    "publicRootEquivalence": {
+      "formerPublicRootGraphHash": "11770b5dd5e386449ef6f59fd1deeac6e0dd9778e0709c7c372f4047676cb754",
+      "graphRevision": 357,
+      "description": "The September 29 public root equals this revision in content, so the published lineage continues directly after it."
+    },
+    "publishedLineage": {
+      "graphRevisions": [
+        358,
+        461
+      ],
+      "formerRootGraphHash": "11770b5dd5e386449ef6f59fd1deeac6e0dd9778e0709c7c372f4047676cb754",
+      "formerHeadGraphHash": "a617271b6b0b8fe36380398549efe2bced06bfc6f15f686939ecb85275e72652",
+      "formerHeadModelHash": "4810a44be91b9edd02b87a4f0d0bb0ad021c595b2cf076419f98b656ed1f8dce",
+      "formerModelId": "rabbit-hole-world.public-2026-09-29",
+      "description": "The lineage published from September 29 to October 6, 2026. Its records are unchanged. Its graph revisions are renumbered to follow the earlier history, and their hashes change because each revision hash covers its predecessor. Its model revisions carry the original model ids again; the September 29 copy used ids ending in .public-2026-09-29."
+    }
+  },
+  "verification": {
+    "tool": "Meaning Model MCP 0.7.1: life_construction_import into a new database, then life_narrative_render",
+    "importVerified": true,
+    "headGraphHashRebuilt": true,
+    "headContentEqualsFormerEdition": true,
+    "formerEditionGraphHash": "a617271b6b0b8fe36380398549efe2bced06bfc6f15f686939ecb85275e72652",
+    "nodes": 660,
+    "edges": 3820,
+    "proseSha256Equal": true
+  },
+  "redactions": {
+    "count": 50,
+    "byRule": {
+      "exact": 11,
+      "reviewed-2026-09-29": 39
+    },
+    "rules": {
+      "reviewed-2026-09-29": "The replacement reviewed for the September 29 publication, applied wherever the same original field occurs in the earlier history.",
+      "exact": "A whole-field replacement reviewed for this publication."
+    },
+    "note": "Each entry names a field and why it was replaced. Original values and their hashes are not published.",
+    "fields": [
+      {
+        "where": "model:rabbit-hole-world#17",
+        "path": "revision/reason",
+        "rule": "exact",
+        "reason": "Remove a private request attribution; keep the revision and what it added."
+      },
+      {
+        "where": "model:rabbit-hole-world#18",
+        "path": "revision/reason",
+        "rule": "exact",
+        "reason": "Remove deployment instructions and a private request, as the reviewed enhancement-branch note does."
+      },
+      {
+        "where": "model:rabbit-hole-world#61",
+        "path": "revision/reason",
+        "rule": "exact",
+        "reason": "Remove private session-execution detail; keep which readings were placed."
+      },
+      {
+        "where": "model:rabbit-hole-world#62",
+        "path": "revision/reason",
+        "rule": "exact",
+        "reason": "Remove private session-execution detail; keep which readings were placed."
+      },
+      {
+        "where": "model:rabbit-hole-world#63",
+        "path": "revision/reason",
+        "rule": "exact",
+        "reason": "Remove private session-execution detail; keep which readings were placed."
+      },
+      {
+        "where": "model:rabbit-hole-world#64",
+        "path": "revision/reason",
+        "rule": "exact",
+        "reason": "Remove private session-execution detail; keep which readings were placed."
+      },
+      {
+        "where": "model:rabbit-hole-world#65",
+        "path": "revision/reason",
+        "rule": "exact",
+        "reason": "Remove private session-execution detail; keep which readings were placed."
+      },
+      {
+        "where": "model:rabbit-hole-world#66",
+        "path": "revision/reason",
+        "rule": "exact",
+        "reason": "Remove private session-execution detail; keep which readings were placed."
+      },
+      {
+        "where": "node:author.brief@1",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove verbatim task dialogue and incidental run instructions; preserve the supplied creative premise and requirements."
+      },
+      {
+        "where": "node:author.brief@1",
+        "path": "data/supplier",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove verbatim task dialogue and incidental run instructions; preserve the supplied creative premise and requirements."
+      },
+      {
+        "where": "node:author.brief@1",
+        "path": "data/processRules",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove verbatim task dialogue and incidental run instructions; preserve the supplied creative premise and requirements."
+      },
+      {
+        "where": "node:author.agreement@2",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove chat quotations, local folder choice and progress/relay scheduling; retain creative authority and initial constraints."
+      },
+      {
+        "where": "node:author.agreement@2",
+        "path": "data/involvement",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove chat quotations, local folder choice and progress/relay scheduling; retain creative authority and initial constraints."
+      },
+      {
+        "where": "node:author.agreement@2",
+        "path": "data/humanOperationalDecisions",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove chat quotations, local folder choice and progress/relay scheduling; retain creative authority and initial constraints."
+      },
+      {
+        "where": "node:author.agreement@2",
+        "path": "data/deliverables",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove chat quotations, local folder choice and progress/relay scheduling; retain creative authority and initial constraints."
+      },
+      {
+        "where": "node:author.agreement@2",
+        "path": "data/creativeAuthority",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove chat quotations, local folder choice and progress/relay scheduling; retain creative authority and initial constraints."
+      },
+      {
+        "where": "node:author.idea.round1.plan@5",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove incidental session-clock time while retaining the development round and plan."
+      },
+      {
+        "where": "node:author.idea.round2.plan@16",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove incidental session-clock time while retaining the development round and plan."
+      },
+      {
+        "where": "node:note.plan.round3@23",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove app crash, relay interruption and human restart details; preserve the complete modeling plan."
+      },
+      {
+        "where": "node:author.agreement.2@25",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove verbatim private requests, file/relay workflow and PDF handoff; preserve the changed literary specification and graph authority."
+      },
+      {
+        "where": "node:author.agreement.2@25",
+        "path": "data/involvement",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove verbatim private requests, file/relay workflow and PDF handoff; preserve the changed literary specification and graph authority."
+      },
+      {
+        "where": "node:author.agreement.2@25",
+        "path": "data/deliverables",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove verbatim private requests, file/relay workflow and PDF handoff; preserve the changed literary specification and graph authority."
+      },
+      {
+        "where": "node:author.agreement.2@25",
+        "path": "data/iteration",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove verbatim private requests, file/relay workflow and PDF handoff; preserve the changed literary specification and graph authority."
+      },
+      {
+        "where": "node:author.agreement.3@26",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Summarize production scope without the private message or another-agent coordination."
+      },
+      {
+        "where": "node:note.decision.draw_sequence@47",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Describe the creative premise without referring to a chat brief."
+      },
+      {
+        "where": "node:assessment.voice.before@50",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove a quoted private request; preserve the full critical self-review and findings."
+      },
+      {
+        "where": "graph-revision@57",
+        "path": "revision/reason",
+        "rule": "exact",
+        "reason": "Remove a quoted private request; keep the revision and what it changed."
+      },
+      {
+        "where": "graph-revision@58",
+        "path": "revision/reason",
+        "rule": "exact",
+        "reason": "Remove a quoted private request; keep the revision and what it changed."
+      },
+      {
+        "where": "graph-revision@59",
+        "path": "revision/reason",
+        "rule": "exact",
+        "reason": "Remove a quoted private request; keep the revision and what it changed."
+      },
+      {
+        "where": "node:author.decision.enhancement_fork@63",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove deployment instructions, working database path and simultaneous-server details; preserve construction lineage and literary changes."
+      },
+      {
+        "where": "node:lens.wanting-bartering-standing@72",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
+      },
+      {
+        "where": "node:lens.wanting-bartering-standing@72",
+        "path": "data/source",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
+      },
+      {
+        "where": "node:answer.blind1.f33@91",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Preserve the response to the blind review while describing its creative premise neutrally."
+      },
+      {
+        "where": "node:note.lens.fixes.verified@97",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove local relay-restart context; preserve the observed tool behavior and verification."
+      },
+      {
+        "where": "node:lens.wonder-appetite-anxiety@101",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Preserve the lens source as the creative premise rather than a reference to conversation."
+      },
+      {
+        "where": "node:lens.wonder-appetite-anxiety@101",
+        "path": "data/source",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Preserve the lens source as the creative premise rather than a reference to conversation."
+      },
+      {
+        "where": "node:lens.wanting-bartering-standing.r2@104",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
+      },
+      {
+        "where": "node:lens.wanting-bartering-standing.r2@104",
+        "path": "data/source",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
+      },
+      {
+        "where": "node:lens.wanting-bartering-standing.r3@105",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
+      },
+      {
+        "where": "node:lens.wanting-bartering-standing.r3@105",
+        "path": "data/source",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Preserve the lens and its limited source attribution without relaying private collaboration context."
+      },
+      {
+        "where": "node:note.blind2.orphan_rekey@114",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Preserve the substantive correction without a reference to a private conversation."
+      },
+      {
+        "where": "node:lens.reason-alibi-or-recognition@134",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Preserve the source as an attributed editorial suggestion without private coordination wording."
+      },
+      {
+        "where": "node:lens.reason-alibi-or-recognition@134",
+        "path": "data/source",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Preserve the source as an attributed editorial suggestion without private coordination wording."
+      },
+      {
+        "where": "node:plan.twelve.branch.t159.20260929@258",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
+      },
+      {
+        "where": "node:plan.twelve.branch.t162.20260929@275",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
+      },
+      {
+        "where": "node:plan.twelve.branch.t162.20260929@275",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
+      },
+      {
+        "where": "node:consistency.twelve.revcheck.t161@276",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Retain the estimator limitation without private execution wording."
+      },
+      {
+        "where": "node:plan.twelve.branch.t162.readback@287",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Preserve the prospective read-back timing without private coordination wording."
+      },
+      {
+        "where": "node:answers.twelve.world-direction.m163@300",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Retain the estimator limitation without private execution wording."
+      },
+      {
+        "where": "node:answers.twelve.draft-direction.m165@317",
+        "path": "text",
+        "rule": "reviewed-2026-09-29",
+        "reason": "Remove private coordination and personal attribution while preserving the recorded modeling plan, review limits and acceptance status."
+      }
+    ]
+  },
+  "hashMapping": {
+    "description": "Former public hashes (September 29 to October 6, 2026) and their counterparts in this history. Hashes recorded inside historical notes and reviews keep their original meaning; use this table to find them here.",
+    "graphs": [
+      {
+        "former": "11770b5dd5e386449ef6f59fd1deeac6e0dd9778e0709c7c372f4047676cb754",
+        "current": "0e1ca7d5ce13e84ab9f21d268968f9750766aacfbb106d84dad7f8bad46e3db7",
+        "graphRevision": 357
+      },
+      {
+        "former": "8195577c5e659324d6968b4527f604cf8a75760010280c4ea43e1754e06f0840",
+        "current": "e9da5c7cf20d2fd38265591fcb4f4f89c94c16160cc9050ec283d94e8b5ae1e2",
+        "graphRevision": 358
+      },
+      {
+        "former": "9486850c414df61a18cd81b14b064791de6a97d18da2d2c861b9fddb089f729f",
+        "current": "4a13a67794cf46c77050d8909e61fe7009d367e9a459fdcf576cff8a37e73fba",
+        "graphRevision": 359
+      },
+      {
+        "former": "9b0f85639f7517d616f1729b05ca44f5c7f283ce3cbc6fce554e40533fa18859",
+        "current": "7eacc901d5040dee18b00885d2f69b71aad06af12ae518b60d38e70f5ac76645",
+        "graphRevision": 360
+      },
+      {
+        "former": "ec9f7ee2f611e3f260c346b8c2d6d6a5c686469c2cb35ad9fe5b0185d1859b54",
+        "current": "b1682cd62a2b673fa8f7e487e707f9c2c80e659f5c43dd3935ed5652cae66254",
+        "graphRevision": 361
+      },
+      {
+        "former": "59cf1b273d2ea50b12cdd5e07f73172b61cd09e8c37031165e32f9dffdc92600",
+        "current": "a5db0e24b1f453535d529cdec5d544f12025cc648a6ff12f0ad4c7be5d2c8b4c",
+        "graphRevision": 362
+      },
+      {
+        "former": "3fb05f9f2fb9327a608405036a5556a492aa5e8f29ffacc13dd339dff7064695",
+        "current": "bf703ef77eb6a30bee76b5d512122e05aa694d516e5ec1faab65a4e8e2d7bf6e",
+        "graphRevision": 363
+      },
+      {
+        "former": "dacd7af2ff213971214e6915da94bfed815b5fe5a0686e5d283df56fbf8fd863",
+        "current": "cc874815d3ecf59b84eb701d49f3d1448b7017fb8d1776526820f5b01ebbe44b",
+        "graphRevision": 364
+      },
+      {
+        "former": "b6dca3d01f2c5a31a64d14d7e0a6df266d8d63d56b2e00e1aa6ad7ef520e3431",
+        "current": "d9c517ff96c0bfb8250a9ee88d1a2855824740818d25b2bba596ac8d49189a96",
+        "graphRevision": 365
+      },
+      {
+        "former": "1f0a9f25cd5022fa4797bb93b62ac1b5f9ee9a0c4891f5014f53a9892b502515",
+        "current": "6d0ecbaa36126136794b53eef00f8c778a088a71d508f87f8e9c538731de1be5",
+        "graphRevision": 366
+      },
+      {
+        "former": "6dc9a03c142fea66d91a65f97c979ff892cc6bf71ef6d447a4b3516953601c4b",
+        "current": "0fc4b1fe5e9ed11d6851b1d8a56c464df31fde72e38750f9eea0b9bb15dbd1bf",
+        "graphRevision": 367
+      },
+      {
+        "former": "8563c68ae0fbaadb27cf50ebab3e02b1b9aa25046e6f212dd8cd89a52be8f8f6",
+        "current": "d1966cf725f29fb623ab6e44bd4d08ef83b4d6a996ed655da8f341f4c5b7e649",
+        "graphRevision": 368
+      },
+      {
+        "former": "54e356a4536ea56a7646d4aaa34539edfc7bfe58335668c435bb75665eef7c56",
+        "current": "4760a48e4426b86d8566de4a53d1136ef80b2a1a5155911c881edd4001d113f5",
+        "graphRevision": 369
+      },
+      {
+        "former": "05a4b21c81e48943f5fe44ea3830abf9b248cd1bdcc076a6ef9373b990e4fd87",
+        "current": "0d71901e3aba917f8b5463b05b4de9e89319f290af6020bf643fd231551af2b5",
+        "graphRevision": 370
+      },
+      {
+        "former": "3736a111f76be60edd2f0a40d164b237da920166ad815c6fb06c7e7f9c4267b1",
+        "current": "f2a66e60b7f2044a64cb57671fb81c10ac6dc97f3f95e9944b530447e1b1f1bf",
+        "graphRevision": 371
+      },
+      {
+        "former": "cc329ca9626d8078b2d0ee5cc1068270cd146d6e78f8b65a571f2e19c3acc9f9",
+        "current": "6c79938fb48b5bdfdd0197b1d49bd633b64a6d43f175a46919a18c0e7d41c19d",
+        "graphRevision": 372
+      },
+      {
+        "former": "e69c76661b294b32e4a7661f55570d5a2bb0ad7ce5f2880541664d15e380fc00",
+        "current": "97bedcdafd5c2beceedcc4cd2ca09b61aeebd48cde05114b902a845fb1aca973",
+        "graphRevision": 373
+      },
+      {
+        "former": "6f82e77b981962a8e671b148b20cd926937f03f7715c524272a6bcfdd878d14b",
+        "current": "e647a75ba1e3fd6525703da8fe3b12a231e50770df93d34f3f9498ce2705240d",
+        "graphRevision": 374
+      },
+      {
+        "former": "985072365badae437a16e3ca417c3bb57ae59558d49a5aaa79c7bfb2923087e8",
+        "current": "78b9b183067945e069d011b654153680df6ecc6cf5a24e657c83ec0cb6e0a858",
+        "graphRevision": 375
+      },
+      {
+        "former": "353e85446e39a222af384707efac0de4a2f0912f3a10ccd6df5c7c4a44b90a53",
+        "current": "5fe7502aa03c2c7b541f18cf5eefa4c0778c3486471000fd2f67365801092ecf",
+        "graphRevision": 376
+      },
+      {
+        "former": "2653bf78932a922df6e5153f2fe63003a893e57abd5919493670db019f00f94b",
+        "current": "2d6a5687ee231a40d1d78006e479b14a2a199ef3d0120d3cd97b3969dd3fa711",
+        "graphRevision": 377
+      },
+      {
+        "former": "d9837ab87975c351fd2571ffa34f0ac3ee23a759309c523a44da877017642cf5",
+        "current": "60743f254806937a89a0d25dfe81a71a604a4579fc0d18b26426e7c3670daff2",
+        "graphRevision": 378
+      },
+      {
+        "former": "6ac27fcc952c0174c8f6ba78b8e13271191251a3cf2eee8aeb6fce2fd8de0818",
+        "current": "80da2d606df18427bb58b5bb392f88b1411be7a495b9b5a439d1927f7310a49b",
+        "graphRevision": 379
+      },
+      {
+        "former": "e22c4b48ce7ab7c41735e261f3ce9e6d8ba314bf63c1cebfc8532eb9058d5c96",
+        "current": "cb5e5e3de24adc0a2e435b67ff3fd2b1ec7d5018c1ce011eb8efb7697548482d",
+        "graphRevision": 380
+      },
+      {
+        "former": "c8ac7c31e1115a08b4332fbd17a47c54ec99712e973828ef99bd73b212fd86f6",
+        "current": "bf553373119c8766b86fc64355e916359ef5933472ac7dd40213b2953c06f742",
+        "graphRevision": 381
+      },
+      {
+        "former": "6340319921e8b60532e25792b629272925407c2740fce53805c9906b5a59134e",
+        "current": "e2dc09a1fdcfbdfb6a43b01925b7684bbf7d2a36cae7bd12bdd5a66561a14e2c",
+        "graphRevision": 382
+      },
+      {
+        "former": "08d5a363d99b88e8da21af736d0e735405207a750f15e99459fe30ae067cca84",
+        "current": "216e5e9cf288fa1f04241549a3b34e38e7623ed597411722cb904ddc8624cebe",
+        "graphRevision": 383
+      },
+      {
+        "former": "dc984d0fa83ca9828223e7fdf17f7fa363a4f1ebbd0781ed5deea9ae31da8a19",
+        "current": "dd990dab5535bf240b9293a3e13e4f24d5e8990278427decd633b1b76b5bc3d5",
+        "graphRevision": 384
+      },
+      {
+        "former": "82a0c30b7521b07d0e4c2fead41e88ae20adbdf202fdf515f8df33ee004f2563",
+        "current": "8b1a70a8a112942b17cb34a7d5b3fd0f2df2d214e9aceb810c2089973ee08a51",
+        "graphRevision": 385
+      },
+      {
+        "former": "8060f915a962ed4d8d853a60f93c2dde33255e555a040fbc69eaf9cfe1ff09b3",
+        "current": "b49b54410f329632bbcbf7a11485719e3492030fed561eb699558b1599989120",
+        "graphRevision": 386
+      },
+      {
+        "former": "2fb7749ff9b92d0c31d2a33e5886d7b7450674082e01e9fc61964ea44bc14ce6",
+        "current": "68bd8c887d241c19bd10fa12a1cfef03901ebf6b1ae0987406db7316bc2aef2c",
+        "graphRevision": 387
+      },
+      {
+        "former": "fe29c7ac5855a2662b467d4882d5925ae394ca9ced574a877391a316e822d901",
+        "current": "680b067d165032f564f0046c4e8a2fb5d204633bde889e5d8f01ee2f0e949196",
+        "graphRevision": 388
+      },
+      {
+        "former": "96b5ede5b163f08fa3305be8645ebc9c9a411c67d114cabcbff4262b694cd735",
+        "current": "c6c8a65aa87e2328c1a5e43a76ea4c7a83182b967c80be7b76c1e2a726b9aa6c",
+        "graphRevision": 389
+      },
+      {
+        "former": "89b0ab74b37249093a5142176a7707cf3b47b0c6f8007747e33c186da21a15b3",
+        "current": "35a0d354495accbb060072ac9081c82cf03306e93910d6e52ef08e38210b31cf",
+        "graphRevision": 390
+      },
+      {
+        "former": "0e842e06f9fd4e68d93d6d5d3b9f638f21352b891dba4a8dd955d4419362b527",
+        "current": "b9d2827fd67ddc3b57dd35be0034dff02387c649d19eaf5fec30cc96aa5e36a5",
+        "graphRevision": 391
+      },
+      {
+        "former": "aa455d48b5930dc9e126d714ce0a88e343d0699b8c5a707ece9abc99339585db",
+        "current": "07d68057bdbe0b1e4a14189519c1b03fcd870f2dfea02ffaf09aab421e43c9a8",
+        "graphRevision": 392
+      },
+      {
+        "former": "d8179cc1790c1f199b521422538af9ab1b544bc09a84b951fa77015a3bcc85f2",
+        "current": "386a5d4e9d7a10c242322d5cb36841ce85cf8b8b0a5b65a2863f857858bb3c55",
+        "graphRevision": 393
+      },
+      {
+        "former": "a71f3cb7a33941e3d201d402607e7a7427715343521b2266de4a0ca839592c1d",
+        "current": "b11984a074734dddde7d6fc1c3bc6abb65aeeecc99176a982d13c60496bcba20",
+        "graphRevision": 394
+      },
+      {
+        "former": "c4bd7e682778e5514277bf053e71b08501e194864c825c31ccd43279a76be17e",
+        "current": "60d7fe94dc6661e5d51c484b1a7e5a293d1819cdb2593f8f472f35f4fc5a7cff",
+        "graphRevision": 395
+      },
+      {
+        "former": "23ffc20d9f664bd7242d808bcc381c6e8e6eb3140a964c0db1ca97b102c5812f",
+        "current": "78daecd99663d1e456658ad5c4f1f6f979bf76fb1ff8caa0018fcc2960d9d5ac",
+        "graphRevision": 396
+      },
+      {
+        "former": "f9e15261d530c1fb4ecd93216c091b3502fe175c999f4acc28a6a3f98c4e0e38",
+        "current": "2bc60631a6a9967fbe1b4fa4af0a28b9d97ca48e465041f0c8e943c804c8fd66",
+        "graphRevision": 397
+      },
+      {
+        "former": "8eec0b38d878b78a0865636eac2e724af5321675abeea765e93435feae4021cf",
+        "current": "eb43bd972e2fc3e0673463303c0db7d8ea5d553e9c4a5e33156016bdf636f9f8",
+        "graphRevision": 398
+      },
+      {
+        "former": "44f510e6650bc8ba26b24ef01a44c250b14bfbc411c49132de37556b874230cc",
+        "current": "1ba5686b603e4b403f9c7822a1d792a6eb422dd7f7b24f5c86dc35936868a0db",
+        "graphRevision": 399
+      },
+      {
+        "former": "97d144586821eeabbb92a3dfc7d95d04780e2144f94708fc17cbfd4b6cf40d4b",
+        "current": "7518c491cc944154fc5c9f31f154e2c40b7797410550fb7567fa9736fee324ed",
+        "graphRevision": 400
+      },
+      {
+        "former": "702ea688c84eade861da18ceed1985dac4b403f1c5fb5088888a8dd3b33286c4",
+        "current": "1adfce842fec95185695d8518cf2267660ecb69ec44bd7c0d0bf699274f2cd31",
+        "graphRevision": 401
+      },
+      {
+        "former": "c316320c34923fc167a7ed6ceebcbc88627bae6f550399548cb7b8e4bf6fedd0",
+        "current": "da4434c018a834834b0a8b9f5c0bc7c85eeb46e99557a0b45094ca22cd6344e5",
+        "graphRevision": 402
+      },
+      {
+        "former": "4847643a8842733a0a7f46c487181050d579e3f597d962654a1cdf07ac22a324",
+        "current": "256d32974e0bfa5c1cecdb0de3e97ddf32958a7c634002b6cfdca811b708d0e7",
+        "graphRevision": 403
+      },
+      {
+        "former": "d4d3282ff1eb5542ebb76760498de26ab5aa6d3fb53f7b1d5fce3f13d82bff29",
+        "current": "45653c553797d1c541691627ee76f74883f137b0809c45fa473cb02193cd1630",
+        "graphRevision": 404
+      },
+      {
+        "former": "b19057b56986f8f65132880294f143cc86be5498cf8c6413991090204d562cc8",
+        "current": "27635f86b09f6eff0e0c26039f8444a2d7be22529c8b1be65f41f50ffc47fe00",
+        "graphRevision": 405
+      },
+      {
+        "former": "19e588437935c6ec4aff6256ec8988401b08aac95a699499f3c9de57f792985e",
+        "current": "6be76c024f07e1ffbce82e94f53ffe7892a214572e79c93fb17be9851fc72850",
+        "graphRevision": 406
+      },
+      {
+        "former": "ae11319c5e31b6d4a552ae573b7b9e2cc1247911653f9f03c98aeb95a83365fe",
+        "current": "886b6eb5f343704ac84c097c3f96c868338e4c66d16aa6f519532054c3d7ec0a",
+        "graphRevision": 407
+      },
+      {
+        "former": "d43ea217e58c0a23e3d4f6d84d646dffd3f2b4f8e5aef813e528fdc48e93073b",
+        "current": "b0a113ebbe01628b78396f9550ae89ba1c5dfab45754a51d0e8d220e2c5dd7d3",
+        "graphRevision": 408
+      },
+      {
+        "former": "f68703fb711cf19abf1d2842bbaaf0fa2a72a37517e034637ef12cac652ab915",
+        "current": "6ba7970e7f639a9402a8f875833940576edc0d73db2c58305a1695d569c17ecd",
+        "graphRevision": 409
+      },
+      {
+        "former": "e60a96e2cde6fe2f1fc234745102dd2b5cf6fbc385ae0bac2204cb70afae2d93",
+        "current": "ef56b7baed6b2b54a741e8af46738306b48208755205c85f94c631610976d01f",
+        "graphRevision": 410
+      },
+      {
+        "former": "6cccc5464045e2d09996b2a670e1ac774a674d668418421b2f66734ca1f726e7",
+        "current": "31fdfc1addb49f600ace727af6fcd52ff5b7cb0ab509a1408d65729c7110320b",
+        "graphRevision": 411
+      },
+      {
+        "former": "00e838b774a25be32017c601e6fdd66db93d1fd5103532ad5d1da9052fc7f024",
+        "current": "b5ec6b5490e99baa7ec7b6f98e375775504084c67231353a83adf8c81693cc2b",
+        "graphRevision": 412
+      },
+      {
+        "former": "135bdf89db2325ba1e61b2116478611628749a0ea785fccf94c1436e9deb6323",
+        "current": "219ddc457f730dbe299a24d11709d9653e3e64e1300abc9ca93d90b23fe7f128",
+        "graphRevision": 413
+      },
+      {
+        "former": "e77b434b4b2a4ac730d6fc5134b05ceb912bd7f0ef99f680768d2af529332bc0",
+        "current": "80df9dbedf445de1acb49c6f90908a767b67b8068657a99f3198236fe97499e4",
+        "graphRevision": 414
+      },
+      {
+        "former": "76772fca72a9ea76422e671958d063bc932d43a4aa1b1293c35de12b34ded338",
+        "current": "7eb975168d0ecf50926f9cfb54aa18935298a73b6a3f4ec0ffb71533d2ee27d5",
+        "graphRevision": 415
+      },
+      {
+        "former": "fe674bf8fcac9a3857574acf4222ea3931bfe53e9d7687f499cd02e8b32e2dc8",
+        "current": "4d35243eb589015660a6872b5a90107390f6d78b2d0c8030fb46d84e19ad3256",
+        "graphRevision": 416
+      },
+      {
+        "former": "2520ef0e8aa7e6befe5cafeeacb842edfcdaddcbaf202496212d6ce155c23c38",
+        "current": "2cbb0d50818aea2a02eba33111a7929280e42965a66c463572e1a9f83de143ec",
+        "graphRevision": 417
+      },
+      {
+        "former": "cec95dd04113c4c5c9e45cb58ca9da5b088fbe5a280ce93d72e4a0856d89749d",
+        "current": "af701690526df8cb076b7d6e0cb5199a49f8d0a669174046b01c727f05d0c16e",
+        "graphRevision": 418
+      },
+      {
+        "former": "1875102db0b3bd56879ee9c4e00c1cabfade637a0b03c5a5a5cc601631ad96f1",
+        "current": "2c1adeeb12e05b83fd42c67e32227853d517381c8b7c0923d113d26bcd83afd7",
+        "graphRevision": 419
+      },
+      {
+        "former": "246c8e4a8acc6682d2a96e7321b427027dc319281bda5aecfd03d9a8e388d584",
+        "current": "2dca065aa5c968d0610ee3b20e956b55637ae8df4375f87c6bdcb5bfa0b1f6ff",
+        "graphRevision": 420
+      },
+      {
+        "former": "8ee539aa52b739e5dd002ca5c87e58f59aa1fa6407e2c22ff6237be2640349ab",
+        "current": "db2f5a48447a0f5db22bab44a4850da512a9f62684f8f16735c334657d37383d",
+        "graphRevision": 421
+      },
+      {
+        "former": "8f4dd833957919b525eeca390808358cefd5c23706c66aa1de960cab0a15a468",
+        "current": "8dbd180760ca0c6dea2868d1febec2daf84a4396b5c1f8181445d6bd901f1e81",
+        "graphRevision": 422
+      },
+      {
+        "former": "ca689063f7e5310ca0afb1c49f041249ae54b08ccb1786b50083ed05f1081866",
+        "current": "a9effedb6fdf64da9fc0cac5f7fbf0b3b862574d152dcb5bc3b93378ce846a1b",
+        "graphRevision": 423
+      },
+      {
+        "former": "9ee8fd6d699969a6e74629b0c21ca2231218ac549bd9d1c2fead678ca252df57",
+        "current": "c366daa7689dad5693256ebb80add4816d3e0d230199248dc05056eacb0c226d",
+        "graphRevision": 424
+      },
+      {
+        "former": "065f1e66348914f232d018b97e781b5a1739e432c031718323a0d119cbaf8386",
+        "current": "b245def3be21bb096a67145788fca930ea7040809321bb37a5ed8af8703ebb33",
+        "graphRevision": 425
+      },
+      {
+        "former": "629a33491489d7c0a594ac1ba61dc36f36303573a55f4ab641a42e5b5ff80316",
+        "current": "ad206a7ff1ad8b2225159ff74652e90eee7108246eb654d3ba5f10b756bdfa66",
+        "graphRevision": 426
+      },
+      {
+        "former": "86712cd064a44b311dc800539b05e13aad5170c7e9f2f5e1964cc8ed2f17a040",
+        "current": "6423d045359452214850d239074447bdedd736160417b5e82ef3d46656c0583b",
+        "graphRevision": 427
+      },
+      {
+        "former": "105d6c17729951c055aa1ce026e94e2b74c4bbbac9ccb818f58c9ce5b4451aa5",
+        "current": "20c8e5eae7de497ef51d0a723495632fdf1b46887cf57b0a0bce7dadfe942c93",
+        "graphRevision": 428
+      },
+      {
+        "former": "ef9cca437105cc4435c89af1c1d95c16656cd8f77dbf65f4743972b455197b2b",
+        "current": "7a7eb475447d183cf430c28d1d0d4450675734b0b7aa98f84335048cc218ec3c",
+        "graphRevision": 429
+      },
+      {
+        "former": "a22d8e464dc3ceb17129ebd46dad8d4b93794d6fa3c8f1ec3e2223b8611b5223",
+        "current": "0e7563fb6c29d87c6a33693aee70a827ba85d53dab6fc6d0a66eb10ef8edef0d",
+        "graphRevision": 430
+      },
+      {
+        "former": "da49b9abbf7655f2587218a6d79bcf34644911600b82e7e24f6c166c984956d7",
+        "current": "a683f7bb892caab8108b4e471c465f919593b43f3678c549f6243349d84a7bc0",
+        "graphRevision": 431
+      },
+      {
+        "former": "97647c05237f57aa3a18729e690e6f81b60f621f4135ef8b380839a62cfd824f",
+        "current": "fd4d584dd9e88b009c06632ce1a11265ea537414da7047aefddba636fe7c0b45",
+        "graphRevision": 432
+      },
+      {
+        "former": "32684a4093d76297df2e9a44d9a1883137dc027094da45024ac3f9d722221c42",
+        "current": "5bd7d7e8893f582d57971aea6d7f9a1a3200862bbf339fe1e09a8775bbc62d9e",
+        "graphRevision": 433
+      },
+      {
+        "former": "22d30074f8dabde600bd338caa8426e000d6300ad97518816c2854becf3339f2",
+        "current": "a5ebc293c6e9d7b18b2e1a678ba40c679b3720ca24c35a1eb4087a0212cf6b2e",
+        "graphRevision": 434
+      },
+      {
+        "former": "5dcd6e8ae81f47bbaf3db22d52748fc8351ff499f6f156cdac9fa1863f27664f",
+        "current": "47f1da8349aae5cea32778b3cc3cda7d04a810d2bc4d13dba7feef68973f8653",
+        "graphRevision": 435
+      },
+      {
+        "former": "c1ee93764a41c8c2aa8a80bfa9cef99a998a6a9191aa9d8c77a9ae290779fcb9",
+        "current": "eb7397ab219b222def0de072cf5ce0b4cc5299d141b8ec5e878f085789aaad07",
+        "graphRevision": 436
+      },
+      {
+        "former": "2a0fcd28ab35203160fc622ae394c5ae8ad8e43a320c12a2a14443cb9672adc6",
+        "current": "7f7a051f9b7ac5054428d4a7bbe044ce20ddcda61faaf1fcbd1016aec099e1bb",
+        "graphRevision": 437
+      },
+      {
+        "former": "5d2afdd171f0df7738573d1e2f24fec7d091d8046e19790df1ddd566c24b38aa",
+        "current": "94d760437dc2b52506e320af4250b8bb6e95062212e4ea6a39ab83774b06131f",
+        "graphRevision": 438
+      },
+      {
+        "former": "fc8eed252fe1badb6aeb03ae8b7b3e112ec196368dce8bb702bad024d980e633",
+        "current": "c8a36fbb690cd6ea5bf1d121b02333a284bebf0117dcdb4dd1b2e5b78f208960",
+        "graphRevision": 439
+      },
+      {
+        "former": "58ed504afee7e0eabae3eb9d9f23f7f0d0a57fb64bc557a1d7953355c769b643",
+        "current": "253f7a5fa75cb06b019e50e292e387faa2a29adeaf6c6adf0cfce17f4a7750e8",
+        "graphRevision": 440
+      },
+      {
+        "former": "d0814a9617a70d54701f1b557895acd74db31aee4a9a40b94df5215dd1c209d0",
+        "current": "fa3fe1f0d458e71869f5ee2b42c6c9f4e3564f1d139d38e37c6051dc8759624a",
+        "graphRevision": 441
+      },
+      {
+        "former": "f84d7a113b067cca7ffdcab6f00a818b51c017cb3c158b243bb978f92f9c3dbd",
+        "current": "3bb02976d77ebae793a7be1348dcdb4eafab28f0a65359ac1f60e856a79b57ed",
+        "graphRevision": 442
+      },
+      {
+        "former": "6b91ce4cc7fbed263e1308f6e954e81bd630b5d2ee958c6fc68168ac625750f2",
+        "current": "f78e6c6374fa1b82e75a559a95be1aeb938d0dfabc466fecd15d407fa66d8768",
+        "graphRevision": 443
+      },
+      {
+        "former": "f2aea17b57caaf1ff7a1edab0425c5a234cd18af6b4ced2bf5f915d8d2d78d18",
+        "current": "855d7b381edd61de94a19bd450a4605a10e364c6e5b9aaf518abc6c59adcef1d",
+        "graphRevision": 444
+      },
+      {
+        "former": "4408f118fad1af6cf3deb5ef9f3a74a0feb6f3ba5b69f71fc64bd9ff12035945",
+        "current": "70d1a292577c92e2ca43cf9ed884b77cb66b53ece1e818752be17c1bf3c28bfd",
+        "graphRevision": 445
+      },
+      {
+        "former": "b049a20d54982c489f37a4da9858b5dd2ae9384dbeb506a596fdf219f726258e",
+        "current": "beb8fc0ec5236846987da0f33b0f1f8265213a740e7186c154402480a22f4e38",
+        "graphRevision": 446
+      },
+      {
+        "former": "6a60acbfeabe0e943e51896a128b463cbc37f5ed93f817527346dde4358f8a80",
+        "current": "c98a875d4e51f8cb613533dec84a43ed0d986689210be8f659eb2ec3cd60033e",
+        "graphRevision": 447
+      },
+      {
+        "former": "bfed60c54a2d424f89f5f49b254636727a8631b4968d75c9fb9c3edeb9a45b76",
+        "current": "625d69cf04b09a6e6e463d34c99dba06a3431eafd150a13d6b8664d96559befd",
+        "graphRevision": 448
+      },
+      {
+        "former": "35e8bfed3b559eea5c77c4d99aeb7a0449e581fb632de3b37aebe2dc1fd3e0b9",
+        "current": "b418bf370bb2402c4d03d3919b37f4807599ae965701c351737fd5014cd376f9",
+        "graphRevision": 449
+      },
+      {
+        "former": "d262ec1a9d3ca476e575bc2dc1a6e27125d8c5d119fb327bd71b0dfb515d4370",
+        "current": "9c81f14989a1d6d9a82954e733dab687c26ed9ca220e19a5fccacd7f6834aaa2",
+        "graphRevision": 450
+      },
+      {
+        "former": "f9ba3ab46c65ae1bac6cc5cdaa1815ac9e504e6c2d21b09e3c1c39b7b63012db",
+        "current": "52c9ca4a56a871b197d23f69507c0d70e3a0cc006100c223877f04dabfe1b7cd",
+        "graphRevision": 451
+      },
+      {
+        "former": "5c98d34b00e4bf65b9411cf0db475cfd56fd14ee242d73b377d28fc0e4fe50bf",
+        "current": "9a057035b3e9c0034c90222c2d2e0cb43b4b1abfc23cabf33bdd42726278abe0",
+        "graphRevision": 452
+      },
+      {
+        "former": "1b34eac675ae61031dba795ed4a1907314aa753b9bbcb8cfaed6f8876ab01933",
+        "current": "61fcf636a077135bc59afadde48442bd6114d60b9144e2c6a11bb238b184dfcf",
+        "graphRevision": 453
+      },
+      {
+        "former": "87b38b967105f1ce382b794a4a34b834902854d698080de767100744c882672c",
+        "current": "a34fdb59dcb8d8133e1a90d8bdfd63034c58a70361abb99186e69f7de519bb74",
+        "graphRevision": 454
+      },
+      {
+        "former": "2af3266a1a401ae660531ea97f8131b511b9cc09fd1b2474e254529c06e67608",
+        "current": "3347ddb935d3a96c772c426b3b884a1cb45f3692101e807eeaeb71b42228f325",
+        "graphRevision": 455
+      },
+      {
+        "former": "72ac239e9f3f98f786641ff3880fb6e5f7c84f034585e17e1c804d2c8643dd21",
+        "current": "6c3327c01f16579bad2ae064cad712b6da356ca420094f47f3168bea590c0a97",
+        "graphRevision": 456
+      },
+      {
+        "former": "a7fd0f58397fb1839b1b8d22aec939f58665d4397dc4763ffe417a6c353b219e",
+        "current": "9d2ca937c5adfd8bb2ccc600153840189918728977ce24be1bac810a4455c4de",
+        "graphRevision": 457
+      },
+      {
+        "former": "e3d430a26863b559cdaf807dd011d0dd1eef1ce221fe6490c4e1aace6d985dd0",
+        "current": "8b1df7dc0abde701e4230775a0cc8d26006a3d531f43cbb5b282e10be1a470bf",
+        "graphRevision": 458
+      },
+      {
+        "former": "894c046e375ef6f0067e5be601a91c795e8eccf3547e48a93c5c003e425488f4",
+        "current": "47a8febf6a14e87879786ab4af05b0f06a829fd5356cf1b7a438af931a9361a1",
+        "graphRevision": 459
+      },
+      {
+        "former": "2e674cd23b1d3f39328934f9f99e936708f34e10a9106edbd27229bbbd25d1e8",
+        "current": "2812307fa975ff3e998706ecc81677339dde6a1a2997de1a23b78062c80a1ab1",
+        "graphRevision": 460
+      },
+      {
+        "former": "a617271b6b0b8fe36380398549efe2bced06bfc6f15f686939ecb85275e72652",
+        "current": "5fc34bf77de09c31bca5eac608f044223610007f62961993b82f575ac9b8541c",
+        "graphRevision": 461
+      }
+    ],
+    "models": [
+      {
+        "former": "cb24467c43d301aa8d9ab8f83b8c208ef23439f31151785067f591a51c960a6e",
+        "current": "cb24467c43d301aa8d9ab8f83b8c208ef23439f31151785067f591a51c960a6e",
+        "modelId": "faye-titcombe-life",
+        "modelRevision": 0
+      },
+      {
+        "former": "80e6a2450f1af91f22679d88a3e03d3145171f976edc9837ecf72ffb595cb274",
+        "current": "457fb7074961a3c2086da1d9907ecbca2ea6a0a4c144dee49d9c29e21c9d7068",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 199
+      },
+      {
+        "former": "2cefbbf2d140468f45c68ea0f69a31f98e4f3a9b3d30fa42f2352780f627de2e",
+        "current": "9d25dae18dc5b279c26c567a0ae455edd0d70453e00ef9ae82984c38aa2cf77b",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 200
+      },
+      {
+        "former": "ef60325c290ee44dd88d6e8058a8d442e9d91c546b8603ef0488fbbda39aca97",
+        "current": "ed4a745e43da691d079daaa11cc7870b2a549b417c3078a4e0321b17682374ed",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 201
+      },
+      {
+        "former": "88574810362a4624fdb54da0b5448155c442203bab006f49c6bfe4812f983a43",
+        "current": "cbff6ab6fb60c7c6fc946796c658a25b7edf580873afd745f033d6fd197cf4bd",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 202
+      },
+      {
+        "former": "48db7d1c89ebfca10d45a60bcbe501ebe52f6bf50dad6164a7c87b5b83b64ae1",
+        "current": "d7c822dfb9658e4fa148e058802962367db78ccd7fc8d222d8bb8ee45d88588f",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 203
+      },
+      {
+        "former": "80d15dc9457a26da6b2ff47e241348a54ed3935a2985b09d642d1d240a3ed652",
+        "current": "88f20840ecc4e9b77debaf14add0382a7507252ad6acf6e2e1ad2390fb337b1f",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 204
+      },
+      {
+        "former": "217a230e696bf1fca4a3967c6da36d818e30fbf066b41706ad538d47747b2f73",
+        "current": "1fc986313b174c9f081f615c125a3d485183f03660798e5b62c09920e40de35e",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 205
+      },
+      {
+        "former": "ca63df0c6d0705d1d47170cbd24f4fa35668ca204f05dfaebf0f5da7ec8cc4e3",
+        "current": "eac6bce7205ae3cb5002c46a05a02924ef614e7ddd2f6f90ad6d6a6aea870cfb",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 206
+      },
+      {
+        "former": "fadc01f753936f2bbafae8ddb0cc19f668f73be15533f4cb17b767ceec49fe1b",
+        "current": "55346287a34660bd0d4a8e1feb58dc9f0716078b191bf6d3ecfd2cc2760c72fc",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 207
+      },
+      {
+        "former": "8d05d9cfc14c3660f2ce4cd328584badcdc0f0107ef19a04d3d7f08b1ab30fa6",
+        "current": "7da30873c56373cec91f37eba970bf2d923d00625374eda67cebb81d8cb149fb",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 208
+      },
+      {
+        "former": "ae62b00980fc77589872cb4720449852d15421032e1b2be1f1e5ed6921cc755f",
+        "current": "b95e6bac8b6a92fe1b70907212772f77bc58c5ea93fc3cb71b25d6757dd168dd",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 209
+      },
+      {
+        "former": "fc1c9a05fef9c90b359e1eb3f7449680c4156a3c0c72a1a8c3b1cb0246cc959a",
+        "current": "4529427c3eb46bf8762791506674a86e8256d2a8ead817f518ef5907066a23fe",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 210
+      },
+      {
+        "former": "e1ccf7d151b48b99a63c4e4f6803b934274af6af5699f352d5ed58c342ce1a85",
+        "current": "7e236b2ad319bf343e1642494b4ed89f0e6f76c23dbc11644e66e5b1ff5c15dd",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 211
+      },
+      {
+        "former": "03966e3318f74f08d0e10ea59bed14623ee9e7031eebc98133601abae6da7165",
+        "current": "2aeba88048fa04d5205cf782d7f8a66e95029d2953ee3727773be8cbda1b1c05",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 212
+      },
+      {
+        "former": "a655f3f63f309042a9f9b93ea872a95d572f74e100eddf7b7e275c67e0a07f6e",
+        "current": "643bd8690897670f5187586c58648934fc06a87355da08dd1bfbded86772101b",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 213
+      },
+      {
+        "former": "00bc715e633d127cfb70756693cb4409f6c3a273e543d10a15c6761678a8ee53",
+        "current": "1bd627f05917ad7676d79f67743147245220f328fb7e3bf5fd9a452a4da3426c",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 214
+      },
+      {
+        "former": "88587de6195a10bc0c6ffc21b338044535b7a4534890286a273cfa818bb454d2",
+        "current": "18ba252e942c54b31bdbe8b2fd08a7c33656facaf0ec121b5cef48dd918d8bec",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 215
+      },
+      {
+        "former": "26d4d63f69441e5fe4725837894d344a40218987e0a980b969949a195b7220c2",
+        "current": "2f15a137eecf2993c5933ebaff7e5d94a720b8d9ff0bc11b6b7f4dbbdc5e6895",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 216
+      },
+      {
+        "former": "0b7aaa018120b8043513ef3d0445ee435b362f821982af80a8de5f0b075ea74c",
+        "current": "2e0df538749f6f86c40e81e0cba038fa6e64a9e7273ad36edb471f71bb23d7c6",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 217
+      },
+      {
+        "former": "0a9a4c432918ba5a4287d92b9552c31b37614ae21092afb035b691e290ab1bd3",
+        "current": "bb95734811b2512606c1bdc3afc536c69a46fb7ed9148176d5862deda54c02bd",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 218
+      },
+      {
+        "former": "7b72715ae0bd44d0ae986f6fafe22cf5d5656026e136e5afc0019906e33d4f67",
+        "current": "0cffa4bc0c7c998365c193570988261624e2dd2b09df74e194b14ba6e343850f",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 219
+      },
+      {
+        "former": "30e23f7c2f1cbef1f97c52bd44684e970234534d7d999c7dc0036a7fe4ad7aa6",
+        "current": "e68f3c6c8906fecd01b0c84eeecb53b2c464209f1381a7ad5d2e242e63d251b1",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 220
+      },
+      {
+        "former": "f7bc5350b05bf7567c4c3430408a5ddf49975aa90eb461e7241cecb63299e7db",
+        "current": "bba77d7730164e5a69f10e0200ebb820088b1d7690fc9ca0fbe7b2c8abec09e8",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 221
+      },
+      {
+        "former": "7d7eaaee217bc4a0404b47466f12a0af31e81d203de9d09efbf85f60de2fc20e",
+        "current": "4cc4d8d9fba516bd1c86fa704240df1bc9ee278e72d791142d230782c4b70988",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 222
+      },
+      {
+        "former": "bf696d9ca8c2819638e94ff9f37c3d163bd405c1ea816938391484d01d08bfbe",
+        "current": "580345dcc2d4e451331223337b4e483add5d9c4692c04049205e2caa75a01780",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 223
+      },
+      {
+        "former": "74aecb2861eabc496af6b91a6e23767640e28e7fb742fb920a4034e4a80ad297",
+        "current": "500a3b8a7ea09e9d7cae2f314134bcbe9c4d9d2f5feb1008a01a6a9195d1d20a",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 224
+      },
+      {
+        "former": "5e25080e55bdc8ae05ff27630c7f6384440a9b13ee9913fc73ba9c0cf2e91bcd",
+        "current": "cb111eddbd4215f49af32affd481afa2771452546c0a7165285effe6ebf34da2",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 225
+      },
+      {
+        "former": "bf4c85536a5bd022936a56ac9f072e107b11016dfe0c8bc43bfd1b038eaf44f2",
+        "current": "1bda9d53a262a88e2dacfc86f654c0e16a8bba450c40748d5fdf924420294ba8",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 226
+      },
+      {
+        "former": "772e5bfb3524bfb6bb805e0c23b1a931f0094f2e48732c418a1a28369f7806fb",
+        "current": "ac56610031190e4e4b854af5c33aebfef5a28b71ce5d537a3d5b9ea7683194a9",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 227
+      },
+      {
+        "former": "4810a44be91b9edd02b87a4f0d0bb0ad021c595b2cf076419f98b656ed1f8dce",
+        "current": "ef5b7b97a9515ea1cffb905d92a235c7d4dd6e83b56ce12417174b64a661d656",
+        "modelId": "rabbit-hole-world",
+        "modelRevision": 228
+      },
+      {
+        "former": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb",
+        "current": "4d462a80d15a0f0882d4d4926aafd99c06daff1f4fba95970e9969486919167e",
+        "modelId": "faye-titcombe-life",
+        "modelRevision": 2
+      }
+    ]
+  },
+  "qualifications": {
+    "clockTimes": "Order only. The revisions keep their order; wall-clock times are not recorded or invented.",
+    "writerState": "Publishing this history does not change any private Writer database.",
+    "reviews": "Historical reviewers, task identities and reviewed-material hashes keep their original meaning. Publishing the earlier history does not renew any approval or numerical assessment."
+  }
+}

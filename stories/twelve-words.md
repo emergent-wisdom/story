@@ -14,11 +14,11 @@ His week had one shape. The 8.12 bus from Old Town. The blue lanyard. The tea ro
 
 "Pass the gravy, Kieran."
 
-He was twenty-nine. He was reliable. His appraisals used the word three times. At sixteen he had run a raiding guild of forty people across six countries in an online game, set the timetables, called the pulls, known who was sulking in Lisbon and who needed carrying in Tallinn, and nobody on the third floor knew it. When he took the job at twenty he had logged off for the last time, handed the guild to a Dutch boy called Sander, and become, deliberately, no trouble to anyone.
+He was twenty-nine. He was reliable. His appraisals used the word three times. At sixteen he had run a raiding guild of forty people across six countries in an online game, set the timetables, called the pulls, known who was sulking in Lisbon and who needed carrying in Tallinn, and nobody on the third floor knew it. When he took the job at twenty he had logged off for the last time, handed the guild to a Dutch boy called Sander, and become, deliberately, no trouble to anyone. It showed sometimes. At the floor's Christmas quiz the year before, forty people in the canteen had gone quiet under the founders when he said right, and Laura, at the back, said on the way home that he had been someone else up there. He said he had not.
 
 Some Sunday evenings the week sat on his chest like a cat. He kept it to himself. It seemed an ungrateful thing to feel in a town where people had queued outside the plant gates for jobs.
 
-On Monday 21 October 2019, at 3.40 in the afternoon, fraud rule forty-one stopped a payment of forty thousand pounds from a savings account opened in 1989 to an account at a crypto exchange, and the case dropped into his queue with a small orange flag. Deb, from the next bank of desks, leaned round her monitor. She had sat next to him for six years and had decided long ago that he was the nicest man on the floor and slightly wasted on it.
+On Monday 21 October 2019, at 3.40 in the afternoon, fraud rule forty-one stopped a payment of forty thousand pounds from a savings account opened in 1989 to an account at a crypto exchange, and the case dropped into his queue with a small orange flag. Deb, from the next bank of desks, leaned round her monitor. She had sat next to him for six years, since the Hart closed her counter in Old Town and told her the branch was the app now, and she had decided long ago that he was the nicest man on the floor and slightly wasted on it.
 
 "Ooh. Forty grand to bitcoin. That's a romance scam, that is. Some bloke in Ghana with a picture of a helicopter."
 
@@ -140,7 +140,7 @@ In the middle of June a lending protocol started paying its users in a new token
 
 He learned it anyway, the way he had learned the game: by doing the stupid thing first and reading the forums after.
 
-In July he put in six thousand pounds: his own savings, which were going to pay for Crete, Laura's first holiday abroad since a school trip to Calais, before the pandemic cancelled it. It was his money. It was not the deposit. He told himself that on the landing, with his hand on the bathroom door, and it was true.
+In July he put in six thousand pounds: his own savings, two hundred and fifty a month since an islands round at the quiz two summers before, when Laura got Crete and said lightly that she had not been abroad since a school trip to Calais, where it rained. They were going to pay for Crete, before the pandemic cancelled it. It was his money. It was not the deposit. He told himself that on the landing, with his hand on the bathroom door, and it was true.
 
 He began to farm. That was the word. You put your seed into a field and it grew and you harvested it and replanted, and the fields were open all night, and the crop did not care what time it was in Wiltshire. He set alarms for three and five, and learned which pools would thin at which hours. There were three clocks in the spare room now: his body's, which wanted to sleep at eleven; the Hart's, which sent the file at ten and brought it back at seven; and the pools', which never stopped. He started living by the third.
 
@@ -198,7 +198,7 @@ She stopped on the track. "Ron Hale. Boiler shop. Big hands. Whistled Elvis." Fo
 
 "And now you don't trust it."
 
-"I watched it nearly stop in 2008." She slowed. "Money going out one end, not coming in the other, the whole thing holding its breath for a weekend. My code, waiting. I didn't know if it'd arrive. Then someone wrote nine pages about a ledger nobody can switch off, and I read it three times on the train to Reading. Bought my first coins the year I retired. Never sold one." She turned her head. "What are you in? Not coins. Don't tell me you're in the casino."
+"I watched it nearly stop in 2008." She slowed. "Money going out one end, not coming in the other, the whole thing holding its breath for a weekend. My code, waiting. I didn't know if it'd arrive. Then someone wrote nine pages about a ledger nobody can switch off, and I read it three times on the train to Reading. Bought my first coins the year I retired. Never sold one. Then last year your lot locked me out of my own savings for nine days. New platform. Security feature, the girl said. She couldn't tell me who wrote it." She turned her head. "What are you in? Not coins. Don't tell me you're in the casino."
 
 He told her about the Sharehouse, the pools, the farms, the nine thousand. She laughed: one short bark, not unkind, not kind either.
 
