@@ -161,7 +161,7 @@
       "modelId": "faye-titcombe-life",
       "modelRevision": 2,
       "snapshot": "faye.json",
-      "snapshotFileSha256": "e3c5b8b03d76bf67d6c48ac37298fe13843a3e5138a1f48f505e7cbaf6540300",
+      "snapshotFileSha256": "4877c7958d6276f9c4c6d3c26396308fc28c1e7d278066a990dd0835cacaf2f2",
       "story": "twelve",
       "formerPublicModelHash": "4c9fb2996175ccd2491cbeda1266ca7bed240150ae685eca216f2effbed320cb",
       "note": "The original author life with all three of its revisions. The September 29 copy re-rooted it under faye-titcombe-life.public-2026-09-29 with unchanged content."
@@ -172,7 +172,7 @@
       "modelId": "nora-vale-fictional-author-life",
       "modelRevision": 2,
       "snapshot": "nora.json",
-      "snapshotFileSha256": "f72c848279784a998a8a20ae2774655c8783e9bf3802b451601b735f96263894",
+      "snapshotFileSha256": "95bd82417bdfd49c2908da65dfc52da7f18a86608494c1d83fa86df89589f2b5",
       "story": "book",
       "formerPublicModelHash": "9d7be364f47f4369388aaffc8725e6913eb508b8bbb420925c8683844e0c8f84",
       "note": "The author life with all three of its revisions. The September 29 anonymizations of Nora Vale's model apply to every revision."
